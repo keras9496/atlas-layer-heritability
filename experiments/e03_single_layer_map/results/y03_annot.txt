@@ -1,0 +1,53 @@
+계통 × 모달리티 트랙 수
+mod                     DNASE  H3K27ac  H3K4me1  H3K4me3  CAGE  RNA
+lineage                                                            
+CNS_tissue                 12        8       10       11    52   24
+neural_cells                9        6        6        9    12    9
+myeloid                     4        3        3        3    36    2
+lymphoid                   27       13       12       13    18   30
+liver                       4        3        3        3     4    7
+GI                         15       19       21       22    44   31
+cardiovascular             29       13       11       14    58   49
+skeletal_muscle            12        7        8        9    22   17
+adipose                     3        1        2        2    24    8
+stromal                    23        7        6       12    84   27
+reproductive_endocrine     10       13       11       11    46   29
+epithelial_barrier         40       17       14       22    86   57
+트랙 0개 칸: 없음
+주석 150개, 조각 583개 읽기
+대상 5,828,323, Atlas 값 있음 5,828,323
+  CNS_tissue               모달리티 간 Jaccard 평균 0.16 (범위 0.06–0.37)
+  neural_cells             모달리티 간 Jaccard 평균 0.21 (범위 0.07–0.47)
+  myeloid                  모달리티 간 Jaccard 평균 0.26 (범위 0.11–0.49)
+  lymphoid                 모달리티 간 Jaccard 평균 0.23 (범위 0.08–0.43)
+  liver                    모달리티 간 Jaccard 평균 0.20 (범위 0.07–0.57)
+  GI                       모달리티 간 Jaccard 평균 0.23 (범위 0.09–0.48)
+  cardiovascular           모달리티 간 Jaccard 평균 0.23 (범위 0.08–0.48)
+  skeletal_muscle          모달리티 간 Jaccard 평균 0.24 (범위 0.09–0.46)
+  adipose                  모달리티 간 Jaccard 평균 0.22 (범위 0.06–0.49)
+  stromal                  모달리티 간 Jaccard 평균 0.23 (범위 0.09–0.44)
+  reproductive_endocrine   모달리티 간 Jaccard 평균 0.22 (범위 0.09–0.49)
+  epithelial_barrier       모달리티 간 Jaccard 평균 0.23 (범위 0.09–0.45)
+L5 vs L5k(트랙 맞춤) Jaccard: 중앙값 0.58, 최소 0.26
+chr1 완료
+chr2 완료
+chr3 완료
+chr4 완료
+chr5 완료
+chr6 완료
+chr7 완료
+chr8 완료
+chr9 완료
+chr10 완료
+chr11 완료
+chr12 완료
+chr13 완료
+chr14 완료
+chr15 완료
+chr16 완료
+chr17 완료
+chr18 완료
+chr19 완료
+chr20 완료
+chr21 완료
+chr22 완료

@@ -1,0 +1,15 @@
+[HEIGHT] Yengo 2022 키 EUR (GIANT, UKB 포함, 23andMe 제외): 전체 1,373,020행 → HapMap3 no-MHC SNV 1,101,852개 (91 %), N 중앙값 1,591,133 (범위 756–1,597,374) | 파일 P가 0인 SNP 368개(munge가 범위 밖으로 뺀다; |Z| 최대 72.6)
+  munge HEIGHT: Writing summary statistics for 1050070 SNPs (1050070 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3n\sumstats\HEIGHT.sumstats.gz.
+  Mean chi^2 = 14.849 | Lambda GC = 5.288 | Max chi^2 = 1480.885 | Mean chi^2 = 14.849 | Lambda GC = 5.288 | Max chi^2 = 1480.885
+[BMI] Yengo 2018 BMI (GIANT + UKB): 전체 2,336,269행 → HapMap3 no-MHC SNV 1,019,880개 (84 %), N 중앙값 688,775 (범위 487,308–795,640) | 파일 P가 0인 SNP 15개(munge가 범위 밖으로 뺀다; |Z| 최대 46.9)
+  munge BMI: Writing summary statistics for 1019822 SNPs (1019822 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3n\sumstats\BMI.sumstats.gz.
+  Mean chi^2 = 3.947 | Lambda GC = 2.789 | Max chi^2 = 1349.288 | Mean chi^2 = 3.947 | Lambda GC = 2.789 | Max chi^2 = 1349.288
+[SCZ] Trubetskoy 2022 조현병 PGC3 유럽인: 전체 7,659,767행 → HapMap3 no-MHC SNV 1,181,804개 (97 %), N 중앙값 58,749 (범위 31,573–58,749) | 파일 P가 0인 SNP 0개(munge가 범위 밖으로 뺀다; |Z| 최대 13.2)
+  munge SCZ: Writing summary statistics for 1179168 SNPs (1179168 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3n\sumstats\SCZ.sumstats.gz.
+  Mean chi^2 = 2.058 | Lambda GC = 1.746 | Max chi^2 = 174.587
+[BIP] O'Connell 2025 양극성장애 유럽인 (23andMe 제외): 전체 6,939,126행 → HapMap3 no-MHC SNV 1,158,726개 (95 %), N 중앙값 163,367 (범위 122,528–163,367) | 파일 P가 0인 SNP 0개(munge가 범위 밖으로 뺀다; |Z| 최대 8.6)
+  munge BIP: Writing summary statistics for 1158717 SNPs (1158717 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3n\sumstats\BIP.sumstats.gz.
+  Mean chi^2 = 1.623 | Lambda GC = 1.467 | Max chi^2 = 72.426
+[LDL] Graham 2021 LDL 유럽인 (GLGC, UKB 포함; GC 보정 전 pvalue): 전체 47,006,483행 → HapMap3 no-MHC SNV 1,217,042개 (100 %), N 중앙값 1,228,646 (범위 763–1,231,289) | 파일 P가 0인 SNP 119개(munge가 범위 밖으로 뺀다; |Z| 최대 196.8)
+  munge LDL: Writing summary statistics for 1179765 SNPs (1179765 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3n\sumstats\LDL.sumstats.gz.
+  Mean chi^2 = 3.094 | Lambda GC = 1.544 | Max chi^2 = 1475.611

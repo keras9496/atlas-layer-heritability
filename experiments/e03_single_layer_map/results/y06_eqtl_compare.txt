@@ -1,0 +1,63 @@
+=== 형질별: 같은 모형 안 τ* (± SE) ===
+형질    계통        모형  Atlas 주석            Atlas τ*        eQTL τ*         Atlas−eQTL (p)      FANTOM5 인핸서  B0 eQTL τ*
+AD      myeloid     D1    L5_myeloid_CAGE      +3.05 ± 0.72   +1.49 ± 0.52   +1.56 (0.065)   +0.33         +1.59
+AD      myeloid     D1    L5_myeloid_RNA       +1.01 ± 0.70   +1.37 ± 0.51   -0.36 (0.69)   +0.58         +1.59
+AD      myeloid     D1k   L5k_myeloid_CAGE     +3.40 ± 0.72   +1.49 ± 0.52   +1.91 (0.029)   +0.25         +1.59
+AD      myeloid     D1k   L5k_myeloid_RNA      +1.01 ± 0.70   +1.37 ± 0.51   -0.36 (0.69)   +0.58         +1.59
+EA      CNS_tissue  D1    L5_CNS_tissue_CAGE   +1.21 ± 0.23   +0.25 ± 0.13   +0.97 (0.00055)   +0.03         +0.30
+EA      CNS_tissue  D1    L5_CNS_tissue_RNA    -0.10 ± 0.10   +0.32 ± 0.13   -0.42 (0.021)   +0.07         +0.30
+EA      CNS_tissue  D1k   L5k_CNS_tissue_CAGE  +1.16 ± 0.21   +0.24 ± 0.13   +0.92 (0.0004)   +0.02         +0.30
+EA      CNS_tissue  D1k   L5k_CNS_tissue_RNA   -0.05 ± 0.10   +0.31 ± 0.13   -0.36 (0.052)   +0.07         +0.30
+SCZ     CNS_tissue  D1    L5_CNS_tissue_CAGE   +1.51 ± 0.26   +0.57 ± 0.16   +0.95 (0.002)   -0.48         +0.63
+SCZ     CNS_tissue  D1    L5_CNS_tissue_RNA    -0.16 ± 0.12   +0.66 ± 0.16   -0.82 (0.00015)   -0.43         +0.63
+SCZ     CNS_tissue  D1k   L5k_CNS_tissue_CAGE  +1.56 ± 0.26   +0.56 ± 0.16   +1.01 (0.00095)   -0.50         +0.63
+SCZ     CNS_tissue  D1k   L5k_CNS_tissue_RNA   -0.20 ± 0.11   +0.66 ± 0.16   -0.86 (1.8e-05)   -0.43         +0.63
+BIP     CNS_tissue  D1    L5_CNS_tissue_CAGE   +4.37 ± 0.83   +0.54 ± 0.47   +3.82 (7.6e-05)   -0.39         +0.73
+BIP     CNS_tissue  D1    L5_CNS_tissue_RNA    -0.14 ± 0.44   +0.75 ± 0.48   -0.89 (0.21)   -0.24         +0.73
+BIP     CNS_tissue  D1k   L5k_CNS_tissue_CAGE  +3.99 ± 0.80   +0.54 ± 0.47   +3.45 (0.00026)   -0.42         +0.73
+BIP     CNS_tissue  D1k   L5k_CNS_tissue_RNA   -0.16 ± 0.43   +0.75 ± 0.47   -0.91 (0.17)   -0.23         +0.73
+NEURO   CNS_tissue  D1    L5_CNS_tissue_CAGE   +0.97 ± 0.32   +0.50 ± 0.27   +0.47 (0.22)   +0.21         +0.53
+NEURO   CNS_tissue  D1    L5_CNS_tissue_RNA    -0.01 ± 0.18   +0.54 ± 0.27   -0.55 (0.084)   +0.25         +0.53
+NEURO   CNS_tissue  D1k   L5k_CNS_tissue_CAGE  +0.69 ± 0.30   +0.51 ± 0.27   +0.18 (0.63)   +0.22         +0.53
+NEURO   CNS_tissue  D1k   L5k_CNS_tissue_RNA   +0.09 ± 0.15   +0.52 ± 0.28   -0.43 (0.18)   +0.25         +0.53
+BMI     CNS_tissue  D1    L5_CNS_tissue_CAGE   +0.74 ± 0.30   +0.36 ± 0.24   +0.38 (0.32)   -0.05         +0.39
+BMI     CNS_tissue  D1    L5_CNS_tissue_RNA    -0.16 ± 0.19   +0.42 ± 0.24   -0.58 (0.073)   -0.03         +0.39
+BMI     CNS_tissue  D1k   L5k_CNS_tissue_CAGE  +0.70 ± 0.27   +0.35 ± 0.24   +0.35 (0.34)   -0.06         +0.39
+BMI     CNS_tissue  D1k   L5k_CNS_tissue_RNA   -0.10 ± 0.21   +0.41 ± 0.24   -0.50 (0.13)   -0.03         +0.39
+MONO    myeloid     D1    L5_myeloid_CAGE      +3.81 ± 0.51   +0.58 ± 0.27   +3.23 (5.4e-08)   +0.73         +0.70
+MONO    myeloid     D1    L5_myeloid_RNA       +1.76 ± 0.46   +0.37 ± 0.28   +1.38 (0.02)   +1.00         +0.70
+MONO    myeloid     D1k   L5k_myeloid_CAGE     +3.59 ± 0.51   +0.59 ± 0.27   +3.00 (2.5e-07)   +0.71         +0.70
+MONO    myeloid     D1k   L5k_myeloid_RNA      +1.76 ± 0.46   +0.37 ± 0.28   +1.38 (0.02)   +1.00         +0.70
+IBD     lymphoid    D1    L5_lymphoid_CAGE     +2.94 ± 0.53   +0.46 ± 0.42   +2.48 (0.00058)   +1.81         +0.59
+IBD     lymphoid    D1    L5_lymphoid_RNA      -0.31 ± 0.25   +0.65 ± 0.42   -0.95 (0.073)   +2.05         +0.59
+IBD     lymphoid    D1k   L5k_lymphoid_CAGE    +2.44 ± 0.55   +0.48 ± 0.42   +1.96 (0.0062)   +1.90         +0.59
+IBD     lymphoid    D1k   L5k_lymphoid_RNA     -0.00 ± 0.24   +0.59 ± 0.42   -0.59 (0.26)   +2.04         +0.59
+RA      lymphoid    D1    L5_lymphoid_CAGE     +2.95 ± 0.69   +0.15 ± 0.47   +2.80 (0.00078)   +1.20         +0.28
+RA      lymphoid    D1    L5_lymphoid_RNA      +0.16 ± 0.42   +0.25 ± 0.47   -0.09 (0.9)   +1.45         +0.28
+RA      lymphoid    D1k   L5k_lymphoid_CAGE    +2.88 ± 0.73   +0.16 ± 0.47   +2.72 (0.0027)   +1.26         +0.28
+RA      lymphoid    D1k   L5k_lymphoid_RNA     +0.02 ± 0.39   +0.27 ± 0.47   -0.25 (0.71)   +1.45         +0.28
+HEIGHT  stromal     D1    L5_stromal_CAGE      +0.42 ± 0.34   +0.14 ± 0.22   +0.28 (0.48)   +0.08         +0.15
+HEIGHT  stromal     D1    L5_stromal_RNA       -0.02 ± 0.14   +0.15 ± 0.23   -0.17 (0.54)   +0.09         +0.15
+HEIGHT  stromal     D1k   L5k_stromal_CAGE     +1.49 ± 0.34   +0.07 ± 0.22   +1.42 (0.00053)   +0.04         +0.15
+HEIGHT  stromal     D1k   L5k_stromal_RNA      -0.07 ± 0.14   +0.16 ± 0.23   -0.23 (0.42)   +0.09         +0.15
+LDL     liver       D1    L5_liver_CAGE        +4.33 ± 0.82   +0.12 ± 0.49   +4.21 (1.3e-05)   -1.19         +0.29
+LDL     liver       D1    L5_liver_RNA         +1.32 ± 0.59   +0.08 ± 0.47   +1.23 (0.1)   -1.13         +0.29
+LDL     liver       D1k   L5k_liver_CAGE       +4.63 ± 0.86   +0.11 ± 0.49   +4.53 (5.1e-06)   -1.18         +0.29
+LDL     liver       D1k   L5k_liver_RNA        +0.98 ± 0.50   +0.14 ± 0.48   +0.84 (0.21)   -1.14         +0.29
+
+=== 요약 (CAGE, 프로토콜의 읽는 규칙) ===
+  D1: Atlas CAGE τ* > eQTL τ* (같은 모형, 차이 p < 0.05) 7/11 형질: EA, SCZ, BIP, MONO, IBD, RA, LDL | 점추정만 큰 형질 11/11
+  D1k: Atlas CAGE τ* > eQTL τ* (같은 모형, 차이 p < 0.05) 9/11 형질: AD, EA, SCZ, BIP, MONO, IBD, RA, HEIGHT, LDL | 점추정만 큰 형질 11/11
+
+=== eQTL 감쇠: B0 → +Atlas CAGE (D1) ===
+  AD      eQTL τ* +1.59 → +1.49 (-6 %)
+  EA      eQTL τ* +0.30 → +0.25 (-18 %)
+  SCZ     eQTL τ* +0.63 → +0.57 (-10 %)
+  BIP     eQTL τ* +0.73 → +0.54 (-25 %)
+  NEURO   eQTL τ* +0.53 → +0.50 (-7 %)
+  BMI     eQTL τ* +0.39 → +0.36 (-9 %)
+  MONO    eQTL τ* +0.70 → +0.58 (-18 %)
+  IBD     eQTL τ* +0.59 → +0.46 (-22 %)
+  RA      eQTL τ* +0.28 → +0.15 (-45 %)
+  HEIGHT  eQTL τ* +0.15 → +0.14 (-10 %)
+  LDL     eQTL τ* +0.29 → +0.12 (-60 %)

@@ -1,0 +1,3 @@
+  FAKE1 EQ: 주석 105개 (97 + 8), 회귀 SNP 1,162,232, 이름 끝 [np.str_('Q_MICL2_4'), np.str_('Q_NEUL2_4'), np.str_('Q_GLIAL2_4'), np.str_('Q_BULKL2_4'), np.str_('Q_MONOL2_4')] — 형식 확인 (결과 아님)
+  FAKE1 EAQ: 주석 108개 (97 + 11), 회귀 SNP 1,162,232, 이름 끝 [np.str_('Q_MICL2_5'), np.str_('Q_NEUL2_5'), np.str_('Q_GLIAL2_5'), np.str_('Q_BULKL2_5'), np.str_('Q_MONOL2_5')] — 형식 확인 (결과 아님)
+형식 확인 통과

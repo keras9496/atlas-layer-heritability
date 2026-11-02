@@ -1,0 +1,73 @@
+선택 단위 (묶음 × 층위마다 하나)
+   lineage             group   layer                                      unit                                                 biosample  n_tracks  n_candidates
+   myeloid          monocyte    CAGE                          hCAGE CL:0002057           CD14-positive, CD16-negative classical monocyte         2             2
+   myeloid          monocyte   DNASE                    CL:0001054 DNase-seq|.                                    CD14-positive monocyte         1             1
+   myeloid          monocyte H3K27ac     CL:0001054 Histone ChIP-seq H3K27ac|.                                    CD14-positive monocyte         1             1
+CNS_tissue       spinal cord    CAGE                      hCAGE UBERON:0002240                                               spinal cord         2             2
+CNS_tissue       hippocampus    CAGE                      hCAGE UBERON:0001954                                              Ammon's horn         2             2
+CNS_tissue           caudate    CAGE                      hCAGE UBERON:0001873                                           caudate nucleus         2             2
+CNS_tissue             dlPFC    CAGE                      hCAGE UBERON:0002702                                      middle frontal gyrus         2             2
+CNS_tissue       spinal cord   DNASE                UBERON:0002240 DNase-seq|.                                               spinal cord         1             1
+CNS_tissue       hippocampus   DNASE                UBERON:0001954 DNase-seq|.                                              Ammon's horn         1             1
+CNS_tissue           caudate   DNASE                UBERON:0002626 DNase-seq|.                                   head of caudate nucleus         1             1
+CNS_tissue             dlPFC   DNASE                UBERON:0009834 DNase-seq|.                            dorsolateral prefrontal cortex         1             1
+CNS_tissue       spinal cord H3K27ac UBERON:0002240 Histone ChIP-seq H3K27ac|.                                               spinal cord         1             1
+CNS_tissue       hippocampus H3K27ac UBERON:0002305 Histone ChIP-seq H3K27ac|.                                      layer of hippocampus         1             1
+CNS_tissue           caudate H3K27ac UBERON:0001873 Histone ChIP-seq H3K27ac|.                                           caudate nucleus         1             1
+CNS_tissue             dlPFC H3K27ac UBERON:0009834 Histone ChIP-seq H3K27ac|.                            dorsolateral prefrontal cortex         1             1
+   stromal dermal fibroblast    CAGE                          hCAGE CL:0002551                                      fibroblast of dermis         2             2
+   stromal   lung fibroblast    CAGE                          hCAGE CL:0002553                                           lung fibroblast         2             2
+   stromal               MSC    CAGE                          hCAGE CL:0000134                                          mesenchymal cell         2             2
+   stromal dermal fibroblast   DNASE                    CL:0002551 DNase-seq|.                                      fibroblast of dermis         1             1
+   stromal   lung fibroblast   DNASE                    CL:0002553 DNase-seq|.                                        fibroblast of lung         1             1
+   stromal               MSC   DNASE                    CL:0000134 DNase-seq|.                                     mesenchymal stem cell         1             1
+   stromal dermal fibroblast H3K27ac     CL:0002551 Histone ChIP-seq H3K27ac|.                                      fibroblast of dermis         1             1
+   stromal   lung fibroblast H3K27ac     CL:0002553 Histone ChIP-seq H3K27ac|.                                        fibroblast of lung         1             1
+   stromal               MSC H3K27ac     CL:0000134 Histone ChIP-seq H3K27ac|.                                     mesenchymal stem cell         1             1
+     liver        hepatocyte    CAGE                          hCAGE CL:0000182                                                hepatocyte         2             2
+     liver      liver tissue    CAGE                      hCAGE UBERON:0002107                                                     liver         2             2
+     liver        hepatocyte   DNASE                    CL:0000182 DNase-seq|.                                                hepatocyte         1             1
+     liver      liver tissue   DNASE                UBERON:0002107 DNase-seq|.                                                     liver         1             1
+     liver        hepatocyte H3K27ac     CL:0000182 Histone ChIP-seq H3K27ac|.                                                hepatocyte         1             1
+     liver      liver tissue H3K27ac UBERON:0002107 Histone ChIP-seq H3K27ac|.                                                     liver         1             1
+  lymphoid                NK    CAGE                          hCAGE CL:0000623                                       natural killer cell         2             2
+  lymphoid       naive CD4 T    CAGE                        LQhCAGE CL:0000895      naive thymus-derived CD4-positive, alpha-beta T cell         2             2
+  lymphoid              Treg    CAGE                          hCAGE CL:0002677                                   naive regulatory T cell         2             4
+  lymphoid            spleen    CAGE                      hCAGE UBERON:0002106                                                    spleen         2             2
+  lymphoid            thymus    CAGE                      hCAGE UBERON:0002370                                                    thymus         2             2
+  lymphoid                NK   DNASE                    CL:0000623 DNase-seq|.                                       natural killer cell         1             1
+  lymphoid       naive CD4 T   DNASE                    CL:0000895 DNase-seq|.      naive thymus-derived CD4-positive, alpha-beta T cell         1             1
+  lymphoid              Treg   DNASE                    CL:0000792 DNase-seq|. CD4-positive, CD25-positive, alpha-beta regulatory T cell         1             1
+  lymphoid            spleen   DNASE                UBERON:0002106 DNase-seq|.                                                    spleen         1             1
+  lymphoid            thymus   DNASE                UBERON:0002370 DNase-seq|.                                                    thymus         1             1
+  lymphoid                NK H3K27ac     CL:0000623 Histone ChIP-seq H3K27ac|.                                       natural killer cell         1             1
+  lymphoid       naive CD4 T H3K27ac     CL:0000895 Histone ChIP-seq H3K27ac|.      naive thymus-derived CD4-positive, alpha-beta T cell         1             1
+  lymphoid              Treg H3K27ac     CL:0000792 Histone ChIP-seq H3K27ac|. CD4-positive, CD25-positive, alpha-beta regulatory T cell         1             1
+  lymphoid            spleen H3K27ac UBERON:0002106 Histone ChIP-seq H3K27ac|.                                                    spleen         1             1
+  lymphoid            thymus H3K27ac UBERON:0002370 Histone ChIP-seq H3K27ac|.                                                    thymus         1             1
+
+층위별 단위 수 (계통 × 층위)
+layer       CAGE  DNASE  H3K27ac
+lineage                         
+CNS_tissue     4      4        4
+liver          2      2        2
+lymphoid       5      5        5
+myeloid        1      1        1
+stromal        3      3        3
+트랙 열 298개, 조각 1개 읽기
+대상 5,828,323, Atlas 값 있음 1,000
+
+주석 크기와 전체 트랙 주석(L5)과의 Jaccard
+  myeloid     CAGE 51 (J 0.67)  DNASE 51 (J 0.48)  H3K27ac 51 (J 0.46)
+  CNS_tissue  CAGE 51 (J 0.79)  DNASE 51 (J 0.70)  H3K27ac 51 (J 1.00)
+  lymphoid    CAGE 51 (J 0.92)  DNASE 50 (J 0.60)  H3K27ac 51 (J 0.79)
+  liver       CAGE 51 (J 1.00)  DNASE 51 (J 0.59)  H3K27ac 51 (J 0.92)
+  stromal     CAGE 51 (J 0.59)  DNASE 51 (J 0.70)  H3K27ac 51 (J 0.57)
+
+같은 계통 안 층위 간 Jaccard (CAGE–DNase / CAGE–H3K27ac / DNase–H3K27ac): 일치 주석 | 전체 트랙
+  myeloid     0.38 / 0.40 / 0.52  |  0.34 / 0.40 / 0.48
+  CNS_tissue  0.21 / 0.28 / 0.36  |  0.26 / 0.32 / 0.36
+  lymphoid    0.33 / 0.36 / 0.46  |  0.36 / 0.31 / 0.46
+  liver       0.20 / 0.17 / 0.32  |  0.21 / 0.19 / 0.42
+  stromal     0.17 / 0.28 / 0.32  |  0.16 / 0.20 / 0.31
+chr22 완료

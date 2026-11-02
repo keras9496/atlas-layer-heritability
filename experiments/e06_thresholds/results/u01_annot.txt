@@ -1,0 +1,50 @@
+칸별 트랙 수 (전체 트랙, 3d L5와 같음)
+            CAGE  DNASE  H3K27ac
+myeloid       36      4        3
+CNS_tissue    52     12        8
+lymphoid      18     27       13
+liver          4      4        3
+stromal       84     23        7
+트랙 열 298개, 조각 583개 읽기
+대상 5,828,323, Atlas 값 있음 5,828,323
+
+확인: 다시 만든 상위 5 % sd 대 3d L5 sd — 최대 차이 8.33e-17
+
+주석 크기 (SNP 수 / 대상 대비 %)
+  L0p1: myeloid_CAGE 5,825 (0.100 %), myeloid_DNASE 5,830 (0.100 %), myeloid_H3K27ac 5,824 (0.100 %), CNS_tissue_CAGE 5,826 (0.100 %), CNS_tissue_DNASE 5,834 (0.100 %), CNS_tissue_H3K27ac 5,827 (0.100 %), lymphoid_CAGE 5,824 (0.100 %), lymphoid_DNASE 5,832 (0.100 %), lymphoid_H3K27ac 5,834 (0.100 %), liver_CAGE 5,828 (0.100 %), liver_DNASE 5,830 (0.100 %), liver_H3K27ac 5,829 (0.100 %), stromal_CAGE 5,829 (0.100 %), stromal_DNASE 5,829 (0.100 %), stromal_H3K27ac 5,828 (0.100 %)
+  L0p5: myeloid_CAGE 29,158 (0.500 %), myeloid_DNASE 29,152 (0.500 %), myeloid_H3K27ac 29,128 (0.500 %), CNS_tissue_CAGE 29,155 (0.500 %), CNS_tissue_DNASE 29,146 (0.500 %), CNS_tissue_H3K27ac 29,151 (0.500 %), lymphoid_CAGE 29,135 (0.500 %), lymphoid_DNASE 29,159 (0.500 %), lymphoid_H3K27ac 29,143 (0.500 %), liver_CAGE 29,137 (0.500 %), liver_DNASE 29,173 (0.501 %), liver_H3K27ac 29,131 (0.500 %), stromal_CAGE 29,151 (0.500 %), stromal_DNASE 29,116 (0.500 %), stromal_H3K27ac 29,155 (0.500 %)
+  L1p0: myeloid_CAGE 58,315 (1.001 %), myeloid_DNASE 58,252 (0.999 %), myeloid_H3K27ac 58,301 (1.000 %), CNS_tissue_CAGE 58,316 (1.001 %), CNS_tissue_DNASE 58,246 (0.999 %), CNS_tissue_H3K27ac 58,254 (0.999 %), lymphoid_CAGE 58,248 (0.999 %), lymphoid_DNASE 58,249 (0.999 %), lymphoid_H3K27ac 58,313 (1.001 %), liver_CAGE 58,308 (1.000 %), liver_DNASE 58,254 (0.999 %), liver_H3K27ac 58,319 (1.001 %), stromal_CAGE 58,244 (0.999 %), stromal_DNASE 58,243 (0.999 %), stromal_H3K27ac 58,283 (1.000 %)
+
+같은 계통 안 층위 간 Jaccard (CAGE–DNase / CAGE–H3K27ac / DNase–H3K27ac); 5 % 참조 포함
+  myeloid     L0p1 0.19 / 0.27 / 0.27   L0p5 0.24 / 0.30 / 0.34   L1p0 0.26 / 0.29 / 0.35   L5 0.30 / 0.25 / 0.31
+  CNS_tissue  L0p1 0.06 / 0.07 / 0.20   L0p5 0.09 / 0.12 / 0.18   L1p0 0.10 / 0.14 / 0.18   L5 0.15 / 0.21 / 0.22
+  lymphoid    L0p1 0.17 / 0.20 / 0.31   L0p5 0.17 / 0.23 / 0.27   L1p0 0.16 / 0.24 / 0.24   L5 0.15 / 0.28 / 0.21
+  liver       L0p1 0.06 / 0.08 / 0.27   L0p5 0.07 / 0.12 / 0.22   L1p0 0.08 / 0.14 / 0.20   L5 0.10 / 0.20 / 0.19
+  stromal     L0p1 0.05 / 0.08 / 0.30   L0p5 0.09 / 0.12 / 0.35   L1p0 0.10 / 0.13 / 0.36   L5 0.14 / 0.18 / 0.36
+chr1 완료
+chr2 완료
+chr3 완료
+chr4 완료
+chr5 완료
+chr6 완료
+chr7 완료
+chr8 완료
+chr9 완료
+chr10 완료
+chr11 완료
+chr12 완료
+chr13 완료
+chr14 완료
+chr15 완료
+chr16 완료
+chr17 완료
+chr18 완료
+chr19 완료
+chr20 완료
+chr21 완료
+chr22 완료
+
+주석 SNP가 걸친 1 Mb 구간 수 (참조 1000G EUR bim 기준)
+  L0p1: myeloid_CAGE 1858, myeloid_DNASE 2094, myeloid_H3K27ac 1983, CNS_tissue_CAGE 2113, CNS_tissue_DNASE 2230, CNS_tissue_H3K27ac 2112, lymphoid_CAGE 1851, lymphoid_DNASE 1968, lymphoid_H3K27ac 1921, liver_CAGE 2117, liver_DNASE 2237, liver_H3K27ac 2095, stromal_CAGE 2030, stromal_DNASE 2183, stromal_H3K27ac 2187
+  L0p5: myeloid_CAGE 2565, myeloid_DNASE 2638, myeloid_H3K27ac 2628, CNS_tissue_CAGE 2662, CNS_tissue_DNASE 2671, CNS_tissue_H3K27ac 2655, lymphoid_CAGE 2550, lymphoid_DNASE 2681, lymphoid_H3K27ac 2580, liver_CAGE 2672, liver_DNASE 2680, liver_H3K27ac 2638, stromal_CAGE 2661, stromal_DNASE 2654, stromal_H3K27ac 2667
+  L1p0: myeloid_CAGE 2676, myeloid_DNASE 2688, myeloid_H3K27ac 2697, CNS_tissue_CAGE 2693, CNS_tissue_DNASE 2693, CNS_tissue_H3K27ac 2688, lymphoid_CAGE 2664, lymphoid_DNASE 2697, lymphoid_H3K27ac 2671, liver_CAGE 2699, liver_DNASE 2695, liver_H3K27ac 2692, stromal_CAGE 2696, stromal_DNASE 2682, stromal_H3K27ac 2685

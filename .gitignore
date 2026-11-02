@@ -1,0 +1,22 @@
+# Data, LD scores, S-LDSC run files and logs live under the data root (AGA_DATA), never in the repository.
+*.parquet
+*.npz
+*.sumstats
+*.sumstats.gz
+*.annot.gz
+*.ldscore.gz
+*.pgen
+*.pvar
+*.psam
+*.bed.gz
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# manuscript build intermediates
+paper/*.docx
+paper/*.pdf
+paper/*.pptx
+paper/~$*
+# local copy used for the reproduction check (its report, verify/report.md, is kept)
+repro_run/

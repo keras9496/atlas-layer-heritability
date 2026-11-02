@@ -1,0 +1,199 @@
+file	substitution	count
+experiments/e01_targets_sldsc/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e01_targets_sldsc/scripts/run_pipeline.sh	data root	1
+experiments/e01_targets_sldsc/scripts/run_pipeline.sh	folder 실험3_SLDSC	1
+experiments/e01_targets_sldsc/scripts/x01_targets.py	data root	1
+experiments/e01_targets_sldsc/scripts/x01_targets.py	data root mentioned in comments or docstrings	1
+experiments/e01_targets_sldsc/scripts/x01_targets.py	config import	1
+experiments/e01_targets_sldsc/scripts/x03_annot_ldscores.py	data path (double quotes)	2
+experiments/e01_targets_sldsc/scripts/x03_annot_ldscores.py	data root mentioned in comments or docstrings	1
+experiments/e01_targets_sldsc/scripts/x03_annot_ldscores.py	config import	1
+experiments/e01_targets_sldsc/scripts/x04_sldsc.py	data path (double quotes)	2
+experiments/e01_targets_sldsc/scripts/x04_sldsc.py	data root mentioned in comments or docstrings	1
+experiments/e01_targets_sldsc/scripts/x04_sldsc.py	config import	1
+experiments/e01_targets_sldsc/scripts/x06_prepare_3b.py	data path (double quotes)	4
+experiments/e01_targets_sldsc/scripts/x06_prepare_3b.py	locus files -> inputs/	1
+experiments/e01_targets_sldsc/scripts/x06_prepare_3b.py	data root mentioned in comments or docstrings	1
+experiments/e01_targets_sldsc/scripts/x06_prepare_3b.py	config import	1
+experiments/e01_targets_sldsc/scripts/x07_sldsc_3b.py	data path (double quotes)	3
+experiments/e01_targets_sldsc/scripts/x07_sldsc_3b.py	data root mentioned in comments or docstrings	1
+experiments/e01_targets_sldsc/scripts/x07_sldsc_3b.py	config import	1
+experiments/e02_lineage_map/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e02_lineage_map/scripts/run_pipeline.sh	data root	1
+experiments/e02_lineage_map/scripts/run_pipeline.sh	folder 실험3c_형질세포지도	1
+experiments/e02_lineage_map/scripts/z03_annot_ldscores.py	data path (double quotes)	3
+experiments/e02_lineage_map/scripts/z03_annot_ldscores.py	config import	1
+experiments/e02_lineage_map/scripts/z04_sldsc.py	data path (double quotes)	5
+experiments/e02_lineage_map/scripts/z04_sldsc.py	config import	1
+experiments/e03_single_layer_map/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e03_single_layer_map/scripts/run_pipeline.sh	data root	1
+experiments/e03_single_layer_map/scripts/run_pipeline.sh	folder 실험3d_모달리티지도	1
+experiments/e03_single_layer_map/scripts/y03_annot_ldscores.py	data path (double quotes)	4
+experiments/e03_single_layer_map/scripts/y03_annot_ldscores.py	config import	1
+experiments/e03_single_layer_map/scripts/y04_sldsc.py	data path (double quotes)	5
+experiments/e03_single_layer_map/scripts/y04_sldsc.py	config import	1
+experiments/e03_single_layer_map/scripts/y06_eqtl_compare.py	data path (double quotes)	5
+experiments/e03_single_layer_map/scripts/y06_eqtl_compare.py	config import	1
+experiments/e04_measured_annotations/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e04_measured_annotations/scripts/run_pipeline.sh	data root	1
+experiments/e04_measured_annotations/scripts/run_pipeline.sh	folder 실험3e_실측주석조건부	1
+experiments/e04_measured_annotations/scripts/w01_measured_sources.py	data path (double quotes)	2
+experiments/e04_measured_annotations/scripts/w01_measured_sources.py	config import	1
+experiments/e04_measured_annotations/scripts/w02_annot_ldscores.py	data path (double quotes)	4
+experiments/e04_measured_annotations/scripts/w02_annot_ldscores.py	config import	1
+experiments/e04_measured_annotations/scripts/w03_sldsc.py	data path (double quotes)	6
+experiments/e04_measured_annotations/scripts/w03_sldsc.py	config import	1
+experiments/e04_measured_annotations/scripts/w04_summary.py	folder 실험3d_모달리티지도	1
+experiments/e04_measured_annotations/scripts/w05_own_layer.py	data path (double quotes)	5
+experiments/e04_measured_annotations/scripts/w05_own_layer.py	folder 실험3f_층위이질성	1
+experiments/e04_measured_annotations/scripts/w05_own_layer.py	config import	1
+experiments/e05_layer_map/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e05_layer_map/scripts/run_pipeline.sh	data root	1
+experiments/e05_layer_map/scripts/run_pipeline.sh	folder 실험3f_층위이질성	1
+experiments/e05_layer_map/scripts/run_validation.sh	data root (posix)	1
+experiments/e05_layer_map/scripts/run_validation.sh	folder 실험3f_층위이질성	1
+experiments/e05_layer_map/scripts/v01_resample_annot.py	data path (double quotes)	4
+experiments/e05_layer_map/scripts/v01_resample_annot.py	config import	1
+experiments/e05_layer_map/scripts/v02_sldsc.py	data path (double quotes)	7
+experiments/e05_layer_map/scripts/v02_sldsc.py	config import	1
+experiments/e05_layer_map/scripts/v03_tests.py	data path (double quotes)	4
+experiments/e05_layer_map/scripts/v03_tests.py	config import	1
+experiments/e05_layer_map/scripts/v04_validation_sumstats.py	data path (double quotes)	3
+experiments/e05_layer_map/scripts/v04_validation_sumstats.py	config import	1
+experiments/e05_layer_map/scripts/v05_posthoc_loo.py	data path (double quotes)	3
+experiments/e05_layer_map/scripts/v05_posthoc_loo.py	config import	1
+experiments/e06_thresholds/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e06_thresholds/scripts/run_pipeline.sh	data root	1
+experiments/e06_thresholds/scripts/run_pipeline.sh	folder 실험3g_역치민감도	1
+experiments/e06_thresholds/scripts/u01_threshold_annot.py	data path (double quotes)	5
+experiments/e06_thresholds/scripts/u01_threshold_annot.py	config import	1
+experiments/e06_thresholds/scripts/u02_sldsc.py	data path (double quotes)	6
+experiments/e06_thresholds/scripts/u02_sldsc.py	config import	1
+experiments/e06_thresholds/scripts/u03_tests.py	data path (double quotes)	4
+experiments/e06_thresholds/scripts/u03_tests.py	folder 실험3f_층위이질성	1
+experiments/e06_thresholds/scripts/u03_tests.py	config import	1
+experiments/e07_shared_lineages/scripts/h01_sldsc.py	data path (double quotes)	7
+experiments/e07_shared_lineages/scripts/h01_sldsc.py	working folder -> experiments/	1
+experiments/e07_shared_lineages/scripts/h01_sldsc.py	folder 실험3c_형질세포지도	1
+experiments/e07_shared_lineages/scripts/h01_sldsc.py	config import	1
+experiments/e07_shared_lineages/scripts/h02_tests.py	data path (double quotes)	4
+experiments/e07_shared_lineages/scripts/h02_tests.py	working folder -> experiments/	1
+experiments/e07_shared_lineages/scripts/h02_tests.py	folder 실험3c_형질세포지도	1
+experiments/e07_shared_lineages/scripts/h02_tests.py	config import	1
+experiments/e07_shared_lineages/scripts/run_pipeline.sh	data root (posix)	3
+experiments/e08_cell_type_matched/scripts/i01_matched_annot.py	data path (double quotes)	5
+experiments/e08_cell_type_matched/scripts/i01_matched_annot.py	config import	1
+experiments/e08_cell_type_matched/scripts/i02_sldsc.py	data path (double quotes)	6
+experiments/e08_cell_type_matched/scripts/i02_sldsc.py	config import	1
+experiments/e08_cell_type_matched/scripts/i03_tests.py	data path (double quotes)	2
+experiments/e08_cell_type_matched/scripts/i03_tests.py	config import	1
+experiments/e08_cell_type_matched/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e09_joint_jackknife/scripts/j01_blocks.py	data path (double quotes)	2
+experiments/e09_joint_jackknife/scripts/j01_blocks.py	config import	1
+experiments/e09_joint_jackknife/scripts/j02_sldsc.py	data path (double quotes)	10
+experiments/e09_joint_jackknife/scripts/j02_sldsc.py	config import	1
+experiments/e09_joint_jackknife/scripts/j03_tests.py	data path (double quotes)	7
+experiments/e09_joint_jackknife/scripts/j03_tests.py	folder 실험3h_계통고정비교	1
+experiments/e09_joint_jackknife/scripts/j03_tests.py	config import	1
+experiments/e09_joint_jackknife/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e10_proximal_distal/scripts/k01_split_annot.py	data path (double quotes)	5
+experiments/e10_proximal_distal/scripts/k01_split_annot.py	config import	1
+experiments/e10_proximal_distal/scripts/k02_sldsc.py	data path (double quotes)	7
+experiments/e10_proximal_distal/scripts/k02_sldsc.py	config import	1
+experiments/e10_proximal_distal/scripts/k03_tests.py	data path (double quotes)	2
+experiments/e10_proximal_distal/scripts/k03_tests.py	config import	1
+experiments/e10_proximal_distal/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e11_activity/scripts/l02_annot_ldscores.py	data path (double quotes)	5
+experiments/e11_activity/scripts/l02_annot_ldscores.py	config import	1
+experiments/e11_activity/scripts/l03_sldsc.py	data path (double quotes)	10
+experiments/e11_activity/scripts/l03_sldsc.py	config import	1
+experiments/e11_activity/scripts/l04_tests.py	data path (double quotes)	6
+experiments/e11_activity/scripts/l04_tests.py	config import	1
+experiments/e11_activity/scripts/l05_fig_export.py	data path (double quotes)	5
+experiments/e11_activity/scripts/l05_fig_export.py	config import	1
+experiments/e11_activity/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e11_activity/scripts/run_pipeline.sh	data root	1
+experiments/e11_activity/scripts/run_pipeline.sh	folder 실험3l_활성도조건부	1
+experiments/e11_activity/scripts/run_stage2.sh	data root (posix)	1
+experiments/e11_activity/scripts/run_stage2.sh	data root	1
+experiments/e11_activity/scripts/run_stage2.sh	folder 실험3l_활성도조건부	1
+experiments/e12_diagnostics/scripts/m01_trait_info.py	data path (double quotes)	1
+experiments/e12_diagnostics/scripts/m01_trait_info.py	config import	1
+experiments/e12_diagnostics/scripts/m02_threshold_contrasts.py	folder 실험3j_형질간공분산	1
+experiments/e12_diagnostics/scripts/m04a_block_influence.py	data path (double quotes)	5
+experiments/e12_diagnostics/scripts/m04a_block_influence.py	config import	1
+experiments/e12_diagnostics/scripts/m04b_exclusion_refit.py	data path (double quotes)	8
+experiments/e12_diagnostics/scripts/m04b_exclusion_refit.py	config import	1
+experiments/e12_diagnostics/scripts/m06_supp_export.py	data path (double quotes)	1
+experiments/e12_diagnostics/scripts/m06_supp_export.py	config import	1
+experiments/e12_diagnostics/scripts/m_common.py	data path (double quotes)	6
+experiments/e12_diagnostics/scripts/m_common.py	config import	1
+experiments/e13_larger_gwas/scripts/n00_download.sh	data root (posix)	1
+experiments/e13_larger_gwas/scripts/n01_munge.py	data path (double quotes)	3
+experiments/e13_larger_gwas/scripts/n01_munge.py	config import	1
+experiments/e13_larger_gwas/scripts/n02_sldsc.py	data path (double quotes)	9
+experiments/e13_larger_gwas/scripts/n02_sldsc.py	config import	1
+experiments/e13_larger_gwas/scripts/n03_tests.py	data path (double quotes)	4
+experiments/e13_larger_gwas/scripts/n03_tests.py	folder 실험3c_형질세포지도	1
+experiments/e13_larger_gwas/scripts/n03_tests.py	folder 실험3l_활성도조건부	1
+experiments/e13_larger_gwas/scripts/n03_tests.py	folder 실험3m_기존산출물점검	1
+experiments/e13_larger_gwas/scripts/n03_tests.py	config import	1
+experiments/e14_continuous_bins/scripts/o01_annot_ldscores.py	data path (double quotes)	6
+experiments/e14_continuous_bins/scripts/o01_annot_ldscores.py	config import	1
+experiments/e14_continuous_bins/scripts/o02_sldsc.py	data path (double quotes)	8
+experiments/e14_continuous_bins/scripts/o02_sldsc.py	config import	1
+experiments/e14_continuous_bins/scripts/o03_tests.py	data path (double quotes)	3
+experiments/e14_continuous_bins/scripts/o03_tests.py	folder 실험3m_기존산출물점검	2
+experiments/e14_continuous_bins/scripts/o03_tests.py	config import	1
+experiments/e15_activity_constructions/scripts/p01_annot_ldscores.py	data path (double quotes)	6
+experiments/e15_activity_constructions/scripts/p01_annot_ldscores.py	config import	1
+experiments/e15_activity_constructions/scripts/p02_sldsc.py	data path (double quotes)	10
+experiments/e15_activity_constructions/scripts/p02_sldsc.py	config import	1
+experiments/e15_activity_constructions/scripts/p06_direction_summary.py	folder 실험3o_연속구간	1
+experiments/e15_activity_constructions/scripts/p06_direction_summary.py	folder 실험3p_활성도구성	2
+experiments/e15_activity_constructions/scripts/p_common.py	data path (double quotes)	7
+experiments/e15_activity_constructions/scripts/p_common.py	config import	1
+experiments/e15_activity_constructions/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e16_within_active/scripts/q01_annot_ldscores.py	data path (double quotes)	6
+experiments/e16_within_active/scripts/q01_annot_ldscores.py	config import	1
+experiments/e16_within_active/scripts/q02_sldsc.py	data path (double quotes)	10
+experiments/e16_within_active/scripts/q02_sldsc.py	config import	1
+experiments/e16_within_active/scripts/q03_tests.py	data path (double quotes)	1
+experiments/e16_within_active/scripts/q03_tests.py	folder 실험3p_활성도구성	1
+experiments/e16_within_active/scripts/q03_tests.py	config import	1
+experiments/e16_within_active/scripts/run_pipeline.sh	data root (posix)	1
+experiments/e17_larger_ad_gwas/scripts/r00_download.sh	data root (posix)	1
+experiments/e17_larger_ad_gwas/scripts/r01_munge.py	data path (double quotes)	3
+experiments/e17_larger_ad_gwas/scripts/r01_munge.py	config import	1
+experiments/e17_larger_ad_gwas/scripts/r02_sldsc.py	data path (double quotes)	11
+experiments/e17_larger_ad_gwas/scripts/r02_sldsc.py	config import	1
+experiments/e17_larger_ad_gwas/scripts/r03_tests.py	data path (double quotes)	4
+experiments/e17_larger_ad_gwas/scripts/r03_tests.py	folder 실험3c_형질세포지도	1
+experiments/e17_larger_ad_gwas/scripts/r03_tests.py	folder 실험3m_기존산출물점검	1
+experiments/e17_larger_ad_gwas/scripts/r03_tests.py	folder 실험3p_활성도구성	1
+experiments/e17_larger_ad_gwas/scripts/r03_tests.py	config import	1
+experiments/e18_cell_type_eqtl/scripts/s00_download.sh	data root (posix)	1
+experiments/e18_cell_type_eqtl/scripts/s01_annot_ldscores.py	data path (double quotes)	3
+experiments/e18_cell_type_eqtl/scripts/s01_annot_ldscores.py	config import	1
+experiments/e18_cell_type_eqtl/scripts/s02_sldsc.py	data path (double quotes)	11
+experiments/e18_cell_type_eqtl/scripts/s02_sldsc.py	config import	1
+experiments/e18_cell_type_eqtl/scripts/s03_tests.py	data path (double quotes)	2
+experiments/e18_cell_type_eqtl/scripts/s03_tests.py	folder 실험3p_활성도구성	1
+experiments/e18_cell_type_eqtl/scripts/s03_tests.py	config import	1
+experiments/e01_targets_sldsc/scripts/x00_prepare_sumstats.py	data path (double quotes)	3
+experiments/e01_targets_sldsc/scripts/x00_prepare_sumstats.py	data root mentioned in comments or docstrings	2
+experiments/e01_targets_sldsc/scripts/x00_prepare_sumstats.py	config import	1
+paper/make_figures.py	working folder -> experiments/	1
+paper/make_figures.py	folder 실험3c_형질세포지도	1
+paper/make_figures.py	folder 실험3d_모달리티지도	1
+paper/make_figures.py	folder 실험3e_실측주석조건부	2
+paper/make_figures.py	folder 실험3f_층위이질성	2
+paper/make_figures.py	folder 실험3g_역치민감도	1
+paper/make_figures.py	folder 실험3j_형질간공분산	1
+paper/make_figures.py	folder 실험3l_활성도조건부	2
+paper/make_figures.py	folder 실험3m_기존산출물점검	1
+paper/make_figures.py	folder 실험3n_최신GWAS	1
+paper/make_figures.py	folder 실험3o_연속구간	1
+paper/make_figures.py	folder 실험3p_활성도구성	2
+paper/make_figures.py	folder 실험3q_활성요소내효과	1
+paper/make_figures.py	folder 실험3r_더큰AD_GWAS	1

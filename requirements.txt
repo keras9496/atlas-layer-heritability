@@ -1,0 +1,14 @@
+# Python 3.13.5 (versions used for the manuscript; later versions will most likely work but were not tested)
+numpy==2.4.2
+pandas==2.3.3
+scipy==1.17.1
+pyarrow==23.0.1
+matplotlib==3.10.8
+requests==2.33.0       # e04 w01: FANTOM5 and ENCODE downloads
+openpyxl==3.1.5        # e04 w02: FANTOM5 sample sheet (xlsx)
+python-docx==1.2.0     # paper/build_manuscript.py
+python-pptx==1.0.2     # paper/build_manuscript.py (figure deck)
+# External tools (not pip packages; see data_layout.md):
+#   LDSC: abdenlab/ldsc-python3 commit b6176a4 + tools/ldsc-python3_local_patch.diff (LD scores, munging)
+#         brainvisa/ldscore fork commit a09a869, unmodified (regression)
+#   plink2 v2.0.0-a.7.8

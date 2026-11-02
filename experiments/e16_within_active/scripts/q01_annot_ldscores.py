@@ -1,0 +1,123 @@
+"""실험 3q q01: 활성 요소 안 활성도 맞춤 반분 H/Lo 주석 (PROTOCOL_exp3q_2026-10-23, 2026-10-23 고정; 사후 분석) → 염색체별 LD 점수.
+ 점수는 3p p01과 같다: 효과 e = 칸 안 트랙 |효과| 최댓값(3d L5와 같은 트랙), 활성도 R_a = 트랙별 대상 SNP 백분위의 최댓값을 다시 백분위로(3l A5·3p Ac와 같다).
+ 활성 집합 R_a ≥ 0.90 → R_a의 1 %p 구간 10개 → 구간 안 e 백분위 ≥ 0.5 = H10, < 0.5 = Lo10. 민감도: R_a ≥ 0.80, 구간 20개 → H20, Lo20.
+ 확인(어긋나면 멈춘다): (1) R_a ≥ 0.95 = 3l A5, e 상위 5 % = 3d L5 (전체 bim SNP), (2) H10·Lo10 각 5.00 % ± 0.05 %p (H20·Lo20 각 10.00 % ± 0.05 %p),
+   (3) 구간마다 H와 Lo의 R_a 평균 차이 < 0.001.
+ 기술: H10–L5 Jaccard, 활성 집합 안 H·Lo의 효과 원점수 중앙값.
+ 단계: python q01_annot_ldscores.py check | main   (check = 점수·주석·확인·기술, 주석 표 저장 / main = LD 점수)
+출력: exp3q/annot/{HL10,HL20}_{g}/..., exp3q/annot_sd_common.csv, results/q01_<단계>.txt
+"""
+import sys as _sys; from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[3])); from config import DATA   # repository root; DATA = data root (env AGA_DATA)
+import os, sys, subprocess
+import numpy as np, pandas as pd
+import pyarrow.parquet as pq
+from pathlib import Path
+STAGE = sys.argv[1]
+EXP = Path(__file__).resolve().parents[1]; X = Path(f"{DATA}/exp3"); C3 = Path(f"{DATA}/exp3c"); Y = Path(f"{DATA}/exp3d")
+L = Path(f"{DATA}/exp3l"); O = Path(f"{DATA}/exp3q"); AN = O/"annot"; AN.mkdir(parents=True, exist_ok=True); (EXP/"results").mkdir(exist_ok=True)
+PF = X/"GRCh38"/"plink_files"; LDSC = Path(f"{DATA}/tools/ldsc/ldsc.py")
+log = []
+def P(*x): s = " ".join(str(i) for i in x); print(s, flush=True); log.append(s)
+LING = ["myeloid", "CNS_tissue", "lymphoid", "liver", "stromal"]; MODS = ["CAGE", "DNASE", "H3K27ac"]
+ACT = {"CAGE": "CAGE_ACTIVE", "DNASE": "DNASE_ACTIVE", "CHIP_HISTONE": "CHIP_HISTONE_ACTIVE"}
+CUTS = {"10": (90, 10), "20": (80, 20)}       # 활성 집합 하한(백분위 %), 1 %p 구간 수
+TL = pd.read_csv(C3/"track_lineage.csv")
+EFF = {(g, m): (TL.scorer + "::" + TL.key)[(TL.lineage == g) & (TL["mod"] == m)].tolist() for g in LING for m in MODS}
+ACC = {(g, m): (TL.scorer.map(ACT) + "::" + TL.key)[(TL.lineage == g) & (TL["mod"] == m)].tolist() for g in LING for m in MODS}
+T = pd.read_parquet(X/"targets.parquet")[["chr", "rsid", "atlas_variant"]]
+NAMES = [f"{h}{k}_{g}_{m}" for k in CUTS for g in LING for h in ["H", "Lo"] for m in MODS]
+GROUPS = {f"HL{k}_{g}": [f"H{k}_{g}_{m}" for m in MODS] + [f"Lo{k}_{g}_{m}" for m in MODS] for k in CUTS for g in LING}
+TAB = O/"annot_table.parquet"
+def read_cols(src, cols):
+    V = []
+    for f in sorted(src.glob("part_*.parquet")):
+        have = set(pq.read_schema(f).names); miss = [c for c in cols if c not in have]; assert not miss, f"{f.name}: 열 없음 {miss[:3]}"
+        V.append(pd.read_parquet(f, columns=["atlas_variant"] + cols).set_index("atlas_variant").astype(np.float32))
+    V = pd.concat(V); V = V[~V.index.duplicated()]
+    return T[["atlas_variant"]].join(V, on="atlas_variant").drop(columns="atlas_variant")
+def bim_snps(c): return pd.read_csv(PF/f"1000G.EUR.hg38.{c}.bim", sep="\t", header=None, usecols=[1], names=["SNP"]).SNP
+
+if STAGE == "check":
+    # ---------- 효과 e, R_e (3p p01과 같다) ----------
+    need = sorted(set(c for v in EFF.values() for c in v)); parts = sorted((C3/"atlas").glob("part_*.parquet")); P(f"효과: 트랙 열 {len(need)}개, 조각 {len(parts)}개")
+    V = []
+    for f in parts:
+        have = set(pq.read_schema(f).names); cols = [c for c in need if c in have]
+        D = pd.read_parquet(f, columns=["atlas_variant"] + cols).set_index("atlas_variant").astype(np.float32)
+        V.append(pd.DataFrame({f"{g}_{m}": (D[[c for c in v if c in have]].max(1) if any(c in have for c in v) else np.nan) for (g, m), v in EFF.items()}, index=D.index))
+    V = pd.concat(V); V = V[~V.index.duplicated()]
+    Ev = T[["atlas_variant"]].join(V, on="atlas_variant").drop(columns="atlas_variant").reset_index(drop=True); del V
+    assert int(Ev.isna().sum().sum()) == 0, "효과 결측"
+    Re = Ev.rank(pct=True)
+    # ---------- 활성도 R_a (3p p01과 같다) ----------
+    Ra = {}
+    for g in LING:
+        cols = sorted(set(c for m in MODS for c in ACC[(g, m)])); D = read_cols(L/"atlas_active", cols); assert int(D.isna().sum().sum()) == 0, "활성도 결측"
+        for m in MODS:
+            sc = None
+            for c in ACC[(g, m)]:
+                r = D[c].rank(pct=True).to_numpy(); sc = r if sc is None else np.maximum(sc, r)
+            Ra[f"{g}_{m}"] = pd.Series(sc).rank(pct=True).to_numpy()
+        del D
+        P(f"활성도 {g} 완료")
+    Ra = pd.DataFrame(Ra)
+    # ---------- 주석 ----------
+    ann = pd.DataFrame({"rsid": T.rsid.to_numpy()}); chk = {}; desc = []
+    for g in LING:
+        for m in MODS:
+            k = f"{g}_{m}"; ra = Ra[k].to_numpy(); e = Ev[k].to_numpy()
+            chk[f"A5_{k}"] = (ra >= .95).astype(np.int8); chk[f"L5_{k}"] = (Re[k].to_numpy() >= .95).astype(np.int8)
+            for cut, (lo, nst) in CUTS.items():
+                act = ra >= lo / 100; st = np.clip(np.floor(np.round(ra[act] * 100, 9)) - lo, 0, nst - 1).astype(int)
+                within = pd.Series(e[act]).groupby(st).rank(pct=True).to_numpy()
+                h = np.zeros(len(T), np.int8); l = np.zeros(len(T), np.int8); idx = np.flatnonzero(act)
+                h[idx[within >= .5]] = 1; l[idx[within < .5]] = 1
+                ann[f"H{cut}_{k}"] = h; ann[f"Lo{cut}_{k}"] = l
+                dra = pd.DataFrame({"st": st, "ra": ra[act], "h": within >= .5}).groupby(["st", "h"]).ra.mean().unstack()
+                desc.append(dict(cell=k, cut=cut, H=h.mean(), Lo=l.mean(), dmax=float((dra[True] - dra[False]).abs().max()), nst=int(len(dra)),
+                                 eH=float(np.median(e[h == 1])), eLo=float(np.median(e[l == 1])), eL5=float(np.median(e[chk[f"L5_{k}"] == 1]))))
+    # ---------- 확인 (1) ----------
+    C = pd.DataFrame(chk); C["rsid"] = T.rsid.to_numpy(); C = C.drop_duplicates("rsid").set_index("rsid"); bad = {"A5": 0, "L5": 0}
+    for c in range(1, 23):
+        b = bim_snps(c); R = C.reindex(b).fillna(0).astype(np.int8).reset_index(drop=True)
+        for g in LING:
+            ref = pd.read_csv(L/"annot"/f"A5_{g}"/f"A5_{g}.{c}.annot.gz", sep="\t")
+            for m in MODS: bad["A5"] += int((ref[f"A5_{g}_{m}"].to_numpy() != R[f"A5_{g}_{m}"].to_numpy()).sum())
+            for m in MODS:
+                n = f"L5_{g}_{m}"; ref = pd.read_csv(Y/"annot"/n/f"{n}.{c}.annot.gz", sep="\t").iloc[:, 0].to_numpy(); bad["L5"] += int((ref != R[n].to_numpy()).sum())
+    P(f"확인 (1) 3l A5 재현: 다른 칸 {bad['A5']}개 / 3d L5 재현: 다른 칸 {bad['L5']}개"); assert bad["A5"] == 0 and bad["L5"] == 0, "재현 실패 — 멈춘다"
+    # ---------- 확인 (2)·(3)과 기술 ----------
+    P("확인 (2)·(3): 주석 크기(대상 SNP %)와 구간별 H–Lo의 R_a 평균 차이 최대 | 효과 원점수 중앙값 H / Lo (참고: L5)")
+    for d in desc:
+        want = .05 if d["cut"] == "10" else .10
+        P(f"  {d['cut']:>2}% {d['cell']:20s} H {d['H'] * 100:.3f} Lo {d['Lo'] * 100:.3f} | 구간 {d['nst'] // 1}칸 ΔR_a 최대 {d['dmax']:.2e} | e 중앙값 H {d['eH']:.4f} Lo {d['eLo']:.4f} (L5 {d['eL5']:.4f})")
+        assert abs(d["H"] - want) <= .0005 and abs(d["Lo"] - want) <= .0005, f"크기 확인 실패 {d}"
+        assert d["dmax"] < .001, f"활성도 맞춤 확인 실패 {d}"
+    P("확인 (1)–(3) 통과")
+    def jac(a, b): return (a & b).sum() / max((a | b).sum(), 1)
+    P("\n기술: H10과 L5의 겹침 (Jaccard), Lo10과 L5의 겹침")
+    for g in LING: P(f"  {g:11s} " + ", ".join(f"{m} H {jac(ann[f'H10_{g}_{m}'].to_numpy(), chk[f'L5_{g}_{m}']):.2f} / Lo {jac(ann[f'Lo10_{g}_{m}'].to_numpy(), chk[f'L5_{g}_{m}']):.2f}" for m in MODS))
+    ann = ann.drop_duplicates("rsid").set_index("rsid")[NAMES]; ann.to_parquet(TAB, compression="zstd"); ann.std(ddof=0).rename("sd_common").to_csv(O/"annot_sd_common.csv")
+    P(f"\n주석 표 저장: {TAB} ({len(ann):,} SNP × {ann.shape[1]})")
+    (EXP/"results"/"q01_check.txt").write_text("\n".join(log), encoding="utf-8"); sys.exit()
+
+# ---------------- main: LD 점수 ----------------
+ann = pd.read_parquet(TAB); assert sorted(ann.columns) == sorted(NAMES), "주석 표 열이 다르다"; ann = ann[NAMES]
+env = dict(os.environ, PYTHONIOENCODING="utf-8", MSYS_NO_PATHCONV="1")
+for c in range(1, 23):
+    out_all = AN/"_all"/f"all.{c}"; (AN/"_all").mkdir(exist_ok=True)
+    b = bim_snps(c); Ac = ann.reindex(b).fillna(0).astype(np.int8).reset_index(drop=True)
+    if not Path(f"{out_all}.l2.ldscore.gz").exists():
+        Ac.to_csv(f"{out_all}.annot.gz", sep="\t", index=False, compression="gzip")
+        r = subprocess.run(["python", "-W", "ignore", str(LDSC), "--l2", "--bfile", str(PF/f"1000G.EUR.hg38.{c}"), "--ld-wind-cm", "1", "--annot", f"{out_all}.annot.gz", "--thin-annot",
+                            "--out", str(out_all), "--print-snps", str(X/"hm3_no_MHC.list.txt")], cwd=LDSC.parent, env=env, capture_output=True, text=True)
+        if not Path(f"{out_all}.l2.ldscore.gz").exists(): raise SystemExit(f"chr{c} l2 실패\n{r.stdout[-1500:]}\n{r.stderr[-1500:]}")
+    Ld = pd.read_csv(f"{out_all}.l2.ldscore.gz", sep="\t"); M = open(f"{out_all}.l2.M").read().split(); M5 = open(f"{out_all}.l2.M_5_50").read().split()
+    for gname, cols in GROUPS.items():
+        d = AN/gname; d.mkdir(exist_ok=True); idx = [NAMES.index(x) for x in cols]
+        Ld[["CHR", "SNP", "BP"] + [f"{x}L2" for x in cols]].to_csv(d/f"{gname}.{c}.l2.ldscore.gz", sep="\t", index=False, compression="gzip")
+        Ac[cols].to_csv(d/f"{gname}.{c}.annot.gz", sep="\t", index=False, compression="gzip")
+        open(d/f"{gname}.{c}.l2.M", "w").write("\t".join(M[i] for i in idx)); open(d/f"{gname}.{c}.l2.M_5_50", "w").write("\t".join(M5[i] for i in idx))
+    P(f"chr{c} 완료"); (O/"PIPELINE_STATUS.txt").write_text(f"q01 chr{c} 완료", encoding="utf-8")
+(EXP/"results"/"q01_main.txt").write_text("\n".join(log), encoding="utf-8")

@@ -1,0 +1,33 @@
+{
+ "fig2_sig_cells": 19,
+ "fig3_new_c1": {
+  "HEIGHT": -0.61,
+  "BMI": 0.92,
+  "SCZ": 1.2,
+  "BIP": 0.67,
+  "LDL": 3.26,
+  "AD": 3.76
+ },
+ "fig4_contrast": {
+  "diff": 3.4168414564978593,
+  "se": 0.6991261843264542,
+  "p1": 5.111336617090768e-07
+ },
+ "fig4_contrast_joint": {
+  "diff": 3.4168414564978606,
+  "se": 0.669109365294308,
+  "p1": 1.640455803207942e-07
+ },
+ "fig5b_n_fdr05_EA": 5,
+ "fig5b_n_fdr05_EAc": 6,
+ "fig5b_n_fdr05_S": 0,
+ "fig5b_median_retention_EA": 0.39569776988810074,
+ "fig5c_n_fdr05": 3,
+ "figS5c_CAGE_median_diff": 2.1953031257174147,
+ "figS5c_CAGE_n_sig_pos": 7,
+ "figS5c_DNASE_median_diff": 0.0712672005283063,
+ "figS5c_DNASE_n_sig_pos": 1,
+ "figS5c_H3K27ac_median_diff": -0.2127068982843616,
+ "figS5c_H3K27ac_n_sig_pos": 1,
+ "figS2_sig_cells": 54
+}
