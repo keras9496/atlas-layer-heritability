@@ -31,8 +31,7 @@ RENAME = {  # working folder -> repository folder (order = order of the analysis
     "실험3n_최신GWAS": "e13_larger_gwas", "실험3o_연속구간": "e14_continuous_bins", "실험3p_활성도구성": "e15_activity_constructions",
     "실험3q_활성요소내효과": "e16_within_active", "실험3r_더큰AD_GWAS": "e17_larger_ad_gwas", "실험3s_세포형eQTL조건화": "e18_cell_type_eqtl"}
 EXCLUDE_SCRIPTS = {"v06_figure_validation.py", "p05_fig_draft.py"}   # working figures not used in the paper
-PAPER_FILES = ["make_figures.py", "build_manuscript.py", "fetch_refs.py", "export_pdf.ps1", "refs_keys.tsv", "refs.json", "numbers.json",
-               "manuscript_main.md", "manuscript_supp.md"]
+PAPER_FILES = ["make_figures.py", "numbers.json"]   # the manuscript sources and their build scripts stay out of the repository
 
 CONFIG_IMPORT = ("import sys as _sys; from pathlib import Path as _Path\n"
                  "_sys.path.insert(0, str(_Path(__file__).resolve().parents[{n}])); from config import DATA   # repository root; DATA = data root (env AGA_DATA)\n")

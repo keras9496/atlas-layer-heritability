@@ -65,8 +65,7 @@ e16, e18). `e02_lineage_map/scripts/lineage_rules.py` holds the 12-lineage assig
 ## Manuscript figures and tables
 
 All figures are drawn by `paper/make_figures.py`, which reads only the result files listed here and writes
-`paper/numbers.json` with the numbers quoted in the text. `paper/build_manuscript.py` builds the Word and PDF files
-from `manuscript_main.md` and `manuscript_supp.md`; `fetch_refs.py` fills the reference list from `refs_keys.tsv`.
+`paper/numbers.json` with the numbers quoted in the text. The text of the preprint is not part of this repository.
 
 | Item | Source experiment and result file |
 |---|---|

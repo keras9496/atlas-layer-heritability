@@ -23,7 +23,7 @@ the result files themselves.
 | `config.py` | The single place where the data root is set (`AGA_DATA`) |
 | `data_layout.md` | What must be downloaded, where it goes, and what the pipeline writes |
 | `CODE_INDEX.md` | What each script does and which figure or table it feeds |
-| `paper/` | `make_figures.py` (all figures, `numbers.json`), `build_manuscript.py` (Word and PDF from the Markdown sources), `fetch_refs.py`, the preprint sources and figures |
+| `paper/` | `make_figures.py` (draws all figures from the result files and writes `numbers.json`, the numbers quoted in the text) and the figures. The text of the preprint is available only from medRxiv |
 | `verify/compare_results.py` | Compares a reproduction run with the result files in this repository; `verify/report.md` is the report of the run described under *Reproduction* |
 | `tools/` | `ldsc-python3_local_patch.diff` (local changes to LDSC), `build_repo.py` (how this repository was assembled from the working folders), `make_repro_root.py` |
 | `requirements.txt` | Package versions |
