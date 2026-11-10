@@ -1,0 +1,102 @@
+diff --git a/ldsc.py b/ldsc.py
+index 6801dbd..16c3772 100755
+--- a/ldsc.py
++++ b/ldsc.py
+@@ -19,6 +19,10 @@ from itertools import product
+ from subprocess import call
+ 
+ import numpy as np
++import gzip as _gzip, shutil as _shutil, os as _os
++def _gz(f):
++    with open(f, 'rb') as a, _gzip.open(f + '.gz', 'wb') as b: _shutil.copyfileobj(a, b)
++    _os.remove(f)
+ import pandas as pd
+ 
+ import ldscore.ldscore as ld
+@@ -378,7 +382,7 @@ def ldscore(args, log):
+         )
+ 
+         print_snps.columns = ["SNP"]
+-        df = df.ix[df.SNP.isin(print_snps.SNP), :]
++        df = df.loc[df.SNP.isin(print_snps.SNP), :]
+         if len(df) == 0:
+             raise ValueError("After merging with --print-snps, no SNPs remain.")
+         else:
+@@ -388,7 +392,7 @@ def ldscore(args, log):
+     l2_suffix = ".gz"
+     log.log("Writing LD Scores for {N} SNPs to {f}.gz".format(f=out_fname, N=len(df)))
+     df.drop(["CM", "MAF"], axis=1).to_csv(out_fname, sep="\t", header=True, index=False, float_format="%.3f")
+-    call(["gzip", "-f", out_fname])
++    _gz(out_fname)
+     if annot_matrix is not None:
+         M = np.atleast_1d(np.squeeze(np.asarray(np.sum(annot_matrix, axis=0))))
+         ii = geno_array.maf > 0.05
+@@ -398,12 +402,12 @@ def ldscore(args, log):
+         M_5_50 = [np.sum(geno_array.maf > 0.05)]
+ 
+     # print .M
+-    fout_M = open(args.out + "." + file_suffix + ".M", "wb")
++    fout_M = open(args.out + "." + file_suffix + ".M", "w")
+     print("\t".join(map(str, M)), file=fout_M)
+     fout_M.close()
+ 
+     # print .M_5_50
+-    fout_M_5_50 = open(args.out + "." + file_suffix + ".M_5_50", "wb")
++    fout_M_5_50 = open(args.out + "." + file_suffix + ".M_5_50", "w")
+     print("\t".join(map(str, M_5_50)), file=fout_M_5_50)
+     fout_M_5_50.close()
+ 
+@@ -416,24 +420,24 @@ def ldscore(args, log):
+         del annot_df["MAF"]
+         log.log("Writing annot matrix produced by --cts-bin to {F}".format(F=out_fname + ".gz"))
+         annot_df.to_csv(out_fname_annot, sep="\t", header=True, index=False)
+-        call(["gzip", "-f", out_fname_annot])
++        _gz(out_fname_annot)
+ 
+     # print LD Score summary
+     pd.set_option("display.max_rows", 200)
+     log.log("\nSummary of LD Scores in {F}".format(F=out_fname + l2_suffix))
+-    t = df.ix[:, 4:].describe()
+-    log.log(t.ix[1:, :])
++    t = df.iloc[:, 4:].describe()
++    log.log(t.iloc[1:, :])
+ 
+     np.seterr(divide="ignore", invalid="ignore")  # print NaN instead of weird errors
+     # print correlation matrix including all LD Scores and sample MAF
+     log.log("")
+     log.log("MAF/LD Score Correlation Matrix")
+-    log.log(df.ix[:, 4:].corr())
++    log.log(df.iloc[:, 4:].corr())
+ 
+     # print condition number
+     if n_annot > 1:  # condition number of a column vector w/ nonzero var is trivially one
+         log.log("\nLD Score Matrix Condition Number")
+-        cond_num = np.linalg.cond(df.ix[:, 5:])
++        cond_num = np.linalg.cond(df.iloc[:, 5:])
+         log.log(reg.remove_brackets(str(np.matrix(cond_num))))
+         if cond_num > 10000:
+             log.log("WARNING: ill-conditioned LD Score Matrix!")
+@@ -842,11 +846,11 @@ if __name__ == "__main__":
+                     raise ValueError("Must set either --frqfile and --ref-ld or --frqfile-chr and --ref-ld-chr")
+ 
+             if args.rg:
+-                sumstats.estimate_rg(args, log)
++                sumstats.estimate_genetic_correlation(args, log)
+             elif args.h2:
+-                sumstats.estimate_h2(args, log)
++                sumstats.estimate_heritability(args, log)
+             elif args.h2_cts:
+-                sumstats.cell_type_specific(args, log)
++                sumstats.estimate_cell_type_specific_heritability(args, log)
+ 
+             # bad flags
+         else:
+@@ -855,7 +859,7 @@ if __name__ == "__main__":
+             print("ldsc.py -h describes options.")
+     except Exception:
+         ex_type, ex, tb = sys.exc_info()
+-        log.log(traceback.format_exc(ex))
++        log.log(traceback.format_exc())
+         raise
+     finally:
+         log.log("Analysis finished at {T}".format(T=time.ctime()))

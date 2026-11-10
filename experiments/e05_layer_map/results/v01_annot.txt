@@ -1,0 +1,48 @@
+단위 수 (CAGE = biosample, 나머지 = 트랙)
+            CAGE  DNASE  H3K27ac
+myeloid       18      4        3
+CNS_tissue    26     12        8
+lymphoid       9     27       13
+liver          2      4        3
+stromal       42     23        7
+주석 300개 (+ 기술용 전체 트랙 15개), 트랙 열 298개, 조각 583개 읽기
+대상 5,828,323, Atlas 값 있음 5,828,323
+
+재추출 주석과 전체 트랙 주석의 겹침 (Jaccard, 시드 20개 중앙값 [최소–최대])
+  myeloid     CAGE     0.68 [0.61–0.78]
+  myeloid     DNASE    0.91 [0.53–0.99]
+  myeloid     H3K27ac  1.00 [1.00–1.00]
+  CNS_tissue  CAGE     0.76 [0.62–0.80]
+  CNS_tissue  DNASE    0.47 [0.25–0.75]
+  CNS_tissue  H3K27ac  0.65 [0.58–0.93]
+  lymphoid    CAGE     0.73 [0.68–0.80]
+  lymphoid    DNASE    0.48 [0.38–0.61]
+  lymphoid    H3K27ac  0.52 [0.33–0.63]
+  liver       CAGE     1.00 [1.00–1.00]
+  liver       DNASE    0.81 [0.79–0.93]
+  liver       H3K27ac  1.00 [1.00–1.00]
+  stromal     CAGE     0.50 [0.44–0.61]
+  stromal     DNASE    0.51 [0.45–0.69]
+  stromal     H3K27ac  0.65 [0.53–0.90]
+chr1 완료
+chr2 완료
+chr3 완료
+chr4 완료
+chr5 완료
+chr6 완료
+chr7 완료
+chr8 완료
+chr9 완료
+chr10 완료
+chr11 완료
+chr12 완료
+chr13 완료
+chr14 완료
+chr15 완료
+chr16 완료
+chr17 완료
+chr18 완료
+chr19 완료
+chr20 완료
+chr21 완료
+chr22 완료

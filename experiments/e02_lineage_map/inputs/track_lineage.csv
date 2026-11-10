@@ -1,0 +1,1749 @@
+key,scorer,mod,biosample_name,biosample_type,lineage
+CL:0000047 DNase-seq|.,DNASE,DNASE,neuronal stem cell,in_vitro_differentiated_cells,neural_cells
+CL:0000084 DNase-seq|.,DNASE,DNASE,T-cell,primary_cell,lymphoid
+CL:0000115 DNase-seq|.,DNASE,DNASE,endothelial cell,in_vitro_differentiated_cells,cardiovascular
+CL:0000127 DNase-seq|.,DNASE,DNASE,astrocyte,primary_cell,neural_cells
+CL:0000134 DNase-seq|.,DNASE,DNASE,mesenchymal stem cell,in_vitro_differentiated_cells,stromal
+CL:0000136 DNase-seq|.,DNASE,DNASE,adipocyte,in_vitro_differentiated_cells,adipose
+CL:0000138 DNase-seq|.,DNASE,DNASE,chondrocyte,in_vitro_differentiated_cells,stromal
+CL:0000182 DNase-seq|.,DNASE,DNASE,hepatocyte,in_vitro_differentiated_cells,liver
+CL:0000187 DNase-seq|.,DNASE,DNASE,myocyte,in_vitro_differentiated_cells,skeletal_muscle
+CL:0000188 DNase-seq|.,DNASE,DNASE,skeletal muscle cell,primary_cell,skeletal_muscle
+CL:0000223 DNase-seq|.,DNASE,DNASE,endodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000236 DNase-seq|.,DNASE,DNASE,B cell,primary_cell,lymphoid
+CL:0000312 DNase-seq|.,DNASE,DNASE,keratinocyte,primary_cell,epithelial_barrier
+CL:0000351 DNase-seq|.,DNASE,DNASE,trophoblast cell,primary_cell,reproductive_endocrine
+CL:0000515 DNase-seq|.,DNASE,DNASE,skeletal muscle myoblast,primary_cell,skeletal_muscle
+CL:0000545 DNase-seq|.,DNASE,DNASE,T-helper 1 cell,primary_cell,lymphoid
+CL:0000546 DNase-seq|.,DNASE,DNASE,T-helper 2 cell,primary_cell,lymphoid
+CL:0000623 DNase-seq|.,DNASE,DNASE,natural killer cell,primary_cell,lymphoid
+CL:0000624 DNase-seq|.,DNASE,DNASE,"CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000625 DNase-seq|.,DNASE,DNASE,"CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000632 DNase-seq|.,DNASE,DNASE,hepatic stellate cell,primary_cell,stromal
+CL:0000653 DNase-seq|.,DNASE,DNASE,glomerular visceral epithelial cell,primary_cell,epithelial_barrier
+CL:0000679 DNase-seq|.,DNASE,DNASE,glutamatergic neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000706 DNase-seq|.,DNASE,DNASE,choroid plexus epithelial cell,primary_cell,epithelial_barrier
+CL:0000746 DNase-seq|.,DNASE,DNASE,cardiac muscle cell,primary_cell,cardiovascular
+CL:0000787 DNase-seq|.,DNASE,DNASE,memory B cell,primary_cell,lymphoid
+CL:0000788 DNase-seq|.,DNASE,DNASE,naive B cell,primary_cell,lymphoid
+CL:0000792 DNase-seq|.,DNASE,DNASE,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,lymphoid
+CL:0000823 DNase-seq|.,DNASE,DNASE,immature natural killer cell,primary_cell,lymphoid
+CL:0000837 DNase-seq|.,DNASE,DNASE,hematopoietic multipotent progenitor cell,in_vitro_differentiated_cells,unassigned
+CL:0000862 DNase-seq|.,DNASE,DNASE,suppressor macrophage,primary_cell,myeloid
+CL:0000863 DNase-seq|.,DNASE,DNASE,inflammatory macrophage,primary_cell,myeloid
+CL:0000895 DNase-seq|.,DNASE,DNASE,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000897 DNase-seq|.,DNASE,DNASE,"CD4-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000899 DNase-seq|.,DNASE,DNASE,T-helper 17 cell,primary_cell,lymphoid
+CL:0000900 DNase-seq|.,DNASE,DNASE,"naive thymus-derived CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000904 DNase-seq|.,DNASE,DNASE,"central memory CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000905 DNase-seq|.,DNASE,DNASE,"effector memory CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000907 DNase-seq|.,DNASE,DNASE,"central memory CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000909 DNase-seq|.,DNASE,DNASE,"CD8-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000913 DNase-seq|.,DNASE,DNASE,"effector memory CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0001042 DNase-seq|.,DNASE,DNASE,T-helper 22 cell,primary_cell,lymphoid
+CL:0001044 DNase-seq|.,DNASE,DNASE,"effector CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0001054 DNase-seq|.,DNASE,DNASE,CD14-positive monocyte,primary_cell,myeloid
+CL:0001059 DNase-seq|.,DNASE,DNASE,"common myeloid progenitor, CD34-positive",primary_cell,myeloid
+CL:0002038 DNase-seq|.,DNASE,DNASE,T follicular helper cell,primary_cell,lymphoid
+CL:0002061 DNase-seq|.,DNASE,DNASE,T-helper 9 cell,primary_cell,lymphoid
+CL:0002231 DNase-seq|.,DNASE,DNASE,epithelial cell of prostate,primary_cell,epithelial_barrier
+CL:0002252 DNase-seq|.,DNASE,DNASE,epithelial cell of esophagus,primary_cell,GI
+CL:0002304 DNase-seq|.,DNASE,DNASE,non-pigmented ciliary epithelial cell,primary_cell,epithelial_barrier
+CL:0002306 DNase-seq|.,DNASE,DNASE,epithelial cell of proximal tubule,primary_cell,epithelial_barrier
+CL:0002327 DNase-seq|.,DNASE,DNASE,mammary epithelial cell,primary_cell,epithelial_barrier
+CL:0002328 DNase-seq|.,DNASE,DNASE,bronchial epithelial cell,primary_cell,epithelial_barrier
+CL:0002351 DNase-seq|.,DNASE,DNASE,progenitor cell of endocrine pancreas,in_vitro_differentiated_cells,GI
+CL:0002372 DNase-seq|.,DNASE,DNASE,myotube,in_vitro_differentiated_cells,skeletal_muscle
+CL:0002518 DNase-seq|.,DNASE,DNASE,kidney epithelial cell,primary_cell,epithelial_barrier
+CL:0002536 DNase-seq|.,DNASE,DNASE,amniotic epithelial cell,primary_cell,reproductive_endocrine
+CL:0002547 DNase-seq|.,DNASE,DNASE,fibroblast of the aortic adventitia,primary_cell,stromal
+CL:0002548 DNase-seq|.,DNASE,DNASE,cardiac fibroblast,primary_cell,stromal
+CL:0002550 DNase-seq|.,DNASE,DNASE,fibroblast of the conjunctiva,primary_cell,stromal
+CL:0002551 DNase-seq|.,DNASE,DNASE,fibroblast of dermis,primary_cell,stromal
+CL:0002552 DNase-seq|.,DNASE,DNASE,fibroblast of gingiva,primary_cell,stromal
+CL:0002553 DNase-seq|.,DNASE,DNASE,fibroblast of lung,primary_cell,stromal
+CL:0002555 DNase-seq|.,DNASE,DNASE,fibroblast of mammary gland,primary_cell,stromal
+CL:0002557 DNase-seq|.,DNASE,DNASE,fibroblast of pulmonary artery,primary_cell,stromal
+CL:0002558 DNase-seq|.,DNASE,DNASE,fibroblast of villous mesenchyme,primary_cell,stromal
+CL:0002565 DNase-seq|.,DNASE,DNASE,iris pigment epithelial cell,primary_cell,epithelial_barrier
+CL:0002584 DNase-seq|.,DNASE,DNASE,renal cortical epithelial cell,primary_cell,epithelial_barrier
+CL:0002586 DNase-seq|.,DNASE,DNASE,retinal pigment epithelial cell,primary_cell,epithelial_barrier
+CL:0002590 DNase-seq|.,DNASE,DNASE,smooth muscle cell of the brain vasculature,primary_cell,cardiovascular
+CL:0002603 DNase-seq|.,DNASE,DNASE,astrocyte of the cerebellum,primary_cell,neural_cells
+CL:0002604 DNase-seq|.,DNASE,DNASE,astrocyte of the hippocampus,primary_cell,neural_cells
+CL:0002606 DNase-seq|.,DNASE,DNASE,astrocyte of the spinal cord,primary_cell,neural_cells
+CL:0002618 DNase-seq|.,DNASE,DNASE,endothelial cell of umbilical vein,primary_cell,cardiovascular
+CL:0010001 DNase-seq|.,DNASE,DNASE,stromal cell of bone marrow,primary_cell,unassigned
+CL:0011012 DNase-seq|.,DNASE,DNASE,neural crest cell,in_vitro_differentiated_cells,neural_cells
+CL:0011019 DNase-seq|.,DNASE,DNASE,mesothelial cell of epicardium,in_vitro_differentiated_cells,cardiovascular
+CL:0011020 DNase-seq|.,DNASE,DNASE,neural progenitor cell,in_vitro_differentiated_cells,neural_cells
+CL:0011021 DNase-seq|.,DNASE,DNASE,fibroblast of upper back skin,primary_cell,stromal
+CL:0011022 DNase-seq|.,DNASE,DNASE,fibroblast of skin of back,primary_cell,stromal
+CL:1000507 DNase-seq|.,DNASE,DNASE,kidney tubule cell,primary_cell,epithelial_barrier
+CL:1000892 DNase-seq|.,DNASE,DNASE,kidney capillary endothelial cell,primary_cell,cardiovascular
+CL:1001568 DNase-seq|.,DNASE,DNASE,pulmonary artery endothelial cell,primary_cell,cardiovascular
+CL:1001606 DNase-seq|.,DNASE,DNASE,foreskin keratinocyte,primary_cell,epithelial_barrier
+CL:1001608 DNase-seq|.,DNASE,DNASE,foreskin fibroblast,primary_cell,stromal
+CL:2000000 DNase-seq|.,DNASE,DNASE,epidermal melanocyte,primary_cell,epithelial_barrier
+CL:2000010 DNase-seq|.,DNASE,DNASE,dermis blood vessel endothelial cell,primary_cell,cardiovascular
+CL:2000013 DNase-seq|.,DNASE,DNASE,fibroblast of skin of abdomen,primary_cell,stromal
+CL:2000016 DNase-seq|.,DNASE,DNASE,lung microvascular endothelial cell,primary_cell,cardiovascular
+CL:2000017 DNase-seq|.,DNASE,DNASE,fibroblast of peridontal ligament,primary_cell,stromal
+CL:2000041 DNase-seq|.,DNASE,DNASE,dermis microvascular lymphatic vessel endothelial cell,primary_cell,cardiovascular
+CL:2000043 DNase-seq|.,DNASE,DNASE,brain pericyte,primary_cell,cardiovascular
+CL:2000044 DNase-seq|.,DNASE,DNASE,brain microvascular endothelial cell,primary_cell,cardiovascular
+CL:2000045 DNase-seq|.,DNASE,DNASE,foreskin melanocyte,primary_cell,epithelial_barrier
+CLO:0003771 DNase-seq|.,DNASE,DNASE,HK-2,cell_line,excluded_cell_line
+CLO:0007045 DNase-seq|.,DNASE,DNASE,"Jurkat, Clone E6-1",cell_line,excluded_cell_line
+CLO:0011092 DNase-seq|.,DNASE,DNASE,AG20443,cell_line,excluded_cell_line
+CLO:0016536 DNase-seq|.,DNASE,DNASE,GM03348,cell_line,excluded_cell_line
+CLO:0018812 DNase-seq|.,DNASE,DNASE,GM04504,cell_line,excluded_cell_line
+CLO:0018813 DNase-seq|.,DNASE,DNASE,GM04503,cell_line,excluded_cell_line
+CLO:0021511 DNase-seq|.,DNASE,DNASE,AG10803,cell_line,excluded_cell_line
+CLO:0021752 DNase-seq|.,DNASE,DNASE,AG09309,cell_line,excluded_cell_line
+CLO:0021754 DNase-seq|.,DNASE,DNASE,AG09319,cell_line,excluded_cell_line
+CLO:0033902 DNase-seq|.,DNASE,DNASE,AG08396,cell_line,excluded_cell_line
+CLO:0033911 DNase-seq|.,DNASE,DNASE,AG08395,cell_line,excluded_cell_line
+CLO:0034837 DNase-seq|.,DNASE,DNASE,AG04449,cell_line,excluded_cell_line
+EFO:0000681 DNase-seq|.,DNASE,DNASE,RCC,cell_line,excluded_cell_line
+EFO:0001086 DNase-seq|.,DNASE,DNASE,A549,cell_line,excluded_cell_line
+EFO:0001099 DNase-seq|.,DNASE,DNASE,Caco-2,cell_line,excluded_cell_line
+EFO:0001187 DNase-seq|.,DNASE,DNASE,HepG2,cell_line,excluded_cell_line
+EFO:0001193 DNase-seq|.,DNASE,DNASE,HT-29,cell_line,excluded_cell_line
+EFO:0001196 DNase-seq|.,DNASE,DNASE,IMR-90,cell_line,excluded_cell_line
+EFO:0001200 DNase-seq|.,DNASE,DNASE,MCF 10A,cell_line,excluded_cell_line
+EFO:0001203 DNase-seq|.,DNASE,DNASE,MCF-7,cell_line,excluded_cell_line
+EFO:0001221 DNase-seq|.,DNASE,DNASE,NCI-H929,cell_line,excluded_cell_line
+EFO:0001232 DNase-seq|.,DNASE,DNASE,RKO,cell_line,excluded_cell_line
+EFO:0001247 DNase-seq|.,DNASE,DNASE,T47D,cell_line,excluded_cell_line
+EFO:0002059 DNase-seq|.,DNASE,DNASE,HT1080,cell_line,excluded_cell_line
+EFO:0002067 DNase-seq|.,DNASE,DNASE,K562,cell_line,excluded_cell_line
+EFO:0002074 DNase-seq|.,DNASE,DNASE,PC-3,cell_line,excluded_cell_line
+EFO:0002083 DNase-seq|.,DNASE,DNASE,SW480,cell_line,excluded_cell_line
+EFO:0002101 DNase-seq|.,DNASE,DNASE,A172,cell_line,excluded_cell_line
+EFO:0002106 DNase-seq|.,DNASE,DNASE,A673,cell_line,excluded_cell_line
+EFO:0002108 DNase-seq|.,DNASE,DNASE,ACHN,cell_line,excluded_cell_line
+EFO:0002140 DNase-seq|.,DNASE,DNASE,COLO829,cell_line,excluded_cell_line
+EFO:0002150 DNase-seq|.,DNASE,DNASE,Caki2,cell_line,excluded_cell_line
+EFO:0002179 DNase-seq|.,DNASE,DNASE,G401,cell_line,excluded_cell_line
+EFO:0002184 DNase-seq|.,DNASE,DNASE,H4,cell_line,excluded_cell_line
+EFO:0002234 DNase-seq|.,DNASE,DNASE,MG63,cell_line,excluded_cell_line
+EFO:0002246 DNase-seq|.,DNASE,DNASE,NAMALWA,cell_line,excluded_cell_line
+EFO:0002285 DNase-seq|.,DNASE,DNASE,NCI-H226,cell_line,excluded_cell_line
+EFO:0002322 DNase-seq|.,DNASE,DNASE,RPMI8226,cell_line,excluded_cell_line
+EFO:0002323 DNase-seq|.,DNASE,DNASE,RWPE1,cell_line,excluded_cell_line
+EFO:0002330 DNase-seq|.,DNASE,DNASE,SJSA1,cell_line,excluded_cell_line
+EFO:0002713 DNase-seq|.,DNASE,DNASE,Panc1,cell_line,excluded_cell_line
+EFO:0002779 DNase-seq|.,DNASE,DNASE,BJ,cell_line,excluded_cell_line
+EFO:0002783 DNase-seq|.,DNASE,DNASE,GM06990,cell_line,excluded_cell_line
+EFO:0002784 DNase-seq|.,DNASE,DNASE,GM12878,cell_line,excluded_cell_line
+EFO:0002785 DNase-seq|.,DNASE,DNASE,GM12891,cell_line,excluded_cell_line
+EFO:0002788 DNase-seq|.,DNASE,DNASE,GM19238,cell_line,excluded_cell_line
+EFO:0002789 DNase-seq|.,DNASE,DNASE,GM19239,cell_line,excluded_cell_line
+EFO:0002790 DNase-seq|.,DNASE,DNASE,GM19240,cell_line,excluded_cell_line
+EFO:0002791 DNase-seq|.,DNASE,DNASE,HeLa-S3,cell_line,excluded_cell_line
+EFO:0002793 DNase-seq|.,DNASE,DNASE,HL-60,cell_line,excluded_cell_line
+EFO:0002798 DNase-seq|.,DNASE,DNASE,NB4,cell_line,excluded_cell_line
+EFO:0002819 DNase-seq|.,DNASE,DNASE,Calu3,cell_line,excluded_cell_line
+EFO:0002824 DNase-seq|.,DNASE,DNASE,HCT116,cell_line,excluded_cell_line
+EFO:0002847 DNase-seq|.,DNASE,DNASE,PC-9,cell_line,excluded_cell_line
+EFO:0002860 DNase-seq|.,DNASE,DNASE,SK-N-MC,cell_line,excluded_cell_line
+EFO:0003037 DNase-seq|.,DNASE,DNASE,CMK,cell_line,excluded_cell_line
+EFO:0003042 DNase-seq|.,DNASE,DNASE,H1,cell_line,excluded_cell_line
+EFO:0003044 DNase-seq|.,DNASE,DNASE,NCI-H460,cell_line,excluded_cell_line
+EFO:0003045 DNase-seq|.,DNASE,DNASE,H9,cell_line,excluded_cell_line
+EFO:0003072 DNase-seq|.,DNASE,DNASE,SK-N-SH,cell_line,excluded_cell_line
+EFO:0005236 DNase-seq|.,DNASE,DNASE,NT2/D1,cell_line,excluded_cell_line
+EFO:0005282 DNase-seq|.,DNASE,DNASE,HS-5,cell_line,excluded_cell_line
+EFO:0005283 DNase-seq|.,DNASE,DNASE,HS-27A,cell_line,excluded_cell_line
+EFO:0005337 DNase-seq|.,DNASE,DNASE,GM12864,cell_line,excluded_cell_line
+EFO:0005338 DNase-seq|.,DNASE,DNASE,GM12865,cell_line,excluded_cell_line
+EFO:0005345 DNase-seq|.,DNASE,DNASE,GM13976,cell_line,excluded_cell_line
+EFO:0005352 DNase-seq|.,DNASE,DNASE,GM20000,cell_line,excluded_cell_line
+EFO:0005384 DNase-seq|.,DNASE,DNASE,HuH-7,cell_line,excluded_cell_line
+EFO:0005696 DNase-seq|.,DNASE,DNASE,D721Med,cell_line,excluded_cell_line
+EFO:0005697 DNase-seq|.,DNASE,DNASE,M059J,cell_line,excluded_cell_line
+EFO:0005698 DNase-seq|.,DNASE,DNASE,Daoy,cell_line,excluded_cell_line
+EFO:0005704 DNase-seq|.,DNASE,DNASE,HuH-7.5,cell_line,excluded_cell_line
+EFO:0005707 DNase-seq|.,DNASE,DNASE,RCC 7860,cell_line,excluded_cell_line
+EFO:0005709 DNase-seq|.,DNASE,DNASE,HTR-8/SVneo,cell_line,excluded_cell_line
+EFO:0005710 DNase-seq|.,DNASE,DNASE,HFF-Myc,cell_line,excluded_cell_line
+EFO:0005712 DNase-seq|.,DNASE,DNASE,RPMI7951,cell_line,excluded_cell_line
+EFO:0005714 DNase-seq|.,DNASE,DNASE,LHCN-M2,cell_line,excluded_cell_line
+EFO:0005715 DNase-seq|.,DNASE,DNASE,WERI-Rb-1,cell_line,excluded_cell_line
+EFO:0005719 DNase-seq|.,DNASE,DNASE,Karpas-422,cell_line,excluded_cell_line
+EFO:0005720 DNase-seq|.,DNASE,DNASE,SK-MEL-5,cell_line,excluded_cell_line
+EFO:0005721 DNase-seq|.,DNASE,DNASE,SK-N-DZ,cell_line,excluded_cell_line
+EFO:0005722 DNase-seq|.,DNASE,DNASE,SJCRH30,cell_line,excluded_cell_line
+EFO:0005723 DNase-seq|.,DNASE,DNASE,GM23248,cell_line,excluded_cell_line
+EFO:0005724 DNase-seq|.,DNASE,DNASE,MM.1S,cell_line,excluded_cell_line
+EFO:0005725 DNase-seq|.,DNASE,DNASE,BE2C,cell_line,excluded_cell_line
+EFO:0005726 DNase-seq|.,DNASE,DNASE,LNCaP clone FGC,cell_line,excluded_cell_line
+EFO:0005901 DNase-seq|.,DNASE,DNASE,ELF-1,cell_line,excluded_cell_line
+EFO:0005903 DNase-seq|.,DNASE,DNASE,KBM-7,cell_line,excluded_cell_line
+EFO:0005904 DNase-seq|.,DNASE,DNASE,H7,cell_line,excluded_cell_line
+EFO:0005913 DNase-seq|.,DNASE,DNASE,urothelium cell line,cell_line,excluded_cell_line
+EFO:0006270 DNase-seq|.,DNASE,DNASE,AG04450,cell_line,excluded_cell_line
+EFO:0006639 DNase-seq|.,DNASE,DNASE,LoVo,cell_line,excluded_cell_line
+EFO:0006711 DNase-seq|.,DNASE,DNASE,OCI-LY7,cell_line,excluded_cell_line
+EFO:0007074 DNase-seq|.,DNASE,DNASE,DND-41,cell_line,excluded_cell_line
+EFO:0007098 DNase-seq|.,DNASE,DNASE,iPS DF 6.9,cell_line,excluded_cell_line
+EFO:0007598 DNase-seq|.,DNASE,DNASE,HAP-1,cell_line,excluded_cell_line
+EFO:0007599 DNase-seq|.,DNASE,DNASE,L1-S8,cell_line,excluded_cell_line
+EFO:0007600 DNase-seq|.,DNASE,DNASE,L1-S8R,cell_line,excluded_cell_line
+EFO:0007610 DNase-seq|.,DNASE,DNASE,RWPE2,cell_line,excluded_cell_line
+EFO:0007748 DNase-seq|.,DNASE,DNASE,EH,cell_line,excluded_cell_line
+EFO:0007749 DNase-seq|.,DNASE,DNASE,EL,cell_line,excluded_cell_line
+EFO:0007750 DNase-seq|.,DNASE,DNASE,ELR,cell_line,excluded_cell_line
+EFO:0007950 DNase-seq|.,DNASE,DNASE,GM23338,cell_line,excluded_cell_line
+EFO:0007952 DNase-seq|.,DNASE,DNASE,iPS-NIHi11,cell_line,excluded_cell_line
+EFO:0009318 DNase-seq|.,DNASE,DNASE,HFFc6,cell_line,excluded_cell_line
+EFO:0009500 DNase-seq|.,DNASE,DNASE,HCEC 1CT,cell_line,excluded_cell_line
+EFO:0009747 DNase-seq|.,DNASE,DNASE,WTC11,cell_line,excluded_cell_line
+NTR:0000474 DNase-seq|.,DNASE,DNASE,ecto neural progenitor cell,in_vitro_differentiated_cells,neural_cells
+NTR:0000491 DNase-seq|.,DNASE,DNASE,Right ventricle myocardium inferior,tissue,cardiovascular
+NTR:0000492 DNase-seq|.,DNASE,DNASE,Right ventricle myocardium superior,tissue,cardiovascular
+NTR:0000493 DNase-seq|.,DNASE,DNASE,left ventricle myocardium inferior,tissue,cardiovascular
+NTR:0000494 DNase-seq|.,DNASE,DNASE,left ventricle myocardium superior,tissue,cardiovascular
+NTR:0000512 DNase-seq|.,DNASE,DNASE,nephron progenitor cell,in_vitro_differentiated_cells,epithelial_barrier
+NTR:0000521 DNase-seq|.,DNASE,DNASE,fibroblast of skin of left biceps,primary_cell,stromal
+NTR:0000522 DNase-seq|.,DNASE,DNASE,fibroblast of skin of left quadriceps,primary_cell,stromal
+NTR:0000523 DNase-seq|.,DNASE,DNASE,fibroblast of skin of right quadriceps,primary_cell,stromal
+NTR:0000524 DNase-seq|.,DNASE,DNASE,fibroblast of skin of scalp,primary_cell,stromal
+NTR:0000525 DNase-seq|.,DNASE,DNASE,fibroblast of skin of right biceps,primary_cell,stromal
+NTR:0000856 DNase-seq|.,DNASE,DNASE,mesendoderm,in_vitro_differentiated_cells,unassigned
+NTR:0001484 DNase-seq|.,DNASE,DNASE,islet precursor cell,in_vitro_differentiated_cells,GI
+UBERON:0000056 DNase-seq|.,DNASE,DNASE,ureter,tissue,epithelial_barrier
+UBERON:0000059 DNase-seq|.,DNASE,DNASE,large intestine,tissue,GI
+UBERON:0000317 DNase-seq|.,DNASE,DNASE,colonic mucosa,tissue,GI
+UBERON:0000473 DNase-seq|.,DNASE,DNASE,testis,tissue,reproductive_endocrine
+UBERON:0000945 DNase-seq|.,DNASE,DNASE,stomach,tissue,GI
+UBERON:0000947 DNase-seq|.,DNASE,DNASE,aorta,tissue,cardiovascular
+UBERON:0000948 DNase-seq|.,DNASE,DNASE,heart,tissue,cardiovascular
+UBERON:0000955 DNase-seq|.,DNASE,DNASE,brain,tissue,CNS_tissue
+UBERON:0000966 DNase-seq|.,DNASE,DNASE,retina,tissue,epithelial_barrier
+UBERON:0000970 DNase-seq|.,DNASE,DNASE,eye,tissue,epithelial_barrier
+UBERON:0000981 DNase-seq|.,DNASE,DNASE,femur,tissue,stromal
+UBERON:0000988 DNase-seq|.,DNASE,DNASE,pons,tissue,CNS_tissue
+UBERON:0000992 DNase-seq|.,DNASE,DNASE,ovary,tissue,reproductive_endocrine
+UBERON:0000995 DNase-seq|.,DNASE,DNASE,uterus,tissue,reproductive_endocrine
+UBERON:0001072 DNase-seq|.,DNASE,DNASE,posterior vena cava,tissue,cardiovascular
+UBERON:0001114 DNase-seq|.,DNASE,DNASE,right lobe of liver,tissue,liver
+UBERON:0001115 DNase-seq|.,DNASE,DNASE,left lobe of liver,tissue,liver
+UBERON:0001150 DNase-seq|.,DNASE,DNASE,body of pancreas,tissue,GI
+UBERON:0001157 DNase-seq|.,DNASE,DNASE,transverse colon,tissue,GI
+UBERON:0001159 DNase-seq|.,DNASE,DNASE,sigmoid colon,tissue,GI
+UBERON:0001211 DNase-seq|.,DNASE,DNASE,Peyer's patch,tissue,lymphoid
+UBERON:0001224 DNase-seq|.,DNASE,DNASE,renal pelvis,tissue,epithelial_barrier
+UBERON:0001264 DNase-seq|.,DNASE,DNASE,pancreas,tissue,GI
+UBERON:0001322 DNase-seq|.,DNASE,DNASE,sciatic nerve,tissue,unassigned
+UBERON:0001323 DNase-seq|.,DNASE,DNASE,tibial nerve,tissue,unassigned
+UBERON:0001383 DNase-seq|.,DNASE,DNASE,muscle of leg,tissue,skeletal_muscle
+UBERON:0001496 DNase-seq|.,DNASE,DNASE,ascending aorta,tissue,cardiovascular
+UBERON:0001499 DNase-seq|.,DNASE,DNASE,muscle of arm,tissue,skeletal_muscle
+UBERON:0001515 DNase-seq|.,DNASE,DNASE,thoracic aorta,tissue,cardiovascular
+UBERON:0001621 DNase-seq|.,DNASE,DNASE,coronary artery,tissue,cardiovascular
+UBERON:0001723 DNase-seq|.,DNASE,DNASE,tongue,tissue,GI
+UBERON:0001774 DNase-seq|.,DNASE,DNASE,muscle of trunk,tissue,skeletal_muscle
+UBERON:0001870 DNase-seq|.,DNASE,DNASE,frontal cortex,tissue,CNS_tissue
+UBERON:0001874 DNase-seq|.,DNASE,DNASE,putamen,tissue,CNS_tissue
+UBERON:0001875 DNase-seq|.,DNASE,DNASE,globus pallidus,tissue,CNS_tissue
+UBERON:0001954 DNase-seq|.,DNASE,DNASE,Ammon's horn,tissue,CNS_tissue
+UBERON:0001987 DNase-seq|.,DNASE,DNASE,placenta,tissue,reproductive_endocrine
+UBERON:0002037 DNase-seq|.,DNASE,DNASE,cerebellum,tissue,CNS_tissue
+UBERON:0002046 DNase-seq|.,DNASE,DNASE,thyroid gland,tissue,reproductive_endocrine
+UBERON:0002048 DNase-seq|.,DNASE,DNASE,lung,tissue,epithelial_barrier
+UBERON:0002078 DNase-seq|.,DNASE,DNASE,right cardiac atrium,tissue,cardiovascular
+UBERON:0002079 DNase-seq|.,DNASE,DNASE,left cardiac atrium,tissue,cardiovascular
+UBERON:0002080 DNase-seq|.,DNASE,DNASE,heart right ventricle,tissue,cardiovascular
+UBERON:0002084 DNase-seq|.,DNASE,DNASE,heart left ventricle,tissue,cardiovascular
+UBERON:0002099 DNase-seq|.,DNASE,DNASE,cardiac septum,tissue,cardiovascular
+UBERON:0002106 DNase-seq|.,DNASE,DNASE,spleen,tissue,lymphoid
+UBERON:0002107 DNase-seq|.,DNASE,DNASE,liver,tissue,liver
+UBERON:0002108 DNase-seq|.,DNASE,DNASE,small intestine,tissue,GI
+UBERON:0002113 DNase-seq|.,DNASE,DNASE,kidney,tissue,epithelial_barrier
+UBERON:0002129 DNase-seq|.,DNASE,DNASE,cerebellar cortex,tissue,CNS_tissue
+UBERON:0002167 DNase-seq|.,DNASE,DNASE,right lung,tissue,epithelial_barrier
+UBERON:0002168 DNase-seq|.,DNASE,DNASE,left lung,tissue,epithelial_barrier
+UBERON:0002170 DNase-seq|.,DNASE,DNASE,upper lobe of right lung,tissue,epithelial_barrier
+UBERON:0002171 DNase-seq|.,DNASE,DNASE,lower lobe of right lung,tissue,epithelial_barrier
+UBERON:0002240 DNase-seq|.,DNASE,DNASE,spinal cord,tissue,CNS_tissue
+UBERON:0002324 DNase-seq|.,DNASE,DNASE,muscle of back,tissue,skeletal_muscle
+UBERON:0002331 DNase-seq|.,DNASE,DNASE,umbilical cord,tissue,reproductive_endocrine
+UBERON:0002367 DNase-seq|.,DNASE,DNASE,prostate gland,tissue,epithelial_barrier
+UBERON:0002369 DNase-seq|.,DNASE,DNASE,adrenal gland,tissue,reproductive_endocrine
+UBERON:0002370 DNase-seq|.,DNASE,DNASE,thymus,tissue,lymphoid
+UBERON:0002626 DNase-seq|.,DNASE,DNASE,head of caudate nucleus,tissue,CNS_tissue
+UBERON:0002740 DNase-seq|.,DNASE,DNASE,posterior cingulate gyrus,tissue,CNS_tissue
+UBERON:0003124 DNase-seq|.,DNASE,DNASE,chorion,tissue,reproductive_endocrine
+UBERON:0003662 DNase-seq|.,DNASE,DNASE,forelimb muscle,tissue,skeletal_muscle
+UBERON:0003663 DNase-seq|.,DNASE,DNASE,hindlimb muscle,tissue,skeletal_muscle
+UBERON:0004264 DNase-seq|.,DNASE,DNASE,lower leg skin,tissue,epithelial_barrier
+UBERON:0004538 DNase-seq|.,DNASE,DNASE,left kidney,tissue,epithelial_barrier
+UBERON:0004539 DNase-seq|.,DNASE,DNASE,right kidney,tissue,epithelial_barrier
+UBERON:0004992 DNase-seq|.,DNASE,DNASE,mucosa of descending colon,tissue,GI
+UBERON:0005033 DNase-seq|.,DNASE,DNASE,mucosa of gallbladder,tissue,GI
+UBERON:0005270 DNase-seq|.,DNASE,DNASE,renal cortex interstitium,tissue,epithelial_barrier
+UBERON:0006631 DNase-seq|.,DNASE,DNASE,right atrium auricular region,tissue,cardiovascular
+UBERON:0007610 DNase-seq|.,DNASE,DNASE,tibial artery,tissue,cardiovascular
+UBERON:0008367 DNase-seq|.,DNASE,DNASE,breast epithelium,tissue,epithelial_barrier
+UBERON:0008450 DNase-seq|.,DNASE,DNASE,psoas muscle,tissue,skeletal_muscle
+UBERON:0008952 DNase-seq|.,DNASE,DNASE,upper lobe of left lung,tissue,epithelial_barrier
+UBERON:0008953 DNase-seq|.,DNASE,DNASE,lower lobe of left lung,tissue,epithelial_barrier
+UBERON:0008971 DNase-seq|.,DNASE,DNASE,left colon,tissue,GI
+UBERON:0009834 DNase-seq|.,DNASE,DNASE,dorsolateral prefrontal cortex,tissue,CNS_tissue
+UBERON:0010414 DNase-seq|.,DNASE,DNASE,omental fat pad,tissue,adipose
+UBERON:0011907 DNase-seq|.,DNASE,DNASE,gastrocnemius medialis,tissue,skeletal_muscle
+UBERON:0015143 DNase-seq|.,DNASE,DNASE,mesenteric fat pad,tissue,adipose
+UBERON:0018115 DNase-seq|.,DNASE,DNASE,left renal pelvis,tissue,epithelial_barrier
+UBERON:0018116 DNase-seq|.,DNASE,DNASE,right renal pelvis,tissue,epithelial_barrier
+UBERON:0018117 DNase-seq|.,DNASE,DNASE,left renal cortex interstitium,tissue,epithelial_barrier
+UBERON:0018118 DNase-seq|.,DNASE,DNASE,right renal cortex interstitium,tissue,epithelial_barrier
+UBERON:0036149 DNase-seq|.,DNASE,DNASE,suprapubic skin,tissue,epithelial_barrier
+UBERON:8300001 DNase-seq|.,DNASE,DNASE,right forelimb,tissue,unassigned
+UBERON:8300002 DNase-seq|.,DNASE,DNASE,left forelimb,tissue,unassigned
+UBERON:8300003 DNase-seq|.,DNASE,DNASE,right hindlimb,tissue,unassigned
+UBERON:8300004 DNase-seq|.,DNASE,DNASE,left hindlimb,tissue,unassigned
+CL:0000047 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,neuronal stem cell,in_vitro_differentiated_cells,neural_cells
+CL:0000047 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,neuronal stem cell,in_vitro_differentiated_cells,neural_cells
+CL:0000047 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,neuronal stem cell,in_vitro_differentiated_cells,neural_cells
+CL:0000062 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,osteoblast,primary_cell,stromal
+CL:0000062 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,osteoblast,primary_cell,stromal
+CL:0000062 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,osteoblast,primary_cell,stromal
+CL:0000084 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,T-cell,primary_cell,lymphoid
+CL:0000084 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,T-cell,primary_cell,lymphoid
+CL:0000084 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,T-cell,primary_cell,lymphoid
+CL:0000100 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,motor neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000100 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,motor neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000100 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,motor neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000127 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,astrocyte,primary_cell,neural_cells
+CL:0000127 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,astrocyte,primary_cell,neural_cells
+CL:0000127 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,astrocyte,primary_cell,neural_cells
+CL:0000134 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,mesenchymal stem cell,in_vitro_differentiated_cells,stromal
+CL:0000134 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,mesenchymal stem cell,primary_cell,stromal
+CL:0000134 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mesenchymal stem cell,primary_cell,stromal
+CL:0000136 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,adipocyte,in_vitro_differentiated_cells,adipose
+CL:0000136 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,adipocyte,in_vitro_differentiated_cells,adipose
+CL:0000182 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,hepatocyte,in_vitro_differentiated_cells,liver
+CL:0000182 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,hepatocyte,in_vitro_differentiated_cells,liver
+CL:0000182 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,hepatocyte,in_vitro_differentiated_cells,liver
+CL:0000188 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,skeletal muscle cell,primary_cell,skeletal_muscle
+CL:0000192 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,smooth muscle cell,in_vitro_differentiated_cells,stromal
+CL:0000192 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,smooth muscle cell,in_vitro_differentiated_cells,stromal
+CL:0000192 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,smooth muscle cell,in_vitro_differentiated_cells,stromal
+CL:0000221 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,ectodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000221 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,ectodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000222 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,mesodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000222 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,mesodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000222 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mesodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000223 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,endodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000223 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,endodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000223 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,endodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000236 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,B cell,primary_cell,lymphoid
+CL:0000236 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,B cell,primary_cell,lymphoid
+CL:0000236 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,B cell,primary_cell,lymphoid
+CL:0000312 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,keratinocyte,primary_cell,epithelial_barrier
+CL:0000312 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,keratinocyte,primary_cell,epithelial_barrier
+CL:0000312 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,keratinocyte,primary_cell,epithelial_barrier
+CL:0000351 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,trophoblast cell,in_vitro_differentiated_cells,reproductive_endocrine
+CL:0000351 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,trophoblast cell,in_vitro_differentiated_cells,reproductive_endocrine
+CL:0000351 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,trophoblast cell,in_vitro_differentiated_cells,reproductive_endocrine
+CL:0000515 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,skeletal muscle myoblast,primary_cell,skeletal_muscle
+CL:0000515 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,skeletal muscle myoblast,primary_cell,skeletal_muscle
+CL:0000515 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,skeletal muscle myoblast,primary_cell,skeletal_muscle
+CL:0000540 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000540 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000594 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,skeletal muscle satellite cell,primary_cell,skeletal_muscle
+CL:0000594 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,skeletal muscle satellite cell,primary_cell,skeletal_muscle
+CL:0000623 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,natural killer cell,primary_cell,lymphoid
+CL:0000623 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,natural killer cell,primary_cell,lymphoid
+CL:0000623 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,natural killer cell,primary_cell,lymphoid
+CL:0000624 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000624 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,"CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000624 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000625 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000625 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,"CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000625 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000706 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,choroid plexus epithelial cell,primary_cell,epithelial_barrier
+CL:0000746 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,cardiac muscle cell,in_vitro_differentiated_cells,cardiovascular
+CL:0000746 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,cardiac muscle cell,in_vitro_differentiated_cells,cardiovascular
+CL:0000746 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,cardiac muscle cell,primary_cell,cardiovascular
+CL:0000775 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,neutrophil,primary_cell,myeloid
+CL:0000775 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,neutrophil,primary_cell,myeloid
+CL:0000775 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,neutrophil,primary_cell,myeloid
+CL:0000792 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,lymphoid
+CL:0000792 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,lymphoid
+CL:0000792 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,lymphoid
+CL:0000842 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,mononuclear cell,primary_cell,unassigned
+CL:0000842 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mononuclear cell,primary_cell,unassigned
+CL:0000895 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000895 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000895 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000897 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"CD4-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000897 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,"CD4-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000897 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"CD4-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000905 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"effector memory CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000905 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"effector memory CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000909 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"CD8-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000909 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,"CD8-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000909 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"CD8-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0001054 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,CD14-positive monocyte,primary_cell,myeloid
+CL:0001054 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,CD14-positive monocyte,primary_cell,myeloid
+CL:0001054 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,CD14-positive monocyte,primary_cell,myeloid
+CL:0001059 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,"common myeloid progenitor, CD34-positive",primary_cell,myeloid
+CL:0001059 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,"common myeloid progenitor, CD34-positive",primary_cell,myeloid
+CL:0001059 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"common myeloid progenitor, CD34-positive",primary_cell,myeloid
+CL:0002231 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,epithelial cell of prostate,primary_cell,epithelial_barrier
+CL:0002252 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,epithelial cell of esophagus,primary_cell,GI
+CL:0002306 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,epithelial cell of proximal tubule,primary_cell,epithelial_barrier
+CL:0002319 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,neural cell,in_vitro_differentiated_cells,neural_cells
+CL:0002319 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,neural cell,in_vitro_differentiated_cells,neural_cells
+CL:0002324 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,myoepithelial cell of mammary gland,primary_cell,epithelial_barrier
+CL:0002324 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,myoepithelial cell of mammary gland,primary_cell,epithelial_barrier
+CL:0002326 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,luminal epithelial cell of mammary gland,primary_cell,epithelial_barrier
+CL:0002327 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,mammary epithelial cell,primary_cell,epithelial_barrier
+CL:0002327 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,mammary epithelial cell,primary_cell,epithelial_barrier
+CL:0002327 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mammary epithelial cell,primary_cell,epithelial_barrier
+CL:0002328 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,bronchial epithelial cell,primary_cell,epithelial_barrier
+CL:0002372 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,myotube,in_vitro_differentiated_cells,skeletal_muscle
+CL:0002372 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,myotube,in_vitro_differentiated_cells,skeletal_muscle
+CL:0002372 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,myotube,in_vitro_differentiated_cells,skeletal_muscle
+CL:0002518 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,kidney epithelial cell,primary_cell,epithelial_barrier
+CL:0002547 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,fibroblast of the aortic adventitia,primary_cell,stromal
+CL:0002548 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,cardiac fibroblast,primary_cell,stromal
+CL:0002551 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,fibroblast of dermis,primary_cell,stromal
+CL:0002551 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,fibroblast of dermis,primary_cell,stromal
+CL:0002551 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,fibroblast of dermis,primary_cell,stromal
+CL:0002553 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,fibroblast of lung,primary_cell,stromal
+CL:0002553 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,fibroblast of lung,primary_cell,stromal
+CL:0002555 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,fibroblast of mammary gland,primary_cell,stromal
+CL:0002557 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,fibroblast of pulmonary artery,primary_cell,stromal
+CL:0002558 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,fibroblast of villous mesenchyme,primary_cell,stromal
+CL:0002586 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,retinal pigment epithelial cell,primary_cell,epithelial_barrier
+CL:0002603 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,astrocyte of the cerebellum,primary_cell,neural_cells
+CL:0002606 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,astrocyte of the spinal cord,primary_cell,neural_cells
+CL:0002618 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,endothelial cell of umbilical vein,primary_cell,cardiovascular
+CL:0002618 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,endothelial cell of umbilical vein,primary_cell,cardiovascular
+CL:0002618 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,endothelial cell of umbilical vein,primary_cell,cardiovascular
+CL:0011020 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,neural progenitor cell,in_vitro_differentiated_cells,neural_cells
+CL:0011020 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,neural progenitor cell,in_vitro_differentiated_cells,neural_cells
+CL:0011020 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,neural progenitor cell,in_vitro_differentiated_cells,neural_cells
+CL:1001606 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,foreskin keratinocyte,primary_cell,epithelial_barrier
+CL:1001606 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,foreskin keratinocyte,primary_cell,epithelial_barrier
+CL:1001606 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,foreskin keratinocyte,primary_cell,epithelial_barrier
+CL:1001608 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,foreskin fibroblast,primary_cell,stromal
+CL:1001608 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,foreskin fibroblast,primary_cell,stromal
+CL:1001608 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,foreskin fibroblast,primary_cell,stromal
+CL:2000001 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,peripheral blood mononuclear cell,primary_cell,unassigned
+CL:2000001 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,peripheral blood mononuclear cell,primary_cell,unassigned
+CL:2000001 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,peripheral blood mononuclear cell,primary_cell,unassigned
+CL:2000044 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,brain microvascular endothelial cell,primary_cell,cardiovascular
+CL:2000044 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,brain microvascular endothelial cell,primary_cell,cardiovascular
+CL:2000045 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,foreskin melanocyte,primary_cell,epithelial_barrier
+CL:2000045 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,foreskin melanocyte,primary_cell,epithelial_barrier
+CL:2000045 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,foreskin melanocyte,primary_cell,epithelial_barrier
+CLO:0007045 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,"Jurkat, Clone E6-1",cell_line,excluded_cell_line
+CLO:0021511 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,AG10803,cell_line,excluded_cell_line
+CLO:0021752 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,AG09309,cell_line,excluded_cell_line
+CLO:0021754 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,AG09319,cell_line,excluded_cell_line
+CLO:0034837 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,AG04449,cell_line,excluded_cell_line
+EFO:0001086 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,A549,cell_line,excluded_cell_line
+EFO:0001086 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,A549,cell_line,excluded_cell_line
+EFO:0001086 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,A549,cell_line,excluded_cell_line
+EFO:0001099 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,Caco-2,cell_line,excluded_cell_line
+EFO:0001099 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,Caco-2,cell_line,excluded_cell_line
+EFO:0001162 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM12875,cell_line,excluded_cell_line
+EFO:0001182 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HEK293,cell_line,excluded_cell_line
+EFO:0001182 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HEK293,cell_line,excluded_cell_line
+EFO:0001187 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HepG2,cell_line,excluded_cell_line
+EFO:0001187 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HepG2,cell_line,excluded_cell_line
+EFO:0001187 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HepG2,cell_line,excluded_cell_line
+EFO:0001196 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,IMR-90,cell_line,excluded_cell_line
+EFO:0001196 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,IMR-90,cell_line,excluded_cell_line
+EFO:0001196 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,IMR-90,cell_line,excluded_cell_line
+EFO:0001203 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,MCF-7,cell_line,excluded_cell_line
+EFO:0001203 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,MCF-7,cell_line,excluded_cell_line
+EFO:0001203 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,MCF-7,cell_line,excluded_cell_line
+EFO:0001221 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,NCI-H929,cell_line,excluded_cell_line
+EFO:0001221 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,NCI-H929,cell_line,excluded_cell_line
+EFO:0001221 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,NCI-H929,cell_line,excluded_cell_line
+EFO:0001260 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,WI38,cell_line,excluded_cell_line
+EFO:0002067 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,K562,cell_line,excluded_cell_line
+EFO:0002067 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,K562,cell_line,excluded_cell_line
+EFO:0002067 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,K562,cell_line,excluded_cell_line
+EFO:0002074 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,PC-3,cell_line,excluded_cell_line
+EFO:0002074 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,PC-3,cell_line,excluded_cell_line
+EFO:0002074 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,PC-3,cell_line,excluded_cell_line
+EFO:0002095 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,22Rv1,cell_line,excluded_cell_line
+EFO:0002106 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,A673,cell_line,excluded_cell_line
+EFO:0002106 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,A673,cell_line,excluded_cell_line
+EFO:0002106 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,A673,cell_line,excluded_cell_line
+EFO:0002167 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,DOHH2,cell_line,excluded_cell_line
+EFO:0002167 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,DOHH2,cell_line,excluded_cell_line
+EFO:0002167 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,DOHH2,cell_line,excluded_cell_line
+EFO:0002234 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,MG63,cell_line,excluded_cell_line
+EFO:0002323 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,RWPE1,cell_line,excluded_cell_line
+EFO:0002330 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,SJSA1,cell_line,excluded_cell_line
+EFO:0002330 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,SJSA1,cell_line,excluded_cell_line
+EFO:0002330 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,SJSA1,cell_line,excluded_cell_line
+EFO:0002357 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,SU-DHL-6,cell_line,excluded_cell_line
+EFO:0002713 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,Panc1,cell_line,excluded_cell_line
+EFO:0002713 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,Panc1,cell_line,excluded_cell_line
+EFO:0002713 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,Panc1,cell_line,excluded_cell_line
+EFO:0002779 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,BJ,cell_line,excluded_cell_line
+EFO:0002783 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM06990,cell_line,excluded_cell_line
+EFO:0002784 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,GM12878,cell_line,excluded_cell_line
+EFO:0002784 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,GM12878,cell_line,excluded_cell_line
+EFO:0002784 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM12878,cell_line,excluded_cell_line
+EFO:0002791 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HeLa-S3,cell_line,excluded_cell_line
+EFO:0002791 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HeLa-S3,cell_line,excluded_cell_line
+EFO:0002791 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HeLa-S3,cell_line,excluded_cell_line
+EFO:0002793 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HL-60,cell_line,excluded_cell_line
+EFO:0002793 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HL-60,cell_line,excluded_cell_line
+EFO:0002798 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,NB4,cell_line,excluded_cell_line
+EFO:0002824 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HCT116,cell_line,excluded_cell_line
+EFO:0002824 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HCT116,cell_line,excluded_cell_line
+EFO:0002824 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HCT116,cell_line,excluded_cell_line
+EFO:0002847 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,PC-9,cell_line,excluded_cell_line
+EFO:0002847 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,PC-9,cell_line,excluded_cell_line
+EFO:0002847 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,PC-9,cell_line,excluded_cell_line
+EFO:0002860 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,SK-N-MC,cell_line,excluded_cell_line
+EFO:0002860 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,SK-N-MC,cell_line,excluded_cell_line
+EFO:0002860 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,SK-N-MC,cell_line,excluded_cell_line
+EFO:0003042 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,H1,cell_line,excluded_cell_line
+EFO:0003042 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,H1,cell_line,excluded_cell_line
+EFO:0003042 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,H1,cell_line,excluded_cell_line
+EFO:0003045 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,H9,cell_line,excluded_cell_line
+EFO:0003045 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,H9,cell_line,excluded_cell_line
+EFO:0003072 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,SK-N-SH,cell_line,excluded_cell_line
+EFO:0003072 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,SK-N-SH,cell_line,excluded_cell_line
+EFO:0003072 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,SK-N-SH,cell_line,excluded_cell_line
+EFO:0005236 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,NT2/D1,cell_line,excluded_cell_line
+EFO:0005236 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,NT2/D1,cell_line,excluded_cell_line
+EFO:0005333 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM08714,cell_line,excluded_cell_line
+EFO:0005337 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM12864,cell_line,excluded_cell_line
+EFO:0005338 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM12865,cell_line,excluded_cell_line
+EFO:0005694 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,KMS-11,cell_line,excluded_cell_line
+EFO:0005694 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,KMS-11,cell_line,excluded_cell_line
+EFO:0005710 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HFF-Myc,cell_line,excluded_cell_line
+EFO:0005715 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,WERI-Rb-1,cell_line,excluded_cell_line
+EFO:0005715 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,WERI-Rb-1,cell_line,excluded_cell_line
+EFO:0005715 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,WERI-Rb-1,cell_line,excluded_cell_line
+EFO:0005719 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,Karpas-422,cell_line,excluded_cell_line
+EFO:0005719 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,Karpas-422,cell_line,excluded_cell_line
+EFO:0005719 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,Karpas-422,cell_line,excluded_cell_line
+EFO:0005722 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,SJCRH30,cell_line,excluded_cell_line
+EFO:0005722 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,SJCRH30,cell_line,excluded_cell_line
+EFO:0005722 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,SJCRH30,cell_line,excluded_cell_line
+EFO:0005723 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,GM23248,cell_line,excluded_cell_line
+EFO:0005723 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,GM23248,cell_line,excluded_cell_line
+EFO:0005723 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM23248,cell_line,excluded_cell_line
+EFO:0005724 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,MM.1S,cell_line,excluded_cell_line
+EFO:0005724 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,MM.1S,cell_line,excluded_cell_line
+EFO:0005724 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,MM.1S,cell_line,excluded_cell_line
+EFO:0005725 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,BE2C,cell_line,excluded_cell_line
+EFO:0005725 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,BE2C,cell_line,excluded_cell_line
+EFO:0005726 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,LNCaP clone FGC,cell_line,excluded_cell_line
+EFO:0005904 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,H7,cell_line,excluded_cell_line
+EFO:0005907 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,OCI-LY1,cell_line,excluded_cell_line
+EFO:0005907 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,OCI-LY1,cell_line,excluded_cell_line
+EFO:0005907 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,OCI-LY1,cell_line,excluded_cell_line
+EFO:0006270 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,AG04450,cell_line,excluded_cell_line
+EFO:0006270 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,AG04450,cell_line,excluded_cell_line
+EFO:0006283 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,KOPT-K1,cell_line,excluded_cell_line
+EFO:0006283 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,KOPT-K1,cell_line,excluded_cell_line
+EFO:0006365 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,C4-2B,cell_line,excluded_cell_line
+EFO:0006710 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,OCI-LY3,cell_line,excluded_cell_line
+EFO:0006710 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,OCI-LY3,cell_line,excluded_cell_line
+EFO:0006710 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,OCI-LY3,cell_line,excluded_cell_line
+EFO:0006711 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,OCI-LY7,cell_line,excluded_cell_line
+EFO:0006711 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,OCI-LY7,cell_line,excluded_cell_line
+EFO:0006711 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,OCI-LY7,cell_line,excluded_cell_line
+EFO:0007070 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,ACC112,cell_line,excluded_cell_line
+EFO:0007070 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,ACC112,cell_line,excluded_cell_line
+EFO:0007070 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,ACC112,cell_line,excluded_cell_line
+EFO:0007074 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,DND-41,cell_line,excluded_cell_line
+EFO:0007074 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,DND-41,cell_line,excluded_cell_line
+EFO:0007074 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,DND-41,cell_line,excluded_cell_line
+EFO:0007076 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,ES-I3,cell_line,excluded_cell_line
+EFO:0007083 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HUES48,cell_line,excluded_cell_line
+EFO:0007083 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HUES48,cell_line,excluded_cell_line
+EFO:0007083 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HUES48,cell_line,excluded_cell_line
+EFO:0007086 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HUES6,cell_line,excluded_cell_line
+EFO:0007086 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HUES6,cell_line,excluded_cell_line
+EFO:0007086 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HUES6,cell_line,excluded_cell_line
+EFO:0007089 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HUES64,cell_line,excluded_cell_line
+EFO:0007089 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HUES64,cell_line,excluded_cell_line
+EFO:0007089 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HUES64,cell_line,excluded_cell_line
+EFO:0007096 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,iPS DF 19.11,cell_line,excluded_cell_line
+EFO:0007096 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,iPS DF 19.11,cell_line,excluded_cell_line
+EFO:0007098 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,iPS DF 6.9,cell_line,excluded_cell_line
+EFO:0007099 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,iPS-11a,cell_line,excluded_cell_line
+EFO:0007102 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,iPS-15b,cell_line,excluded_cell_line
+EFO:0007102 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,iPS-15b,cell_line,excluded_cell_line
+EFO:0007105 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,iPS-18a,cell_line,excluded_cell_line
+EFO:0007105 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,iPS-18a,cell_line,excluded_cell_line
+EFO:0007107 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,iPS-18c,cell_line,excluded_cell_line
+EFO:0007108 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,iPS-20b,cell_line,excluded_cell_line
+EFO:0007108 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,iPS-20b,cell_line,excluded_cell_line
+EFO:0007108 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,iPS-20b,cell_line,excluded_cell_line
+EFO:0007112 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,Loucy,cell_line,excluded_cell_line
+EFO:0007112 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,Loucy,cell_line,excluded_cell_line
+EFO:0007116 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,UCSF-4,cell_line,excluded_cell_line
+EFO:0007116 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,UCSF-4,cell_line,excluded_cell_line
+EFO:0007598 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,HAP-1,cell_line,excluded_cell_line
+EFO:0007598 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,HAP-1,cell_line,excluded_cell_line
+EFO:0007598 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,HAP-1,cell_line,excluded_cell_line
+EFO:0007610 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,RWPE2,cell_line,excluded_cell_line
+EFO:0007610 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,RWPE2,cell_line,excluded_cell_line
+EFO:0007752 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,VCaP,cell_line,excluded_cell_line
+EFO:0007950 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,GM23338,cell_line,excluded_cell_line
+EFO:0007950 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,GM23338,cell_line,excluded_cell_line
+EFO:0007950 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,GM23338,cell_line,excluded_cell_line
+EFO:0030018 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,BLaER1,cell_line,excluded_cell_line
+EFO:0030018 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,BLaER1,cell_line,excluded_cell_line
+EFO:0030018 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,BLaER1,cell_line,excluded_cell_line
+NTR:0000427 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,neurosphere,primary_cell,neural_cells
+NTR:0000427 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,neurosphere,primary_cell,neural_cells
+NTR:0000427 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,neurosphere,primary_cell,neural_cells
+NTR:0000493 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,left ventricle myocardium inferior,tissue,cardiovascular
+NTR:0000493 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,left ventricle myocardium inferior,tissue,cardiovascular
+NTR:0000493 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,left ventricle myocardium inferior,tissue,cardiovascular
+NTR:0000856 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mesendoderm,in_vitro_differentiated_cells,unassigned
+NTR:0001226 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,parathyroid adenoma,tissue,reproductive_endocrine
+NTR:0001226 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,parathyroid adenoma,tissue,reproductive_endocrine
+NTR:0001226 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,parathyroid adenoma,tissue,reproductive_endocrine
+NTR:0001407 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,germinal matrix,tissue,CNS_tissue
+NTR:0001407 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,germinal matrix,tissue,CNS_tissue
+NTR:0003013 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,placental basal plate,tissue,reproductive_endocrine
+NTR:0003079 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,fibroblast of breast,primary_cell,stromal
+NTR:0003079 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,fibroblast of breast,primary_cell,stromal
+NTR:0003079 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,fibroblast of breast,primary_cell,stromal
+UBERON:0000016 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,endocrine pancreas,tissue,GI
+UBERON:0000016 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,endocrine pancreas,tissue,GI
+UBERON:0000016 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,endocrine pancreas,tissue,GI
+UBERON:0000059 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,large intestine,tissue,GI
+UBERON:0000059 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,large intestine,tissue,GI
+UBERON:0000059 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,large intestine,tissue,GI
+UBERON:0000088 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,trophoblast,tissue,reproductive_endocrine
+UBERON:0000088 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,trophoblast,tissue,reproductive_endocrine
+UBERON:0000305 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,amnion,tissue,reproductive_endocrine
+UBERON:0000305 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,amnion,tissue,reproductive_endocrine
+UBERON:0000317 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,colonic mucosa,tissue,GI
+UBERON:0000317 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,colonic mucosa,tissue,GI
+UBERON:0000317 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,colonic mucosa,tissue,GI
+UBERON:0000320 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,duodenal mucosa,tissue,GI
+UBERON:0000320 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,duodenal mucosa,tissue,GI
+UBERON:0000320 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,duodenal mucosa,tissue,GI
+UBERON:0000473 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,testis,tissue,reproductive_endocrine
+UBERON:0000473 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,testis,tissue,reproductive_endocrine
+UBERON:0000473 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,testis,tissue,reproductive_endocrine
+UBERON:0000945 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,stomach,tissue,GI
+UBERON:0000945 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,stomach,tissue,GI
+UBERON:0000945 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,stomach,tissue,GI
+UBERON:0000947 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,aorta,tissue,cardiovascular
+UBERON:0000947 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,aorta,tissue,cardiovascular
+UBERON:0000948 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,heart,tissue,cardiovascular
+UBERON:0000948 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,heart,tissue,cardiovascular
+UBERON:0000955 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,brain,tissue,CNS_tissue
+UBERON:0000955 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,brain,tissue,CNS_tissue
+UBERON:0000992 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,ovary,tissue,reproductive_endocrine
+UBERON:0000992 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,ovary,tissue,reproductive_endocrine
+UBERON:0000992 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,ovary,tissue,reproductive_endocrine
+UBERON:0000995 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,uterus,tissue,reproductive_endocrine
+UBERON:0000995 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,uterus,tissue,reproductive_endocrine
+UBERON:0000996 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,vagina,tissue,reproductive_endocrine
+UBERON:0000996 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,vagina,tissue,reproductive_endocrine
+UBERON:0000996 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,vagina,tissue,reproductive_endocrine
+UBERON:0001003 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,skin epidermis,tissue,epithelial_barrier
+UBERON:0001003 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,skin epidermis,tissue,epithelial_barrier
+UBERON:0001043 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,esophagus,tissue,GI
+UBERON:0001043 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,esophagus,tissue,GI
+UBERON:0001043 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,esophagus,tissue,GI
+UBERON:0001114 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,right lobe of liver,tissue,liver
+UBERON:0001114 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,right lobe of liver,tissue,liver
+UBERON:0001114 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,right lobe of liver,tissue,liver
+UBERON:0001134 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,skeletal muscle tissue,tissue,skeletal_muscle
+UBERON:0001134 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,skeletal muscle tissue,tissue,skeletal_muscle
+UBERON:0001134 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,skeletal muscle tissue,tissue,skeletal_muscle
+UBERON:0001150 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,body of pancreas,tissue,GI
+UBERON:0001150 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,body of pancreas,tissue,GI
+UBERON:0001150 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,body of pancreas,tissue,GI
+UBERON:0001157 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,transverse colon,tissue,GI
+UBERON:0001157 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,transverse colon,tissue,GI
+UBERON:0001157 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,transverse colon,tissue,GI
+UBERON:0001159 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,sigmoid colon,tissue,GI
+UBERON:0001159 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,sigmoid colon,tissue,GI
+UBERON:0001159 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,sigmoid colon,tissue,GI
+UBERON:0001199 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,mucosa of stomach,tissue,GI
+UBERON:0001199 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mucosa of stomach,tissue,GI
+UBERON:0001211 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,Peyer's patch,tissue,lymphoid
+UBERON:0001211 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,Peyer's patch,tissue,lymphoid
+UBERON:0001211 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,Peyer's patch,tissue,lymphoid
+UBERON:0001255 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,urinary bladder,tissue,epithelial_barrier
+UBERON:0001255 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,urinary bladder,tissue,epithelial_barrier
+UBERON:0001264 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,pancreas,tissue,GI
+UBERON:0001264 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,pancreas,tissue,GI
+UBERON:0001264 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,pancreas,tissue,GI
+UBERON:0001323 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,tibial nerve,tissue,unassigned
+UBERON:0001323 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,tibial nerve,tissue,unassigned
+UBERON:0001323 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,tibial nerve,tissue,unassigned
+UBERON:0001383 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,muscle of leg,tissue,skeletal_muscle
+UBERON:0001383 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,muscle of leg,tissue,skeletal_muscle
+UBERON:0001383 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,muscle of leg,tissue,skeletal_muscle
+UBERON:0001496 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,ascending aorta,tissue,cardiovascular
+UBERON:0001496 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,ascending aorta,tissue,cardiovascular
+UBERON:0001496 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,ascending aorta,tissue,cardiovascular
+UBERON:0001515 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,thoracic aorta,tissue,cardiovascular
+UBERON:0001515 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,thoracic aorta,tissue,cardiovascular
+UBERON:0001515 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,thoracic aorta,tissue,cardiovascular
+UBERON:0001621 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,coronary artery,tissue,cardiovascular
+UBERON:0001621 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,coronary artery,tissue,cardiovascular
+UBERON:0001774 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,muscle of trunk,tissue,skeletal_muscle
+UBERON:0001774 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,muscle of trunk,tissue,skeletal_muscle
+UBERON:0001774 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,muscle of trunk,tissue,skeletal_muscle
+UBERON:0001871 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,temporal lobe,tissue,CNS_tissue
+UBERON:0001871 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,temporal lobe,tissue,CNS_tissue
+UBERON:0001871 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,temporal lobe,tissue,CNS_tissue
+UBERON:0001873 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,caudate nucleus,tissue,CNS_tissue
+UBERON:0001873 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,caudate nucleus,tissue,CNS_tissue
+UBERON:0001873 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,caudate nucleus,tissue,CNS_tissue
+UBERON:0001987 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,placenta,tissue,reproductive_endocrine
+UBERON:0001987 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,placenta,tissue,reproductive_endocrine
+UBERON:0001987 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,placenta,tissue,reproductive_endocrine
+UBERON:0002037 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,cerebellum,tissue,CNS_tissue
+UBERON:0002038 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,substantia nigra,tissue,CNS_tissue
+UBERON:0002038 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,substantia nigra,tissue,CNS_tissue
+UBERON:0002038 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,substantia nigra,tissue,CNS_tissue
+UBERON:0002046 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,thyroid gland,tissue,reproductive_endocrine
+UBERON:0002046 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,thyroid gland,tissue,reproductive_endocrine
+UBERON:0002046 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,thyroid gland,tissue,reproductive_endocrine
+UBERON:0002048 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,lung,tissue,epithelial_barrier
+UBERON:0002048 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,lung,tissue,epithelial_barrier
+UBERON:0002048 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,lung,tissue,epithelial_barrier
+UBERON:0002078 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,right cardiac atrium,tissue,cardiovascular
+UBERON:0002078 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,right cardiac atrium,tissue,cardiovascular
+UBERON:0002078 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,right cardiac atrium,tissue,cardiovascular
+UBERON:0002080 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,heart right ventricle,tissue,cardiovascular
+UBERON:0002080 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,heart right ventricle,tissue,cardiovascular
+UBERON:0002080 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,heart right ventricle,tissue,cardiovascular
+UBERON:0002084 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,heart left ventricle,tissue,cardiovascular
+UBERON:0002084 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,heart left ventricle,tissue,cardiovascular
+UBERON:0002084 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,heart left ventricle,tissue,cardiovascular
+UBERON:0002106 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,spleen,tissue,lymphoid
+UBERON:0002106 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,spleen,tissue,lymphoid
+UBERON:0002106 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,spleen,tissue,lymphoid
+UBERON:0002107 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,liver,tissue,liver
+UBERON:0002107 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,liver,tissue,liver
+UBERON:0002107 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,liver,tissue,liver
+UBERON:0002108 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,small intestine,tissue,GI
+UBERON:0002108 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,small intestine,tissue,GI
+UBERON:0002108 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,small intestine,tissue,GI
+UBERON:0002113 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,kidney,tissue,epithelial_barrier
+UBERON:0002113 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,kidney,tissue,epithelial_barrier
+UBERON:0002113 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,kidney,tissue,epithelial_barrier
+UBERON:0002168 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,left lung,tissue,epithelial_barrier
+UBERON:0002168 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,left lung,tissue,epithelial_barrier
+UBERON:0002168 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,left lung,tissue,epithelial_barrier
+UBERON:0002170 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,upper lobe of right lung,tissue,epithelial_barrier
+UBERON:0002170 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,upper lobe of right lung,tissue,epithelial_barrier
+UBERON:0002170 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,upper lobe of right lung,tissue,epithelial_barrier
+UBERON:0002171 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,lower lobe of right lung,tissue,epithelial_barrier
+UBERON:0002171 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,lower lobe of right lung,tissue,epithelial_barrier
+UBERON:0002171 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,lower lobe of right lung,tissue,epithelial_barrier
+UBERON:0002240 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,spinal cord,tissue,CNS_tissue
+UBERON:0002240 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,spinal cord,tissue,CNS_tissue
+UBERON:0002240 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,spinal cord,tissue,CNS_tissue
+UBERON:0002305 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,layer of hippocampus,tissue,CNS_tissue
+UBERON:0002305 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,layer of hippocampus,tissue,CNS_tissue
+UBERON:0002305 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,layer of hippocampus,tissue,CNS_tissue
+UBERON:0002367 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,prostate gland,tissue,epithelial_barrier
+UBERON:0002367 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,prostate gland,tissue,epithelial_barrier
+UBERON:0002369 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,adrenal gland,tissue,reproductive_endocrine
+UBERON:0002369 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,adrenal gland,tissue,reproductive_endocrine
+UBERON:0002369 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,adrenal gland,tissue,reproductive_endocrine
+UBERON:0002370 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,thymus,tissue,lymphoid
+UBERON:0002370 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,thymus,tissue,lymphoid
+UBERON:0002370 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,thymus,tissue,lymphoid
+UBERON:0002686 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,angular gyrus,tissue,CNS_tissue
+UBERON:0002686 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,angular gyrus,tissue,CNS_tissue
+UBERON:0002686 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,angular gyrus,tissue,CNS_tissue
+UBERON:0002967 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,cingulate gyrus,tissue,CNS_tissue
+UBERON:0002967 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,cingulate gyrus,tissue,CNS_tissue
+UBERON:0002967 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,cingulate gyrus,tissue,CNS_tissue
+UBERON:0003124 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,chorion,tissue,reproductive_endocrine
+UBERON:0003124 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,chorion,tissue,reproductive_endocrine
+UBERON:0003124 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,chorion,tissue,reproductive_endocrine
+UBERON:0003346 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,mucosa of rectum,tissue,GI
+UBERON:0003346 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,mucosa of rectum,tissue,GI
+UBERON:0003346 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mucosa of rectum,tissue,GI
+UBERON:0004222 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,stomach smooth muscle,tissue,GI
+UBERON:0004222 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,stomach smooth muscle,tissue,GI
+UBERON:0004222 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,stomach smooth muscle,tissue,GI
+UBERON:0004550 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,gastroesophageal sphincter,tissue,GI
+UBERON:0004550 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,gastroesophageal sphincter,tissue,GI
+UBERON:0004550 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,gastroesophageal sphincter,tissue,GI
+UBERON:0004648 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,esophagus muscularis mucosa,tissue,GI
+UBERON:0004648 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,esophagus muscularis mucosa,tissue,GI
+UBERON:0004648 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,esophagus muscularis mucosa,tissue,GI
+UBERON:0004992 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,mucosa of descending colon,tissue,GI
+UBERON:0004992 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,mucosa of descending colon,tissue,GI
+UBERON:0006631 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,right atrium auricular region,tissue,cardiovascular
+UBERON:0006631 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,right atrium auricular region,tissue,cardiovascular
+UBERON:0006631 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,right atrium auricular region,tissue,cardiovascular
+UBERON:0006920 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,esophagus squamous epithelium,tissue,GI
+UBERON:0006920 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,esophagus squamous epithelium,tissue,GI
+UBERON:0006920 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,esophagus squamous epithelium,tissue,GI
+UBERON:0007106 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,chorionic villus,tissue,reproductive_endocrine
+UBERON:0007610 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,tibial artery,tissue,cardiovascular
+UBERON:0007610 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,tibial artery,tissue,cardiovascular
+UBERON:0007610 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,tibial artery,tissue,cardiovascular
+UBERON:0008367 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,breast epithelium,tissue,epithelial_barrier
+UBERON:0008367 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,breast epithelium,tissue,epithelial_barrier
+UBERON:0008450 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,psoas muscle,tissue,skeletal_muscle
+UBERON:0008450 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,psoas muscle,tissue,skeletal_muscle
+UBERON:0008450 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,psoas muscle,tissue,skeletal_muscle
+UBERON:0008952 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,upper lobe of left lung,tissue,epithelial_barrier
+UBERON:0008952 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,upper lobe of left lung,tissue,epithelial_barrier
+UBERON:0008952 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,upper lobe of left lung,tissue,epithelial_barrier
+UBERON:0008953 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,lower lobe of left lung,tissue,epithelial_barrier
+UBERON:0008953 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,lower lobe of left lung,tissue,epithelial_barrier
+UBERON:0008953 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,lower lobe of left lung,tissue,epithelial_barrier
+UBERON:0009834 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,dorsolateral prefrontal cortex,tissue,CNS_tissue
+UBERON:0009834 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,dorsolateral prefrontal cortex,tissue,CNS_tissue
+UBERON:0009834 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,dorsolateral prefrontal cortex,tissue,CNS_tissue
+UBERON:0011907 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,gastrocnemius medialis,tissue,skeletal_muscle
+UBERON:0011907 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,gastrocnemius medialis,tissue,skeletal_muscle
+UBERON:0011907 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,gastrocnemius medialis,tissue,skeletal_muscle
+UBERON:0012488 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,muscle layer of duodenum,tissue,GI
+UBERON:0012488 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,muscle layer of duodenum,tissue,GI
+UBERON:0012488 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,muscle layer of duodenum,tissue,GI
+UBERON:0012489 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,muscle layer of colon,tissue,GI
+UBERON:0012489 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,muscle layer of colon,tissue,GI
+UBERON:0012489 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,muscle layer of colon,tissue,GI
+UBERON:0014455 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,subcutaneous abdominal adipose tissue,tissue,adipose
+UBERON:0014455 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,subcutaneous abdominal adipose tissue,tissue,adipose
+UBERON:0014455 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,subcutaneous abdominal adipose tissue,tissue,adipose
+UBERON:0018112 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,rectal smooth muscle tissue,tissue,GI
+UBERON:0018112 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,rectal smooth muscle tissue,tissue,GI
+UBERON:0018112 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,rectal smooth muscle tissue,tissue,GI
+UBERON:0036149 Histone ChIP-seq H3K27ac|.,CHIP_HISTONE,H3K27ac,suprapubic skin,tissue,epithelial_barrier
+UBERON:0036149 Histone ChIP-seq H3K4me1|.,CHIP_HISTONE,H3K4me1,suprapubic skin,tissue,epithelial_barrier
+UBERON:0036149 Histone ChIP-seq H3K4me3|.,CHIP_HISTONE,H3K4me3,suprapubic skin,tissue,epithelial_barrier
+LQhCAGE CL:0000077|+,CAGE,CAGE,mesothelial cell,primary_cell,unassigned
+LQhCAGE CL:0000136|+,CAGE,CAGE,fat cell,primary_cell,adipose
+LQhCAGE CL:0000767|+,CAGE,CAGE,basophil,primary_cell,myeloid
+LQhCAGE CL:0000771|+,CAGE,CAGE,eosinophil,primary_cell,myeloid
+LQhCAGE CL:0000775|+,CAGE,CAGE,neutrophil,primary_cell,myeloid
+LQhCAGE CL:0000784|+,CAGE,CAGE,plasmacytoid dendritic cell,primary_cell,myeloid
+LQhCAGE CL:0000840|+,CAGE,CAGE,immature conventional dendritic cell,primary_cell,myeloid
+LQhCAGE CL:0000895|+,CAGE,CAGE,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+LQhCAGE CL:0002092|+,CAGE,CAGE,bone marrow cell,primary_cell,unassigned
+LQhCAGE CL:0002166|+,CAGE,CAGE,epithelial cell of Malassez,primary_cell,epithelial_barrier
+LQhCAGE CL:0002167|+,CAGE,CAGE,olfactory epithelial cell,primary_cell,epithelial_barrier
+LQhCAGE CL:0002193|+,CAGE,CAGE,myelocyte,primary_cell,myeloid
+LQhCAGE CL:0002397|+,CAGE,CAGE,"CD14-positive, CD16-positive monocyte",primary_cell,myeloid
+LQhCAGE CL:0002677|+,CAGE,CAGE,naive regulatory T cell,primary_cell,lymphoid
+LQhCAGE UBERON:0012168|+,CAGE,CAGE,umbilical cord blood,primary_cell,unassigned
+hCAGE CL:0000047|+,CAGE,CAGE,neuronal stem cell,primary_cell,neural_cells
+hCAGE CL:0000062|+,CAGE,CAGE,osteoblast,primary_cell,stromal
+hCAGE CL:0000077|+,CAGE,CAGE,mesothelial cell,primary_cell,unassigned
+hCAGE CL:0000097|+,CAGE,CAGE,mast cell,primary_cell,myeloid
+hCAGE CL:0000134|+,CAGE,CAGE,mesenchymal cell,primary_cell,stromal
+hCAGE CL:0000138|+,CAGE,CAGE,chondrocyte,primary_cell,stromal
+hCAGE CL:0000182|+,CAGE,CAGE,hepatocyte,primary_cell,liver
+hCAGE CL:0000188|+,CAGE,CAGE,cell of skeletal muscle,primary_cell,skeletal_muscle
+hCAGE CL:0000214|+,CAGE,CAGE,synovial cell,primary_cell,stromal
+hCAGE CL:0000216|+,CAGE,CAGE,Sertoli cell,primary_cell,reproductive_endocrine
+hCAGE CL:0000235|+,CAGE,CAGE,macrophage,primary_cell,myeloid
+hCAGE CL:0000307|+,CAGE,CAGE,tracheal epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000312|+,CAGE,CAGE,keratinocyte,primary_cell,epithelial_barrier
+hCAGE CL:0000322|+,CAGE,CAGE,pneumocyte,primary_cell,epithelial_barrier
+hCAGE CL:0000388|+,CAGE,CAGE,tendon cell,primary_cell,stromal
+hCAGE CL:0000453|+,CAGE,CAGE,Langerhans cell,primary_cell,myeloid
+hCAGE CL:0000515|+,CAGE,CAGE,skeletal muscle myoblast,primary_cell,skeletal_muscle
+hCAGE CL:0000540|+,CAGE,CAGE,neuron,primary_cell,neural_cells
+hCAGE CL:0000558|+,CAGE,CAGE,reticulocyte,primary_cell,unassigned
+hCAGE CL:0000569|+,CAGE,CAGE,cardiac mesenchymal cell,primary_cell,stromal
+hCAGE CL:0000575|+,CAGE,CAGE,corneal epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000576|+,CAGE,CAGE,monocyte,primary_cell,myeloid
+hCAGE CL:0000594|+,CAGE,CAGE,skeletal muscle satellite cell,primary_cell,skeletal_muscle
+hCAGE CL:0000623|+,CAGE,CAGE,natural killer cell,primary_cell,lymphoid
+hCAGE CL:0000650|+,CAGE,CAGE,mesangial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000708|+,CAGE,CAGE,leptomeningeal cell,primary_cell,stromal
+hCAGE CL:0000731|+,CAGE,CAGE,urothelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000746|+,CAGE,CAGE,cardiac muscle cell,primary_cell,cardiovascular
+hCAGE CL:0000767|+,CAGE,CAGE,basophil,primary_cell,myeloid
+hCAGE CL:0000775|+,CAGE,CAGE,neutrophil,primary_cell,myeloid
+hCAGE CL:0000784|+,CAGE,CAGE,plasmacytoid dendritic cell,primary_cell,myeloid
+hCAGE CL:0000798|+,CAGE,CAGE,gamma-delta T cell,primary_cell,lymphoid
+hCAGE CL:0000840|+,CAGE,CAGE,immature conventional dendritic cell,primary_cell,myeloid
+hCAGE CL:0001016|+,CAGE,CAGE,immature CD1a-positive Langerhans cell,primary_cell,myeloid
+hCAGE CL:0002057|+,CAGE,CAGE,"CD14-positive, CD16-negative classical monocyte",primary_cell,myeloid
+hCAGE CL:0002138|+,CAGE,CAGE,endothelial cell of lymphatic vessel,primary_cell,cardiovascular
+hCAGE CL:0002140|+,CAGE,CAGE,acinar cell of sebaceous gland,primary_cell,epithelial_barrier
+hCAGE CL:0002144|+,CAGE,CAGE,capillary endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002166|+,CAGE,CAGE,epithelial cell of Malassez,primary_cell,epithelial_barrier
+hCAGE CL:0002167|+,CAGE,CAGE,olfactory epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002188|+,CAGE,CAGE,glomerular endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002224|+,CAGE,CAGE,lens epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002231|+,CAGE,CAGE,epithelial cell of prostate,primary_cell,epithelial_barrier
+hCAGE CL:0002252|+,CAGE,CAGE,epithelial cell of esophagus,primary_cell,GI
+hCAGE CL:0002304|+,CAGE,CAGE,non-pigmented ciliary epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002306|+,CAGE,CAGE,epithelial cell of proximal tubule,primary_cell,epithelial_barrier
+hCAGE CL:0002327|+,CAGE,CAGE,mammary gland epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002328|+,CAGE,CAGE,bronchial epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002363|+,CAGE,CAGE,keratocyte,primary_cell,stromal
+hCAGE CL:0002367|+,CAGE,CAGE,trabecular meshwork cell,primary_cell,stromal
+hCAGE CL:0002368|+,CAGE,CAGE,respiratory epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002372|+,CAGE,CAGE,myotube,primary_cell,skeletal_muscle
+hCAGE CL:0002397|+,CAGE,CAGE,"CD14-positive, CD16-positive monocyte",primary_cell,myeloid
+hCAGE CL:0002453|+,CAGE,CAGE,oligodendrocyte precursor cell,primary_cell,neural_cells
+hCAGE CL:0002504|+,CAGE,CAGE,enteric smooth muscle cell,primary_cell,GI
+hCAGE CL:0002521|+,CAGE,CAGE,subcutaneous fat cell,primary_cell,adipose
+hCAGE CL:0002536|+,CAGE,CAGE,amniotic epithelial cell,primary_cell,reproductive_endocrine
+hCAGE CL:0002537|+,CAGE,CAGE,amnion mesenchymal stem cell,primary_cell,stromal
+hCAGE CL:0002539|+,CAGE,CAGE,aortic smooth muscle cell,primary_cell,cardiovascular
+hCAGE CL:0002540|+,CAGE,CAGE,mesenchymal stem cell of the bone marrow,primary_cell,unassigned
+hCAGE CL:0002543|+,CAGE,CAGE,vein endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002544|+,CAGE,CAGE,aortic endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002545|+,CAGE,CAGE,thoracic aorta endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002547|+,CAGE,CAGE,fibroblast of the aortic adventitia,primary_cell,stromal
+hCAGE CL:0002548|+,CAGE,CAGE,cardiac fibroblast,primary_cell,stromal
+hCAGE CL:0002549|+,CAGE,CAGE,fibroblast of choroid plexus,primary_cell,stromal
+hCAGE CL:0002550|+,CAGE,CAGE,fibroblast of the conjuctiva,primary_cell,stromal
+hCAGE CL:0002551|+,CAGE,CAGE,fibroblast of dermis,primary_cell,stromal
+hCAGE CL:0002552|+,CAGE,CAGE,fibroblast of gingiva,primary_cell,stromal
+hCAGE CL:0002553|+,CAGE,CAGE,lung fibroblast,primary_cell,stromal
+hCAGE CL:0002554|+,CAGE,CAGE,fibroblast of lymphatic vessel,primary_cell,stromal
+hCAGE CL:0002555|+,CAGE,CAGE,fibroblast of mammary gland,primary_cell,stromal
+hCAGE CL:0002556|+,CAGE,CAGE,fibroblast of periodontium,primary_cell,stromal
+hCAGE CL:0002557|+,CAGE,CAGE,fibroblast of pulmonary artery,primary_cell,stromal
+hCAGE CL:0002558|+,CAGE,CAGE,fibroblast of villous mesenchyme,primary_cell,stromal
+hCAGE CL:0002561|+,CAGE,CAGE,outer root sheath cell,primary_cell,epithelial_barrier
+hCAGE CL:0002563|+,CAGE,CAGE,intestinal epithelial cell,primary_cell,GI
+hCAGE CL:0002564|+,CAGE,CAGE,nucleus pulposus cell of intervertebral disc,primary_cell,stromal
+hCAGE CL:0002565|+,CAGE,CAGE,iris pigment epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002566|+,CAGE,CAGE,dark melanocyte,primary_cell,epithelial_barrier
+hCAGE CL:0002567|+,CAGE,CAGE,light melanocyte,primary_cell,epithelial_barrier
+hCAGE CL:0002568|+,CAGE,CAGE,mesenchymal stem cell of Wharton's jelly,primary_cell,stromal
+hCAGE CL:0002569|+,CAGE,CAGE,mesenchymal stem cell of umbilical cord,primary_cell,stromal
+hCAGE CL:0002570|+,CAGE,CAGE,mesenchymal stem cell of adipose,primary_cell,adipose
+hCAGE CL:0002571|+,CAGE,CAGE,hepatic mesenchymal stem cell,primary_cell,stromal
+hCAGE CL:0002572|+,CAGE,CAGE,vertebral mesenchymal stem cell,primary_cell,stromal
+hCAGE CL:0002573|+,CAGE,CAGE,Schwann cell,primary_cell,neural_cells
+hCAGE CL:0002574|+,CAGE,CAGE,stromal cell of pancreas,primary_cell,GI
+hCAGE CL:0002575|+,CAGE,CAGE,central nervous system pericyte,primary_cell,cardiovascular
+hCAGE CL:0002576|+,CAGE,CAGE,perineural cell,primary_cell,stromal
+hCAGE CL:0002577|+,CAGE,CAGE,placental epithelial cell,primary_cell,reproductive_endocrine
+hCAGE CL:0002579|+,CAGE,CAGE,omentum preadipocyte,primary_cell,adipose
+hCAGE CL:0002580|+,CAGE,CAGE,preadipocyte of the breast,primary_cell,adipose
+hCAGE CL:0002581|+,CAGE,CAGE,perirenal preadipocyte,primary_cell,adipose
+hCAGE CL:0002582|+,CAGE,CAGE,visceral preadipocyte,primary_cell,adipose
+hCAGE CL:0002583|+,CAGE,CAGE,subcutaneous preadipocyte,primary_cell,adipose
+hCAGE CL:0002584|+,CAGE,CAGE,renal cortical epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002586|+,CAGE,CAGE,retinal pigment epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002588|+,CAGE,CAGE,smooth muscle cell of the umbilical vein,primary_cell,cardiovascular
+hCAGE CL:0002589|+,CAGE,CAGE,smooth muscle cell of the brachiocephalic vasculature,primary_cell,cardiovascular
+hCAGE CL:0002590|+,CAGE,CAGE,smooth muscle cell of the brain vasculature,primary_cell,cardiovascular
+hCAGE CL:0002591|+,CAGE,CAGE,smooth muscle cell of the pulmonary artery,primary_cell,cardiovascular
+hCAGE CL:0002592|+,CAGE,CAGE,smooth muscle cell of the coronary artery,primary_cell,cardiovascular
+hCAGE CL:0002593|+,CAGE,CAGE,smooth muscle cell of the internal thoracic artery,primary_cell,cardiovascular
+hCAGE CL:0002594|+,CAGE,CAGE,smooth muscle cell of the umbilical artery,primary_cell,cardiovascular
+hCAGE CL:0002595|+,CAGE,CAGE,smooth muscle cell of the subclavian artery,primary_cell,cardiovascular
+hCAGE CL:0002596|+,CAGE,CAGE,smooth muscle cell of the carotid artery,primary_cell,cardiovascular
+hCAGE CL:0002597|+,CAGE,CAGE,smooth muscle cell of bladder,primary_cell,stromal
+hCAGE CL:0002598|+,CAGE,CAGE,bronchial smooth muscle cell,primary_cell,stromal
+hCAGE CL:0002599|+,CAGE,CAGE,smooth muscle cell of the esophagus,primary_cell,GI
+hCAGE CL:0002600|+,CAGE,CAGE,smooth muscle cell of trachea,primary_cell,stromal
+hCAGE CL:0002601|+,CAGE,CAGE,uterine smooth muscle cell,primary_cell,stromal
+hCAGE CL:0002602|+,CAGE,CAGE,annulus pulposus cell,primary_cell,stromal
+hCAGE CL:0002603|+,CAGE,CAGE,astrocyte of the cerebellum,primary_cell,neural_cells
+hCAGE CL:0002605|+,CAGE,CAGE,astrocyte of the cerebral cortex,primary_cell,neural_cells
+hCAGE CL:0002615|+,CAGE,CAGE,adipocyte of omentum tissue,primary_cell,adipose
+hCAGE CL:0002616|+,CAGE,CAGE,perirenal adipocyte cell,primary_cell,adipose
+hCAGE CL:0002617|+,CAGE,CAGE,adipocyte of breast,primary_cell,adipose
+hCAGE CL:0002618|+,CAGE,CAGE,endothelial cell of umbilical vein,primary_cell,cardiovascular
+hCAGE CL:0002620|+,CAGE,CAGE,skin fibroblast,primary_cell,stromal
+hCAGE CL:0002621|+,CAGE,CAGE,gingival epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002622|+,CAGE,CAGE,prostate stromal cell,primary_cell,stromal
+hCAGE CL:0002623|+,CAGE,CAGE,acinar cell of salivary gland,primary_cell,GI
+hCAGE CL:0002677|+,CAGE,CAGE,naive regulatory T cell,primary_cell,lymphoid
+hCAGE CL:1000280|+,CAGE,CAGE,smooth muscle cell of colon,primary_cell,GI
+hCAGE CL:1000413|+,CAGE,CAGE,endothelial cell of artery,primary_cell,cardiovascular
+hCAGE CL:1000428|+,CAGE,CAGE,stem cell of epidermis,primary_cell,epithelial_barrier
+hCAGE CL:1000487|+,CAGE,CAGE,smooth muscle cell of prostate,primary_cell,stromal
+hCAGE CL:1000494|+,CAGE,CAGE,nephron tubule epithelial cell,primary_cell,epithelial_barrier
+hCAGE EFO:0001086|+,CAGE,CAGE,A549,cell_line,excluded_cell_line
+hCAGE EFO:0001099|+,CAGE,CAGE,Caco-2,cell_line,excluded_cell_line
+hCAGE EFO:0001182|+,CAGE,CAGE,HEK293,cell_line,excluded_cell_line
+hCAGE EFO:0001187|+,CAGE,CAGE,HepG2,cell_line,excluded_cell_line
+hCAGE EFO:0001253|+,CAGE,CAGE,THP-1,cell_line,excluded_cell_line
+hCAGE EFO:0002059|+,CAGE,CAGE,HT1080,cell_line,excluded_cell_line
+hCAGE EFO:0002067|+,CAGE,CAGE,K562,cell_line,excluded_cell_line
+hCAGE EFO:0002074|+,CAGE,CAGE,PC-3,cell_line,excluded_cell_line
+hCAGE EFO:0002101|+,CAGE,CAGE,A172,cell_line,excluded_cell_line
+hCAGE EFO:0002179|+,CAGE,CAGE,G401,cell_line,excluded_cell_line
+hCAGE EFO:0002285|+,CAGE,CAGE,NCI-H226,cell_line,excluded_cell_line
+hCAGE EFO:0002324|+,CAGE,CAGE,Raji,cell_line,excluded_cell_line
+hCAGE EFO:0002784|+,CAGE,CAGE,GM12878,cell_line,excluded_cell_line
+hCAGE EFO:0002791|+,CAGE,CAGE,HeLa-S3,cell_line,excluded_cell_line
+hCAGE EFO:0002793|+,CAGE,CAGE,HL-60,cell_line,excluded_cell_line
+hCAGE EFO:0002796|+,CAGE,CAGE,Jurkat,cell_line,excluded_cell_line
+hCAGE EFO:0002860|+,CAGE,CAGE,SK-N-MC,cell_line,excluded_cell_line
+hCAGE EFO:0003044|+,CAGE,CAGE,NCI-H460,cell_line,excluded_cell_line
+hCAGE EFO:0005441|+,CAGE,CAGE,DU 145,cell_line,excluded_cell_line
+hCAGE UBERON:0000002|+,CAGE,CAGE,uterine cervix,tissue,reproductive_endocrine
+hCAGE UBERON:0000007|+,CAGE,CAGE,pituitary gland,tissue,reproductive_endocrine
+hCAGE UBERON:0000014|+,CAGE,CAGE,zone of skin,tissue,epithelial_barrier
+hCAGE UBERON:0000019|+,CAGE,CAGE,camera-type eye,tissue,epithelial_barrier
+hCAGE UBERON:0000029|+,CAGE,CAGE,lymph node,tissue,lymphoid
+hCAGE UBERON:0000057|+,CAGE,CAGE,urethra,tissue,epithelial_barrier
+hCAGE UBERON:0000178|+,CAGE,CAGE,blood,primary_cell,unassigned
+hCAGE UBERON:0000305|+,CAGE,CAGE,amnion,primary_cell,reproductive_endocrine
+hCAGE UBERON:0000310|+,CAGE,CAGE,breast,tissue,epithelial_barrier
+hCAGE UBERON:0000341|+,CAGE,CAGE,throat,tissue,epithelial_barrier
+hCAGE UBERON:0000473|+,CAGE,CAGE,testis,tissue,reproductive_endocrine
+hCAGE UBERON:0000920|+,CAGE,CAGE,egg chorion,primary_cell,reproductive_endocrine
+hCAGE UBERON:0000941|+,CAGE,CAGE,cranial nerve II,tissue,unassigned
+hCAGE UBERON:0000945|+,CAGE,CAGE,stomach,tissue,GI
+hCAGE UBERON:0000947|+,CAGE,CAGE,aorta,tissue,cardiovascular
+hCAGE UBERON:0000948|+,CAGE,CAGE,heart,tissue,cardiovascular
+hCAGE UBERON:0000955|+,CAGE,CAGE,brain,tissue,CNS_tissue
+hCAGE UBERON:0000966|+,CAGE,CAGE,retina,tissue,epithelial_barrier
+hCAGE UBERON:0000988|+,CAGE,CAGE,pons,tissue,CNS_tissue
+hCAGE UBERON:0000989|+,CAGE,CAGE,penis,tissue,reproductive_endocrine
+hCAGE UBERON:0000992|+,CAGE,CAGE,female gonad,tissue,reproductive_endocrine
+hCAGE UBERON:0000995|+,CAGE,CAGE,uterus,tissue,reproductive_endocrine
+hCAGE UBERON:0000996|+,CAGE,CAGE,vagina,tissue,reproductive_endocrine
+hCAGE UBERON:0000998|+,CAGE,CAGE,seminal vesicle,tissue,reproductive_endocrine
+hCAGE UBERON:0001000|+,CAGE,CAGE,vas deferens,tissue,reproductive_endocrine
+hCAGE UBERON:0001013|+,CAGE,CAGE,adipose tissue,tissue,adipose
+hCAGE UBERON:0001043|+,CAGE,CAGE,esophagus,tissue,GI
+hCAGE UBERON:0001044|+,CAGE,CAGE,saliva-secreting gland,tissue,GI
+hCAGE UBERON:0001052|+,CAGE,CAGE,rectum,tissue,GI
+hCAGE UBERON:0001103|+,CAGE,CAGE,diaphragm,tissue,skeletal_muscle
+hCAGE UBERON:0001134|+,CAGE,CAGE,skeletal muscle tissue,tissue,skeletal_muscle
+hCAGE UBERON:0001135|+,CAGE,CAGE,smooth muscle tissue,tissue,stromal
+hCAGE UBERON:0001154|+,CAGE,CAGE,vermiform appendix,tissue,GI
+hCAGE UBERON:0001155|+,CAGE,CAGE,colon,tissue,GI
+hCAGE UBERON:0001255|+,CAGE,CAGE,urinary bladder,tissue,epithelial_barrier
+hCAGE UBERON:0001264|+,CAGE,CAGE,pancreas,tissue,GI
+hCAGE UBERON:0001301|+,CAGE,CAGE,epididymis,tissue,reproductive_endocrine
+hCAGE UBERON:0001359|+,CAGE,CAGE,cerebrospinal fluid,tissue,unassigned
+hCAGE UBERON:0001389|+,CAGE,CAGE,soleus muscle,tissue,skeletal_muscle
+hCAGE UBERON:0001602|+,CAGE,CAGE,medial rectus extraocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0001603|+,CAGE,CAGE,lateral rectus extra-ocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0001637|+,CAGE,CAGE,artery,tissue,cardiovascular
+hCAGE UBERON:0001638|+,CAGE,CAGE,vein,tissue,cardiovascular
+hCAGE UBERON:0001723|+,CAGE,CAGE,tongue,tissue,GI
+hCAGE UBERON:0001736|+,CAGE,CAGE,submandibular gland,tissue,GI
+hCAGE UBERON:0001797|+,CAGE,CAGE,vitreous humor,tissue,epithelial_barrier
+hCAGE UBERON:0001831|+,CAGE,CAGE,parotid gland,tissue,GI
+hCAGE UBERON:0001870|+,CAGE,CAGE,frontal cortex,tissue,CNS_tissue
+hCAGE UBERON:0001871|+,CAGE,CAGE,temporal lobe,tissue,CNS_tissue
+hCAGE UBERON:0001872|+,CAGE,CAGE,parietal lobe,tissue,CNS_tissue
+hCAGE UBERON:0001873|+,CAGE,CAGE,caudate nucleus,tissue,CNS_tissue
+hCAGE UBERON:0001874|+,CAGE,CAGE,putamen,tissue,CNS_tissue
+hCAGE UBERON:0001875|+,CAGE,CAGE,globus pallidus,tissue,CNS_tissue
+hCAGE UBERON:0001876|+,CAGE,CAGE,amygdala,tissue,CNS_tissue
+hCAGE UBERON:0001882|+,CAGE,CAGE,nucleus accumbens,tissue,CNS_tissue
+hCAGE UBERON:0001894|+,CAGE,CAGE,diencephalon,tissue,CNS_tissue
+hCAGE UBERON:0001896|+,CAGE,CAGE,medulla oblongata,tissue,CNS_tissue
+hCAGE UBERON:0001897|+,CAGE,CAGE,dorsal plus ventral thalamus,tissue,CNS_tissue
+hCAGE UBERON:0001905|+,CAGE,CAGE,pineal body,tissue,reproductive_endocrine
+hCAGE UBERON:0001954|+,CAGE,CAGE,Ammon's horn,tissue,CNS_tissue
+hCAGE UBERON:0001987|+,CAGE,CAGE,placenta,tissue,reproductive_endocrine
+hCAGE UBERON:0002021|+,CAGE,CAGE,occipital lobe,tissue,CNS_tissue
+hCAGE UBERON:0002022|+,CAGE,CAGE,insula,tissue,CNS_tissue
+hCAGE UBERON:0002037|+,CAGE,CAGE,cerebellum,tissue,CNS_tissue
+hCAGE UBERON:0002038|+,CAGE,CAGE,substantia nigra,tissue,CNS_tissue
+hCAGE UBERON:0002046|+,CAGE,CAGE,thyroid gland,tissue,reproductive_endocrine
+hCAGE UBERON:0002048|+,CAGE,CAGE,lung,tissue,epithelial_barrier
+hCAGE UBERON:0002079|+,CAGE,CAGE,left cardiac atrium,tissue,cardiovascular
+hCAGE UBERON:0002084|+,CAGE,CAGE,heart left ventricle,tissue,cardiovascular
+hCAGE UBERON:0002106|+,CAGE,CAGE,spleen,tissue,lymphoid
+hCAGE UBERON:0002107|+,CAGE,CAGE,liver,tissue,liver
+hCAGE UBERON:0002108|+,CAGE,CAGE,small intestine,tissue,GI
+hCAGE UBERON:0002110|+,CAGE,CAGE,gallbladder,tissue,GI
+hCAGE UBERON:0002113|+,CAGE,CAGE,kidney,tissue,epithelial_barrier
+hCAGE UBERON:0002114|+,CAGE,CAGE,duodenum,tissue,GI
+hCAGE UBERON:0002118|+,CAGE,CAGE,right ovary,primary_cell,reproductive_endocrine
+hCAGE UBERON:0002119|+,CAGE,CAGE,left ovary,primary_cell,reproductive_endocrine
+hCAGE UBERON:0002134|+,CAGE,CAGE,tricuspid valve,tissue,cardiovascular
+hCAGE UBERON:0002135|+,CAGE,CAGE,mitral valve,tissue,cardiovascular
+hCAGE UBERON:0002146|+,CAGE,CAGE,pulmonary valve,tissue,cardiovascular
+hCAGE UBERON:0002148|+,CAGE,CAGE,locus ceruleus,tissue,CNS_tissue
+hCAGE UBERON:0002171|+,CAGE,CAGE,lower lobe of right lung,tissue,epithelial_barrier
+hCAGE UBERON:0002240|+,CAGE,CAGE,spinal cord,tissue,CNS_tissue
+hCAGE UBERON:0002331|+,CAGE,CAGE,umbilical cord,tissue,reproductive_endocrine
+hCAGE UBERON:0002336|+,CAGE,CAGE,corpus callosum,tissue,CNS_tissue
+hCAGE UBERON:0002360|+,CAGE,CAGE,meninx,tissue,stromal
+hCAGE UBERON:0002363|+,CAGE,CAGE,dura mater,tissue,stromal
+hCAGE UBERON:0002367|+,CAGE,CAGE,prostate gland,tissue,epithelial_barrier
+hCAGE UBERON:0002369|+,CAGE,CAGE,adrenal gland,tissue,reproductive_endocrine
+hCAGE UBERON:0002370|+,CAGE,CAGE,thymus,tissue,lymphoid
+hCAGE UBERON:0002371|+,CAGE,CAGE,bone marrow,tissue,unassigned
+hCAGE UBERON:0002372|+,CAGE,CAGE,tonsil,tissue,lymphoid
+hCAGE UBERON:0002448|+,CAGE,CAGE,fungiform papilla,tissue,GI
+hCAGE UBERON:0002581|+,CAGE,CAGE,postcentral gyrus,tissue,CNS_tissue
+hCAGE UBERON:0002702|+,CAGE,CAGE,middle frontal gyrus,tissue,CNS_tissue
+hCAGE UBERON:0002771|+,CAGE,CAGE,middle temporal gyrus,tissue,CNS_tissue
+hCAGE UBERON:0002902|+,CAGE,CAGE,occipital pole,tissue,CNS_tissue
+hCAGE UBERON:0003112|+,CAGE,CAGE,olfactory region,tissue,epithelial_barrier
+hCAGE UBERON:0003126|+,CAGE,CAGE,trachea,tissue,epithelial_barrier
+hCAGE UBERON:0003701|+,CAGE,CAGE,calcaneal tendon,tissue,stromal
+hCAGE UBERON:0003729|+,CAGE,CAGE,mouth mucosa,primary_cell,GI
+hCAGE UBERON:0004225|+,CAGE,CAGE,respiratory system smooth muscle,primary_cell,stromal
+hCAGE UBERON:0005795|+,CAGE,CAGE,embryonic uterus,tissue,reproductive_endocrine
+hCAGE UBERON:0006322|+,CAGE,CAGE,inferior rectus extraocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0006323|+,CAGE,CAGE,superior rectus extraocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0006659|+,CAGE,CAGE,cruciate ligament of knee,tissue,stromal
+hCAGE UBERON:0007023|+,CAGE,CAGE,adult organism,primary_cell,unassigned
+hCAGE UBERON:0007190|+,CAGE,CAGE,paracentral gyrus,tissue,CNS_tissue
+hCAGE UBERON:0008198|+,CAGE,CAGE,nail plate,tissue,epithelial_barrier
+hCAGE UBERON:0013777|+,CAGE,CAGE,skin of palm of manus,tissue,epithelial_barrier
+LQhCAGE CL:0000077|-,CAGE,CAGE,mesothelial cell,primary_cell,unassigned
+LQhCAGE CL:0000136|-,CAGE,CAGE,fat cell,primary_cell,adipose
+LQhCAGE CL:0000767|-,CAGE,CAGE,basophil,primary_cell,myeloid
+LQhCAGE CL:0000771|-,CAGE,CAGE,eosinophil,primary_cell,myeloid
+LQhCAGE CL:0000775|-,CAGE,CAGE,neutrophil,primary_cell,myeloid
+LQhCAGE CL:0000784|-,CAGE,CAGE,plasmacytoid dendritic cell,primary_cell,myeloid
+LQhCAGE CL:0000840|-,CAGE,CAGE,immature conventional dendritic cell,primary_cell,myeloid
+LQhCAGE CL:0000895|-,CAGE,CAGE,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+LQhCAGE CL:0002092|-,CAGE,CAGE,bone marrow cell,primary_cell,unassigned
+LQhCAGE CL:0002166|-,CAGE,CAGE,epithelial cell of Malassez,primary_cell,epithelial_barrier
+LQhCAGE CL:0002167|-,CAGE,CAGE,olfactory epithelial cell,primary_cell,epithelial_barrier
+LQhCAGE CL:0002193|-,CAGE,CAGE,myelocyte,primary_cell,myeloid
+LQhCAGE CL:0002397|-,CAGE,CAGE,"CD14-positive, CD16-positive monocyte",primary_cell,myeloid
+LQhCAGE CL:0002677|-,CAGE,CAGE,naive regulatory T cell,primary_cell,lymphoid
+LQhCAGE UBERON:0012168|-,CAGE,CAGE,umbilical cord blood,primary_cell,unassigned
+hCAGE CL:0000047|-,CAGE,CAGE,neuronal stem cell,primary_cell,neural_cells
+hCAGE CL:0000062|-,CAGE,CAGE,osteoblast,primary_cell,stromal
+hCAGE CL:0000077|-,CAGE,CAGE,mesothelial cell,primary_cell,unassigned
+hCAGE CL:0000097|-,CAGE,CAGE,mast cell,primary_cell,myeloid
+hCAGE CL:0000134|-,CAGE,CAGE,mesenchymal cell,primary_cell,stromal
+hCAGE CL:0000138|-,CAGE,CAGE,chondrocyte,primary_cell,stromal
+hCAGE CL:0000182|-,CAGE,CAGE,hepatocyte,primary_cell,liver
+hCAGE CL:0000188|-,CAGE,CAGE,cell of skeletal muscle,primary_cell,skeletal_muscle
+hCAGE CL:0000214|-,CAGE,CAGE,synovial cell,primary_cell,stromal
+hCAGE CL:0000216|-,CAGE,CAGE,Sertoli cell,primary_cell,reproductive_endocrine
+hCAGE CL:0000235|-,CAGE,CAGE,macrophage,primary_cell,myeloid
+hCAGE CL:0000307|-,CAGE,CAGE,tracheal epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000312|-,CAGE,CAGE,keratinocyte,primary_cell,epithelial_barrier
+hCAGE CL:0000322|-,CAGE,CAGE,pneumocyte,primary_cell,epithelial_barrier
+hCAGE CL:0000388|-,CAGE,CAGE,tendon cell,primary_cell,stromal
+hCAGE CL:0000453|-,CAGE,CAGE,Langerhans cell,primary_cell,myeloid
+hCAGE CL:0000515|-,CAGE,CAGE,skeletal muscle myoblast,primary_cell,skeletal_muscle
+hCAGE CL:0000540|-,CAGE,CAGE,neuron,primary_cell,neural_cells
+hCAGE CL:0000558|-,CAGE,CAGE,reticulocyte,primary_cell,unassigned
+hCAGE CL:0000569|-,CAGE,CAGE,cardiac mesenchymal cell,primary_cell,stromal
+hCAGE CL:0000575|-,CAGE,CAGE,corneal epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000576|-,CAGE,CAGE,monocyte,primary_cell,myeloid
+hCAGE CL:0000594|-,CAGE,CAGE,skeletal muscle satellite cell,primary_cell,skeletal_muscle
+hCAGE CL:0000623|-,CAGE,CAGE,natural killer cell,primary_cell,lymphoid
+hCAGE CL:0000650|-,CAGE,CAGE,mesangial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000708|-,CAGE,CAGE,leptomeningeal cell,primary_cell,stromal
+hCAGE CL:0000731|-,CAGE,CAGE,urothelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0000746|-,CAGE,CAGE,cardiac muscle cell,primary_cell,cardiovascular
+hCAGE CL:0000767|-,CAGE,CAGE,basophil,primary_cell,myeloid
+hCAGE CL:0000775|-,CAGE,CAGE,neutrophil,primary_cell,myeloid
+hCAGE CL:0000784|-,CAGE,CAGE,plasmacytoid dendritic cell,primary_cell,myeloid
+hCAGE CL:0000798|-,CAGE,CAGE,gamma-delta T cell,primary_cell,lymphoid
+hCAGE CL:0000840|-,CAGE,CAGE,immature conventional dendritic cell,primary_cell,myeloid
+hCAGE CL:0001016|-,CAGE,CAGE,immature CD1a-positive Langerhans cell,primary_cell,myeloid
+hCAGE CL:0002057|-,CAGE,CAGE,"CD14-positive, CD16-negative classical monocyte",primary_cell,myeloid
+hCAGE CL:0002138|-,CAGE,CAGE,endothelial cell of lymphatic vessel,primary_cell,cardiovascular
+hCAGE CL:0002140|-,CAGE,CAGE,acinar cell of sebaceous gland,primary_cell,epithelial_barrier
+hCAGE CL:0002144|-,CAGE,CAGE,capillary endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002166|-,CAGE,CAGE,epithelial cell of Malassez,primary_cell,epithelial_barrier
+hCAGE CL:0002167|-,CAGE,CAGE,olfactory epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002188|-,CAGE,CAGE,glomerular endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002224|-,CAGE,CAGE,lens epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002231|-,CAGE,CAGE,epithelial cell of prostate,primary_cell,epithelial_barrier
+hCAGE CL:0002252|-,CAGE,CAGE,epithelial cell of esophagus,primary_cell,GI
+hCAGE CL:0002304|-,CAGE,CAGE,non-pigmented ciliary epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002306|-,CAGE,CAGE,epithelial cell of proximal tubule,primary_cell,epithelial_barrier
+hCAGE CL:0002327|-,CAGE,CAGE,mammary gland epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002328|-,CAGE,CAGE,bronchial epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002363|-,CAGE,CAGE,keratocyte,primary_cell,stromal
+hCAGE CL:0002367|-,CAGE,CAGE,trabecular meshwork cell,primary_cell,stromal
+hCAGE CL:0002368|-,CAGE,CAGE,respiratory epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002372|-,CAGE,CAGE,myotube,primary_cell,skeletal_muscle
+hCAGE CL:0002397|-,CAGE,CAGE,"CD14-positive, CD16-positive monocyte",primary_cell,myeloid
+hCAGE CL:0002453|-,CAGE,CAGE,oligodendrocyte precursor cell,primary_cell,neural_cells
+hCAGE CL:0002504|-,CAGE,CAGE,enteric smooth muscle cell,primary_cell,GI
+hCAGE CL:0002521|-,CAGE,CAGE,subcutaneous fat cell,primary_cell,adipose
+hCAGE CL:0002536|-,CAGE,CAGE,amniotic epithelial cell,primary_cell,reproductive_endocrine
+hCAGE CL:0002537|-,CAGE,CAGE,amnion mesenchymal stem cell,primary_cell,stromal
+hCAGE CL:0002539|-,CAGE,CAGE,aortic smooth muscle cell,primary_cell,cardiovascular
+hCAGE CL:0002540|-,CAGE,CAGE,mesenchymal stem cell of the bone marrow,primary_cell,unassigned
+hCAGE CL:0002543|-,CAGE,CAGE,vein endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002544|-,CAGE,CAGE,aortic endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002545|-,CAGE,CAGE,thoracic aorta endothelial cell,primary_cell,cardiovascular
+hCAGE CL:0002547|-,CAGE,CAGE,fibroblast of the aortic adventitia,primary_cell,stromal
+hCAGE CL:0002548|-,CAGE,CAGE,cardiac fibroblast,primary_cell,stromal
+hCAGE CL:0002549|-,CAGE,CAGE,fibroblast of choroid plexus,primary_cell,stromal
+hCAGE CL:0002550|-,CAGE,CAGE,fibroblast of the conjuctiva,primary_cell,stromal
+hCAGE CL:0002551|-,CAGE,CAGE,fibroblast of dermis,primary_cell,stromal
+hCAGE CL:0002552|-,CAGE,CAGE,fibroblast of gingiva,primary_cell,stromal
+hCAGE CL:0002553|-,CAGE,CAGE,lung fibroblast,primary_cell,stromal
+hCAGE CL:0002554|-,CAGE,CAGE,fibroblast of lymphatic vessel,primary_cell,stromal
+hCAGE CL:0002555|-,CAGE,CAGE,fibroblast of mammary gland,primary_cell,stromal
+hCAGE CL:0002556|-,CAGE,CAGE,fibroblast of periodontium,primary_cell,stromal
+hCAGE CL:0002557|-,CAGE,CAGE,fibroblast of pulmonary artery,primary_cell,stromal
+hCAGE CL:0002558|-,CAGE,CAGE,fibroblast of villous mesenchyme,primary_cell,stromal
+hCAGE CL:0002561|-,CAGE,CAGE,outer root sheath cell,primary_cell,epithelial_barrier
+hCAGE CL:0002563|-,CAGE,CAGE,intestinal epithelial cell,primary_cell,GI
+hCAGE CL:0002564|-,CAGE,CAGE,nucleus pulposus cell of intervertebral disc,primary_cell,stromal
+hCAGE CL:0002565|-,CAGE,CAGE,iris pigment epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002566|-,CAGE,CAGE,dark melanocyte,primary_cell,epithelial_barrier
+hCAGE CL:0002567|-,CAGE,CAGE,light melanocyte,primary_cell,epithelial_barrier
+hCAGE CL:0002568|-,CAGE,CAGE,mesenchymal stem cell of Wharton's jelly,primary_cell,stromal
+hCAGE CL:0002569|-,CAGE,CAGE,mesenchymal stem cell of umbilical cord,primary_cell,stromal
+hCAGE CL:0002570|-,CAGE,CAGE,mesenchymal stem cell of adipose,primary_cell,adipose
+hCAGE CL:0002571|-,CAGE,CAGE,hepatic mesenchymal stem cell,primary_cell,stromal
+hCAGE CL:0002572|-,CAGE,CAGE,vertebral mesenchymal stem cell,primary_cell,stromal
+hCAGE CL:0002573|-,CAGE,CAGE,Schwann cell,primary_cell,neural_cells
+hCAGE CL:0002574|-,CAGE,CAGE,stromal cell of pancreas,primary_cell,GI
+hCAGE CL:0002575|-,CAGE,CAGE,central nervous system pericyte,primary_cell,cardiovascular
+hCAGE CL:0002576|-,CAGE,CAGE,perineural cell,primary_cell,stromal
+hCAGE CL:0002577|-,CAGE,CAGE,placental epithelial cell,primary_cell,reproductive_endocrine
+hCAGE CL:0002579|-,CAGE,CAGE,omentum preadipocyte,primary_cell,adipose
+hCAGE CL:0002580|-,CAGE,CAGE,preadipocyte of the breast,primary_cell,adipose
+hCAGE CL:0002581|-,CAGE,CAGE,perirenal preadipocyte,primary_cell,adipose
+hCAGE CL:0002582|-,CAGE,CAGE,visceral preadipocyte,primary_cell,adipose
+hCAGE CL:0002583|-,CAGE,CAGE,subcutaneous preadipocyte,primary_cell,adipose
+hCAGE CL:0002584|-,CAGE,CAGE,renal cortical epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002586|-,CAGE,CAGE,retinal pigment epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002588|-,CAGE,CAGE,smooth muscle cell of the umbilical vein,primary_cell,cardiovascular
+hCAGE CL:0002589|-,CAGE,CAGE,smooth muscle cell of the brachiocephalic vasculature,primary_cell,cardiovascular
+hCAGE CL:0002590|-,CAGE,CAGE,smooth muscle cell of the brain vasculature,primary_cell,cardiovascular
+hCAGE CL:0002591|-,CAGE,CAGE,smooth muscle cell of the pulmonary artery,primary_cell,cardiovascular
+hCAGE CL:0002592|-,CAGE,CAGE,smooth muscle cell of the coronary artery,primary_cell,cardiovascular
+hCAGE CL:0002593|-,CAGE,CAGE,smooth muscle cell of the internal thoracic artery,primary_cell,cardiovascular
+hCAGE CL:0002594|-,CAGE,CAGE,smooth muscle cell of the umbilical artery,primary_cell,cardiovascular
+hCAGE CL:0002595|-,CAGE,CAGE,smooth muscle cell of the subclavian artery,primary_cell,cardiovascular
+hCAGE CL:0002596|-,CAGE,CAGE,smooth muscle cell of the carotid artery,primary_cell,cardiovascular
+hCAGE CL:0002597|-,CAGE,CAGE,smooth muscle cell of bladder,primary_cell,stromal
+hCAGE CL:0002598|-,CAGE,CAGE,bronchial smooth muscle cell,primary_cell,stromal
+hCAGE CL:0002599|-,CAGE,CAGE,smooth muscle cell of the esophagus,primary_cell,GI
+hCAGE CL:0002600|-,CAGE,CAGE,smooth muscle cell of trachea,primary_cell,stromal
+hCAGE CL:0002601|-,CAGE,CAGE,uterine smooth muscle cell,primary_cell,stromal
+hCAGE CL:0002602|-,CAGE,CAGE,annulus pulposus cell,primary_cell,stromal
+hCAGE CL:0002603|-,CAGE,CAGE,astrocyte of the cerebellum,primary_cell,neural_cells
+hCAGE CL:0002605|-,CAGE,CAGE,astrocyte of the cerebral cortex,primary_cell,neural_cells
+hCAGE CL:0002615|-,CAGE,CAGE,adipocyte of omentum tissue,primary_cell,adipose
+hCAGE CL:0002616|-,CAGE,CAGE,perirenal adipocyte cell,primary_cell,adipose
+hCAGE CL:0002617|-,CAGE,CAGE,adipocyte of breast,primary_cell,adipose
+hCAGE CL:0002618|-,CAGE,CAGE,endothelial cell of umbilical vein,primary_cell,cardiovascular
+hCAGE CL:0002620|-,CAGE,CAGE,skin fibroblast,primary_cell,stromal
+hCAGE CL:0002621|-,CAGE,CAGE,gingival epithelial cell,primary_cell,epithelial_barrier
+hCAGE CL:0002622|-,CAGE,CAGE,prostate stromal cell,primary_cell,stromal
+hCAGE CL:0002623|-,CAGE,CAGE,acinar cell of salivary gland,primary_cell,GI
+hCAGE CL:0002677|-,CAGE,CAGE,naive regulatory T cell,primary_cell,lymphoid
+hCAGE CL:1000280|-,CAGE,CAGE,smooth muscle cell of colon,primary_cell,GI
+hCAGE CL:1000413|-,CAGE,CAGE,endothelial cell of artery,primary_cell,cardiovascular
+hCAGE CL:1000428|-,CAGE,CAGE,stem cell of epidermis,primary_cell,epithelial_barrier
+hCAGE CL:1000487|-,CAGE,CAGE,smooth muscle cell of prostate,primary_cell,stromal
+hCAGE CL:1000494|-,CAGE,CAGE,nephron tubule epithelial cell,primary_cell,epithelial_barrier
+hCAGE EFO:0001086|-,CAGE,CAGE,A549,cell_line,excluded_cell_line
+hCAGE EFO:0001099|-,CAGE,CAGE,Caco-2,cell_line,excluded_cell_line
+hCAGE EFO:0001182|-,CAGE,CAGE,HEK293,cell_line,excluded_cell_line
+hCAGE EFO:0001187|-,CAGE,CAGE,HepG2,cell_line,excluded_cell_line
+hCAGE EFO:0001253|-,CAGE,CAGE,THP-1,cell_line,excluded_cell_line
+hCAGE EFO:0002059|-,CAGE,CAGE,HT1080,cell_line,excluded_cell_line
+hCAGE EFO:0002067|-,CAGE,CAGE,K562,cell_line,excluded_cell_line
+hCAGE EFO:0002074|-,CAGE,CAGE,PC-3,cell_line,excluded_cell_line
+hCAGE EFO:0002101|-,CAGE,CAGE,A172,cell_line,excluded_cell_line
+hCAGE EFO:0002179|-,CAGE,CAGE,G401,cell_line,excluded_cell_line
+hCAGE EFO:0002285|-,CAGE,CAGE,NCI-H226,cell_line,excluded_cell_line
+hCAGE EFO:0002324|-,CAGE,CAGE,Raji,cell_line,excluded_cell_line
+hCAGE EFO:0002784|-,CAGE,CAGE,GM12878,cell_line,excluded_cell_line
+hCAGE EFO:0002791|-,CAGE,CAGE,HeLa-S3,cell_line,excluded_cell_line
+hCAGE EFO:0002793|-,CAGE,CAGE,HL-60,cell_line,excluded_cell_line
+hCAGE EFO:0002796|-,CAGE,CAGE,Jurkat,cell_line,excluded_cell_line
+hCAGE EFO:0002860|-,CAGE,CAGE,SK-N-MC,cell_line,excluded_cell_line
+hCAGE EFO:0003044|-,CAGE,CAGE,NCI-H460,cell_line,excluded_cell_line
+hCAGE EFO:0005441|-,CAGE,CAGE,DU 145,cell_line,excluded_cell_line
+hCAGE UBERON:0000002|-,CAGE,CAGE,uterine cervix,tissue,reproductive_endocrine
+hCAGE UBERON:0000007|-,CAGE,CAGE,pituitary gland,tissue,reproductive_endocrine
+hCAGE UBERON:0000014|-,CAGE,CAGE,zone of skin,tissue,epithelial_barrier
+hCAGE UBERON:0000019|-,CAGE,CAGE,camera-type eye,tissue,epithelial_barrier
+hCAGE UBERON:0000029|-,CAGE,CAGE,lymph node,tissue,lymphoid
+hCAGE UBERON:0000057|-,CAGE,CAGE,urethra,tissue,epithelial_barrier
+hCAGE UBERON:0000178|-,CAGE,CAGE,blood,primary_cell,unassigned
+hCAGE UBERON:0000305|-,CAGE,CAGE,amnion,primary_cell,reproductive_endocrine
+hCAGE UBERON:0000310|-,CAGE,CAGE,breast,tissue,epithelial_barrier
+hCAGE UBERON:0000341|-,CAGE,CAGE,throat,tissue,epithelial_barrier
+hCAGE UBERON:0000473|-,CAGE,CAGE,testis,tissue,reproductive_endocrine
+hCAGE UBERON:0000920|-,CAGE,CAGE,egg chorion,primary_cell,reproductive_endocrine
+hCAGE UBERON:0000941|-,CAGE,CAGE,cranial nerve II,tissue,unassigned
+hCAGE UBERON:0000945|-,CAGE,CAGE,stomach,tissue,GI
+hCAGE UBERON:0000947|-,CAGE,CAGE,aorta,tissue,cardiovascular
+hCAGE UBERON:0000948|-,CAGE,CAGE,heart,tissue,cardiovascular
+hCAGE UBERON:0000955|-,CAGE,CAGE,brain,tissue,CNS_tissue
+hCAGE UBERON:0000966|-,CAGE,CAGE,retina,tissue,epithelial_barrier
+hCAGE UBERON:0000988|-,CAGE,CAGE,pons,tissue,CNS_tissue
+hCAGE UBERON:0000989|-,CAGE,CAGE,penis,tissue,reproductive_endocrine
+hCAGE UBERON:0000992|-,CAGE,CAGE,female gonad,tissue,reproductive_endocrine
+hCAGE UBERON:0000995|-,CAGE,CAGE,uterus,tissue,reproductive_endocrine
+hCAGE UBERON:0000996|-,CAGE,CAGE,vagina,tissue,reproductive_endocrine
+hCAGE UBERON:0000998|-,CAGE,CAGE,seminal vesicle,tissue,reproductive_endocrine
+hCAGE UBERON:0001000|-,CAGE,CAGE,vas deferens,tissue,reproductive_endocrine
+hCAGE UBERON:0001013|-,CAGE,CAGE,adipose tissue,tissue,adipose
+hCAGE UBERON:0001043|-,CAGE,CAGE,esophagus,tissue,GI
+hCAGE UBERON:0001044|-,CAGE,CAGE,saliva-secreting gland,tissue,GI
+hCAGE UBERON:0001052|-,CAGE,CAGE,rectum,tissue,GI
+hCAGE UBERON:0001103|-,CAGE,CAGE,diaphragm,tissue,skeletal_muscle
+hCAGE UBERON:0001134|-,CAGE,CAGE,skeletal muscle tissue,tissue,skeletal_muscle
+hCAGE UBERON:0001135|-,CAGE,CAGE,smooth muscle tissue,tissue,stromal
+hCAGE UBERON:0001154|-,CAGE,CAGE,vermiform appendix,tissue,GI
+hCAGE UBERON:0001155|-,CAGE,CAGE,colon,tissue,GI
+hCAGE UBERON:0001255|-,CAGE,CAGE,urinary bladder,tissue,epithelial_barrier
+hCAGE UBERON:0001264|-,CAGE,CAGE,pancreas,tissue,GI
+hCAGE UBERON:0001301|-,CAGE,CAGE,epididymis,tissue,reproductive_endocrine
+hCAGE UBERON:0001359|-,CAGE,CAGE,cerebrospinal fluid,tissue,unassigned
+hCAGE UBERON:0001389|-,CAGE,CAGE,soleus muscle,tissue,skeletal_muscle
+hCAGE UBERON:0001602|-,CAGE,CAGE,medial rectus extraocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0001603|-,CAGE,CAGE,lateral rectus extra-ocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0001637|-,CAGE,CAGE,artery,tissue,cardiovascular
+hCAGE UBERON:0001638|-,CAGE,CAGE,vein,tissue,cardiovascular
+hCAGE UBERON:0001723|-,CAGE,CAGE,tongue,tissue,GI
+hCAGE UBERON:0001736|-,CAGE,CAGE,submandibular gland,tissue,GI
+hCAGE UBERON:0001797|-,CAGE,CAGE,vitreous humor,tissue,epithelial_barrier
+hCAGE UBERON:0001831|-,CAGE,CAGE,parotid gland,tissue,GI
+hCAGE UBERON:0001870|-,CAGE,CAGE,frontal cortex,tissue,CNS_tissue
+hCAGE UBERON:0001871|-,CAGE,CAGE,temporal lobe,tissue,CNS_tissue
+hCAGE UBERON:0001872|-,CAGE,CAGE,parietal lobe,tissue,CNS_tissue
+hCAGE UBERON:0001873|-,CAGE,CAGE,caudate nucleus,tissue,CNS_tissue
+hCAGE UBERON:0001874|-,CAGE,CAGE,putamen,tissue,CNS_tissue
+hCAGE UBERON:0001875|-,CAGE,CAGE,globus pallidus,tissue,CNS_tissue
+hCAGE UBERON:0001876|-,CAGE,CAGE,amygdala,tissue,CNS_tissue
+hCAGE UBERON:0001882|-,CAGE,CAGE,nucleus accumbens,tissue,CNS_tissue
+hCAGE UBERON:0001894|-,CAGE,CAGE,diencephalon,tissue,CNS_tissue
+hCAGE UBERON:0001896|-,CAGE,CAGE,medulla oblongata,tissue,CNS_tissue
+hCAGE UBERON:0001897|-,CAGE,CAGE,dorsal plus ventral thalamus,tissue,CNS_tissue
+hCAGE UBERON:0001905|-,CAGE,CAGE,pineal body,tissue,reproductive_endocrine
+hCAGE UBERON:0001954|-,CAGE,CAGE,Ammon's horn,tissue,CNS_tissue
+hCAGE UBERON:0001987|-,CAGE,CAGE,placenta,tissue,reproductive_endocrine
+hCAGE UBERON:0002021|-,CAGE,CAGE,occipital lobe,tissue,CNS_tissue
+hCAGE UBERON:0002022|-,CAGE,CAGE,insula,tissue,CNS_tissue
+hCAGE UBERON:0002037|-,CAGE,CAGE,cerebellum,tissue,CNS_tissue
+hCAGE UBERON:0002038|-,CAGE,CAGE,substantia nigra,tissue,CNS_tissue
+hCAGE UBERON:0002046|-,CAGE,CAGE,thyroid gland,tissue,reproductive_endocrine
+hCAGE UBERON:0002048|-,CAGE,CAGE,lung,tissue,epithelial_barrier
+hCAGE UBERON:0002079|-,CAGE,CAGE,left cardiac atrium,tissue,cardiovascular
+hCAGE UBERON:0002084|-,CAGE,CAGE,heart left ventricle,tissue,cardiovascular
+hCAGE UBERON:0002106|-,CAGE,CAGE,spleen,tissue,lymphoid
+hCAGE UBERON:0002107|-,CAGE,CAGE,liver,tissue,liver
+hCAGE UBERON:0002108|-,CAGE,CAGE,small intestine,tissue,GI
+hCAGE UBERON:0002110|-,CAGE,CAGE,gallbladder,tissue,GI
+hCAGE UBERON:0002113|-,CAGE,CAGE,kidney,tissue,epithelial_barrier
+hCAGE UBERON:0002114|-,CAGE,CAGE,duodenum,tissue,GI
+hCAGE UBERON:0002118|-,CAGE,CAGE,right ovary,primary_cell,reproductive_endocrine
+hCAGE UBERON:0002119|-,CAGE,CAGE,left ovary,primary_cell,reproductive_endocrine
+hCAGE UBERON:0002134|-,CAGE,CAGE,tricuspid valve,tissue,cardiovascular
+hCAGE UBERON:0002135|-,CAGE,CAGE,mitral valve,tissue,cardiovascular
+hCAGE UBERON:0002146|-,CAGE,CAGE,pulmonary valve,tissue,cardiovascular
+hCAGE UBERON:0002148|-,CAGE,CAGE,locus ceruleus,tissue,CNS_tissue
+hCAGE UBERON:0002171|-,CAGE,CAGE,lower lobe of right lung,tissue,epithelial_barrier
+hCAGE UBERON:0002240|-,CAGE,CAGE,spinal cord,tissue,CNS_tissue
+hCAGE UBERON:0002331|-,CAGE,CAGE,umbilical cord,tissue,reproductive_endocrine
+hCAGE UBERON:0002336|-,CAGE,CAGE,corpus callosum,tissue,CNS_tissue
+hCAGE UBERON:0002360|-,CAGE,CAGE,meninx,tissue,stromal
+hCAGE UBERON:0002363|-,CAGE,CAGE,dura mater,tissue,stromal
+hCAGE UBERON:0002367|-,CAGE,CAGE,prostate gland,tissue,epithelial_barrier
+hCAGE UBERON:0002369|-,CAGE,CAGE,adrenal gland,tissue,reproductive_endocrine
+hCAGE UBERON:0002370|-,CAGE,CAGE,thymus,tissue,lymphoid
+hCAGE UBERON:0002371|-,CAGE,CAGE,bone marrow,tissue,unassigned
+hCAGE UBERON:0002372|-,CAGE,CAGE,tonsil,tissue,lymphoid
+hCAGE UBERON:0002448|-,CAGE,CAGE,fungiform papilla,tissue,GI
+hCAGE UBERON:0002581|-,CAGE,CAGE,postcentral gyrus,tissue,CNS_tissue
+hCAGE UBERON:0002702|-,CAGE,CAGE,middle frontal gyrus,tissue,CNS_tissue
+hCAGE UBERON:0002771|-,CAGE,CAGE,middle temporal gyrus,tissue,CNS_tissue
+hCAGE UBERON:0002902|-,CAGE,CAGE,occipital pole,tissue,CNS_tissue
+hCAGE UBERON:0003112|-,CAGE,CAGE,olfactory region,tissue,epithelial_barrier
+hCAGE UBERON:0003126|-,CAGE,CAGE,trachea,tissue,epithelial_barrier
+hCAGE UBERON:0003701|-,CAGE,CAGE,calcaneal tendon,tissue,stromal
+hCAGE UBERON:0003729|-,CAGE,CAGE,mouth mucosa,primary_cell,GI
+hCAGE UBERON:0004225|-,CAGE,CAGE,respiratory system smooth muscle,primary_cell,stromal
+hCAGE UBERON:0005795|-,CAGE,CAGE,embryonic uterus,tissue,reproductive_endocrine
+hCAGE UBERON:0006322|-,CAGE,CAGE,inferior rectus extraocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0006323|-,CAGE,CAGE,superior rectus extraocular muscle,tissue,skeletal_muscle
+hCAGE UBERON:0006659|-,CAGE,CAGE,cruciate ligament of knee,tissue,stromal
+hCAGE UBERON:0007023|-,CAGE,CAGE,adult organism,primary_cell,unassigned
+hCAGE UBERON:0007190|-,CAGE,CAGE,paracentral gyrus,tissue,CNS_tissue
+hCAGE UBERON:0008198|-,CAGE,CAGE,nail plate,tissue,epithelial_barrier
+hCAGE UBERON:0013777|-,CAGE,CAGE,skin of palm of manus,tissue,epithelial_barrier
+CL:0000047 polyA plus RNA-seq|.,RNA_SEQ,RNA,neuronal stem cell,in_vitro_differentiated_cells,neural_cells
+CL:0000062 total RNA-seq|.,RNA_SEQ,RNA,osteoblast,primary_cell,stromal
+CL:0000084 polyA plus RNA-seq|.,RNA_SEQ,RNA,T-cell,primary_cell,lymphoid
+CL:0000084 total RNA-seq|.,RNA_SEQ,RNA,T-cell,primary_cell,lymphoid
+CL:0000115 total RNA-seq|.,RNA_SEQ,RNA,endothelial cell,in_vitro_differentiated_cells,cardiovascular
+CL:0000127 total RNA-seq|.,RNA_SEQ,RNA,astrocyte,primary_cell,neural_cells
+CL:0000134 polyA plus RNA-seq|.,RNA_SEQ,RNA,mesenchymal stem cell,in_vitro_differentiated_cells,stromal
+CL:0000137 total RNA-seq|.,RNA_SEQ,RNA,osteocyte,in_vitro_differentiated_cells,stromal
+CL:0000138 total RNA-seq|.,RNA_SEQ,RNA,chondrocyte,in_vitro_differentiated_cells,stromal
+CL:0000169 total RNA-seq|.,RNA_SEQ,RNA,type B pancreatic cell,in_vitro_differentiated_cells,GI
+CL:0000182 total RNA-seq|.,RNA_SEQ,RNA,hepatocyte,in_vitro_differentiated_cells,liver
+CL:0000187 total RNA-seq|.,RNA_SEQ,RNA,myocyte,in_vitro_differentiated_cells,skeletal_muscle
+CL:0000192 total RNA-seq|.,RNA_SEQ,RNA,smooth muscle cell,in_vitro_differentiated_cells,stromal
+CL:0000221 polyA plus RNA-seq|.,RNA_SEQ,RNA,ectodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000222 polyA plus RNA-seq|.,RNA_SEQ,RNA,mesodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000223 polyA plus RNA-seq|.,RNA_SEQ,RNA,endodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000223 total RNA-seq|.,RNA_SEQ,RNA,endodermal cell,in_vitro_differentiated_cells,unassigned
+CL:0000236 polyA plus RNA-seq|.,RNA_SEQ,RNA,B cell,primary_cell,lymphoid
+CL:0000236 total RNA-seq|.,RNA_SEQ,RNA,B cell,primary_cell,lymphoid
+CL:0000307 total RNA-seq|.,RNA_SEQ,RNA,tracheal epithelial cell,primary_cell,epithelial_barrier
+CL:0000312 polyA plus RNA-seq|.,RNA_SEQ,RNA,keratinocyte,primary_cell,epithelial_barrier
+CL:0000346 total RNA-seq|.,RNA_SEQ,RNA,hair follicle dermal papilla cell,primary_cell,stromal
+CL:0000351 polyA plus RNA-seq|.,RNA_SEQ,RNA,trophoblast cell,in_vitro_differentiated_cells,reproductive_endocrine
+CL:0000515 polyA plus RNA-seq|.,RNA_SEQ,RNA,skeletal muscle myoblast,primary_cell,skeletal_muscle
+CL:0000515 total RNA-seq|.,RNA_SEQ,RNA,skeletal muscle myoblast,primary_cell,skeletal_muscle
+CL:0000594 total RNA-seq|.,RNA_SEQ,RNA,skeletal muscle satellite cell,primary_cell,skeletal_muscle
+CL:0000623 polyA plus RNA-seq|.,RNA_SEQ,RNA,natural killer cell,primary_cell,lymphoid
+CL:0000623 total RNA-seq|.,RNA_SEQ,RNA,natural killer cell,primary_cell,lymphoid
+CL:0000624 total RNA-seq|.,RNA_SEQ,RNA,"CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000625 total RNA-seq|.,RNA_SEQ,RNA,"CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000650 total RNA-seq|.,RNA_SEQ,RNA,mesangial cell,primary_cell,epithelial_barrier
+CL:0000679 total RNA-seq|.,RNA_SEQ,RNA,glutamatergic neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000746 total RNA-seq|.,RNA_SEQ,RNA,cardiac muscle cell,in_vitro_differentiated_cells,cardiovascular
+CL:0000792 total RNA-seq|.,RNA_SEQ,RNA,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,lymphoid
+CL:0000837 total RNA-seq|.,RNA_SEQ,RNA,hematopoietic multipotent progenitor cell,in_vitro_differentiated_cells,unassigned
+CL:0000842 total RNA-seq|.,RNA_SEQ,RNA,mononuclear cell,primary_cell,unassigned
+CL:0000895 total RNA-seq|.,RNA_SEQ,RNA,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000897 total RNA-seq|.,RNA_SEQ,RNA,"CD4-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000899 total RNA-seq|.,RNA_SEQ,RNA,T-helper 17 cell,primary_cell,lymphoid
+CL:0000900 total RNA-seq|.,RNA_SEQ,RNA,"naive thymus-derived CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000909 total RNA-seq|.,RNA_SEQ,RNA,"CD8-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0001054 polyA plus RNA-seq|.,RNA_SEQ,RNA,CD14-positive monocyte,primary_cell,myeloid
+CL:0002098 total RNA-seq|.,RNA_SEQ,RNA,regular cardiac myocyte,primary_cell,cardiovascular
+CL:0002188 total RNA-seq|.,RNA_SEQ,RNA,glomerular endothelial cell,primary_cell,cardiovascular
+CL:0002306 total RNA-seq|.,RNA_SEQ,RNA,epithelial cell of proximal tubule,primary_cell,epithelial_barrier
+CL:0002319 polyA plus RNA-seq|.,RNA_SEQ,RNA,neural cell,in_vitro_differentiated_cells,neural_cells
+CL:0002324 polyA plus RNA-seq|.,RNA_SEQ,RNA,myoepithelial cell of mammary gland,primary_cell,epithelial_barrier
+CL:0002326 polyA plus RNA-seq|.,RNA_SEQ,RNA,luminal epithelial cell of mammary gland,primary_cell,epithelial_barrier
+CL:0002327 polyA plus RNA-seq|.,RNA_SEQ,RNA,mammary epithelial cell,primary_cell,epithelial_barrier
+CL:0002327 total RNA-seq|.,RNA_SEQ,RNA,mammary epithelial cell,primary_cell,epithelial_barrier
+CL:0002328 total RNA-seq|.,RNA_SEQ,RNA,bronchial epithelial cell,primary_cell,epithelial_barrier
+CL:0002351 total RNA-seq|.,RNA_SEQ,RNA,progenitor cell of endocrine pancreas,in_vitro_differentiated_cells,GI
+CL:0002366 total RNA-seq|.,RNA_SEQ,RNA,myometrial cell,primary_cell,stromal
+CL:0002368 total RNA-seq|.,RNA_SEQ,RNA,airway epithelial cell,primary_cell,epithelial_barrier
+CL:0002372 total RNA-seq|.,RNA_SEQ,RNA,myotube,in_vitro_differentiated_cells,skeletal_muscle
+CL:0002451 polyA plus RNA-seq|.,RNA_SEQ,RNA,mammary stem cell,primary_cell,epithelial_barrier
+CL:0002518 total RNA-seq|.,RNA_SEQ,RNA,kidney epithelial cell,primary_cell,epithelial_barrier
+CL:0002539 total RNA-seq|.,RNA_SEQ,RNA,aortic smooth muscle cell,primary_cell,cardiovascular
+CL:0002540 total RNA-seq|.,RNA_SEQ,RNA,mesenchymal stem cell of the bone marrow,primary_cell,unassigned
+CL:0002543 total RNA-seq|.,RNA_SEQ,RNA,vein endothelial cell,primary_cell,cardiovascular
+CL:0002545 total RNA-seq|.,RNA_SEQ,RNA,thoracic aorta endothelial cell,primary_cell,cardiovascular
+CL:0002547 total RNA-seq|.,RNA_SEQ,RNA,fibroblast of the aortic adventitia,primary_cell,stromal
+CL:0002551 total RNA-seq|.,RNA_SEQ,RNA,fibroblast of dermis,primary_cell,stromal
+CL:0002553 polyA plus RNA-seq|.,RNA_SEQ,RNA,fibroblast of lung,primary_cell,stromal
+CL:0002553 total RNA-seq|.,RNA_SEQ,RNA,fibroblast of lung,primary_cell,stromal
+CL:0002558 total RNA-seq|.,RNA_SEQ,RNA,fibroblast of villous mesenchyme,primary_cell,stromal
+CL:0002568 total RNA-seq|.,RNA_SEQ,RNA,mesenchymal stem cell of Wharton's jelly,primary_cell,stromal
+CL:0002570 total RNA-seq|.,RNA_SEQ,RNA,mesenchymal stem cell of adipose,primary_cell,adipose
+CL:0002577 total RNA-seq|.,RNA_SEQ,RNA,placental epithelial cell,primary_cell,reproductive_endocrine
+CL:0002583 total RNA-seq|.,RNA_SEQ,RNA,subcutaneous preadipocyte,primary_cell,adipose
+CL:0002584 total RNA-seq|.,RNA_SEQ,RNA,renal cortical epithelial cell,primary_cell,epithelial_barrier
+CL:0002591 total RNA-seq|.,RNA_SEQ,RNA,smooth muscle cell of the pulmonary artery,primary_cell,cardiovascular
+CL:0002592 total RNA-seq|.,RNA_SEQ,RNA,smooth muscle cell of the coronary artery,primary_cell,cardiovascular
+CL:0002594 total RNA-seq|.,RNA_SEQ,RNA,smooth muscle cell of the umbilical artery,primary_cell,cardiovascular
+CL:0002597 total RNA-seq|.,RNA_SEQ,RNA,smooth muscle cell of bladder,primary_cell,stromal
+CL:0002598 total RNA-seq|.,RNA_SEQ,RNA,bronchial smooth muscle cell,primary_cell,stromal
+CL:0002600 total RNA-seq|.,RNA_SEQ,RNA,smooth muscle cell of trachea,primary_cell,stromal
+CL:0002601 total RNA-seq|.,RNA_SEQ,RNA,uterine smooth muscle cell,primary_cell,stromal
+CL:0002618 polyA plus RNA-seq|.,RNA_SEQ,RNA,endothelial cell of umbilical vein,primary_cell,cardiovascular
+CL:0002618 total RNA-seq|.,RNA_SEQ,RNA,endothelial cell of umbilical vein,primary_cell,cardiovascular
+CL:0010002 total RNA-seq|.,RNA_SEQ,RNA,epithelial cell of umbilical artery,primary_cell,cardiovascular
+CL:0010003 total RNA-seq|.,RNA_SEQ,RNA,epithelial cell of alveolus of lung,primary_cell,epithelial_barrier
+CL:0011012 total RNA-seq|.,RNA_SEQ,RNA,neural crest cell,in_vitro_differentiated_cells,neural_cells
+CL:0011019 total RNA-seq|.,RNA_SEQ,RNA,mesothelial cell of epicardium,in_vitro_differentiated_cells,cardiovascular
+CL:0011020 total RNA-seq|.,RNA_SEQ,RNA,neural progenitor cell,in_vitro_differentiated_cells,neural_cells
+CL:1000458 total RNA-seq|.,RNA_SEQ,RNA,melanocyte of skin,primary_cell,epithelial_barrier
+CL:1001568 total RNA-seq|.,RNA_SEQ,RNA,pulmonary artery endothelial cell,primary_cell,cardiovascular
+CL:1001606 polyA plus RNA-seq|.,RNA_SEQ,RNA,foreskin keratinocyte,primary_cell,epithelial_barrier
+CL:1001606 total RNA-seq|.,RNA_SEQ,RNA,foreskin keratinocyte,primary_cell,epithelial_barrier
+CL:1001608 polyA plus RNA-seq|.,RNA_SEQ,RNA,foreskin fibroblast,primary_cell,stromal
+CL:2000001 polyA plus RNA-seq|.,RNA_SEQ,RNA,peripheral blood mononuclear cell,primary_cell,unassigned
+CL:2000007 total RNA-seq|.,RNA_SEQ,RNA,articular chondrocyte of knee joint,primary_cell,stromal
+CL:2000010 total RNA-seq|.,RNA_SEQ,RNA,dermis blood vessel endothelial cell,primary_cell,cardiovascular
+CL:2000011 total RNA-seq|.,RNA_SEQ,RNA,dermis lymphatic vessel endothelial cell,primary_cell,cardiovascular
+CL:2000016 total RNA-seq|.,RNA_SEQ,RNA,lung microvascular endothelial cell,primary_cell,cardiovascular
+CL:2000018 total RNA-seq|.,RNA_SEQ,RNA,endothelial cell of coronary artery,primary_cell,cardiovascular
+CL:2000040 total RNA-seq|.,RNA_SEQ,RNA,bladder microvascular endothelial cell,primary_cell,cardiovascular
+CL:2000041 total RNA-seq|.,RNA_SEQ,RNA,dermis microvascular lymphatic vessel endothelial cell,primary_cell,cardiovascular
+CL:2000045 polyA plus RNA-seq|.,RNA_SEQ,RNA,foreskin melanocyte,primary_cell,epithelial_barrier
+CL:2000066 total RNA-seq|.,RNA_SEQ,RNA,cardiac ventricle fibroblast,primary_cell,stromal
+CL:2000067 total RNA-seq|.,RNA_SEQ,RNA,cardiac atrium fibroblast,primary_cell,stromal
+CL:2000068 total RNA-seq|.,RNA_SEQ,RNA,pericardium fibroblast,primary_cell,stromal
+CL:2000071 total RNA-seq|.,RNA_SEQ,RNA,mammary microvascular endothelial cell,primary_cell,cardiovascular
+CL:2000078 total RNA-seq|.,RNA_SEQ,RNA,placental pericyte,primary_cell,cardiovascular
+CL:2000092 total RNA-seq|.,RNA_SEQ,RNA,hair follicular keratinocyte,primary_cell,epithelial_barrier
+CL:2000093 total RNA-seq|.,RNA_SEQ,RNA,bronchus fibroblast of lung,primary_cell,stromal
+CL:2000094 total RNA-seq|.,RNA_SEQ,RNA,nasal cavity respiratory epithelium epithelial cell of viscerocranial mucosa,primary_cell,epithelial_barrier
+EFO:0001086 polyA plus RNA-seq|.,RNA_SEQ,RNA,A549,cell_line,excluded_cell_line
+EFO:0001099 total RNA-seq|.,RNA_SEQ,RNA,Caco-2,cell_line,excluded_cell_line
+EFO:0001187 polyA plus RNA-seq|.,RNA_SEQ,RNA,HepG2,cell_line,excluded_cell_line
+EFO:0001187 total RNA-seq|.,RNA_SEQ,RNA,HepG2,cell_line,excluded_cell_line
+EFO:0001193 total RNA-seq|.,RNA_SEQ,RNA,HT-29,cell_line,excluded_cell_line
+EFO:0001196 polyA plus RNA-seq|.,RNA_SEQ,RNA,IMR-90,cell_line,excluded_cell_line
+EFO:0001196 total RNA-seq|.,RNA_SEQ,RNA,IMR-90,cell_line,excluded_cell_line
+EFO:0001200 total RNA-seq|.,RNA_SEQ,RNA,MCF 10A,cell_line,excluded_cell_line
+EFO:0001203 polyA plus RNA-seq|.,RNA_SEQ,RNA,MCF-7,cell_line,excluded_cell_line
+EFO:0001203 total RNA-seq|.,RNA_SEQ,RNA,MCF-7,cell_line,excluded_cell_line
+EFO:0002059 polyA plus RNA-seq|.,RNA_SEQ,RNA,HT1080,cell_line,excluded_cell_line
+EFO:0002059 total RNA-seq|.,RNA_SEQ,RNA,HT1080,cell_line,excluded_cell_line
+EFO:0002067 polyA plus RNA-seq|.,RNA_SEQ,RNA,K562,cell_line,excluded_cell_line
+EFO:0002067 total RNA-seq|.,RNA_SEQ,RNA,K562,cell_line,excluded_cell_line
+EFO:0002074 total RNA-seq|.,RNA_SEQ,RNA,PC-3,cell_line,excluded_cell_line
+EFO:0002101 total RNA-seq|.,RNA_SEQ,RNA,A172,cell_line,excluded_cell_line
+EFO:0002103 total RNA-seq|.,RNA_SEQ,RNA,A375,cell_line,excluded_cell_line
+EFO:0002106 total RNA-seq|.,RNA_SEQ,RNA,A673,cell_line,excluded_cell_line
+EFO:0002150 total RNA-seq|.,RNA_SEQ,RNA,Caki2,cell_line,excluded_cell_line
+EFO:0002179 total RNA-seq|.,RNA_SEQ,RNA,G401,cell_line,excluded_cell_line
+EFO:0002184 total RNA-seq|.,RNA_SEQ,RNA,H4,cell_line,excluded_cell_line
+EFO:0002234 total RNA-seq|.,RNA_SEQ,RNA,MG63,cell_line,excluded_cell_line
+EFO:0002330 total RNA-seq|.,RNA_SEQ,RNA,SJSA1,cell_line,excluded_cell_line
+EFO:0002713 total RNA-seq|.,RNA_SEQ,RNA,Panc1,cell_line,excluded_cell_line
+EFO:0002779 polyA plus RNA-seq|.,RNA_SEQ,RNA,BJ,cell_line,excluded_cell_line
+EFO:0002784 polyA plus RNA-seq|.,RNA_SEQ,RNA,GM12878,cell_line,excluded_cell_line
+EFO:0002784 total RNA-seq|.,RNA_SEQ,RNA,GM12878,cell_line,excluded_cell_line
+EFO:0002791 polyA plus RNA-seq|.,RNA_SEQ,RNA,HeLa-S3,cell_line,excluded_cell_line
+EFO:0002819 total RNA-seq|.,RNA_SEQ,RNA,Calu3,cell_line,excluded_cell_line
+EFO:0002824 total RNA-seq|.,RNA_SEQ,RNA,HCT116,cell_line,excluded_cell_line
+EFO:0002847 total RNA-seq|.,RNA_SEQ,RNA,PC-9,cell_line,excluded_cell_line
+EFO:0003042 polyA plus RNA-seq|.,RNA_SEQ,RNA,H1,cell_line,excluded_cell_line
+EFO:0003042 total RNA-seq|.,RNA_SEQ,RNA,H1,cell_line,excluded_cell_line
+EFO:0003044 polyA plus RNA-seq|.,RNA_SEQ,RNA,NCI-H460,cell_line,excluded_cell_line
+EFO:0003044 total RNA-seq|.,RNA_SEQ,RNA,NCI-H460,cell_line,excluded_cell_line
+EFO:0003045 total RNA-seq|.,RNA_SEQ,RNA,H9,cell_line,excluded_cell_line
+EFO:0003072 polyA plus RNA-seq|.,RNA_SEQ,RNA,SK-N-SH,cell_line,excluded_cell_line
+EFO:0005697 total RNA-seq|.,RNA_SEQ,RNA,M059J,cell_line,excluded_cell_line
+EFO:0005698 total RNA-seq|.,RNA_SEQ,RNA,Daoy,cell_line,excluded_cell_line
+EFO:0005712 total RNA-seq|.,RNA_SEQ,RNA,RPMI7951,cell_line,excluded_cell_line
+EFO:0005714 total RNA-seq|.,RNA_SEQ,RNA,LHCN-M2,cell_line,excluded_cell_line
+EFO:0005719 total RNA-seq|.,RNA_SEQ,RNA,Karpas-422,cell_line,excluded_cell_line
+EFO:0005720 polyA plus RNA-seq|.,RNA_SEQ,RNA,SK-MEL-5,cell_line,excluded_cell_line
+EFO:0005720 total RNA-seq|.,RNA_SEQ,RNA,SK-MEL-5,cell_line,excluded_cell_line
+EFO:0005721 polyA plus RNA-seq|.,RNA_SEQ,RNA,SK-N-DZ,cell_line,excluded_cell_line
+EFO:0005722 total RNA-seq|.,RNA_SEQ,RNA,SJCRH30,cell_line,excluded_cell_line
+EFO:0005723 total RNA-seq|.,RNA_SEQ,RNA,GM23248,cell_line,excluded_cell_line
+EFO:0005904 total RNA-seq|.,RNA_SEQ,RNA,H7,cell_line,excluded_cell_line
+EFO:0006270 polyA plus RNA-seq|.,RNA_SEQ,RNA,AG04450,cell_line,excluded_cell_line
+EFO:0006711 total RNA-seq|.,RNA_SEQ,RNA,OCI-LY7,cell_line,excluded_cell_line
+EFO:0007089 polyA plus RNA-seq|.,RNA_SEQ,RNA,HUES64,cell_line,excluded_cell_line
+EFO:0007950 total RNA-seq|.,RNA_SEQ,RNA,GM23338,cell_line,excluded_cell_line
+EFO:0009318 total RNA-seq|.,RNA_SEQ,RNA,HFFc6,cell_line,excluded_cell_line
+EFO:0009747 total RNA-seq|.,RNA_SEQ,RNA,WTC11,cell_line,excluded_cell_line
+EFO:0030018 polyA plus RNA-seq|.,RNA_SEQ,RNA,BLaER1,cell_line,excluded_cell_line
+NTR:0000427 polyA plus RNA-seq|.,RNA_SEQ,RNA,neurosphere,primary_cell,neural_cells
+NTR:0000491 total RNA-seq|.,RNA_SEQ,RNA,Right ventricle myocardium inferior,tissue,cardiovascular
+NTR:0000492 total RNA-seq|.,RNA_SEQ,RNA,Right ventricle myocardium superior,tissue,cardiovascular
+NTR:0000493 total RNA-seq|.,RNA_SEQ,RNA,left ventricle myocardium inferior,tissue,cardiovascular
+NTR:0000494 total RNA-seq|.,RNA_SEQ,RNA,left ventricle myocardium superior,tissue,cardiovascular
+NTR:0000856 polyA plus RNA-seq|.,RNA_SEQ,RNA,mesendoderm,in_vitro_differentiated_cells,unassigned
+NTR:0003013 polyA plus RNA-seq|.,RNA_SEQ,RNA,placental basal plate,tissue,reproductive_endocrine
+UBERON:0000016 polyA plus RNA-seq|.,RNA_SEQ,RNA,endocrine pancreas,tissue,GI
+UBERON:0000019 total RNA-seq|.,RNA_SEQ,RNA,camera-type eye,tissue,epithelial_barrier
+UBERON:0000056 total RNA-seq|.,RNA_SEQ,RNA,ureter,tissue,epithelial_barrier
+UBERON:0000081 total RNA-seq|.,RNA_SEQ,RNA,metanephros,tissue,epithelial_barrier
+UBERON:0000088 polyA plus RNA-seq|.,RNA_SEQ,RNA,trophoblast,tissue,reproductive_endocrine
+UBERON:0000305 polyA plus RNA-seq|.,RNA_SEQ,RNA,amnion,tissue,reproductive_endocrine
+UBERON:0000317 total RNA-seq|.,RNA_SEQ,RNA,colonic mucosa,tissue,GI
+UBERON:0000473 polyA plus RNA-seq|.,RNA_SEQ,RNA,testis,tissue,reproductive_endocrine
+UBERON:0000473 total RNA-seq|.,RNA_SEQ,RNA,testis,tissue,reproductive_endocrine
+UBERON:0000945 polyA plus RNA-seq|.,RNA_SEQ,RNA,stomach,tissue,GI
+UBERON:0000945 total RNA-seq|.,RNA_SEQ,RNA,stomach,tissue,GI
+UBERON:0000947 polyA plus RNA-seq|.,RNA_SEQ,RNA,aorta,tissue,cardiovascular
+UBERON:0000947 total RNA-seq|.,RNA_SEQ,RNA,aorta,tissue,cardiovascular
+UBERON:0000948 polyA plus RNA-seq|.,RNA_SEQ,RNA,heart,tissue,cardiovascular
+UBERON:0000948 total RNA-seq|.,RNA_SEQ,RNA,heart,tissue,cardiovascular
+UBERON:0000955 polyA plus RNA-seq|.,RNA_SEQ,RNA,brain,tissue,CNS_tissue
+UBERON:0000992 polyA plus RNA-seq|.,RNA_SEQ,RNA,ovary,tissue,reproductive_endocrine
+UBERON:0000992 total RNA-seq|.,RNA_SEQ,RNA,ovary,tissue,reproductive_endocrine
+UBERON:0000995 total RNA-seq|.,RNA_SEQ,RNA,uterus,tissue,reproductive_endocrine
+UBERON:0000996 total RNA-seq|.,RNA_SEQ,RNA,vagina,tissue,reproductive_endocrine
+UBERON:0001013 polyA plus RNA-seq|.,RNA_SEQ,RNA,adipose tissue,tissue,adipose
+UBERON:0001043 polyA plus RNA-seq|.,RNA_SEQ,RNA,esophagus,tissue,GI
+UBERON:0001072 total RNA-seq|.,RNA_SEQ,RNA,posterior vena cava,tissue,cardiovascular
+UBERON:0001114 total RNA-seq|.,RNA_SEQ,RNA,right lobe of liver,tissue,liver
+UBERON:0001115 total RNA-seq|.,RNA_SEQ,RNA,left lobe of liver,tissue,liver
+UBERON:0001134 total RNA-seq|.,RNA_SEQ,RNA,skeletal muscle tissue,tissue,skeletal_muscle
+UBERON:0001150 total RNA-seq|.,RNA_SEQ,RNA,body of pancreas,tissue,GI
+UBERON:0001157 total RNA-seq|.,RNA_SEQ,RNA,transverse colon,tissue,GI
+UBERON:0001159 polyA plus RNA-seq|.,RNA_SEQ,RNA,sigmoid colon,tissue,GI
+UBERON:0001159 total RNA-seq|.,RNA_SEQ,RNA,sigmoid colon,tissue,GI
+UBERON:0001211 total RNA-seq|.,RNA_SEQ,RNA,Peyer's patch,tissue,lymphoid
+UBERON:0001255 polyA plus RNA-seq|.,RNA_SEQ,RNA,urinary bladder,tissue,epithelial_barrier
+UBERON:0001255 total RNA-seq|.,RNA_SEQ,RNA,urinary bladder,tissue,epithelial_barrier
+UBERON:0001264 polyA plus RNA-seq|.,RNA_SEQ,RNA,pancreas,tissue,GI
+UBERON:0001264 total RNA-seq|.,RNA_SEQ,RNA,pancreas,tissue,GI
+UBERON:0001322 total RNA-seq|.,RNA_SEQ,RNA,sciatic nerve,tissue,unassigned
+UBERON:0001323 total RNA-seq|.,RNA_SEQ,RNA,tibial nerve,tissue,unassigned
+UBERON:0001383 polyA plus RNA-seq|.,RNA_SEQ,RNA,muscle of leg,tissue,skeletal_muscle
+UBERON:0001496 total RNA-seq|.,RNA_SEQ,RNA,ascending aorta,tissue,cardiovascular
+UBERON:0001515 total RNA-seq|.,RNA_SEQ,RNA,thoracic aorta,tissue,cardiovascular
+UBERON:0001723 total RNA-seq|.,RNA_SEQ,RNA,tongue,tissue,GI
+UBERON:0001870 total RNA-seq|.,RNA_SEQ,RNA,frontal cortex,tissue,CNS_tissue
+UBERON:0001871 total RNA-seq|.,RNA_SEQ,RNA,temporal lobe,tissue,CNS_tissue
+UBERON:0001872 total RNA-seq|.,RNA_SEQ,RNA,parietal lobe,tissue,CNS_tissue
+UBERON:0001894 total RNA-seq|.,RNA_SEQ,RNA,diencephalon,tissue,CNS_tissue
+UBERON:0001987 polyA plus RNA-seq|.,RNA_SEQ,RNA,placenta,tissue,reproductive_endocrine
+UBERON:0001987 total RNA-seq|.,RNA_SEQ,RNA,placenta,tissue,reproductive_endocrine
+UBERON:0002021 total RNA-seq|.,RNA_SEQ,RNA,occipital lobe,tissue,CNS_tissue
+UBERON:0002037 polyA plus RNA-seq|.,RNA_SEQ,RNA,cerebellum,tissue,CNS_tissue
+UBERON:0002037 total RNA-seq|.,RNA_SEQ,RNA,cerebellum,tissue,CNS_tissue
+UBERON:0002046 total RNA-seq|.,RNA_SEQ,RNA,thyroid gland,tissue,reproductive_endocrine
+UBERON:0002048 polyA plus RNA-seq|.,RNA_SEQ,RNA,lung,tissue,epithelial_barrier
+UBERON:0002048 total RNA-seq|.,RNA_SEQ,RNA,lung,tissue,epithelial_barrier
+UBERON:0002078 polyA plus RNA-seq|.,RNA_SEQ,RNA,right cardiac atrium,tissue,cardiovascular
+UBERON:0002078 total RNA-seq|.,RNA_SEQ,RNA,right cardiac atrium,tissue,cardiovascular
+UBERON:0002079 total RNA-seq|.,RNA_SEQ,RNA,left cardiac atrium,tissue,cardiovascular
+UBERON:0002080 polyA plus RNA-seq|.,RNA_SEQ,RNA,heart right ventricle,tissue,cardiovascular
+UBERON:0002080 total RNA-seq|.,RNA_SEQ,RNA,heart right ventricle,tissue,cardiovascular
+UBERON:0002084 polyA plus RNA-seq|.,RNA_SEQ,RNA,heart left ventricle,tissue,cardiovascular
+UBERON:0002084 total RNA-seq|.,RNA_SEQ,RNA,heart left ventricle,tissue,cardiovascular
+UBERON:0002097 total RNA-seq|.,RNA_SEQ,RNA,skin of body,tissue,epithelial_barrier
+UBERON:0002099 total RNA-seq|.,RNA_SEQ,RNA,cardiac septum,tissue,cardiovascular
+UBERON:0002106 polyA plus RNA-seq|.,RNA_SEQ,RNA,spleen,tissue,lymphoid
+UBERON:0002106 total RNA-seq|.,RNA_SEQ,RNA,spleen,tissue,lymphoid
+UBERON:0002107 polyA plus RNA-seq|.,RNA_SEQ,RNA,liver,tissue,liver
+UBERON:0002107 total RNA-seq|.,RNA_SEQ,RNA,liver,tissue,liver
+UBERON:0002108 polyA plus RNA-seq|.,RNA_SEQ,RNA,small intestine,tissue,GI
+UBERON:0002113 polyA plus RNA-seq|.,RNA_SEQ,RNA,kidney,tissue,epithelial_barrier
+UBERON:0002113 total RNA-seq|.,RNA_SEQ,RNA,kidney,tissue,epithelial_barrier
+UBERON:0002168 total RNA-seq|.,RNA_SEQ,RNA,left lung,tissue,epithelial_barrier
+UBERON:0002170 total RNA-seq|.,RNA_SEQ,RNA,upper lobe of right lung,tissue,epithelial_barrier
+UBERON:0002171 total RNA-seq|.,RNA_SEQ,RNA,lower lobe of right lung,tissue,epithelial_barrier
+UBERON:0002190 total RNA-seq|.,RNA_SEQ,RNA,subcutaneous adipose tissue,tissue,adipose
+UBERON:0002240 polyA plus RNA-seq|.,RNA_SEQ,RNA,spinal cord,tissue,CNS_tissue
+UBERON:0002240 total RNA-seq|.,RNA_SEQ,RNA,spinal cord,tissue,CNS_tissue
+UBERON:0002331 total RNA-seq|.,RNA_SEQ,RNA,umbilical cord,tissue,reproductive_endocrine
+UBERON:0002367 total RNA-seq|.,RNA_SEQ,RNA,prostate gland,tissue,epithelial_barrier
+UBERON:0002369 polyA plus RNA-seq|.,RNA_SEQ,RNA,adrenal gland,tissue,reproductive_endocrine
+UBERON:0002369 total RNA-seq|.,RNA_SEQ,RNA,adrenal gland,tissue,reproductive_endocrine
+UBERON:0002370 polyA plus RNA-seq|.,RNA_SEQ,RNA,thymus,tissue,lymphoid
+UBERON:0002469 total RNA-seq|.,RNA_SEQ,RNA,esophagus mucosa,tissue,GI
+UBERON:0003124 polyA plus RNA-seq|.,RNA_SEQ,RNA,chorion,tissue,reproductive_endocrine
+UBERON:0004264 total RNA-seq|.,RNA_SEQ,RNA,lower leg skin,tissue,epithelial_barrier
+UBERON:0004550 total RNA-seq|.,RNA_SEQ,RNA,gastroesophageal sphincter,tissue,GI
+UBERON:0004648 total RNA-seq|.,RNA_SEQ,RNA,esophagus muscularis mucosa,tissue,GI
+UBERON:0004992 total RNA-seq|.,RNA_SEQ,RNA,mucosa of descending colon,tissue,GI
+UBERON:0005033 total RNA-seq|.,RNA_SEQ,RNA,mucosa of gallbladder,tissue,GI
+UBERON:0006631 total RNA-seq|.,RNA_SEQ,RNA,right atrium auricular region,tissue,cardiovascular
+UBERON:0006920 total RNA-seq|.,RNA_SEQ,RNA,esophagus squamous epithelium,tissue,GI
+UBERON:0007106 polyA plus RNA-seq|.,RNA_SEQ,RNA,chorionic villus,tissue,reproductive_endocrine
+UBERON:0008367 total RNA-seq|.,RNA_SEQ,RNA,breast epithelium,tissue,epithelial_barrier
+UBERON:0008450 polyA plus RNA-seq|.,RNA_SEQ,RNA,psoas muscle,tissue,skeletal_muscle
+UBERON:0008450 total RNA-seq|.,RNA_SEQ,RNA,psoas muscle,tissue,skeletal_muscle
+UBERON:0008952 total RNA-seq|.,RNA_SEQ,RNA,upper lobe of left lung,tissue,epithelial_barrier
+UBERON:0008953 total RNA-seq|.,RNA_SEQ,RNA,lower lobe of left lung,tissue,epithelial_barrier
+UBERON:0008971 total RNA-seq|.,RNA_SEQ,RNA,left colon,tissue,GI
+UBERON:0009834 total RNA-seq|.,RNA_SEQ,RNA,dorsolateral prefrontal cortex,tissue,CNS_tissue
+UBERON:0010414 total RNA-seq|.,RNA_SEQ,RNA,omental fat pad,tissue,adipose
+UBERON:0011907 total RNA-seq|.,RNA_SEQ,RNA,gastrocnemius medialis,tissue,skeletal_muscle
+UBERON:0015143 total RNA-seq|.,RNA_SEQ,RNA,mesenteric fat pad,tissue,adipose
+UBERON:0036149 total RNA-seq|.,RNA_SEQ,RNA,suprapubic skin,tissue,epithelial_barrier
+UBERON:1000010 polyA plus RNA-seq|.,RNA_SEQ,RNA,mole,tissue,epithelial_barrier
+CL:0000100 total RNA-seq|.,RNA_SEQ,RNA,motor neuron,in_vitro_differentiated_cells,neural_cells
+CL:0000121 polyA plus RNA-seq|.,RNA_SEQ,RNA,Purkinje cell,primary_cell,neural_cells
+CL:0000182 polyA plus RNA-seq|.,RNA_SEQ,RNA,hepatocyte,in_vitro_differentiated_cells,liver
+CL:0000187 polyA plus RNA-seq|.,RNA_SEQ,RNA,myocyte,in_vitro_differentiated_cells,skeletal_muscle
+CL:0000192 polyA plus RNA-seq|.,RNA_SEQ,RNA,smooth muscle cell,in_vitro_differentiated_cells,stromal
+CL:0000624 polyA plus RNA-seq|.,RNA_SEQ,RNA,"CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000625 polyA plus RNA-seq|.,RNA_SEQ,RNA,"CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000746 polyA plus RNA-seq|.,RNA_SEQ,RNA,cardiac muscle cell,in_vitro_differentiated_cells,cardiovascular
+CL:0000788 polyA plus RNA-seq|.,RNA_SEQ,RNA,naive B cell,primary_cell,lymphoid
+CL:0000792 polyA plus RNA-seq|.,RNA_SEQ,RNA,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",primary_cell,lymphoid
+CL:0000823 polyA plus RNA-seq|.,RNA_SEQ,RNA,immature natural killer cell,primary_cell,lymphoid
+CL:0000895 polyA plus RNA-seq|.,RNA_SEQ,RNA,"naive thymus-derived CD4-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000897 polyA plus RNA-seq|.,RNA_SEQ,RNA,"CD4-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0000900 polyA plus RNA-seq|.,RNA_SEQ,RNA,"naive thymus-derived CD8-positive, alpha-beta T cell",primary_cell,lymphoid
+CL:0000909 polyA plus RNA-seq|.,RNA_SEQ,RNA,"CD8-positive, alpha-beta memory T cell",primary_cell,lymphoid
+CL:0001053 polyA plus RNA-seq|.,RNA_SEQ,RNA,IgD-negative memory B cell,primary_cell,lymphoid
+CL:0001059 polyA plus RNA-seq|.,RNA_SEQ,RNA,"common myeloid progenitor, CD34-positive",primary_cell,myeloid
+CL:0011022 polyA plus RNA-seq|.,RNA_SEQ,RNA,fibroblast of skin of back,primary_cell,stromal
+CL:2000013 polyA plus RNA-seq|.,RNA_SEQ,RNA,fibroblast of skin of abdomen,primary_cell,stromal
+CLO:0007045 polyA plus RNA-seq|.,RNA_SEQ,RNA,"Jurkat, Clone E6-1",cell_line,excluded_cell_line
+EFO:0000572 gtex Cells_EBV-transformed_lymphocytes polyA plus RNA-seq|.,RNA_SEQ,RNA,lymphoblast,tissue,unassigned
+EFO:0002009 gtex Cells_Cultured_fibroblasts polyA plus RNA-seq|.,RNA_SEQ,RNA,fibroblast derived cell line,tissue,unassigned
+EFO:0002713 polyA plus RNA-seq|.,RNA_SEQ,RNA,Panc1,cell_line,excluded_cell_line
+EFO:0002785 polyA plus RNA-seq|.,RNA_SEQ,RNA,GM12891,cell_line,excluded_cell_line
+EFO:0002786 polyA plus RNA-seq|.,RNA_SEQ,RNA,GM12892,cell_line,excluded_cell_line
+EFO:0002824 polyA plus RNA-seq|.,RNA_SEQ,RNA,HCT116,cell_line,excluded_cell_line
+EFO:0005234 polyA plus RNA-seq|.,RNA_SEQ,RNA,PFSK-1,cell_line,excluded_cell_line
+EFO:0005237 polyA plus RNA-seq|.,RNA_SEQ,RNA,U-87 MG,cell_line,excluded_cell_line
+EFO:0005714 polyA plus RNA-seq|.,RNA_SEQ,RNA,LHCN-M2,cell_line,excluded_cell_line
+EFO:0005723 polyA plus RNA-seq|.,RNA_SEQ,RNA,GM23248,cell_line,excluded_cell_line
+EFO:0005725 polyA plus RNA-seq|.,RNA_SEQ,RNA,BE2C,cell_line,excluded_cell_line
+EFO:0007950 polyA plus RNA-seq|.,RNA_SEQ,RNA,GM23338,cell_line,excluded_cell_line
+NTR:0000524 polyA plus RNA-seq|.,RNA_SEQ,RNA,fibroblast of skin of scalp,primary_cell,stromal
+UBERON:0000007 gtex Pituitary polyA plus RNA-seq|.,RNA_SEQ,RNA,pituitary gland,tissue,reproductive_endocrine
+UBERON:0000059 polyA plus RNA-seq|.,RNA_SEQ,RNA,large intestine,tissue,GI
+UBERON:0000458 gtex Cervix_Endocervix polyA plus RNA-seq|.,RNA_SEQ,RNA,endocervix,tissue,reproductive_endocrine
+UBERON:0000473 gtex Testis polyA plus RNA-seq|.,RNA_SEQ,RNA,testis,tissue,reproductive_endocrine
+UBERON:0000945 gtex Stomach polyA plus RNA-seq|.,RNA_SEQ,RNA,stomach,tissue,GI
+UBERON:0000992 gtex Ovary polyA plus RNA-seq|.,RNA_SEQ,RNA,ovary,tissue,reproductive_endocrine
+UBERON:0000995 gtex Uterus polyA plus RNA-seq|.,RNA_SEQ,RNA,uterus,tissue,reproductive_endocrine
+UBERON:0000996 gtex Vagina polyA plus RNA-seq|.,RNA_SEQ,RNA,vagina,tissue,reproductive_endocrine
+UBERON:0001114 gtex Liver polyA plus RNA-seq|.,RNA_SEQ,RNA,right lobe of liver,tissue,liver
+UBERON:0001150 gtex Pancreas polyA plus RNA-seq|.,RNA_SEQ,RNA,body of pancreas,tissue,GI
+UBERON:0001157 gtex Colon_Transverse polyA plus RNA-seq|.,RNA_SEQ,RNA,transverse colon,tissue,GI
+UBERON:0001159 gtex Colon_Sigmoid polyA plus RNA-seq|.,RNA_SEQ,RNA,sigmoid colon,tissue,GI
+UBERON:0001211 gtex Small_Intestine_Terminal_Ileum polyA plus RNA-seq|.,RNA_SEQ,RNA,Peyer's patch,tissue,lymphoid
+UBERON:0001224 polyA plus RNA-seq|.,RNA_SEQ,RNA,renal pelvis,tissue,epithelial_barrier
+UBERON:0001225 gtex Kidney_Cortex polyA plus RNA-seq|.,RNA_SEQ,RNA,cortex of kidney,tissue,epithelial_barrier
+UBERON:0001255 gtex Bladder polyA plus RNA-seq|.,RNA_SEQ,RNA,urinary bladder,tissue,epithelial_barrier
+UBERON:0001293 gtex Kidney_Medulla polyA plus RNA-seq|.,RNA_SEQ,RNA,outer medulla of kidney,tissue,epithelial_barrier
+UBERON:0001323 gtex Nerve_Tibial polyA plus RNA-seq|.,RNA_SEQ,RNA,tibial nerve,tissue,unassigned
+UBERON:0001496 gtex Artery_Aorta polyA plus RNA-seq|.,RNA_SEQ,RNA,ascending aorta,tissue,cardiovascular
+UBERON:0001499 polyA plus RNA-seq|.,RNA_SEQ,RNA,muscle of arm,tissue,skeletal_muscle
+UBERON:0001621 gtex Artery_Coronary polyA plus RNA-seq|.,RNA_SEQ,RNA,coronary artery,tissue,cardiovascular
+UBERON:0001774 polyA plus RNA-seq|.,RNA_SEQ,RNA,muscle of trunk,tissue,skeletal_muscle
+UBERON:0001870 gtex Brain_Cortex polyA plus RNA-seq|.,RNA_SEQ,RNA,frontal cortex,tissue,CNS_tissue
+UBERON:0001873 gtex Brain_Caudate_basal_ganglia polyA plus RNA-seq|.,RNA_SEQ,RNA,caudate nucleus,tissue,CNS_tissue
+UBERON:0001874 gtex Brain_Putamen_basal_ganglia polyA plus RNA-seq|.,RNA_SEQ,RNA,putamen,tissue,CNS_tissue
+UBERON:0001876 gtex Brain_Amygdala polyA plus RNA-seq|.,RNA_SEQ,RNA,amygdala,tissue,CNS_tissue
+UBERON:0001882 gtex Brain_Nucleus_accumbens_basal_ganglia polyA plus RNA-seq|.,RNA_SEQ,RNA,nucleus accumbens,tissue,CNS_tissue
+UBERON:0001898 gtex Brain_Hypothalamus polyA plus RNA-seq|.,RNA_SEQ,RNA,hypothalamus,tissue,CNS_tissue
+UBERON:0001954 gtex Brain_Hippocampus polyA plus RNA-seq|.,RNA_SEQ,RNA,Ammon's horn,tissue,CNS_tissue
+UBERON:0002037 gtex Brain_Cerebellum polyA plus RNA-seq|.,RNA_SEQ,RNA,cerebellum,tissue,CNS_tissue
+UBERON:0002038 gtex Brain_Substantia_nigra polyA plus RNA-seq|.,RNA_SEQ,RNA,substantia nigra,tissue,CNS_tissue
+UBERON:0002046 gtex Thyroid polyA plus RNA-seq|.,RNA_SEQ,RNA,thyroid gland,tissue,reproductive_endocrine
+UBERON:0002106 gtex Spleen polyA plus RNA-seq|.,RNA_SEQ,RNA,spleen,tissue,lymphoid
+UBERON:0002167 polyA plus RNA-seq|.,RNA_SEQ,RNA,right lung,tissue,epithelial_barrier
+UBERON:0002168 polyA plus RNA-seq|.,RNA_SEQ,RNA,left lung,tissue,epithelial_barrier
+UBERON:0002190 gtex Adipose_Subcutaneous polyA plus RNA-seq|.,RNA_SEQ,RNA,subcutaneous adipose tissue,tissue,adipose
+UBERON:0002245 gtex Brain_Cerebellar_Hemisphere polyA plus RNA-seq|.,RNA_SEQ,RNA,cerebellar hemisphere,tissue,CNS_tissue
+UBERON:0002324 polyA plus RNA-seq|.,RNA_SEQ,RNA,muscle of back,tissue,skeletal_muscle
+UBERON:0002367 gtex Prostate polyA plus RNA-seq|.,RNA_SEQ,RNA,prostate gland,tissue,epithelial_barrier
+UBERON:0002369 gtex Adrenal_Gland polyA plus RNA-seq|.,RNA_SEQ,RNA,adrenal gland,tissue,reproductive_endocrine
+UBERON:0003662 polyA plus RNA-seq|.,RNA_SEQ,RNA,forelimb muscle,tissue,skeletal_muscle
+UBERON:0003663 polyA plus RNA-seq|.,RNA_SEQ,RNA,hindlimb muscle,tissue,skeletal_muscle
+UBERON:0003889 gtex Fallopian_Tube polyA plus RNA-seq|.,RNA_SEQ,RNA,fallopian tube,tissue,reproductive_endocrine
+UBERON:0004264 gtex Skin_Sun_Exposed_Lower_leg polyA plus RNA-seq|.,RNA_SEQ,RNA,lower leg skin,tissue,epithelial_barrier
+UBERON:0004538 polyA plus RNA-seq|.,RNA_SEQ,RNA,left kidney,tissue,epithelial_barrier
+UBERON:0004550 gtex Esophagus_Gastroesophageal_Junction polyA plus RNA-seq|.,RNA_SEQ,RNA,gastroesophageal sphincter,tissue,GI
+UBERON:0004648 gtex Esophagus_Muscularis polyA plus RNA-seq|.,RNA_SEQ,RNA,esophagus muscularis mucosa,tissue,GI
+UBERON:0005270 polyA plus RNA-seq|.,RNA_SEQ,RNA,renal cortex interstitium,tissue,epithelial_barrier
+UBERON:0006330 gtex Minor_Salivary_Gland polyA plus RNA-seq|.,RNA_SEQ,RNA,anterior lingual gland,tissue,GI
+UBERON:0006469 gtex Brain_Spinal_cord_cervical_c-1 polyA plus RNA-seq|.,RNA_SEQ,RNA,C1 segment of cervical spinal cord,tissue,CNS_tissue
+UBERON:0006566 gtex Heart_Left_Ventricle polyA plus RNA-seq|.,RNA_SEQ,RNA,left ventricle myocardium,tissue,cardiovascular
+UBERON:0006631 gtex Heart_Atrial_Appendage polyA plus RNA-seq|.,RNA_SEQ,RNA,right atrium auricular region,tissue,cardiovascular
+UBERON:0006920 gtex Esophagus_Mucosa polyA plus RNA-seq|.,RNA_SEQ,RNA,esophagus squamous epithelium,tissue,GI
+UBERON:0007610 gtex Artery_Tibial polyA plus RNA-seq|.,RNA_SEQ,RNA,tibial artery,tissue,cardiovascular
+UBERON:0008367 gtex Breast_Mammary_Tissue polyA plus RNA-seq|.,RNA_SEQ,RNA,breast epithelium,tissue,epithelial_barrier
+UBERON:0008952 gtex Lung polyA plus RNA-seq|.,RNA_SEQ,RNA,upper lobe of left lung,tissue,epithelial_barrier
+UBERON:0009834 gtex Brain_Frontal_Cortex_BA9 polyA plus RNA-seq|.,RNA_SEQ,RNA,dorsolateral prefrontal cortex,tissue,CNS_tissue
+UBERON:0009835 gtex Brain_Anterior_cingulate_cortex_BA24 polyA plus RNA-seq|.,RNA_SEQ,RNA,anterior cingulate cortex,tissue,CNS_tissue
+UBERON:0010414 gtex Adipose_Visceral_Omentum polyA plus RNA-seq|.,RNA_SEQ,RNA,omental fat pad,tissue,adipose
+UBERON:0011907 gtex Muscle_Skeletal polyA plus RNA-seq|.,RNA_SEQ,RNA,gastrocnemius medialis,tissue,skeletal_muscle
+UBERON:0012249 gtex Cervix_Ectocervix polyA plus RNA-seq|.,RNA_SEQ,RNA,ectocervix,tissue,reproductive_endocrine
+UBERON:0013756 gtex Whole_Blood polyA plus RNA-seq|.,RNA_SEQ,RNA,venous blood,tissue,unassigned
+UBERON:0018115 polyA plus RNA-seq|.,RNA_SEQ,RNA,left renal pelvis,tissue,epithelial_barrier
+UBERON:0018116 polyA plus RNA-seq|.,RNA_SEQ,RNA,right renal pelvis,tissue,epithelial_barrier
+UBERON:0018117 polyA plus RNA-seq|.,RNA_SEQ,RNA,left renal cortex interstitium,tissue,epithelial_barrier
+UBERON:0018118 polyA plus RNA-seq|.,RNA_SEQ,RNA,right renal cortex interstitium,tissue,epithelial_barrier
+UBERON:0036149 gtex Skin_Not_Sun_Exposed_Suprapubic polyA plus RNA-seq|.,RNA_SEQ,RNA,suprapubic skin,tissue,epithelial_barrier

@@ -1,0 +1,3 @@
+[N_AD] 2026 AD 합의 메타분석 proxy 제외판 GCST90704647: 전체 14,014,754행, APOE 영역 10,611행 제외 → HapMap3 no-MHC SNV 1,203,752개 (99 %), Neff_total 중앙값 197,002 (범위 61,196–197,002) | 파일 P가 0인 SNP 0개
+  munge N_AD: Writing summary statistics for 1178160 SNPs (1178160 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3r\sumstats\N_AD.sumstats.gz.
+  Mean chi^2 = 1.359 | Lambda GC = 1.229 | Max chi^2 = 320.054

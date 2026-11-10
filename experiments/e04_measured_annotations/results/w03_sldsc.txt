@@ -1,0 +1,377 @@
+S-LDSC 110회, 순차
+  [1/110] AD BM 완료 (3분, 남은 약 321분)
+  [2/110] AD J1 완료 (6분, 남은 약 332분)
+  [3/110] AD S_CAGE 완료 (9분, 남은 약 333분)
+  [4/110] AD S_DNASE 완료 (13분, 남은 약 333분)
+  [5/110] AD S_H3K27ac 완료 (16분, 남은 약 331분)
+  [6/110] AD M1_CAGE 완료 (19분, 남은 약 324분)
+  [7/110] AD M1_DNASE 완료 (22분, 남은 약 317분)
+  [8/110] AD M1_H3K27ac 완료 (24분, 남은 약 312분)
+  [9/110] AD J1k 완료 (28분, 남은 약 311분)
+  [10/110] AD J1p 완료 (31분, 남은 약 309분)
+  [11/110] EA BM 완료 (34분, 남은 약 304분)
+  [12/110] EA J1 완료 (37분, 남은 약 303분)
+  [13/110] EA S_CAGE 완료 (40분, 남은 약 300분)
+  [14/110] EA S_DNASE 완료 (43분, 남은 약 297분)
+  [15/110] EA S_H3K27ac 완료 (47분, 남은 약 295분)
+  [16/110] EA M1_CAGE 완료 (49분, 남은 약 291분)
+  [17/110] EA M1_DNASE 완료 (52분, 남은 약 286분)
+  [18/110] EA M1_H3K27ac 완료 (55분, 남은 약 282분)
+  [19/110] EA J1k 완료 (58분, 남은 약 280분)
+  [20/110] EA J1p 완료 (62분, 남은 약 277분)
+  [21/110] SCZ BM 완료 (65분, 남은 약 274분)
+  [22/110] SCZ J1 완료 (68분, 남은 약 271분)
+  [23/110] SCZ S_CAGE 완료 (71분, 남은 약 269분)
+  [24/110] SCZ S_DNASE 완료 (74분, 남은 약 266분)
+  [25/110] SCZ S_H3K27ac 완료 (77분, 남은 약 263분)
+  [26/110] SCZ M1_CAGE 완료 (80분, 남은 약 259분)
+  [27/110] SCZ M1_DNASE 완료 (83분, 남은 약 256분)
+  [28/110] SCZ M1_H3K27ac 완료 (86분, 남은 약 252분)
+  [29/110] SCZ J1k 완료 (89분, 남은 약 249분)
+  [30/110] SCZ J1p 완료 (92분, 남은 약 246분)
+  [31/110] BIP BM 완료 (95분, 남은 약 243분)
+  [32/110] BIP J1 완료 (98분, 남은 약 240분)
+  [33/110] BIP S_CAGE 완료 (102분, 남은 약 237분)
+  [34/110] BIP S_DNASE 완료 (105분, 남은 약 234분)
+  [35/110] BIP S_H3K27ac 완료 (108분, 남은 약 231분)
+  [36/110] BIP M1_CAGE 완료 (111분, 남은 약 228분)
+  [37/110] BIP M1_DNASE 완료 (114분, 남은 약 224분)
+  [38/110] BIP M1_H3K27ac 완료 (116분, 남은 약 220분)
+  [39/110] BIP J1k 완료 (120분, 남은 약 218분)
+  [40/110] BIP J1p 완료 (123분, 남은 약 215분)
+  [41/110] NEURO BM 완료 (126분, 남은 약 211분)
+  [42/110] NEURO J1 완료 (129분, 남은 약 209분)
+  [43/110] NEURO S_CAGE 완료 (132분, 남은 약 206분)
+  [44/110] NEURO S_DNASE 완료 (135분, 남은 약 203분)
+  [45/110] NEURO S_H3K27ac 완료 (138분, 남은 약 200분)
+  [46/110] NEURO M1_CAGE 완료 (141분, 남은 약 196분)
+  [47/110] NEURO M1_DNASE 완료 (144분, 남은 약 193분)
+  [48/110] NEURO M1_H3K27ac 완료 (147분, 남은 약 190분)
+  [49/110] NEURO J1k 완료 (150분, 남은 약 187분)
+  [50/110] NEURO J1p 완료 (153분, 남은 약 184분)
+  [51/110] BMI BM 완료 (156분, 남은 약 181분)
+  [52/110] BMI J1 완료 (160분, 남은 약 178분)
+  [53/110] BMI S_CAGE 완료 (163분, 남은 약 175분)
+  [54/110] BMI S_DNASE 완료 (166분, 남은 약 172분)
+  [55/110] BMI S_H3K27ac 완료 (169분, 남은 약 169분)
+  [56/110] BMI M1_CAGE 완료 (172분, 남은 약 166분)
+  [57/110] BMI M1_DNASE 완료 (175분, 남은 약 163분)
+  [58/110] BMI M1_H3K27ac 완료 (178분, 남은 약 159분)
+  [59/110] BMI J1k 완료 (181분, 남은 약 157분)
+  [60/110] BMI J1p 완료 (184분, 남은 약 154분)
+  [61/110] MONO BM 완료 (187분, 남은 약 150분)
+  [62/110] MONO J1 완료 (190분, 남은 약 147분)
+  [63/110] MONO S_CAGE 완료 (194분, 남은 약 144분)
+  [64/110] MONO S_DNASE 완료 (197분, 남은 약 141분)
+  [65/110] MONO S_H3K27ac 완료 (200분, 남은 약 138분)
+  [66/110] MONO M1_CAGE 완료 (203분, 남은 약 135분)
+  [67/110] MONO M1_DNASE 완료 (206분, 남은 약 132분)
+  [68/110] MONO M1_H3K27ac 완료 (209분, 남은 약 129분)
+  [69/110] MONO J1k 완료 (212분, 남은 약 126분)
+  [70/110] MONO J1p 완료 (215분, 남은 약 123분)
+  [71/110] IBD BM 완료 (218분, 남은 약 120분)
+  [72/110] IBD J1 완료 (221분, 남은 약 117분)
+  [73/110] IBD S_CAGE 완료 (224분, 남은 약 114분)
+  [74/110] IBD S_DNASE 완료 (227분, 남은 약 111분)
+  [75/110] IBD S_H3K27ac 완료 (231분, 남은 약 108분)
+  [76/110] IBD M1_CAGE 완료 (233분, 남은 약 104분)
+  [77/110] IBD M1_DNASE 완료 (236분, 남은 약 101분)
+  [78/110] IBD M1_H3K27ac 완료 (239분, 남은 약 98분)
+  [79/110] IBD J1k 완료 (242분, 남은 약 95분)
+  [80/110] IBD J1p 완료 (246분, 남은 약 92분)
+  [81/110] RA BM 완료 (248분, 남은 약 89분)
+  [82/110] RA J1 완료 (252분, 남은 약 86분)
+  [83/110] RA S_CAGE 완료 (255분, 남은 약 83분)
+  [84/110] RA S_DNASE 완료 (258분, 남은 약 80분)
+  [85/110] RA S_H3K27ac 완료 (261분, 남은 약 77분)
+  [86/110] RA M1_CAGE 완료 (264분, 남은 약 74분)
+  [87/110] RA M1_DNASE 완료 (267분, 남은 약 71분)
+  [88/110] RA M1_H3K27ac 완료 (270분, 남은 약 67분)
+  [89/110] RA J1k 완료 (273분, 남은 약 64분)
+  [90/110] RA J1p 완료 (276분, 남은 약 61분)
+  [91/110] HEIGHT BM 완료 (279분, 남은 약 58분)
+  [92/110] HEIGHT J1 완료 (282분, 남은 약 55분)
+  [93/110] HEIGHT S_CAGE 완료 (286분, 남은 약 52분)
+  [94/110] HEIGHT S_DNASE 완료 (289분, 남은 약 49분)
+  [95/110] HEIGHT S_H3K27ac 완료 (292분, 남은 약 46분)
+  [96/110] HEIGHT M1_CAGE 완료 (295분, 남은 약 43분)
+  [97/110] HEIGHT M1_DNASE 완료 (298분, 남은 약 40분)
+  [98/110] HEIGHT M1_H3K27ac 완료 (301분, 남은 약 37분)
+  [99/110] HEIGHT J1k 완료 (304분, 남은 약 34분)
+  [100/110] HEIGHT J1p 완료 (307분, 남은 약 31분)
+  [101/110] LDL BM 완료 (310분, 남은 약 28분)
+  [102/110] LDL J1 완료 (313분, 남은 약 25분)
+  [103/110] LDL S_CAGE 완료 (316분, 남은 약 21분)
+  [104/110] LDL S_DNASE 완료 (319분, 남은 약 18분)
+  [105/110] LDL S_H3K27ac 완료 (323분, 남은 약 15분)
+  [106/110] LDL M1_CAGE 완료 (325분, 남은 약 12분)
+  [107/110] LDL M1_DNASE 완료 (328분, 남은 약 9분)
+  [108/110] LDL M1_H3K27ac 완료 (331분, 남은 약 6분)
+  [109/110] LDL J1k 완료 (334분, 남은 약 3분)
+  [110/110] LDL J1p 완료 (338분, 남은 약 0분)
+
+ trait      model                 annot  tau_star  tau_star_se   tau_p1
+    AD         BM        M_myeloid_CAGE    -0.398         0.53    0.774
+    AD         BM       M_myeloid_DNASE     0.834         0.53   0.0575
+    AD         BM     M_myeloid_H3K27ac     0.958        0.306 0.000874
+    AD         J1        M_myeloid_CAGE    -0.543        0.546     0.84
+    AD         J1       M_myeloid_DNASE     0.523        0.516    0.155
+    AD         J1     M_myeloid_H3K27ac     0.849        0.307  0.00287
+    AD         J1       L5_myeloid_CAGE      2.17          0.7 0.000953
+    AD     S_CAGE        M_myeloid_CAGE     0.113        0.513    0.413
+    AD     S_CAGE       L5_myeloid_CAGE      3.03        0.744 2.37e-05
+    AD    S_DNASE       M_myeloid_DNASE      1.47        0.511  0.00206
+    AD    S_DNASE      L5_myeloid_DNASE      1.51        0.581  0.00458
+    AD  S_H3K27ac     M_myeloid_H3K27ac      1.01        0.281 0.000164
+    AD  S_H3K27ac    L5_myeloid_H3K27ac     0.804        0.592   0.0872
+    AD    M1_CAGE        M_myeloid_CAGE     0.554        0.486    0.127
+    AD   M1_DNASE       M_myeloid_DNASE      1.71        0.499 0.000297
+    AD M1_H3K27ac     M_myeloid_H3K27ac      1.05         0.28 9.25e-05
+    AD        J1k        M_myeloid_CAGE    -0.612        0.556    0.865
+    AD        J1k       M_myeloid_DNASE     0.392        0.506     0.22
+    AD        J1k     M_myeloid_H3K27ac     0.813        0.312  0.00465
+    AD        J1k      L5k_myeloid_CAGE      2.69        0.734 0.000121
+    AD        J1p        P_myeloid_CAGE     -1.15        0.577    0.977
+    AD        J1p       P_myeloid_DNASE       2.1        0.871  0.00805
+    AD        J1p     P_myeloid_H3K27ac     0.919        0.332  0.00281
+    AD        J1p       L5_myeloid_CAGE      1.96        0.677  0.00191
+    EA         BM     M_CNS_tissue_CAGE     0.372        0.158  0.00908
+    EA         BM    M_CNS_tissue_DNASE     0.187        0.103   0.0341
+    EA         BM  M_CNS_tissue_H3K27ac     0.391       0.0782 2.89e-07
+    EA         J1     M_CNS_tissue_CAGE     0.311        0.158   0.0246
+    EA         J1    M_CNS_tissue_DNASE     0.153        0.103   0.0689
+    EA         J1  M_CNS_tissue_H3K27ac     0.334       0.0806 1.68e-05
+    EA         J1    L5_CNS_tissue_CAGE      0.84        0.239 0.000217
+    EA     S_CAGE     M_CNS_tissue_CAGE     0.492        0.163  0.00128
+    EA     S_CAGE    L5_CNS_tissue_CAGE      1.12        0.228 3.89e-07
+    EA    S_DNASE    M_CNS_tissue_DNASE     0.377        0.102 0.000117
+    EA    S_DNASE   L5_CNS_tissue_DNASE     0.448         0.24   0.0309
+    EA  S_H3K27ac  M_CNS_tissue_H3K27ac      0.45       0.0764 1.92e-09
+    EA  S_H3K27ac L5_CNS_tissue_H3K27ac     0.138        0.208    0.254
+    EA    M1_CAGE     M_CNS_tissue_CAGE     0.625        0.162 5.99e-05
+    EA   M1_DNASE    M_CNS_tissue_DNASE     0.395        0.102 5.34e-05
+    EA M1_H3K27ac  M_CNS_tissue_H3K27ac     0.455        0.076 1.08e-09
+    EA        J1k     M_CNS_tissue_CAGE     0.305        0.158   0.0271
+    EA        J1k    M_CNS_tissue_DNASE     0.159        0.102   0.0604
+    EA        J1k  M_CNS_tissue_H3K27ac     0.322         0.08 2.82e-05
+    EA        J1k   L5k_CNS_tissue_CAGE     0.797        0.213 9.49e-05
+    EA        J1p     P_CNS_tissue_CAGE     0.375        0.211   0.0379
+    EA        J1p    P_CNS_tissue_DNASE     0.276         0.15   0.0334
+    EA        J1p  P_CNS_tissue_H3K27ac     0.277       0.0897  0.00103
+    EA        J1p    L5_CNS_tissue_CAGE     0.926        0.235  4.2e-05
+   SCZ         BM     M_CNS_tissue_CAGE     0.634        0.221  0.00204
+   SCZ         BM    M_CNS_tissue_DNASE     0.404        0.116 0.000252
+   SCZ         BM  M_CNS_tissue_H3K27ac     0.359       0.0927 5.44e-05
+   SCZ         J1     M_CNS_tissue_CAGE     0.552        0.222  0.00648
+   SCZ         J1    M_CNS_tissue_DNASE     0.357        0.116  0.00105
+   SCZ         J1  M_CNS_tissue_H3K27ac     0.286       0.0945  0.00124
+   SCZ         J1    L5_CNS_tissue_CAGE      1.07        0.273 4.32e-05
+   SCZ     S_CAGE     M_CNS_tissue_CAGE      0.75        0.225 0.000428
+   SCZ     S_CAGE    L5_CNS_tissue_CAGE      1.38        0.267 1.12e-07
+   SCZ    S_DNASE    M_CNS_tissue_DNASE     0.614        0.121 2.03e-07
+   SCZ    S_DNASE   L5_CNS_tissue_DNASE     0.344        0.232   0.0691
+   SCZ  S_H3K27ac  M_CNS_tissue_H3K27ac     0.472       0.0916 1.27e-07
+   SCZ  S_H3K27ac L5_CNS_tissue_H3K27ac     0.235        0.221    0.144
+   SCZ    M1_CAGE     M_CNS_tissue_CAGE     0.924        0.223 1.79e-05
+   SCZ   M1_DNASE    M_CNS_tissue_DNASE     0.627        0.122 1.29e-07
+   SCZ M1_H3K27ac  M_CNS_tissue_H3K27ac     0.481       0.0913 6.77e-08
+   SCZ        J1k     M_CNS_tissue_CAGE     0.531        0.222  0.00832
+   SCZ        J1k    M_CNS_tissue_DNASE      0.36        0.117  0.00104
+   SCZ        J1k  M_CNS_tissue_H3K27ac     0.258       0.0954  0.00342
+   SCZ        J1k   L5k_CNS_tissue_CAGE      1.15         0.27 9.68e-06
+   SCZ        J1p     P_CNS_tissue_CAGE     0.372         0.23   0.0533
+   SCZ        J1p    P_CNS_tissue_DNASE     0.546        0.153  0.00018
+   SCZ        J1p  P_CNS_tissue_H3K27ac     0.287         0.11   0.0045
+   SCZ        J1p    L5_CNS_tissue_CAGE      1.15        0.268 8.61e-06
+   BIP         BM     M_CNS_tissue_CAGE     0.907        0.769    0.119
+   BIP         BM    M_CNS_tissue_DNASE     0.733          0.5   0.0713
+   BIP         BM  M_CNS_tissue_H3K27ac     0.348        0.287    0.112
+   BIP         J1     M_CNS_tissue_CAGE     0.561        0.776    0.235
+   BIP         J1    M_CNS_tissue_DNASE     0.544        0.502    0.139
+   BIP         J1  M_CNS_tissue_H3K27ac    0.0782        0.291    0.394
+   BIP         J1    L5_CNS_tissue_CAGE      4.02        0.836 7.57e-07
+   BIP     S_CAGE     M_CNS_tissue_CAGE     0.696        0.774    0.184
+   BIP     S_CAGE    L5_CNS_tissue_CAGE      4.24        0.837 1.99e-07
+   BIP    S_DNASE    M_CNS_tissue_DNASE      0.91        0.483   0.0297
+   BIP    S_DNASE   L5_CNS_tissue_DNASE      2.12         0.89  0.00865
+   BIP  S_H3K27ac  M_CNS_tissue_H3K27ac     0.573        0.275   0.0187
+   BIP  S_H3K27ac L5_CNS_tissue_H3K27ac    -0.617        0.805    0.778
+   BIP    M1_CAGE     M_CNS_tissue_CAGE      1.28        0.767   0.0473
+   BIP   M1_DNASE    M_CNS_tissue_DNASE     0.991        0.472   0.0179
+   BIP M1_H3K27ac  M_CNS_tissue_H3K27ac     0.548        0.269   0.0209
+   BIP        J1k     M_CNS_tissue_CAGE     0.547        0.778    0.241
+   BIP        J1k    M_CNS_tissue_DNASE     0.587        0.508    0.124
+   BIP        J1k  M_CNS_tissue_H3K27ac    0.0262         0.29    0.464
+   BIP        J1k   L5k_CNS_tissue_CAGE       3.7        0.794 1.53e-06
+   BIP        J1p     P_CNS_tissue_CAGE      1.84        0.872   0.0174
+   BIP        J1p    P_CNS_tissue_DNASE      1.09        0.619   0.0384
+   BIP        J1p  P_CNS_tissue_H3K27ac    -0.306        0.334     0.82
+   BIP        J1p    L5_CNS_tissue_CAGE      4.17        0.851 4.93e-07
+ NEURO         BM     M_CNS_tissue_CAGE     0.529        0.389   0.0869
+ NEURO         BM    M_CNS_tissue_DNASE     0.236        0.178   0.0934
+ NEURO         BM  M_CNS_tissue_H3K27ac     0.378        0.119 0.000718
+ NEURO         J1     M_CNS_tissue_CAGE     0.486        0.387    0.105
+ NEURO         J1    M_CNS_tissue_DNASE     0.214         0.18    0.118
+ NEURO         J1  M_CNS_tissue_H3K27ac     0.342        0.117  0.00172
+ NEURO         J1    L5_CNS_tissue_CAGE     0.517        0.309    0.047
+ NEURO     S_CAGE     M_CNS_tissue_CAGE     0.689        0.379   0.0343
+ NEURO     S_CAGE    L5_CNS_tissue_CAGE     0.834        0.309   0.0035
+ NEURO    S_DNASE    M_CNS_tissue_DNASE     0.436        0.176  0.00652
+ NEURO    S_DNASE   L5_CNS_tissue_DNASE     0.353        0.377    0.175
+ NEURO  S_H3K27ac  M_CNS_tissue_H3K27ac     0.455        0.107 1.07e-05
+ NEURO  S_H3K27ac L5_CNS_tissue_H3K27ac     0.242        0.298    0.209
+ NEURO    M1_CAGE     M_CNS_tissue_CAGE     0.802        0.381   0.0176
+ NEURO   M1_DNASE    M_CNS_tissue_DNASE     0.451        0.172  0.00429
+ NEURO M1_H3K27ac  M_CNS_tissue_H3K27ac     0.464        0.107 7.53e-06
+ NEURO        J1k     M_CNS_tissue_CAGE     0.508        0.387   0.0945
+ NEURO        J1k    M_CNS_tissue_DNASE     0.228        0.181    0.104
+ NEURO        J1k  M_CNS_tissue_H3K27ac     0.359         0.12  0.00137
+ NEURO        J1k   L5k_CNS_tissue_CAGE     0.216        0.303    0.238
+ NEURO        J1p     P_CNS_tissue_CAGE     0.672        0.377   0.0372
+ NEURO        J1p    P_CNS_tissue_DNASE     0.157        0.229    0.247
+ NEURO        J1p  P_CNS_tissue_H3K27ac      0.34        0.119  0.00218
+ NEURO        J1p    L5_CNS_tissue_CAGE      0.62        0.315   0.0246
+   BMI         BM     M_CNS_tissue_CAGE     0.318        0.268    0.117
+   BMI         BM    M_CNS_tissue_DNASE     0.533        0.239   0.0129
+   BMI         BM  M_CNS_tissue_H3K27ac    0.0781        0.113    0.245
+   BMI         J1     M_CNS_tissue_CAGE     0.277        0.271    0.153
+   BMI         J1    M_CNS_tissue_DNASE     0.511         0.24   0.0166
+   BMI         J1  M_CNS_tissue_H3K27ac    0.0449        0.119    0.353
+   BMI         J1    L5_CNS_tissue_CAGE     0.494        0.325   0.0642
+   BMI     S_CAGE     M_CNS_tissue_CAGE     0.391        0.269   0.0735
+   BMI     S_CAGE    L5_CNS_tissue_CAGE     0.668        0.307   0.0148
+   BMI    S_DNASE    M_CNS_tissue_DNASE     0.595        0.234  0.00553
+   BMI    S_DNASE   L5_CNS_tissue_DNASE    0.0671        0.348    0.424
+   BMI  S_H3K27ac  M_CNS_tissue_H3K27ac     0.211         0.11   0.0271
+   BMI  S_H3K27ac L5_CNS_tissue_H3K27ac    -0.289        0.331    0.809
+   BMI    M1_CAGE     M_CNS_tissue_CAGE      0.48        0.264   0.0347
+   BMI   M1_DNASE    M_CNS_tissue_DNASE     0.598        0.232  0.00496
+   BMI M1_H3K27ac  M_CNS_tissue_H3K27ac     0.199         0.11   0.0347
+   BMI        J1k     M_CNS_tissue_CAGE     0.272         0.27    0.157
+   BMI        J1k    M_CNS_tissue_DNASE     0.515        0.241   0.0162
+   BMI        J1k  M_CNS_tissue_H3K27ac     0.036        0.117    0.379
+   BMI        J1k   L5k_CNS_tissue_CAGE     0.483        0.289   0.0474
+   BMI        J1p     P_CNS_tissue_CAGE     0.139        0.274    0.306
+   BMI        J1p    P_CNS_tissue_DNASE     0.682        0.278    0.007
+   BMI        J1p  P_CNS_tissue_H3K27ac  0.000234        0.127    0.499
+   BMI        J1p    L5_CNS_tissue_CAGE     0.568        0.325   0.0401
+  MONO         BM        M_myeloid_CAGE     0.648        0.531    0.111
+  MONO         BM       M_myeloid_DNASE      1.19        0.422  0.00236
+  MONO         BM     M_myeloid_H3K27ac      1.09        0.213  1.5e-07
+  MONO         J1        M_myeloid_CAGE     0.485        0.529     0.18
+  MONO         J1       M_myeloid_DNASE     0.845        0.414   0.0207
+  MONO         J1     M_myeloid_H3K27ac      0.95        0.216 5.62e-06
+  MONO         J1       L5_myeloid_CAGE      2.49        0.485 1.41e-07
+  MONO     S_CAGE        M_myeloid_CAGE      1.22        0.492  0.00638
+  MONO     S_CAGE       L5_myeloid_CAGE      3.51        0.495 6.94e-13
+  MONO    S_DNASE       M_myeloid_DNASE      2.14        0.402 5.35e-08
+  MONO    S_DNASE      L5_myeloid_DNASE      1.68        0.393 1.03e-05
+  MONO  S_H3K27ac     M_myeloid_H3K27ac      1.26        0.196 5.86e-11
+  MONO  S_H3K27ac    L5_myeloid_H3K27ac      1.92        0.415 2.01e-06
+  MONO    M1_CAGE        M_myeloid_CAGE      1.72        0.492 0.000233
+  MONO   M1_DNASE       M_myeloid_DNASE       2.4        0.397 7.33e-10
+  MONO M1_H3K27ac     M_myeloid_H3K27ac      1.36        0.198 2.99e-12
+  MONO        J1k        M_myeloid_CAGE     0.467        0.535    0.191
+  MONO        J1k       M_myeloid_DNASE     0.814        0.409   0.0234
+  MONO        J1k     M_myeloid_H3K27ac      0.94        0.216 6.86e-06
+  MONO        J1k      L5k_myeloid_CAGE      2.37         0.49 6.81e-07
+  MONO        J1p        P_myeloid_CAGE     0.352        0.692    0.305
+  MONO        J1p       P_myeloid_DNASE      0.25        0.471    0.298
+  MONO        J1p     P_myeloid_H3K27ac      1.29        0.262 4.49e-07
+  MONO        J1p       L5_myeloid_CAGE      2.69        0.527 1.65e-07
+   IBD         BM       M_lymphoid_CAGE     0.248        0.655    0.352
+   IBD         BM      M_lymphoid_DNASE     0.776        0.334   0.0101
+   IBD         BM    M_lymphoid_H3K27ac      1.18        0.262 3.23e-06
+   IBD         J1       M_lymphoid_CAGE   -0.0302        0.671    0.518
+   IBD         J1      M_lymphoid_DNASE      0.71        0.334   0.0166
+   IBD         J1    M_lymphoid_H3K27ac     0.972        0.263  0.00011
+   IBD         J1      L5_lymphoid_CAGE      2.16         0.53 2.35e-05
+   IBD     S_CAGE       M_lymphoid_CAGE     0.422        0.661    0.262
+   IBD     S_CAGE      L5_lymphoid_CAGE      2.85        0.543 7.96e-08
+   IBD    S_DNASE      M_lymphoid_DNASE     0.973        0.343   0.0023
+   IBD    S_DNASE     L5_lymphoid_DNASE      2.27        0.677   0.0004
+   IBD  S_H3K27ac    M_lymphoid_H3K27ac      1.22         0.26 1.28e-06
+   IBD  S_H3K27ac   L5_lymphoid_H3K27ac      2.12        0.589 0.000161
+   IBD    M1_CAGE       M_lymphoid_CAGE     0.926        0.638   0.0732
+   IBD   M1_DNASE      M_lymphoid_DNASE         1         0.34   0.0016
+   IBD M1_H3K27ac    M_lymphoid_H3K27ac      1.33        0.254 7.49e-08
+   IBD        J1k       M_lymphoid_CAGE    0.0202         0.67    0.488
+   IBD        J1k      M_lymphoid_DNASE     0.735        0.333   0.0137
+   IBD        J1k    M_lymphoid_H3K27ac      1.04         0.26 2.94e-05
+   IBD        J1k     L5k_lymphoid_CAGE      1.64        0.549  0.00137
+   IBD        J1p       P_lymphoid_CAGE      1.09         0.84   0.0966
+   IBD        J1p      P_lymphoid_DNASE     0.872        0.501   0.0408
+   IBD        J1p    P_lymphoid_H3K27ac     0.909        0.278 0.000533
+   IBD        J1p      L5_lymphoid_CAGE      2.11        0.528 3.31e-05
+    RA         BM       M_lymphoid_CAGE     0.415        0.815    0.305
+    RA         BM      M_lymphoid_DNASE    0.0701        0.305    0.409
+    RA         BM    M_lymphoid_H3K27ac      1.59         0.36 4.81e-06
+    RA         J1       M_lymphoid_CAGE     0.138        0.816    0.433
+    RA         J1      M_lymphoid_DNASE  -0.00145        0.304    0.502
+    RA         J1    M_lymphoid_H3K27ac      1.39        0.361 5.53e-05
+    RA         J1      L5_lymphoid_CAGE      2.04        0.642 0.000762
+    RA     S_CAGE       M_lymphoid_CAGE     0.613        0.802    0.222
+    RA     S_CAGE      L5_lymphoid_CAGE      2.81        0.658 9.89e-06
+    RA    S_DNASE      M_lymphoid_DNASE     0.371        0.306    0.113
+    RA    S_DNASE     L5_lymphoid_DNASE      1.49         0.82   0.0348
+    RA  S_H3K27ac    M_lymphoid_H3K27ac      1.61        0.357 3.28e-06
+    RA  S_H3K27ac   L5_lymphoid_H3K27ac     0.749        0.708    0.145
+    RA    M1_CAGE       M_lymphoid_CAGE      1.14        0.801   0.0774
+    RA   M1_DNASE      M_lymphoid_DNASE     0.398        0.307   0.0977
+    RA M1_H3K27ac    M_lymphoid_H3K27ac      1.65        0.351 1.33e-06
+    RA        J1k       M_lymphoid_CAGE     0.123        0.821     0.44
+    RA        J1k      M_lymphoid_DNASE    0.0129        0.303    0.483
+    RA        J1k    M_lymphoid_H3K27ac      1.43        0.359 3.62e-05
+    RA        J1k     L5k_lymphoid_CAGE         2        0.698  0.00203
+    RA        J1p       P_lymphoid_CAGE      1.24        0.903   0.0856
+    RA        J1p      P_lymphoid_DNASE    -0.353        0.409    0.806
+    RA        J1p    P_lymphoid_H3K27ac      1.61        0.398 2.43e-05
+    RA        J1p      L5_lymphoid_CAGE      1.86        0.648  0.00205
+HEIGHT         BM        M_stromal_CAGE     0.767        0.325  0.00916
+HEIGHT         BM       M_stromal_DNASE     0.533        0.184  0.00193
+HEIGHT         BM     M_stromal_H3K27ac     0.593        0.136 6.49e-06
+HEIGHT         J1        M_stromal_CAGE     0.763        0.325  0.00939
+HEIGHT         J1       M_stromal_DNASE     0.532        0.184  0.00193
+HEIGHT         J1     M_stromal_H3K27ac     0.591        0.136 6.54e-06
+HEIGHT         J1       L5_stromal_CAGE    0.0672        0.326    0.418
+HEIGHT     S_CAGE        M_stromal_CAGE      1.02        0.327 0.000895
+HEIGHT     S_CAGE       L5_stromal_CAGE     0.275        0.331    0.203
+HEIGHT    S_DNASE       M_stromal_DNASE     0.653         0.18 0.000148
+HEIGHT    S_DNASE      L5_stromal_DNASE      1.58        0.406 5.21e-05
+HEIGHT  S_H3K27ac     M_stromal_H3K27ac     0.668        0.135 4.08e-07
+HEIGHT  S_H3K27ac    L5_stromal_H3K27ac     0.665         0.37   0.0362
+HEIGHT    M1_CAGE        M_stromal_CAGE      1.04        0.328 0.000746
+HEIGHT   M1_DNASE       M_stromal_DNASE     0.779        0.186 1.38e-05
+HEIGHT M1_H3K27ac     M_stromal_H3K27ac     0.716        0.133 3.79e-08
+HEIGHT        J1k        M_stromal_CAGE     0.684        0.333     0.02
+HEIGHT        J1k       M_stromal_DNASE      0.49        0.182  0.00354
+HEIGHT        J1k     M_stromal_H3K27ac     0.503        0.144 0.000227
+HEIGHT        J1k      L5k_stromal_CAGE     0.827        0.368   0.0123
+HEIGHT        J1p        P_stromal_CAGE     0.796        0.472   0.0459
+HEIGHT        J1p       P_stromal_DNASE     0.556        0.232   0.0083
+HEIGHT        J1p     P_stromal_H3K27ac     0.721        0.202 0.000177
+HEIGHT        J1p       L5_stromal_CAGE    0.0893        0.339    0.396
+   LDL         BM          M_liver_CAGE    -0.608         1.14    0.703
+   LDL         BM         M_liver_DNASE     0.317        0.403    0.216
+   LDL         BM       M_liver_H3K27ac     0.715        0.382   0.0307
+   LDL         J1          M_liver_CAGE    -0.876         1.15    0.777
+   LDL         J1         M_liver_DNASE     0.253          0.4    0.263
+   LDL         J1       M_liver_H3K27ac     0.513        0.388   0.0931
+   LDL         J1         L5_liver_CAGE      4.23        0.852 3.39e-07
+   LDL     S_CAGE          M_liver_CAGE    -0.843         1.14    0.769
+   LDL     S_CAGE         L5_liver_CAGE       4.4        0.834 6.84e-08
+   LDL    S_DNASE         M_liver_DNASE     0.428        0.393    0.138
+   LDL    S_DNASE        L5_liver_DNASE      1.77        0.891   0.0235
+   LDL  S_H3K27ac       M_liver_H3K27ac     0.556        0.393   0.0786
+   LDL  S_H3K27ac      L5_liver_H3K27ac      2.61        0.793 0.000503
+   LDL    M1_CAGE          M_liver_CAGE    -0.548         1.13    0.686
+   LDL   M1_DNASE         M_liver_DNASE     0.406        0.387    0.147
+   LDL M1_H3K27ac       M_liver_H3K27ac     0.747        0.368    0.021
+   LDL        J1k          M_liver_CAGE    -0.926         1.16    0.788
+   LDL        J1k         M_liver_DNASE     0.225        0.403    0.288
+   LDL        J1k       M_liver_H3K27ac     0.468        0.392    0.117
+   LDL        J1k        L5k_liver_CAGE      4.54        0.883 1.37e-07
+   LDL        J1p          P_liver_CAGE   -0.0406        0.874    0.519
+   LDL        J1p         P_liver_DNASE     0.161        0.452    0.361
+   LDL        J1p       P_liver_H3K27ac     0.599        0.463   0.0979
+   LDL        J1p         L5_liver_CAGE       4.2         0.84 2.88e-07

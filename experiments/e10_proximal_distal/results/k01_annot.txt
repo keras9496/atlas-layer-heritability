@@ -1,0 +1,32 @@
+TSS (GENCODE v46, 단백질 암호화·lncRNA 전사체, 1–22번): 고유 위치 190,108 (단백질 암호화 141,744, lncRNA 48,364)
+대상 SNP 5,828,323: 근위(≤ 1,000 bp) 313,875 (5.4 %)
+chr1 완료
+chr2 완료
+chr3 완료
+chr4 완료
+chr5 완료
+chr6 완료
+chr7 완료
+chr8 완료
+chr9 완료
+chr10 완료
+chr11 완료
+chr12 완료
+chr13 완료
+chr14 완료
+chr15 완료
+chr16 완료
+chr17 완료
+chr18 완료
+chr19 완료
+chr20 완료
+chr21 완료
+chr22 완료
+L5 sd 재현: 최대 차이 8.3e-17
+
+주석 크기 (대상 SNP 중 %) 와 L5 주석의 근위 비율
+  myeloid     CAGE P 0.81 / D 4.19 (근위 16 %)  DNASE P 0.43 / D 4.57 (근위 9 %)  H3K27ac P 0.44 / D 4.56 (근위 9 %)
+  CNS_tissue  CAGE P 0.82 / D 4.18 (근위 16 %)  DNASE P 0.25 / D 4.75 (근위 5 %)  H3K27ac P 0.43 / D 4.57 (근위 9 %)
+  lymphoid    CAGE P 0.96 / D 4.04 (근위 19 %)  DNASE P 0.28 / D 4.73 (근위 6 %)  H3K27ac P 0.56 / D 4.44 (근위 11 %)
+  liver       CAGE P 0.86 / D 4.14 (근위 17 %)  DNASE P 0.23 / D 4.77 (근위 5 %)  H3K27ac P 0.46 / D 4.54 (근위 9 %)
+  stromal     CAGE P 0.79 / D 4.21 (근위 16 %)  DNASE P 0.29 / D 4.71 (근위 6 %)  H3K27ac P 0.43 / D 4.58 (근위 9 %)
