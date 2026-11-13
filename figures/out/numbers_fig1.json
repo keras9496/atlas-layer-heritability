@@ -1,0 +1,744 @@
+{
+ "source": "e22_benchmark14/results/w04_tissue.csv: tau, q (BH over the 168 cells, one-sided tau* > 0); model M1 = baselineLD v2.2 + one tissue-group annotation",
+ "b_rows": [
+  {
+   "key": "EA",
+   "name": "Educational attainment",
+   "category_tissue_group": "CNS_tissue",
+   "top_ranked_tissue_group": "CNS_tissue",
+   "n_enriched_groups": 1
+  },
+  {
+   "key": "N_SCZ",
+   "name": "Schizophrenia",
+   "category_tissue_group": "CNS_tissue",
+   "top_ranked_tissue_group": "CNS_tissue",
+   "n_enriched_groups": 1
+  },
+  {
+   "key": "N_BIP",
+   "name": "Bipolar disorder",
+   "category_tissue_group": "CNS_tissue",
+   "top_ranked_tissue_group": "CNS_tissue",
+   "n_enriched_groups": 1
+  },
+  {
+   "key": "NEURO",
+   "name": "Neuroticism",
+   "category_tissue_group": "CNS_tissue",
+   "top_ranked_tissue_group": "CNS_tissue",
+   "n_enriched_groups": 1
+  },
+  {
+   "key": "N_BMI",
+   "name": "BMI",
+   "category_tissue_group": "CNS_tissue",
+   "top_ranked_tissue_group": "CNS_tissue",
+   "n_enriched_groups": 1
+  },
+  {
+   "key": "N_AD",
+   "name": "Alzheimer's disease",
+   "category_tissue_group": "myeloid",
+   "top_ranked_tissue_group": "myeloid",
+   "n_enriched_groups": 1
+  },
+  {
+   "key": "MONO",
+   "name": "Monocyte count",
+   "category_tissue_group": "myeloid",
+   "top_ranked_tissue_group": "myeloid",
+   "n_enriched_groups": 2
+  },
+  {
+   "key": "NEUT",
+   "name": "Neutrophil count",
+   "category_tissue_group": "myeloid",
+   "top_ranked_tissue_group": "myeloid",
+   "n_enriched_groups": 3
+  },
+  {
+   "key": "IBD",
+   "name": "IBD",
+   "category_tissue_group": "lymphoid",
+   "top_ranked_tissue_group": "lymphoid",
+   "n_enriched_groups": 3
+  },
+  {
+   "key": "RA",
+   "name": "Rheumatoid arthritis",
+   "category_tissue_group": "lymphoid",
+   "top_ranked_tissue_group": "lymphoid",
+   "n_enriched_groups": 1
+  },
+  {
+   "key": "N_LDL",
+   "name": "LDL cholesterol",
+   "category_tissue_group": "liver",
+   "top_ranked_tissue_group": "liver",
+   "n_enriched_groups": 5
+  },
+  {
+   "key": "TC",
+   "name": "Total cholesterol",
+   "category_tissue_group": "liver",
+   "top_ranked_tissue_group": "liver",
+   "n_enriched_groups": 2
+  },
+  {
+   "key": "N_HEIGHT",
+   "name": "Height",
+   "category_tissue_group": "stromal",
+   "top_ranked_tissue_group": "adipose",
+   "n_enriched_groups": 5
+  },
+  {
+   "key": "BMD",
+   "name": "Bone mineral density",
+   "category_tissue_group": "stromal",
+   "top_ranked_tissue_group": "adipose",
+   "n_enriched_groups": 8
+  }
+ ],
+ "b_row_blocks": [
+  {
+   "tissue_group": "CNS_tissue",
+   "name": "Brain tissue",
+   "traits": [
+    "EA",
+    "N_SCZ",
+    "N_BIP",
+    "NEURO",
+    "N_BMI"
+   ]
+  },
+  {
+   "tissue_group": "myeloid",
+   "name": "Myeloid",
+   "traits": [
+    "N_AD",
+    "MONO",
+    "NEUT"
+   ]
+  },
+  {
+   "tissue_group": "lymphoid",
+   "name": "Lymphoid",
+   "traits": [
+    "IBD",
+    "RA"
+   ]
+  },
+  {
+   "tissue_group": "liver",
+   "name": "Liver",
+   "traits": [
+    "N_LDL",
+    "TC"
+   ]
+  },
+  {
+   "tissue_group": "stromal",
+   "name": "Stromal/mesenchymal",
+   "traits": [
+    "N_HEIGHT",
+    "BMD"
+   ]
+  }
+ ],
+ "b_tau_star": {
+  "EA": {
+   "CNS_tissue": 0.874,
+   "neural_cells": -0.166,
+   "myeloid": 0.213,
+   "lymphoid": -0.115,
+   "liver": -0.429,
+   "GI": -0.663,
+   "cardiovascular": -0.645,
+   "skeletal_muscle": -0.534,
+   "adipose": -0.666,
+   "stromal": -0.815,
+   "reproductive_endocrine": -0.792,
+   "epithelial_barrier": -0.56
+  },
+  "N_SCZ": {
+   "CNS_tissue": 1.419,
+   "neural_cells": 0.049,
+   "myeloid": 0.024,
+   "lymphoid": -0.006,
+   "liver": -0.286,
+   "GI": -0.541,
+   "cardiovascular": -0.188,
+   "skeletal_muscle": -0.168,
+   "adipose": -0.42,
+   "stromal": -0.24,
+   "reproductive_endocrine": -0.433,
+   "epithelial_barrier": -0.201
+  },
+  "N_BIP": {
+   "CNS_tissue": 1.764,
+   "neural_cells": 0.013,
+   "myeloid": 0.149,
+   "lymphoid": -0.253,
+   "liver": -0.179,
+   "GI": -0.497,
+   "cardiovascular": -0.053,
+   "skeletal_muscle": 0.001,
+   "adipose": -0.597,
+   "stromal": -0.335,
+   "reproductive_endocrine": -0.545,
+   "epithelial_barrier": -0.075
+  },
+  "NEURO": {
+   "CNS_tissue": 1.416,
+   "neural_cells": 0.068,
+   "myeloid": -0.378,
+   "lymphoid": -0.636,
+   "liver": 0.024,
+   "GI": -0.309,
+   "cardiovascular": -0.555,
+   "skeletal_muscle": -0.655,
+   "adipose": -0.72,
+   "stromal": -0.352,
+   "reproductive_endocrine": -0.225,
+   "epithelial_barrier": -0.399
+  },
+  "N_BMI": {
+   "CNS_tissue": 0.833,
+   "neural_cells": 0.394,
+   "myeloid": 0.145,
+   "lymphoid": 0.143,
+   "liver": -0.007,
+   "GI": -0.036,
+   "cardiovascular": -0.282,
+   "skeletal_muscle": -0.107,
+   "adipose": -0.091,
+   "stromal": -0.02,
+   "reproductive_endocrine": -0.268,
+   "epithelial_barrier": 0.023
+  },
+  "N_AD": {
+   "CNS_tissue": 0.452,
+   "neural_cells": -0.943,
+   "myeloid": 2.334,
+   "lymphoid": 1.022,
+   "liver": -0.073,
+   "GI": -0.321,
+   "cardiovascular": 0.299,
+   "skeletal_muscle": -0.06,
+   "adipose": -0.076,
+   "stromal": -0.169,
+   "reproductive_endocrine": -0.487,
+   "epithelial_barrier": -0.619
+  },
+  "MONO": {
+   "CNS_tissue": -0.853,
+   "neural_cells": -0.136,
+   "myeloid": 2.817,
+   "lymphoid": 1.863,
+   "liver": 0.068,
+   "GI": 0.601,
+   "cardiovascular": 0.498,
+   "skeletal_muscle": 0.518,
+   "adipose": 0.964,
+   "stromal": 0.631,
+   "reproductive_endocrine": 0.23,
+   "epithelial_barrier": 0.087
+  },
+  "NEUT": {
+   "CNS_tissue": -0.071,
+   "neural_cells": 0.02,
+   "myeloid": 2.039,
+   "lymphoid": 0.771,
+   "liver": 0.747,
+   "GI": 0.448,
+   "cardiovascular": 0.763,
+   "skeletal_muscle": 0.424,
+   "adipose": 0.658,
+   "stromal": 0.452,
+   "reproductive_endocrine": 0.278,
+   "epithelial_barrier": 0.414
+  },
+  "IBD": {
+   "CNS_tissue": -1.042,
+   "neural_cells": 0.501,
+   "myeloid": 2.435,
+   "lymphoid": 3.43,
+   "liver": 1.497,
+   "GI": 0.878,
+   "cardiovascular": 0.669,
+   "skeletal_muscle": 0.899,
+   "adipose": 0.301,
+   "stromal": 0.757,
+   "reproductive_endocrine": 0.376,
+   "epithelial_barrier": 0.139
+  },
+  "RA": {
+   "CNS_tissue": -2.445,
+   "neural_cells": -0.985,
+   "myeloid": 0.703,
+   "lymphoid": 2.479,
+   "liver": -0.766,
+   "GI": 0.182,
+   "cardiovascular": -0.67,
+   "skeletal_muscle": -1.361,
+   "adipose": -0.043,
+   "stromal": -0.864,
+   "reproductive_endocrine": -0.937,
+   "epithelial_barrier": -1.282
+  },
+  "N_LDL": {
+   "CNS_tissue": 0.579,
+   "neural_cells": 0.909,
+   "myeloid": 1.127,
+   "lymphoid": 0.738,
+   "liver": 2.651,
+   "GI": 2.419,
+   "cardiovascular": 1.475,
+   "skeletal_muscle": 1.558,
+   "adipose": 1.52,
+   "stromal": 1.693,
+   "reproductive_endocrine": 1.557,
+   "epithelial_barrier": 1.401
+  },
+  "TC": {
+   "CNS_tissue": 0.301,
+   "neural_cells": 0.357,
+   "myeloid": 0.831,
+   "lymphoid": 0.421,
+   "liver": 1.968,
+   "GI": 1.689,
+   "cardiovascular": 0.948,
+   "skeletal_muscle": 0.675,
+   "adipose": 0.743,
+   "stromal": 0.459,
+   "reproductive_endocrine": 1.306,
+   "epithelial_barrier": 0.744
+  },
+  "N_HEIGHT": {
+   "CNS_tissue": -0.975,
+   "neural_cells": 0.317,
+   "myeloid": 0.107,
+   "lymphoid": -0.017,
+   "liver": 0.535,
+   "GI": 0.235,
+   "cardiovascular": 1.27,
+   "skeletal_muscle": 1.518,
+   "adipose": 1.788,
+   "stromal": 1.349,
+   "reproductive_endocrine": 0.886,
+   "epithelial_barrier": 0.587
+  },
+  "BMD": {
+   "CNS_tissue": -1.027,
+   "neural_cells": 0.71,
+   "myeloid": 0.053,
+   "lymphoid": 0.149,
+   "liver": 1.054,
+   "GI": 0.711,
+   "cardiovascular": 1.512,
+   "skeletal_muscle": 2.178,
+   "adipose": 2.593,
+   "stromal": 1.847,
+   "reproductive_endocrine": 1.308,
+   "epithelial_barrier": 1.159
+  }
+ },
+ "b_q_bh": {
+  "EA": {
+   "CNS_tissue": 0.0006026,
+   "neural_cells": 0.9999,
+   "myeloid": 0.43,
+   "lymphoid": 0.9999,
+   "liver": 0.9999,
+   "GI": 0.9999,
+   "cardiovascular": 0.9999,
+   "skeletal_muscle": 0.9999,
+   "adipose": 0.9999,
+   "stromal": 0.9999,
+   "reproductive_endocrine": 0.9999,
+   "epithelial_barrier": 0.9999
+  },
+  "N_SCZ": {
+   "CNS_tissue": 5.428e-09,
+   "neural_cells": 0.7464,
+   "myeloid": 0.7849,
+   "lymphoid": 0.8431,
+   "liver": 0.9999,
+   "GI": 0.9999,
+   "cardiovascular": 0.9999,
+   "skeletal_muscle": 0.9999,
+   "adipose": 0.9999,
+   "stromal": 0.9999,
+   "reproductive_endocrine": 0.9999,
+   "epithelial_barrier": 0.9999
+  },
+  "N_BIP": {
+   "CNS_tissue": 2.68e-11,
+   "neural_cells": 0.8089,
+   "myeloid": 0.5683,
+   "lymphoid": 0.9999,
+   "liver": 0.9999,
+   "GI": 0.9999,
+   "cardiovascular": 0.8715,
+   "skeletal_muscle": 0.8289,
+   "adipose": 0.9999,
+   "stromal": 0.9999,
+   "reproductive_endocrine": 0.9999,
+   "epithelial_barrier": 0.9001
+  },
+  "NEURO": {
+   "CNS_tissue": 0.0007351,
+   "neural_cells": 0.7619,
+   "myeloid": 0.9999,
+   "lymphoid": 0.9999,
+   "liver": 0.8031,
+   "GI": 0.9999,
+   "cardiovascular": 0.9999,
+   "skeletal_muscle": 0.9999,
+   "adipose": 0.9999,
+   "stromal": 0.9999,
+   "reproductive_endocrine": 0.9999,
+   "epithelial_barrier": 0.9999
+  },
+  "N_BMI": {
+   "CNS_tissue": 0.0001431,
+   "neural_cells": 0.08704,
+   "myeloid": 0.4682,
+   "lymphoid": 0.5047,
+   "liver": 0.8431,
+   "GI": 0.8998,
+   "cardiovascular": 0.9999,
+   "skeletal_muscle": 0.9999,
+   "adipose": 0.9999,
+   "stromal": 0.8631,
+   "reproductive_endocrine": 0.9999,
+   "epithelial_barrier": 0.7943
+  },
+  "N_AD": {
+   "CNS_tissue": 0.4036,
+   "neural_cells": 0.9999,
+   "myeloid": 0.001648,
+   "lymphoid": 0.05154,
+   "liver": 0.871,
+   "GI": 0.9999,
+   "cardiovascular": 0.5335,
+   "skeletal_muscle": 0.8631,
+   "adipose": 0.8715,
+   "stromal": 0.9334,
+   "reproductive_endocrine": 0.9999,
+   "epithelial_barrier": 0.9999
+  },
+  "MONO": {
+   "CNS_tissue": 0.9999,
+   "neural_cells": 0.9065,
+   "myeloid": 4.393e-09,
+   "lymphoid": 0.0002514,
+   "liver": 0.7825,
+   "GI": 0.2534,
+   "cardiovascular": 0.3513,
+   "skeletal_muscle": 0.2766,
+   "adipose": 0.05154,
+   "stromal": 0.2573,
+   "reproductive_endocrine": 0.5263,
+   "epithelial_barrier": 0.7619
+  },
+  "NEUT": {
+   "CNS_tissue": 0.8715,
+   "neural_cells": 0.8031,
+   "myeloid": 3.87e-10,
+   "lymphoid": 0.01162,
+   "liver": 0.01958,
+   "GI": 0.2396,
+   "cardiovascular": 0.04186,
+   "skeletal_muscle": 0.2396,
+   "adipose": 0.1644,
+   "stromal": 0.2396,
+   "reproductive_endocrine": 0.4007,
+   "epithelial_barrier": 0.368
+  },
+  "IBD": {
+   "CNS_tissue": 0.9999,
+   "neural_cells": 0.4036,
+   "myeloid": 0.0004496,
+   "lymphoid": 3.73e-07,
+   "liver": 0.01531,
+   "GI": 0.1876,
+   "cardiovascular": 0.26,
+   "skeletal_muscle": 0.1644,
+   "adipose": 0.5263,
+   "stromal": 0.2302,
+   "reproductive_endocrine": 0.5177,
+   "epithelial_barrier": 0.7464
+  },
+  "RA": {
+   "CNS_tissue": 0.9999,
+   "neural_cells": 0.9999,
+   "myeloid": 0.3849,
+   "lymphoid": 0.001648,
+   "liver": 0.9999,
+   "GI": 0.7464,
+   "cardiovascular": 0.9999,
+   "skeletal_muscle": 0.9999,
+   "adipose": 0.8431,
+   "stromal": 0.9999,
+   "reproductive_endocrine": 0.9999,
+   "epithelial_barrier": 0.9999
+  },
+  "N_LDL": {
+   "CNS_tissue": 0.3718,
+   "neural_cells": 0.08262,
+   "myeloid": 0.2251,
+   "lymphoid": 0.368,
+   "liver": 0.001916,
+   "GI": 0.0008191,
+   "cardiovascular": 0.0111,
+   "skeletal_muscle": 0.02647,
+   "adipose": 0.0147,
+   "stromal": 0.02912,
+   "reproductive_endocrine": 0.02912,
+   "epithelial_barrier": 0.01085
+  },
+  "TC": {
+   "CNS_tissue": 0.5177,
+   "neural_cells": 0.4734,
+   "myeloid": 0.187,
+   "lymphoid": 0.4682,
+   "liver": 0.01069,
+   "GI": 0.0118,
+   "cardiovascular": 0.06855,
+   "skeletal_muscle": 0.2821,
+   "adipose": 0.07106,
+   "stromal": 0.43,
+   "reproductive_endocrine": 0.04255,
+   "epithelial_barrier": 0.2863
+  },
+  "N_HEIGHT": {
+   "CNS_tissue": 0.9999,
+   "neural_cells": 0.1876,
+   "myeloid": 0.6365,
+   "lymphoid": 0.8438,
+   "liver": 0.1018,
+   "GI": 0.394,
+   "cardiovascular": 1.187e-05,
+   "skeletal_muscle": 5.216e-07,
+   "adipose": 2.68e-11,
+   "stromal": 5.963e-07,
+   "reproductive_endocrine": 0.004113,
+   "epithelial_barrier": 0.05154
+  },
+  "BMD": {
+   "CNS_tissue": 0.9999,
+   "neural_cells": 0.01268,
+   "myeloid": 0.7804,
+   "lymphoid": 0.6184,
+   "liver": 0.0007351,
+   "GI": 0.02692,
+   "cardiovascular": 2.259e-07,
+   "skeletal_muscle": 4.197e-10,
+   "adipose": 2.337e-13,
+   "stromal": 2.831e-09,
+   "reproductive_endocrine": 2.08e-06,
+   "epithelial_barrier": 0.0007351
+  }
+ },
+ "b_n_cells": 168,
+ "b_n_significant": 41,
+ "b_numbers_shown": [
+  "EA|CNS_tissue|+0.9",
+  "N_SCZ|CNS_tissue|+1.4",
+  "N_BIP|CNS_tissue|+1.8",
+  "NEURO|CNS_tissue|+1.4",
+  "N_BMI|CNS_tissue|+0.8",
+  "N_AD|myeloid|+2.3",
+  "MONO|myeloid|+2.8",
+  "MONO|lymphoid|+1.9",
+  "NEUT|myeloid|+2.0",
+  "NEUT|lymphoid|+0.8",
+  "NEUT|liver|+0.7",
+  "NEUT|cardiovascular|+0.8",
+  "IBD|myeloid|+2.4",
+  "IBD|lymphoid|+3.4",
+  "IBD|liver|+1.5",
+  "RA|lymphoid|+2.5",
+  "N_LDL|liver|+2.7",
+  "N_LDL|GI|+2.4",
+  "N_LDL|cardiovascular|+1.5",
+  "N_LDL|skeletal_muscle|+1.6",
+  "N_LDL|adipose|+1.5",
+  "N_LDL|stromal|+1.7",
+  "N_LDL|reproductive_endocrine|+1.6",
+  "N_LDL|epithelial_barrier|+1.4",
+  "TC|liver|+2.0",
+  "TC|GI|+1.7",
+  "TC|reproductive_endocrine|+1.3",
+  "N_HEIGHT|cardiovascular|+1.3",
+  "N_HEIGHT|skeletal_muscle|+1.5",
+  "N_HEIGHT|adipose|+1.8",
+  "N_HEIGHT|stromal|+1.3",
+  "N_HEIGHT|reproductive_endocrine|+0.9",
+  "BMD|neural_cells|+0.7",
+  "BMD|liver|+1.1",
+  "BMD|GI|+0.7",
+  "BMD|cardiovascular|+1.5",
+  "BMD|skeletal_muscle|+2.2",
+  "BMD|adipose|+2.6",
+  "BMD|stromal|+1.8",
+  "BMD|reproductive_endocrine|+1.3",
+  "BMD|epithelial_barrier|+1.2"
+ ],
+ "b_n_traits_category_group_ranked_first": 12,
+ "b_traits_category_group_not_first": {
+  "N_HEIGHT": {
+   "top": "adipose",
+   "rank_of_category_group": 3
+  },
+  "BMD": {
+   "top": "adipose",
+   "rank_of_category_group": 3
+  }
+ },
+ "b_colour_scale": {
+  "vmin": -2.5,
+  "vcenter": 0,
+  "vmax": 4.5,
+  "colour_bar_ticks": [
+   -2,
+   -1,
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "pos_pole": "#757b10",
+  "neg_pole": "#797ec7",
+  "mid": "#efefef",
+  "min_INK_contrast_on_shown_cells": 5.05
+ },
+ "b_tau_range": [
+  -2.445,
+  3.43
+ ],
+ "b_strip": "neutral blocks (no colour coding) labelled with the tissue group of each trait's category",
+ "a_schematic_steps": [
+  "Predicted allelic effects",
+  "Tissue group × layer annotations",
+  "S-LDSC"
+ ],
+ "a_step2_mini_curve": "SNPs ranked by effect, increasing to the right; the right-hand 5% (the top 5%) is shaded",
+ "a_legend_constants_not_drawn": {
+  "common_SNPs": 5828323,
+  "common_SNPs_label": "5.83 million",
+  "tracks": 1312,
+  "biosamples": 433,
+  "tissue_groups": 12,
+  "layers": 6,
+  "top_fraction": "5%",
+  "window_bp_DNase_CAGE": 501,
+  "window_bp_histone": 2001,
+  "baselineLD_v2.2_annotations": 97,
+  "track_counts_tissue_group_x_layer": {
+   "CNS_tissue": [
+    52,
+    12,
+    8,
+    10,
+    11,
+    24
+   ],
+   "neural_cells": [
+    12,
+    9,
+    6,
+    6,
+    9,
+    9
+   ],
+   "myeloid": [
+    36,
+    4,
+    3,
+    3,
+    3,
+    2
+   ],
+   "lymphoid": [
+    18,
+    27,
+    13,
+    12,
+    13,
+    30
+   ],
+   "liver": [
+    4,
+    4,
+    3,
+    3,
+    3,
+    7
+   ],
+   "GI": [
+    44,
+    15,
+    19,
+    21,
+    22,
+    31
+   ],
+   "cardiovascular": [
+    58,
+    29,
+    13,
+    11,
+    14,
+    49
+   ],
+   "skeletal_muscle": [
+    22,
+    12,
+    7,
+    8,
+    9,
+    17
+   ],
+   "adipose": [
+    24,
+    3,
+    1,
+    2,
+    2,
+    8
+   ],
+   "stromal": [
+    84,
+    23,
+    7,
+    6,
+    12,
+    27
+   ],
+   "reproductive_endocrine": [
+    46,
+    10,
+    13,
+    11,
+    11,
+    29
+   ],
+   "epithelial_barrier": [
+    86,
+    40,
+    17,
+    14,
+    22,
+    57
+   ]
+  }
+ },
+ "figure_size_in": [
+  7.2,
+  5.83
+ ]
+}

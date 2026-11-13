@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 실험 3c 순차 실행기: z02(조회) 완료 대기 → z03 → z04 → z05. 대화 compact·세션 종료와 무관하게 진행 (실험 3 run_pipeline.sh 와 같은 구조).
+# 실험 3c 순차 실행기: z02(조회) 완료 대기 → z03 → z04 → z05 (실험 3 run_pipeline.sh 와 같은 구조).
 #  - z02 가 완료 전에 죽으면 다시 시작한다(재시작 가능, 최대 30회). z02 는 끝에 os._exit(0) 로 스스로 종료한다.
 #  - z03 → z04 → z05 는 순차. z04/z05 가 아직 없으면 그 단계에서 기다린다(파일이 생길 때까지 10분마다 확인, 최대 3일).
 #  - 상태: ${AGA_DATA:-D:/AD_GWAS_Atlas_data}/exp3c/PIPELINE_STATUS.txt, 단계별 로그 exp3c/<단계>.log

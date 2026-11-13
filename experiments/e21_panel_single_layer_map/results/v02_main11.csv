@@ -1,0 +1,12 @@
+﻿trait,K,T,L,max_layers,n_layers_distinct,type,top_annot,top_tau,where,K_q10,T_q10,L_q10,type_q10,K_q01,T_q01,L_q01,type_q01
+EA,1,1,1.0,1,1,focal,CNS_tissue|CAGE,1.2120170655948437,CNS_tissue: CAGE,1,1,1.0,focal,1,1,1.0,focal
+SCZ,2,2,1.0,1,2,focal,CNS_tissue|CAGE,1.513614538331001,CNS_tissue: CAGE; neural_cells: H3K27ac,2,2,1.0,focal,1,1,1.0,focal
+BIP,2,2,1.0,1,1,focal,CNS_tissue|CAGE,4.366397014424163,CNS_tissue: CAGE; myeloid: CAGE,4,3,1.3333333333333333,tissue-spanning,2,2,1.0,focal
+NEURO,1,1,1.0,1,1,focal,CNS_tissue|CAGE,0.965569133748144,CNS_tissue: CAGE,1,1,1.0,focal,0,0,,none
+BMI,0,0,,0,0,none,CNS_tissue|CAGE,0.7392104986936777,,1,1,1.0,focal,0,0,,none
+AD,2,1,2.0,2,2,focal,myeloid|CAGE,3.054201378424134,"myeloid: CAGE, DNASE",5,2,2.5,focal,2,1,2.0,focal
+MONO,9,2,4.5,5,5,layer-spanning,myeloid|CAGE,3.810816063763567,"myeloid: CAGE, DNASE, H3K27ac, H3K4me3, RNA; lymphoid: CAGE, DNASE, H3K27ac, H3K4me3",12,4,3.0,tissue- and layer-spanning,6,2,3.0,layer-spanning
+IBD,8,2,4.0,5,5,layer-spanning,myeloid|CAGE,3.004009181648391,"myeloid: CAGE, DNASE, H3K4me3; lymphoid: CAGE, DNASE, H3K27ac, H3K4me1, H3K4me3",8,2,4.0,layer-spanning,5,2,2.5,focal
+RA,3,2,1.5,2,2,focal,lymphoid|CAGE,2.95200309237297,"myeloid: CAGE; lymphoid: CAGE, H3K4me3",3,2,1.5,focal,2,1,2.0,focal
+LDL,15,8,1.875,4,4,tissue-spanning,liver|CAGE,4.332596842810557,"myeloid: CAGE; lymphoid: H3K27ac; liver: CAGE, H3K27ac, H3K4me1, H3K4me3; GI: CAGE, H3K27ac, H3K4me1, H3K4me3; adipose: H3K27ac, H3K4me3; stromal: CAGE; reproductive_endocrine: H3K4me1; epithelial_barrier: H3K4me1",20,9,2.2222222222222223,tissue-spanning,5,2,2.5,focal
+HEIGHT,11,5,2.2,3,4,tissue-spanning,stromal|DNASE,1.7762928395790685,"cardiovascular: H3K27ac; skeletal_muscle: DNASE, H3K27ac; adipose: CAGE, H3K27ac, H3K4me3; stromal: DNASE, H3K27ac, H3K4me3; reproductive_endocrine: DNASE, H3K27ac",14,5,2.8,tissue-spanning,6,4,1.5,tissue-spanning

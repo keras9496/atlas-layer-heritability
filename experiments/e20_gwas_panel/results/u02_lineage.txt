@@ -1,0 +1,74 @@
+=== 실험 3u 계통 지도: 형질 106개 × 계통 12개 ===
+적합 1272개, 실패(빈 블록) 0개, 없음 0개
+h² ≤ 0인 형질: []
+FDR < 0.05인 칸: 358 / 1272
+확인(기술): 키(Yengo 2022) stromal τ* — 3n 정리본 1.35 ± 0.25, 이 묶음의 파일 1.34 ± 0.24
+
+=== 분석 계통 (4.1) ===
+조건을 채운 형질 수 (묶음 × 새 형질/14형질과 같은 형질)
+                 조건 충족  전체
+group status              
+BI    discovery      4   4
+      new           12  13
+BR    discovery      3   5
+      new           12  20
+LL    discovery      2   2
+      new            1   1
+S     discovery      2   2
+      new            3   3
+U     new           37  56
+
+조건을 채운 형질의 분석 계통 분포
+group             BI  BR  LL  S   U
+analysis_lineage                   
+CNS_tissue         0  14   0  0   2
+GI                 0   0   0  0   2
+adipose            0   0   0  0  11
+cardiovascular     1   0   0  0   3
+liver              2   0   2  0  10
+lymphoid           9   0   0  0   4
+myeloid            4   0   1  0   1
+skeletal_muscle    0   0   0  0   2
+stromal            0   1   0  5   2
+
+S 묶음 (stromal에서; 참고로 τ*가 가장 큰 계통)
+  PASS.Knee_Osteoarthritis.Boer2021          stromal τ*  1.26 ± 0.32 (P 3.9e-05) | 1위 adipose 1.66 (P 9.2e-08) | 충족
+  PASS.Total_Hip_Replacement.Boer2021        stromal τ*  2.54 ± 0.48 (P 6.6e-08) | 1위 adipose 3.05 (P 5.3e-09) | 충족
+  PASS.Thumb_Osteoarthritis.Boer2021         stromal τ*  2.78 ± 1.10 (P 0.0059) | 1위 skeletal_muscle 2.89 (P 0.0031) | 충족
+  PASS.Height.Yengo2022                      stromal τ*  1.34 ± 0.24 (P 7e-09) | 1위 adipose 1.75 (P 2.4e-13) | 충족
+  UKB_460K.bmd_HEEL_TSCOREz                  stromal τ*  1.82 ± 0.28 (P 3.7e-11) | 1위 adipose 2.53 (P 4.3e-17) | 충족
+
+조건을 못 채운 형질 (층위 분석에서 빠짐)
+  [BR/new] PASS.Anorexia_Nervosa.Watson2019                             1위 CNS_tissue τ* 0.95 (P 0.013)
+  [U/new] PASS.Heart_Failure.Shah2020                                  1위 liver τ* 0.61 (P 0.14)
+  [U/new] PANUKBB.Atrial_Fibrillation_And_Flutter                      1위 cardiovascular τ* 2.30 (P 0.0044)
+  [BR/discovery] PASS.Alzheimers_Disease.Wightman2021                         1위 myeloid τ* 1.56 (P 0.0094)
+  [U/new] PASS.Ischemic_Stroke.Malik2018                               1위 liver τ* 0.53 (P 0.2)
+  [BR/new] PASS.Parkinson.Nalls2019                                     1위 myeloid τ* 1.17 (P 0.055)
+  [U/new] PASS.Cancer_Lung.McKay2017                                   1위 myeloid τ* 1.78 (P 0.0054)
+  [U/new] PANUKBB.Breast_Cancer_female                                 1위 adipose τ* 1.96 (P 0.0051)
+  [U/new] UKB_460K.cancer_PROSTATE                                     1위 GI τ* 1.85 (P 0.079)
+  [U/new] PASS.Gout.Donertas2021                                       1위 liver τ* 2.63 (P 0.034)
+  [U/new] PASS.Cancer_Esophageal.Gharahkhani2016                       1위 GI τ* 1.99 (P 0.012)
+  [BR/new] PASS.Autism.PGC2013                                          1위 CNS_tissue τ* 0.68 (P 0.14)
+  [BR/new] PASS.Tourette_Syndrome.Yu2019                                1위 CNS_tissue τ* 0.76 (P 0.2)
+  [BI/new] PASS.Primary_Biliary_Cirrhosis.Cordell2015                   1위 lymphoid τ* 2.65 (P 0.0064)
+  [U/new] PASS.Covid19_Infection.hg_v7                                 1위 GI τ* 2.64 (P 0.031)
+  [U/new] UKB_460K.repro_MENARCHE_AGE                                  1위 neural_cells τ* 0.50 (P 0.029)
+  [U/new] PASS.Snoring.Campos2020                                      1위 skeletal_muscle τ* 0.77 (P 0.0053)
+  [BR/new] PASS.General_Risk_Tolerance.KarlssonLinner2019               1위 CNS_tissue τ* 0.57 (P 0.024)
+  [U/new] UKB_460K.repro_NumberChildrenEverBorn_Pooled                 1위 CNS_tissue τ* 0.66 (P 0.023)
+  [U/new] PASS.Age_First_Birth.Barban2016                              1위 CNS_tissue τ* 0.57 (P 0.053)
+  [BR/new] PASS.Drinks_Per_Week.Liu2019                                 1위 CNS_tissue τ* 0.96 (P 0.015)
+  [U/new] PASS.Medication_Use.Wu2019                                   1위 CNS_tissue τ* 0.32 (P 0.24)
+  [BR/new] PASS.Alcohol_use.SanchezRoige2018                            1위 CNS_tissue τ* 1.29 (P 0.0083)
+  [U/new] PASS.Covid19_Vaccination.Hartonen2023                        1위 CNS_tissue τ* 0.34 (P 0.25)
+  [U/new] UKB_460K.pigment_SUNBURN                                     1위 lymphoid τ* 0.81 (P 0.13)
+  [BR/discovery] PASS.Education_Years.Rietveld2013                            1위 CNS_tissue τ* 1.35 (P 0.0087)
+  [U/new] PASS.Visceral_Adipose_Tissue_Volume.Agrawal2022              1위 liver τ* 1.05 (P 0.053)
+  [BR/new] PASS.Cigarettes_Per_Day.Liu2019                              1위 CNS_tissue τ* 1.51 (P 0.0073)
+  [U/new] PASS.Telomere_Length.Codd2021                                1위 lymphoid τ* 1.75 (P 0.023)
+  [U/new] PASS.CHIP.Kessler2022                                        1위 myeloid τ* 0.28 (P 0.4)
+
+stromal 계통에 농축된(단측 P < 0.05) 새 형질 가운데 S가 아닌 것 (E2의 비교군)
+  36개: body_WHRadjBMIz(2.7e-11), Forced_Vital_Capacity.Shrine2023(2.7e-10), Glaucoma.Craig2020(6.4e-10), Chronic_Obstructive_Pulmonary_Disease.Consentino2023(3.1e-08), bp_DIASTOLICadjMEDz(2e-06), biochemistry_TotalProtein(1.4e-05), Structural_Connectivity_Global.Tissink2023(6.9e-05), Inguinal_Hernia(8.4e-05), Coronary_Artery_Disease.Aragam2022(9.1e-05), Reticulocyte_Count.Vuckovic2020(9.3e-05), Abdominal_Aortic_Aneurysm(0.00022), body_BALDING1(0.00045), Maternal_Birth_Weight.Warrington2019(0.00046), biochemistry_AlkalinePhosphatase(0.00071), Gastrointestinal_Disease.Donertas2021(0.00073), biochemistry_Creatinine(0.00077), Acute_Appendicitis(0.00078), biochemistry_IGF1(0.00097), Atrial_Fibrillation.Nielsen2018(0.001), Primary_Apen_Angle_Glaucoma(0.0015), Platelet_Distribution_Width.Vuckovic2020(0.0017), Diverticulosis_And_Diverticulitis(0.0018), Fetal_Birth_Weight.Warrington2019(0.0021), biochemistry_AspartateAminotransferase(0.0022), Varicose_Veins.Ahmed2022(0.0023), biochemistry_Phosphate(0.0028), Endometriosis.Rahmioglu2023(0.003), Snoring.Campos2020(0.012), biochemistry_Testosterone_Male(0.012), Acne_Vulgaris.TederLaving2023(0.014), Mouth_Teeth_Dental_Problems(0.025), Venous_Thromboembolism.Ghouse2023(0.026), HDL.Teslovich2010(0.03), blood_WHITE_COUNT(0.033), Covid19_Infection.hg_v7(0.033), Varicose_Vein_Surgery(0.047)

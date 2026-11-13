@@ -1,0 +1,15 @@
+trait,K,T,L,type,K_q10,T_q10,L_q10,type_q10,K_q01,T_q01,L_q01,type_q01,where,top_annot,top_tau
+EA,1,1,1.0,focal,2,1,2.0,focal,1,1,1.0,focal,CNS_tissue: CAGE,L5_CNS_tissue_CAGE,1.2120170655948437
+N_SCZ,5,2,2.5,focal,5,2,2.5,focal,3,2,1.5,focal,"CNS_tissue: CAGE, DNASE, H3K27ac; neural_cells: H3K27ac, H3K4me3",L5_CNS_tissue_CAGE,1.4970094705367887
+N_BIP,2,1,2.0,focal,2,1,2.0,focal,2,1,2.0,focal,"CNS_tissue: CAGE, DNASE",L5_CNS_tissue_CAGE,1.6267617367055562
+NEURO,1,1,1.0,focal,1,1,1.0,focal,0,0,,none,CNS_tissue: CAGE,L5_CNS_tissue_CAGE,0.965569133748144
+N_BMI,1,1,1.0,focal,3,2,1.5,focal,1,1,1.0,focal,CNS_tissue: CAGE,L5_CNS_tissue_CAGE,0.9777015772483061
+N_AD,5,2,2.5,focal,5,2,2.5,focal,4,1,4.0,layer-spanning,"myeloid: CAGE, DNASE, H3K27ac, H3K4me3; lymphoid: CAGE",L5_myeloid_CAGE,2.978840924163846
+MONO,9,2,4.5,layer-spanning,13,5,2.6,tissue-spanning,7,2,3.5,layer-spanning,"myeloid: CAGE, DNASE, H3K27ac, H3K4me3, RNA; lymphoid: CAGE, DNASE, H3K27ac, H3K4me3",L5_myeloid_CAGE,3.810816063763567
+NEUT,7,3,2.3333333333333335,tissue-spanning,9,4,2.25,tissue-spanning,4,1,4.0,layer-spanning,"myeloid: CAGE, DNASE, H3K27ac, H3K4me3; adipose: H3K27ac; reproductive_endocrine: DNASE, H3K4me3",L5_myeloid_CAGE,1.910720060002397
+IBD,8,2,4.0,layer-spanning,9,3,3.0,tissue- and layer-spanning,7,2,3.5,layer-spanning,"myeloid: CAGE, DNASE, H3K4me3; lymphoid: CAGE, DNASE, H3K27ac, H3K4me1, H3K4me3",L5_myeloid_CAGE,3.004009181648391
+RA,3,2,1.5,focal,3,2,1.5,focal,2,1,2.0,focal,"myeloid: CAGE; lymphoid: CAGE, H3K4me3",L5_lymphoid_CAGE,2.95200309237297
+N_LDL,15,8,1.875,tissue-spanning,25,10,2.5,tissue-spanning,4,3,1.3333333333333333,tissue-spanning,"lymphoid: H3K27ac; liver: CAGE, H3K27ac, H3K4me3; GI: CAGE, H3K27ac, H3K4me1; cardiovascular: H3K27ac; adipose: H3K4me3; stromal: CAGE, H3K4me3; reproductive_endocrine: H3K27ac, H3K4me1; epithelial_barrier: H3K27ac, H3K4me1",L5_liver_CAGE,3.941798981075925
+TC,8,6,1.3333333333333333,tissue-spanning,15,10,1.5,tissue-spanning,2,2,1.0,focal,"neural_cells: CAGE; lymphoid: H3K27ac; liver: CAGE, RNA; GI: CAGE, H3K27ac; stromal: CAGE; epithelial_barrier: CAGE",L5_liver_CAGE,3.7244789186014615
+N_HEIGHT,18,6,3.0,tissue- and layer-spanning,19,7,2.7142857142857144,tissue-spanning,15,5,3.0,tissue- and layer-spanning,"neural_cells: DNASE; cardiovascular: CAGE, DNASE, H3K27ac, H3K4me3; skeletal_muscle: CAGE, DNASE, H3K27ac, H3K4me3; adipose: CAGE, DNASE, H3K27ac, H3K4me3; stromal: DNASE, H3K27ac, H3K4me3; reproductive_endocrine: DNASE, H3K27ac",L5_stromal_DNASE,1.6809167949747033
+BMD,24,8,3.0,tissue- and layer-spanning,26,8,3.25,tissue- and layer-spanning,20,6,3.3333333333333335,tissue- and layer-spanning,"neural_cells: DNASE; liver: H3K27ac, H3K4me1; cardiovascular: CAGE, DNASE, H3K27ac, H3K4me3; skeletal_muscle: CAGE, DNASE, H3K27ac, H3K4me1, H3K4me3; adipose: CAGE, DNASE, H3K27ac, H3K4me1, H3K4me3; stromal: CAGE, DNASE, H3K27ac, H3K4me3; reproductive_endocrine: DNASE, H3K27ac; epithelial_barrier: H3K27ac",L5_skeletal_muscle_H3K27ac,2.3293638105841206

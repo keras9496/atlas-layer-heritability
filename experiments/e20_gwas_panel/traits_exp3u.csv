@@ -1,0 +1,108 @@
+﻿id,file,trait,disease,mean_N,h2_z,group,prediction,status,discovery_trait,pair,include,excluded,link
+T001,PASS.Schizophrenia.Trubetskoy2022,Schizophrenia,True,58572,28.3,BR,initiation,discovery,SCZ,,True,,https://www.nature.com/articles/s41586-022-04434-5#Abs1
+T002,PASS.Depression.Howard2019,Depression,True,500199,24.12,BR,initiation,new,,,True,,https://www.nature.com/articles/s41593-018-0326-7#data-availability
+T003,PASS.Bipolar_Disorder_ALL.Mullins2021,Bipolar disorder (all cases),True,405675,23.53,BR,initiation,discovery,BIP,,True,,https://www.nature.com/articles/s41588-021-00857-4
+T004,PASS.Knee_Osteoarthritis.Boer2021,KneeOA,True,395571,22.3,S,accessibility,new,,,True,,https://www.cell.com/cell/fulltext/S0092-8674(21)00941-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867421009417%3Fshowall%3Dtrue
+T005,PASS.Chronic_Obstructive_Pulmonary_Disease.Consentino2023,COPD,True,325027,21.1,U,none,new,,,True,,https://www.medrxiv.org/content/10.1101/2022.09.12.22279863v1
+T006,GBMI.Asthma,Asthma,True,1344420,18.75,BI,initiation,new,,,True,,https://www.sciencedirect.com/science/article/pii/S2666979X2200204X?via%3Dihub
+T007,PASS.Attention_Deficit_Hyperactivity_Disorder_ADHD.Demontis2023,ADHD,True,220735,17.43,BR,initiation,new,,,True,,https://www.nature.com/articles/s41588-022-01285-8
+T008,PASS.Atrial_Fibrillation.Nielsen2018,Atrial Fibrillation,True,1030840,16.77,U,none,new,,AF,True,,https://www.nature.com/articles/s41588-018-0171-3
+T009,PASS.Glaucoma.Craig2020,Glaucoma,True,67040,16.64,U,none,new,,GLAUCOMA,True,,https://www.nature.com/articles/s41588-019-0556-y
+T010,PASS.Insomnia.Watanabe2022,Insomnia,True,608594,16.24,BR,initiation,new,,,True,,https://www.nature.com/articles/s41588-022-01124-w
+T011,PASS.Coronary_Artery_Disease.Aragam2022,Coronary Artery Disease (Aragam),True,1322480,16.14,U,none,new,,,True,,https://www.nature.com/articles/s41588-022-01233-6
+T012,UKB_460K.disease_HYPOTHYROIDISM_SELF_REP,Hypothyroidism (Self reported),True,459324,15.17,BI,initiation,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T013,PASS.Multiple_Sclerosis.IMSGC2019,Multiple Sclerosis,True,115803,15.05,excluded,none,new,,,False,파일 없음(IMSGC 승인 신청 필요),https://www.science.org/doi/10.1126/science.aav7188
+T014,PASS.Gastrointestinal_Disease.Donertas2021,Gastrointestinal Disease,True,484598,14.33,U,none,new,,,True,,https://pubmed.ncbi.nlm.nih.gov/33959723/
+T015,PASS.Total_Hip_Replacement.Boer2021,Total Hip Replacement,True,317466,13.69,S,accessibility,new,,,True,,https://www.cell.com/cell/fulltext/S0092-8674(21)00941-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867421009417%3Fshowall%3Dtrue
+T016,PANUKBB.Diverticulosis_And_Diverticulitis,Diverticulosis And Diverticulitis,True,365887,13.55,U,none,new,,,True,,https://pan.ukbb.broadinstitute.org
+T017,PANUKBB.Blood_Clot_DVT_Bronchitis_Emphysema_Asthma_Rhinitis_Eczema_Allergy_Diagnosed_By_Doctor,"Bronchitis, Emphysema, Asthma, Rhinitis, Eczema, Allergy Diagnosed By Doctor",True,419768,13.36,U,none,new,,,True,,https://pan.ukbb.broadinstitute.org
+T018,PASS.Type_2_Diabetes.Xue2018,Type 2 Diabetes,True,573919,13.25,U,none,new,,,True,,https://www.nature.com/articles/s41467-018-04951-w
+T019,PASS.Inflammatory_Bowel_Disease.deLange2017,IBD,True,59957,13.19,BI,initiation,discovery,IBD,,True,,https://www.nature.com/articles/ng.3760
+T020,PANUKBB.Varicose_Vein_Surgery,Varicose Vein Surgery,True,420473,13.0,U,none,new,,VARICOSE,True,,https://pan.ukbb.broadinstitute.org
+T021,PASS.Rheumatoid_Arthritis.Ishigaki2022,Rheumatoid Arthritis (Ishigaki),True,97173,12.22,BI,initiation,discovery,RA,RA,True,,https://www.nature.com/articles/s41588-022-01213-w#data-availability
+T022,PASS.Rheumatoid_Arthritis.Saevarsdottir2022,Rheumatoid Arthritis (Saevarsdottir),True,1026690,12.0,BI,initiation,discovery,RA,RA,True,,https://ard.bmj.com/content/81/8/1085.long
+T023,PASS.Anorexia_Nervosa.Watson2019,Anorexia nervosa,True,70157,11.5,BR,initiation,new,,,True,,https://www.nature.com/articles/s41588-019-0439-2
+T024,PASS.Cancer_Prostate.Schumacher2018,Prostate Cancer,True,74849,11.0,U,none,new,,PROSTATE,True,,https://www.nature.com/articles/s41588-018-0142-8
+T025,PASS.Heart_Failure.Shah2020,Heart Failure,True,945560,9.67,U,none,new,,,True,,https://www.nature.com/articles/s41467-019-13690-5
+T026,GBMI.Primary_Apen_Angle_Glaucoma,Primary open-angle glaucoma,True,1144540,9.36,U,none,new,,GLAUCOMA,True,,https://www.sciencedirect.com/science/article/pii/S2666979X2200204X?via%3Dihub
+T027,PANUKBB.Atrial_Fibrillation_And_Flutter,Atrial Fibrillation And Flutter,True,403890,9.32,U,none,new,,AF,True,,https://pan.ukbb.broadinstitute.org
+T028,PASS.Varicose_Veins.Ahmed2022,Varicose veins,True,401656,9.06,U,none,new,,VARICOSE,True,,https://www.nature.com/articles/s41467-022-30765-y
+T029,PANUKBB.Mouth_Teeth_Dental_Problems,Mouth Teeth Dental Problems,True,418978,8.87,U,none,new,,,True,,https://pan.ukbb.broadinstitute.org
+T030,PASS.Alzheimers_Disease.Wightman2021,Alzheimer’s disease,True,1126560,8.75,BR,initiation,discovery,AD,,True,,https://www.nature.com/articles/s41588-021-00921-z
+T031,PANUKBB.Inguinal_Hernia,Inguinal Hernia,True,382422,8.7,U,none,new,,,True,,https://pan.ukbb.broadinstitute.org
+T032,PASS.Endometriosis.Rahmioglu2023,Endometriosis,True,477454,8.65,U,none,new,,,True,,https://www.nature.com/articles/s41588-023-01323-z#data-availability
+T033,PASS.Acne_Vulgaris.TederLaving2023,Acne vulgaris,True,399413,8.53,U,none,new,,,True,,https://www.nature.com/articles/s41431-023-01326-8
+T034,PASS.Genetic_Generalized_Epilepsy.Berkovic2022,GGE,True,23259,8.4,BR,initiation,new,,,True,,https://www.medrxiv.org/content/10.1101/2022.06.08.22276120v1.full
+T035,PASS.Ischemic_Stroke.Malik2018,Stroke,True,440328,8.35,U,none,new,,,True,,https://www.nature.com/articles/s41588-018-0058-3
+T036,GBMI.Abdominal_Aortic_Aneurysm,Abdominal aortic aneurysm,True,1235990,8.17,U,none,new,,,True,,https://www.sciencedirect.com/science/article/pii/S2666979X2200204X?via%3Dihub
+T037,PASS.Parkinson.Nalls2019,Parkinson Disease,True,450228,8.05,BR,initiation,new,,,True,,https://www.nature.com/articles/ng.3043
+T038,PASS.Type_1_Diabetes.Chiou2021,T1D - Type 1 Diabetes,True,511737,7.49,BI,initiation,new,,,True,,https://www.nature.com/articles/s41586-021-03552-w#data-availability
+T039,PASS.Venous_Thromboembolism.Ghouse2023,Venous Tromboembolism (VTE),True,1449600,7.26,U,none,new,,,True,,https://www.nature.com/articles/s41588-022-01286-7#Abs1
+T040,PASS.Cancer_Lung.McKay2017,Lung cancer,True,85716,7.16,U,none,new,,,True,,https://www.nature.com/articles/ng.3892
+T041,PANUKBB.Breast_Cancer_female,Breast Cancer (female),True,219170,7.02,U,none,new,,,True,,https://pan.ukbb.broadinstitute.org
+T042,UKB_460K.cancer_PROSTATE,Prostate Cancer,True,459324,7.0,U,none,new,,PROSTATE,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T043,GBMI.Acute_Appendicitis,Acute appendicitis,True,982641,6.88,U,none,new,,,True,,https://www.sciencedirect.com/science/article/pii/S2666979X2200204X?via%3Dihub
+T044,PASS.Gout.Donertas2021,Gout,True,484598,6.63,U,none,new,,,True,,https://pubmed.ncbi.nlm.nih.gov/33959723/
+T045,PANUKBB.C44_Other_Malignant_Neoplasms_Of_Skin,Malignant Neoplasms Of Skin,True,420531,6.43,U,none,new,,,True,,https://pan.ukbb.broadinstitute.org
+T046,PASS.Cancer_Esophageal.Gharahkhani2016,Esophageal Cancer,True,21271,6.32,U,none,new,,,True,,https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(16)30240-6/fulltext
+T047,PASS.Thumb_Osteoarthritis.Boer2021,ThumbOA,True,246305,6.27,S,accessibility,new,,,True,,https://www.cell.com/cell/fulltext/S0092-8674(21)00941-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867421009417%3Fshowall%3Dtrue
+T048,PASS.Autism.PGC2013,Autism Spectrum Disorder,True,10263,6.19,BR,initiation,new,,,True,,https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(12)62129-1/fulltext
+T049,PASS.Tourette_Syndrome.Yu2019,Tourette Syndrome,True,14307,5.97,BR,initiation,new,,,True,,https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.2018.18070857?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+T050,PASS.Primary_Biliary_Cirrhosis.Cordell2015,Primary Biliary Cirrhosis,True,13239,5.61,BI,initiation,new,,,True,,https://www.nature.com/articles/ncomms9019
+T051,PASS.Covid19_Infection.hg_v7,Covid 19 Vaccination,True,2520920,5.2,U,none,new,,,True,,https://www.medrxiv.org/content/10.1101/2022.11.11.22282213v1
+T052,PASS.Lupus.Bentham2015,Lupus (SLE),True,14267,4.79,BI,initiation,new,,,True,,https://www.nature.com/articles/ng.3434
+T053,PASS.Celiac.Dubois2010,Celiac disease,True,15283,4.73,BI,initiation,new,,,True,,https://www.nature.com/articles/ng.543
+T054,PASS.BMI.Yengo2018,BMI,False,686181,32.48,BR,initiation,discovery,BMI,,True,,https://academic.oup.com/hmg/article/27/20/3641/5067845?login=true
+T055,PASS.Forced_Vital_Capacity.Shrine2023,COPD - FVC,False,580505,32.05,U,none,new,,,True,,https://www.nature.com/articles/s41588-023-01314-0#data-availability
+T056,PASS.Intelligence.SavageJansen2018,Intelligence,False,264193,29.05,BR,initiation,new,,,True,,https://www.nature.com/articles/s41588-018-0152-6
+T057,UKB_460K.bp_DIASTOLICadjMEDz,Diastolic (Blood Pressure),False,422771,27.74,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T058,PASS.Daytime_Napping.Dashti2021,Daytime napping,False,452633,27.45,BR,initiation,new,,,True,,https://www.nature.com/articles/s41467-020-20585-3#data-availability
+T059,UKB_460K.blood_WHITE_COUNT,Wbc Count,False,444502,27.39,BI,initiation,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T060,PASS.Height.Yengo2022,Height,False,1556950,26.34,S,accessibility,discovery,HEIGHT,,True,,https://www.nature.com/articles/s41586-022-05275-y#data-availability
+T061,UKB_460K.other_MORNINGPERSON,Morning Person,False,410520,24.67,BR,initiation,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T062,UKB_460K.repro_MENARCHE_AGE,Menarche Age,False,242278,24.56,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T063,UKB_460K.biochemistry_TotalProtein,Total Protein,False,397652,24.15,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T064,UKB_460K.body_WHRadjBMIz,WHR BMI ratio,False,458417,23.68,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T065,PASS.Reaction_Time.Davies2018,Reaction Time,False,300486,22.56,BR,initiation,new,,,True,,https://www.nature.com/articles/s41467-018-04362-x
+T066,UKB_460K.biochemistry_Creatinine,Creatinine,False,434158,21.91,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T067,PASS.Snoring.Campos2020,Snoring,False,408317,21.79,U,none,new,,,True,,https://www.nature.com/articles/s41467-020-14625-1#Abs1
+T068,UKB_460K.blood_RED_COUNT,Rbc Count,False,445174,21.78,BI,initiation,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T069,PASS.Fetal_Birth_Weight.Warrington2019,Fetal Birth Weight,False,290657,21.54,U,none,new,,,True,,https://www.nature.com/articles/s41588-019-0403-1
+T070,UKB_460K.bmd_HEEL_TSCOREz,Heel T-score,False,445921,20.51,S,accessibility,discovery,BMD,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T071,PASS.Sleep_Duration.Dashti2019,Sleep Duration,False,446118,19.67,BR,initiation,new,,,True,,https://www.nature.com/articles/s41467-019-08917-4
+T072,PASS.Maternal_Birth_Weight.Warrington2019,Maternal Birth Weight,False,208541,19.48,U,none,new,,,True,,https://www.nature.com/articles/s41588-019-0403-1
+T073,PASS.Eosinophil_Percentage.Vuckovic2020,Eosinophil Percentage,False,408112,19.03,BI,initiation,new,,,True,,https://www.cell.com/cell/fulltext/S0092-8674(20)30999-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420309995%3Fshowall%3Dtrue
+T074,UKB_460K.biochemistry_IGF1,IGF1,False,432292,18.68,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T075,PASS.General_Risk_Tolerance.KarlssonLinner2019,General Risk Tolerance,False,466570,18.36,BR,initiation,new,,,True,,https://www.nature.com/articles/s41588-018-0309-3
+T076,UKB_460K.biochemistry_AspartateAminotransferase,Aspartate Aminotransferase,False,430982,18.31,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T077,PASS.Aging_Parental_Lifespan.Timmers2020,Aging Parental Lifespan,False,627346,17.93,U,none,new,,,True,,https://www.nature.com/articles/s41467-020-17312-4
+T078,UKB_460K.blood_RBC_DISTRIB_WIDTH,Rbc Distribution Width,False,442700,17.8,BI,initiation,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T079,UKB_460K.repro_NumberChildrenEverBorn_Pooled,Number Children Ever Born,False,456500,16.78,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T080,UKB_460K.biochemistry_Testosterone_Male,Testosterone Male,False,196813,16.58,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T081,PASS.Physical_Activity.Wang2022,Physical Activity,False,589564,16.38,U,none,new,,,True,,https://www.nature.com/articles/s41588-022-01165-1
+T082,PASS.Reticulocyte_Count.Vuckovic2020,Reticulocyte Count,False,408112,16.37,BI,initiation,new,,,True,,https://www.cell.com/cell/fulltext/S0092-8674(20)30999-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420309995%3Fshowall%3Dtrue
+T083,PASS.Platelet_Distribution_Width.Vuckovic2020,Platelet Distribution Width,False,408112,15.38,BI,initiation,new,,,True,,https://www.cell.com/cell/fulltext/S0092-8674(20)30999-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420309995%3Fshowall%3Dtrue
+T084,PASS.Monocyte_Percentage.Vuckovic2020,Monocyte Percentage,False,408112,15.08,BI,initiation,discovery,MONO,,True,,https://www.cell.com/cell/fulltext/S0092-8674(20)30999-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420309995%3Fshowall%3Dtrue
+T085,PASS.Age_First_Birth.Barban2016,Age First Birth,False,222037,15.07,U,none,new,,,True,,https://www.nature.com/articles/ng.3698
+T086,UKB_460K.body_BALDING1,Balding,False,208336,14.7,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T087,UKB_460K.biochemistry_AlkalinePhosphatase,Alkaline Phosphatase,False,433862,14.68,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T088,PASS.Drinks_Per_Week.Liu2019,Drinks Per Week,False,527298,14.44,BR,initiation,new,,,True,,https://www.nature.com/articles/s41588-018-0307-5
+T089,UKB_460K.biochemistry_Phosphate,Phosphate,False,397561,14.2,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T090,PASS.Medication_Use.Wu2019,Medication use (drugs used in diabetes),False,78808,14.04,U,none,new,,,True,,https://www.nature.com/articles/s41467-019-09572-5
+T091,UKB_460K.biochemistry_VitaminD,Vitamin D,False,415700,12.46,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T092,UKB_460K.biochemistry_Cholesterol,Cholesterol,False,435137,11.67,LL,initiation,discovery,TC,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T093,PASS.Alcohol_use.SanchezRoige2018,Alcohol use/AUDIT,False,120388,11.61,BR,initiation,new,,,True,,https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.2018.18040369?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+T094,UKB_460K.biochemistry_TotalBilirubin,Total Bilirubin,False,429423,11.07,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T095,PASS.Covid19_Vaccination.Hartonen2023,SARS-CoV-2 infection (C2),False,273765,9.97,U,none,new,,,True,,https://www.nature.com/articles/s41586-022-04826-9
+T096,UKB_460K.pigment_SUNBURN,Sunburn,False,344229,9.62,U,none,new,,,True,,Price lab summary statistics (https://www.nature.com/articles/s41588-018-0144-6)
+T097,PASS.Basophil_Percentage.Vuckovic2020,Basophil Percentage,False,408112,9.45,BI,initiation,new,,,True,,https://www.cell.com/cell/fulltext/S0092-8674(20)30999-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420309995%3Fshowall%3Dtrue
+T098,PASS.Education_Years.Rietveld2013,Education Years,False,126559,9.35,BR,initiation,discovery,EA,,True,,https://www.science.org/doi/10.1126/science.1235488?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+T099,PASS.HDL.Teslovich2010,HDL,False,97750,9.27,LL,initiation,new,,,True,,https://www.nature.com/articles/nature09270
+T100,PASS.LDL.Teslovich2010,LDL,False,93355,8.83,LL,initiation,discovery,LDL,,True,,https://www.nature.com/articles/nature09270
+T101,PASS.Visceral_Adipose_Tissue_Volume.Agrawal2022,Visceral Adipose Tissue Volume,False,38965,8.75,U,none,new,,,True,,https://www.nature.com/articles/s41467-022-30931-2
+T102,PASS.Cigarettes_Per_Day.Liu2019,Cigarettes Per Day,False,257073,8.66,BR,initiation,new,,,True,,https://www.nature.com/articles/s41588-018-0307-5
+T103,PASS.Cannabis_Use_Disorder.Johnson2020,Cannabis use disorder,False,359934,8.57,BR,initiation,new,,,True,,https://www.thelancet.com/journals/lanpsy/article/PIIS2215-0366(20)30339-4/fulltext
+T104,PASS.Telomere_Length.Codd2021,Telomere Lenght,False,472174,8.32,U,none,new,,,True,,https://www.nature.com/articles/s41588-021-00944-6#data-availability
+T105,PASS.Ever_Smoked.TAGC2010,Ever Smoked,False,74035,7.54,BR,initiation,new,,,True,,https://www.nature.com/articles/ng.571
+T106,PASS.Structural_Connectivity_Global.Tissink2023,Structural Connectivity Global (imaging),False,22720,7.44,BR,initiation,new,,,True,,https://www.eneuro.org/content/10/4/ENEURO.0242-22.2023.long
+T107,PASS.CHIP.Kessler2022,CHIP,False,368411,6.0,U,none,new,,,True,,https://www.nature.com/articles/s41586-022-05448-9

@@ -1,0 +1,15 @@
+=== 주 GWAS 11형질 (792칸, FDR < 0.05) ===
+형질        K   T     L  유형             | FDR<0.10: K T L 유형 | FDR<0.01: K T L 유형 | 어디에
+EA        1   1  1.00  집중형            |  1  1 1.00 집중형        |  1  1 1.00 집중형        | CNS_tissue: CAGE
+SCZ       2   2  1.00  집중형            |  2  2 1.00 집중형        |  1  1 1.00 집중형        | CNS_tissue: CAGE; neural_cells: H3K27ac
+BIP       2   2  1.00  집중형            |  4  3 1.33 조직 확장형     |  2  2 1.00 집중형        | CNS_tissue: CAGE; myeloid: CAGE
+NEURO     1   1  1.00  집중형            |  1  1 1.00 집중형        |  0  0  nan 신호 없음      | CNS_tissue: CAGE
+BMI       0   0   nan  신호 없음          |  1  1 1.00 집중형        |  0  0  nan 신호 없음      | 
+AD        2   1  2.00  집중형            |  5  2 2.50 집중형        |  2  1 2.00 집중형        | myeloid: CAGE, DNASE
+MONO      9   2  4.50  층위 확장형         | 12  4 3.00 조직·층위 확장형  |  6  2 3.00 층위 확장형     | myeloid: CAGE, DNASE, H3K27ac, H3K4me3, RNA; lymphoid: CAGE, DNASE, H3K27ac, H3K4me3
+IBD       8   2  4.00  층위 확장형         |  8  2 4.00 층위 확장형     |  5  2 2.50 집중형        | myeloid: CAGE, DNASE, H3K4me3; lymphoid: CAGE, DNASE, H3K27ac, H3K4me1, H3K4me3
+RA        3   2  1.50  집중형            |  3  2 1.50 집중형        |  2  1 2.00 집중형        | myeloid: CAGE; lymphoid: CAGE, H3K4me3
+LDL      15   8  1.88  조직 확장형         | 20  9 2.22 조직 확장형     |  5  2 2.50 집중형        | myeloid: CAGE; lymphoid: H3K27ac; liver: CAGE, H3K27ac, H3K4me1, H3K4me3; GI: CAGE, H3K27ac, H3K4me1, H3K4me3; adipose: H3K27ac, H3K4me3; stromal: CAGE; reproductive_endocrine: H3K4me1; epithelial_barrier: H3K4me1
+HEIGHT   11   5  2.20  조직 확장형         | 14  5 2.80 조직 확장형     |  6  4 1.50 조직 확장형     | cardiovascular: H3K27ac; skeletal_muscle: DNASE, H3K27ac; adipose: CAGE, H3K27ac, H3K4me3; stromal: DNASE, H3K27ac, H3K4me3; reproductive_endocrine: DNASE, H3K27ac
+유형별 형질 수: 집중형 6, 층위 확장형 2, 조직 확장형 2, 조직·층위 확장형 0, 신호 없음 1
+역치를 바꾸면 유형이 달라지는 형질: FDR<0.10 BIP, BMI, MONO / FDR<0.01 NEURO, IBD, LDL

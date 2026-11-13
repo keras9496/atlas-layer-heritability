@@ -1,12 +1,15 @@
 """Compare the result files of a reproduction run with the result files the manuscript used.
 
-    python verify/compare_results.py <reproduced repo or run folder> [--rtol 1e-6] [--out verify/report.md]
+    python verify/compare_results.py <reproduced repo or run folder> [--rtol 1e-6] [--out verify/report.md] [--data-root D:/data]
 
-For every file under experiments/*/results/ in this repository (the manuscript's results) the same file is looked up
-in the other folder. CSV files are compared column by column: numeric columns within a relative tolerance
+For every file under experiments/*/results/ in this repository (the manuscript's results), the trait table that e20
+writes next to its results folder, and the figure files under figures/out/ (PNG files, the values drawn and the table
+of Fig. 5b; when the other folder is a run copy), the same file is looked up in the other folder. CSV files are compared column by column: numeric columns within a relative tolerance
 (and an absolute tolerance of 1e-9 near zero), other columns exactly, after sorting rows by the common columns.
+JSON files are compared entry by entry: the same structure, keys and strings, numbers within the same tolerances.
 Text files (.txt, .md) are compared line by line after masking what legitimately differs between two runs
-(timestamps, dates, elapsed times and the data-root path); a text file whose only differences are of that kind is
+(timestamps, dates, elapsed times and the data-root path, which is recognised when it is named AD_GWAS_Atlas_*, is given
+with --data-root or is the value of AGA_DATA); a text file whose only differences are of that kind is
 reported as "match (timing/path lines only)". The dated notes RESULTS_<tag>_<date>.md that the summary scripts write
 are paired by tag and order; the manuscript's copies carry an interpretation section added by hand after the run, so
 a reproduced note whose lines are all contained in the manuscript's note is reported as "match (manuscript copy has
@@ -14,16 +17,18 @@ added notes)". Notes with no writer in the pipeline and outputs of scripts that 
 listed under their own status. Files that exist only on one side are listed. The report is written as Markdown.
 The exit status is 0 when every file is a match of some kind.
 """
-import sys, re, argparse, difflib
+import os, sys, re, json, argparse, difflib
 import numpy as np, pandas as pd
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 ap = argparse.ArgumentParser(); ap.add_argument("other"); ap.add_argument("--rtol", type=float, default=1e-6); ap.add_argument("--atol", type=float, default=1e-9)
-ap.add_argument("--out", default=str(REPO/"verify"/"report.md")); a = ap.parse_args()
-OTHER = Path(a.other).resolve()
+ap.add_argument("--out", default=str(REPO/"verify"/"report.md")); ap.add_argument("--data-root", action="append", default=[]); a = ap.parse_args()
+ROOTS = sorted({r.replace("\\", "/").rstrip("/") for r in a.data_root + [os.environ.get("AGA_DATA", ""), os.environ.get("AGA_DATA_POSIX", "")] if r}, key=len, reverse=True)   # data roots to mask in logs
+OTHER = Path(a.other).resolve(); OTHER_ROOT = OTHER if (OTHER/"experiments").exists() else None
 if (OTHER/"experiments").exists(): OTHER = OTHER/"experiments"
 REF = REPO/"experiments"
+EXTRA = {"e20_gwas_panel/traits_exp3u.csv"}                      # written by a script outside results/ (e20 u00_inputs.py)
 OK = {"same bytes", "match", "match (timing/path lines only)", "match (manuscript copy has added notes)",
       "note written by hand (not a pipeline output)", "output of a script not included (AlphaGenome API)", "differ (expected, no value differs)"}
 # result files the pipeline cannot produce: written by the excluded AlphaGenome API scripts
@@ -39,6 +44,7 @@ DATED = re.compile(r"^RESULTS_(EXP[0-9A-Za-z_]+?)_(\d{4}-\d{2}-\d{2})\.md$")
 
 def norm(s):
     """Mask what differs between two runs of the same code: data root, timestamps, dates, elapsed times."""
+    for r in ROOTS: s = s.replace(r, "<DATA>").replace(r.replace("/", "\\"), "<DATA>")
     s = re.sub(r"[A-Za-z]:[\\/]AD_GWAS_Atlas_\w+", "<DATA>", s); s = re.sub(r"/[a-z]/AD_GWAS_Atlas_\w+", "<DATA>", s)
     s = re.sub(r"\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}(:\d{2})?", "<TS>", s); s = re.sub(r"\d{4}-\d{2}-\d{2}", "<DATE>", s)
     s = re.sub(r"\(\s*[\d.]+\s*(분|초|s|sec|min|h)\s*\)", "(<DUR>)", s); s = re.sub(r"[\d.]+\s*(분|초)\b", "<DUR>", s)
@@ -67,6 +73,27 @@ def compare_csv(f1, f2):
             if ne.any(): bad.append(f"{c}: {ne.sum()} values differ")
     return ("match", f"{len(A)} rows x {len(A.columns)} columns") if not bad else ("differ", "; ".join(bad))
 
+def compare_json(f1, f2):
+    """Same structure, keys and strings; numbers within the tolerance (a text comparison would report a difference in the last digit of one value)."""
+    if f1.read_bytes() == f2.read_bytes(): return "same bytes", ""
+    try: x = json.loads(f1.read_text(encoding="utf-8")); y = json.loads(f2.read_text(encoding="utf-8"))
+    except Exception as e: return "error", f"could not read: {e}"
+    n = [0]; bad = []; worst = [0.0]
+    def walk(u, v, path):
+        if isinstance(u, dict) and isinstance(v, dict):
+            if list(u) != list(v): bad.append(f"{path or '/'}: keys differ"); return
+            for k in u: walk(u[k], v[k], f"{path}/{k}")
+        elif isinstance(u, list) and isinstance(v, list):
+            if len(u) != len(v): bad.append(f"{path or '/'}: {len(u)} vs {len(v)} items"); return
+            for k, (p, q) in enumerate(zip(u, v)): walk(p, q, f"{path}[{k}]")
+        elif isinstance(u, (int, float)) and isinstance(v, (int, float)) and not isinstance(u, bool) and not isinstance(v, bool):
+            n[0] += 1
+            if not np.isclose(u, v, rtol=a.rtol, atol=a.atol, equal_nan=True):
+                bad.append(f"{path}: {u!r} vs {v!r}"); worst[0] = max(worst[0], abs(u - v) / max(abs(v), a.atol))
+        elif u != v: bad.append(f"{path or '/'}: {u!r} vs {v!r}")
+    walk(x, y, "")
+    return ("match", f"{n[0]} numbers") if not bad else ("differ", f"{len(bad)} of {n[0]} numbers or entries differ (max rel {worst[0]:.2e}); first: {bad[0][:120]}")
+
 def compare_text(f1, f2, dated=False):
     t1 = f1.read_text(encoding="utf-8", errors="replace").splitlines(); t2 = f2.read_text(encoding="utf-8", errors="replace").splitlines()
     if t1 == t2: return "match", f"{len(t1)} lines"
@@ -80,7 +107,7 @@ def compare_text(f1, f2, dated=False):
 
 rows = []; used = set()
 for f in sorted(REF.rglob("*")):
-    if not f.is_file() or "results" not in f.relative_to(REF).parts: continue
+    if not f.is_file() or ("results" not in f.relative_to(REF).parts and f.relative_to(REF).as_posix() not in EXTRA): continue
     rel = f.relative_to(REF); key = rel.as_posix(); g = OTHER/rel; m = DATED.match(f.name)
     if key in NOT_INCLUDED: rows.append((key, "output of a script not included (AlphaGenome API)", "")); continue
     if m:                                                        # dated note: pair by tag and order with the other side's notes of the same tag
@@ -94,13 +121,23 @@ for f in sorted(REF.rglob("*")):
     if not g.exists(): rows.append((key, "missing in reproduction", "")); continue
     used.add(key)
     if f.suffix == ".csv": s, d = compare_csv(f, g)
-    elif f.suffix in (".txt", ".md", ".tsv", ".json"): s, d = compare_text(f, g)
+    elif f.suffix == ".json": s, d = compare_json(f, g)
+    elif f.suffix in (".txt", ".md", ".tsv"): s, d = compare_text(f, g)
     else: s, d = ("same bytes" if f.read_bytes() == g.read_bytes() else "bytes differ"), ""
     if s == "differ" and key in EXPECTED: s, d = "differ (expected, no value differs)", EXPECTED[key] + f"; {d}"
     rows.append((key, s, d))
 for g in sorted(OTHER.rglob("*")):
     k = g.relative_to(OTHER).as_posix()
     if g.is_file() and "results" in g.relative_to(OTHER).parts and k not in used and not (REF/k).exists(): rows.append((k, "only in reproduction", ""))
+if OTHER_ROOT is not None and (REPO/"figures"/"out").exists():       # figures: PNG files byte by byte, the values drawn in them and the table of Fig. 5b as text or CSV
+    for f in sorted((REPO/"figures"/"out").iterdir()):
+        if not f.is_file() or f.suffix == ".pdf": continue
+        key = "figures/out/" + f.name; g = OTHER_ROOT/"figures"/"out"/f.name
+        if not g.exists(): rows.append((key, "missing in reproduction", "")); continue
+        if f.suffix == ".csv": s, d = compare_csv(f, g)
+        elif f.suffix == ".json": s, d = compare_json(f, g)
+        else: s, d = ("same bytes" if f.read_bytes() == g.read_bytes() else "bytes differ"), ""
+        rows.append((key, s, d))
 
 R = pd.DataFrame(rows, columns=["file", "status", "detail"])
 counts = R.status.value_counts().to_dict()

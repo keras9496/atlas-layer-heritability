@@ -8,7 +8,9 @@
 # Each step is "name | requires | working dir | command". A step is skipped when its done-marker exists
 # ($AGA_DATA/_status/<name>.done), waits while a required step has no marker, and is claimed with a lock file so that a
 # second copy of this script, started in another terminal, takes the steps the first one has not claimed (the
-# single-layer-map fits of e03 take two days and can run beside the rest). Logs: $AGA_DATA/_logs/<name>.log.
+# single-layer-map fits of e03 take two days and can run beside the rest; the fits of e19-e22 are split into pieces for the
+# same purpose). Logs: $AGA_DATA/_logs/<name>.log. A runner that is killed leaves the lock file of its step behind: delete
+# $AGA_DATA/_status/*.lock before starting again.
 # The Atlas query scripts (x02, z01, z02, l01) are not in this repository; their outputs are inputs (data_layout.md).
 set -u
 cd "$(dirname "$0")"
@@ -144,17 +146,76 @@ STEPS=(
 "e18_s03_dry           | e18_s02_dry             | $E/e18_cell_type_eqtl       | $P scripts/s03_tests.py dry"
 "e18_s02_main          | e18_s03_dry             | $E/e18_cell_type_eqtl       | $P scripts/s02_sldsc.py main"
 "e18_s03_main          | e18_s02_main            | $E/e18_cell_type_eqtl       | $P scripts/s03_tests.py main"
-# ---- figures and numbers of the manuscript
-"paper_figures         | e18_s03_main e04_w04_summary e12_m06_export | paper  | $P make_figures.py"
+# ---- e19-e22 and the figures are appended below
 )
 
+# ---- e19-e22: benchmark of 14 traits and the panel of 106 GWAS. These stages read the annotations, LD scores and run files of
+# the stages above and start when those are done (G). The S-LDSC fits are split into pieces (name_<k>of<K>: every K-th job,
+# starting at job k), as they were run; start several copies of this script to run pieces side by side. The number of pieces is
+# part of the name of the log that each piece writes to results/.
+PU="python -X utf8 -W ignore -u"
+# G: the steps above that no other step requires. When they are done, all of e01-e18 is done.
+names=""; reqs=" "; for s in "${STEPS[@]}"; do IFS='|' read -r n r d c <<< "$s"; names+="$n "; reqs+="$r "; done
+G=""; for n in $names; do [[ "$reqs" == *" $n "* ]] || G+="$n "; done; G=${G% }; unset names reqs
+add() { STEPS+=("$1 | $2 | $3 | $4"); }                                                                       # name, requires, dir, command
+pieces() { local k; for ((k = 0; k < $2; k++)); do add "$1_${k}of$2" "$3" "$4" "$5 $k $2"; done; }           # name, K, requires, dir, command
+allof() { local k s=""; for ((k = 0; k < $2; k++)); do s+="$1_${k}of$2 "; done; printf '%s' "$s"; }           # the names of the K pieces
+# ---- e19: heritability share and enrichment (t01); three-layer models of the 14 traits in every tissue group (t08) (3t)
+D=$E/e19_enrichment_all_groups
+add e19_t01_check    "$G"               $D "$PU scripts/t01_enrichment.py check"
+add e19_t01_fit      "e19_t01_check"    $D "$PU scripts/t01_enrichment.py fit"
+add e19_t01_extract  "e19_t01_fit"      $D "$PU scripts/t01_enrichment.py extract"
+add e19_t08_fit      "$G"               $D "$PU scripts/t08_matrix.py fit"
+# ---- e20: panel of 106 GWAS: trait table, tissue-group and all-track three-layer models, tissue-group map, resampled models (3u)
+D=$E/e20_gwas_panel
+add e20_u00_inputs   "$G"               $D "$PU scripts/u00_inputs.py"
+add e20_u01_prep     "e20_u00_inputs"   $D "$PU scripts/u01_fit.py prep"
+add e20_u01_check    "e20_u01_prep"     $D "$PU scripts/u01_fit.py check"
+pieces e20_u01_fit 8 "e20_u01_check"    $D "$PU scripts/u01_fit.py fit"
+add e20_u02_lineage  "$(allof e20_u01_fit 8)" $D "$PU scripts/u02_lineage.py"
+pieces e20_u01_fitR 12 "e20_u02_lineage" $D "$PU scripts/u01_fit.py fitR"
+# fitS lists 120 models that fitR also lists (six GWAS analysed in the stromal group). It starts when fitR is done and skips them,
+# so that no model is fitted by two copies of this script at the same time.
+pieces e20_u01_fitS 12 "$(allof e20_u01_fitR 12)" $D "$PU scripts/u01_fit.py fitS"
+add e20_u03_pairs    "e20_u02_lineage"  $D "$PU scripts/u03_pairs.py"
+# ---- e21: panel of 106 GWAS: 72 annotations fitted one at a time, types of signal (3v)
+D=$E/e21_panel_single_layer_map
+add e21_v01_prepld   "$G"               $D "$PU scripts/v01_fit72.py prepld"
+add e21_v01_check    "e21_v01_prepld"   $D "$PU scripts/v01_fit72.py check"
+pieces e21_v01_fit 10 "e21_v01_check e20_u01_prep" $D "$PU scripts/v01_fit72.py fit"
+add e21_v02_types    "$(allof e21_v01_fit 10)" $D "$PU scripts/v02_types.py all"
+# ---- e22: benchmark of 14 traits; enriched GWAS-tissue-group pairs of the panel (3w). The panel pieces fit the resampled models
+# that e20 has not fitted, so they wait for all fitR and fitS pieces of e20.
+D=$E/e22_benchmark14
+add e22_w01_check    "$G"               $D "$PU scripts/w01_fit.py check"
+pieces e22_w01_bench 10 "e22_w01_check" $D "$PU scripts/w01_fit.py fit bench"
+pieces e22_w01_panel 10 "e22_w01_check e20_u02_lineage $(allof e20_u01_fitR 12) $(allof e20_u01_fitS 12)" $D "$PU scripts/w01_fit.py fit panel"
+pieces e22_w01_panelpd 6 "e22_w01_check e20_u02_lineage" $D "$PU scripts/w01_fit.py fit panelpd"
+add e22_w02_check    "e21_v01_prepld"   $D "$PU scripts/w02_fit72.py check"
+pieces e22_w02_fit 5 "e22_w02_check"    $D "$PU scripts/w02_fit72.py fit"
+add e22_w03_check    "$G"               $D "$PU scripts/w03_actbin.py check"
+pieces e22_w03_main 6 "e22_w03_check"   $D "$PU scripts/w03_actbin.py main"
+pieces e22_w01_actbin 7 "e22_w01_check $(allof e22_w03_main 6)" $D "$PU scripts/w01_fit.py fit actbin"
+add e22_w04_bench    "$(allof e22_w01_bench 10) $(allof e22_w02_fit 5) e19_t08_fit" $D "$PU scripts/w04_bench.py"
+add e22_w05_panel    "$(allof e22_w01_panel 10)" $D "$PU scripts/w05_panel.py"
+add e22_w06_actbin   "$(allof e22_w01_actbin 7) e22_w04_bench" $D "$PU scripts/w06_actbin.py"
+add e22_w07_central  "e22_w05_panel"    $D "$PU scripts/w07_central.py"
+add e22_w08_pd       "$(allof e22_w01_panelpd 6) e22_w05_panel" $D "$PU scripts/w08_pd.py"
+add e22_w09_weighted "e22_w08_pd"       $D "$PU scripts/w09_weighted.py"
+add e22_w09b_total   "e22_w09_weighted" $D "$PU scripts/w09b_total.py"
+add e22_w10_constructions "e22_w09_weighted" $D "$PU scripts/w10_constructions.py"
+# ---- figures and the values drawn in them
+add figures "e19_t01_extract e20_u03_pairs e21_v02_types e22_w06_actbin e22_w07_central e22_w09b_total e22_w10_constructions" figures "$PU make_figures.py"
+
 trim() { echo "$1" | sed -E 's/^ +| +$//g'; }
-if [ "${1:-}" = "list" ]; then for s in "${STEPS[@]}"; do IFS='|' read -r n r d c <<< "$s"; printf "%-22s needs: %s\n" "$(trim "$n")" "$(trim "$r")"; done; exit 0; fi
+if [ "${1:-}" = "list" ]; then for s in "${STEPS[@]}"; do IFS='|' read -r n r d c <<< "$s"; printf "%-26s needs: %s\n" "$(trim "$n")" "$(trim "$r")"; done; exit 0; fi
+# The track table that the excluded script z01_lineages.py writes is an input (data_layout.md); put the copy of the repository in place when it is absent.
+[ -f "$AGA_DATA_POSIX/exp3c/track_lineage.csv" ] || { mkdir -p "$AGA_DATA_POSIX/exp3c" && cp "$E/e02_lineage_map/inputs/track_lineage.csv" "$AGA_DATA_POSIX/exp3c/track_lineage.csv"; }
 PREFIX="${1:-}"; ME="$$@$(hostname)"
 # Repeated passes over the list: run the first step that is not done, not claimed and whose requirements are done.
 # When nothing can run but another runner holds a lock, wait and pass again; when nothing can run and no lock exists, stop.
 while :; do
-  ran=0; pending=0
+  ran=0; pending=0; done0=$(ls "$ST"/*.done 2> /dev/null | wc -l)
   for s in "${STEPS[@]}"; do
     IFS='|' read -r n r d c <<< "$s"; n=$(trim "$n"); r=$(trim "$r"); d=$(trim "$d"); c=$(trim "$c")
     [ -n "$PREFIX" ] && [[ "$n" != "$PREFIX"* ]] && continue
@@ -163,7 +224,8 @@ while :; do
     [ -f "$ST/$n.lock" ] && continue
     ready=1; for q in $r; do [ -f "$ST/$q.done" ] || ready=0; done
     [ $ready -eq 1 ] || continue
-    echo "$ME" > "$ST/$n.lock"; echo "$(date '+%F %T') $n: start ($c)"
+    ( set -C; echo "$ME" > "$ST/$n.lock" ) 2> /dev/null || continue          # with noclobber the lock is created atomically: only one runner can take the step
+    echo "$(date '+%F %T') $n: start ($c)"
     echo "=== $(date '+%F %T') $n: $c" >> "$LG/$n.log"            # append, so the log of a failed attempt survives a restart
     if (cd "$d" && eval "$c") >> "$LG/$n.log" 2>&1; then date '+%F %T' > "$ST/$n.done"; rm -f "$ST/$n.lock"; echo "$(date '+%F %T') $n: done"
     else rm -f "$ST/$n.lock"; echo "$(date '+%F %T') $n: FAILED (see $LG/$n.log)"; exit 1; fi
@@ -171,5 +233,7 @@ while :; do
   done
   [ $pending -eq 0 ] && { echo "$(date '+%F %T') all steps done"; exit 0; }
   [ $ran -eq 1 ] && continue
-  if ls "$ST"/*.lock > /dev/null 2>&1; then sleep 120; else echo "$(date '+%F %T') nothing runnable and no other runner active (a required step failed or is outside this prefix) -> stop"; exit 1; fi
+  if ls "$ST"/*.lock > /dev/null 2>&1; then sleep 120
+  elif [ "$(ls "$ST"/*.done 2> /dev/null | wc -l)" != "$done0" ]; then continue          # a step of another runner finished during this pass: scan again
+  else echo "$(date '+%F %T') nothing runnable and no other runner active (a required step failed or is outside this prefix) -> stop"; exit 1; fi
 done

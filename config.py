@@ -11,7 +11,7 @@ DATA = os.environ.get("AGA_DATA", "D:/AD_GWAS_Atlas_data").replace("\\", "/").rs
 REPO = Path(__file__).resolve().parent
 EXPERIMENTS = REPO/"experiments"
 
-# Analysis stages in the order they were run (folder name, manuscript name of the stage, original working-folder name)
+# Analysis stages in the order they were run (folder name, description of the stage, original working-folder name)
 STAGES = [
     ("e01_targets_sldsc", "Target SNPs, initial AD analysis and AD robustness (3, 3b)", "실험3_SLDSC"),
     ("e02_lineage_map", "Lineage map (3c)", "실험3c_형질세포지도"),
@@ -31,4 +31,8 @@ STAGES = [
     ("e16_within_active", "Effects within predicted active elements (3q)", "실험3q_활성요소내효과"),
     ("e17_larger_ad_gwas", "Larger AD GWAS (3r)", "실험3r_더큰AD_GWAS"),
     ("e18_cell_type_eqtl", "Cell-type eQTL conditioning (3s)", "실험3s_세포형eQTL조건화"),
+    ("e19_enrichment_all_groups", "Heritability share and enrichment; three-layer models in every tissue group (3t)", "실험3t_검토보강"),
+    ("e20_gwas_panel", "Panel of 106 GWAS: tissue-group and three-layer models (3u)", "실험3u_형질확대"),
+    ("e21_panel_single_layer_map", "Panel of 106 GWAS: single-annotation map and types of signal (3v)", "실험3v_형질유형"),
+    ("e22_benchmark14", "Benchmark of 14 traits and CAGE-DNase balance of the enriched pairs of the panel (3w)", "실험3w_벤치마크14"),
 ]

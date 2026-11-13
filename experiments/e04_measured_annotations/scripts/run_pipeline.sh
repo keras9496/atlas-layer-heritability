@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 실험 3e 순차 실행기: w02 → w03 시험(Z 섞은 가짜 형질, 결과 아님) → w03 본 실행 → w04. 세션 종료와 무관하게 진행 (실험 3d run_pipeline.sh 와 같은 구조).
+# 실험 3e 순차 실행기: w02 → w03 시험(Z 섞은 가짜 형질, 결과 아님) → w03 본 실행 → w04 (실험 3d run_pipeline.sh 와 같은 구조).
 #  - 상태: ${AGA_DATA:-D:/AD_GWAS_Atlas_data}/exp3e/PIPELINE_STATUS.txt, 단계별 로그 exp3e/<단계>.log
 #  - 실패하면 그 단계에서 멈춘다. 다시 실행하면 끝난 S-LDSC(.results)와 LD 점수는 건너뛴다.
 #  - w01(자료 받기)은 따로 먼저 실행한다.

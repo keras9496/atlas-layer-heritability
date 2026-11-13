@@ -1,0 +1,171 @@
+== 1. 조직 묶음 지도 (14 × 12; 단측 P, FDR은 168칸)
+FDR < 0.05인 칸: 41개 / 168; 전체 묶음 보정 모형(M2)에서: 29개
+  Educational attainment   범주 묶음 CNS_tissue  τ* 0.87 ± 0.23 (P 6.5e-05, 순위 1) | 1위 CNS_tissue 0.87 | 농축 묶음(P<0.05/12) 1개 | M2 1.15 ± 0.26 (P 3.5e-06)
+  Schizophrenia            범주 묶음 CNS_tissue  τ* 1.42 ± 0.23 (P 2.6e-10, 순위 1) | 1위 CNS_tissue 1.42 | 농축 묶음(P<0.05/12) 1개 | M2 1.82 ± 0.27 (P 1.1e-11)
+  Bipolar disorder         범주 묶음 CNS_tissue  τ* 1.76 ± 0.25 (P 3.7e-13, 순위 1) | 1위 CNS_tissue 1.76 | 농축 묶음(P<0.05/12) 1개 | M2 2.00 ± 0.28 (P 8.1e-13)
+  Neuroticism              범주 묶음 CNS_tissue  τ* 1.42 ± 0.38 (P 8.8e-05, 순위 1) | 1위 CNS_tissue 1.42 | 농축 묶음(P<0.05/12) 1개 | M2 1.53 ± 0.41 (P 1.1e-04)
+  BMI                      범주 묶음 CNS_tissue  τ* 0.83 ± 0.20 (P 1.3e-05, 순위 1) | 1위 CNS_tissue 0.83 | 농축 묶음(P<0.05/12) 1개 | M2 0.94 ± 0.21 (P 3.5e-06)
+  Alzheimer's disease      범주 묶음 myeloid     τ* 2.33 ± 0.67 (P 2.4e-04, 순위 1) | 1위 myeloid 2.33 | 농축 묶음(P<0.05/12) 1개 | M2 3.19 ± 0.89 (P 1.6e-04)
+  Monocyte count           범주 묶음 myeloid     τ* 2.82 ± 0.45 (P 1.8e-10, 순위 1) | 1위 myeloid 2.82 | 농축 묶음(P<0.05/12) 2개 | M2 3.20 ± 0.51 (P 1.7e-10)
+  Neutrophil count         범주 묶음 myeloid     τ* 2.04 ± 0.30 (P 9.2e-12, 순위 1) | 1위 myeloid 2.04 | 농축 묶음(P<0.05/12) 3개 | M2 2.35 ± 0.41 (P 5.0e-09)
+  IBD                      범주 묶음 lymphoid    τ* 3.43 ± 0.63 (P 2.2e-08, 순위 1) | 1위 lymphoid 3.43 | 농축 묶음(P<0.05/12) 3개 | M2 3.95 ± 0.78 (P 1.9e-07)
+  Rheumatoid arthritis     범주 묶음 lymphoid    τ* 2.48 ± 0.71 (P 2.3e-04, 순위 1) | 1위 lymphoid 2.48 | 농축 묶음(P<0.05/12) 1개 | M2 3.24 ± 0.86 (P 7.8e-05)
+  LDL cholesterol          범주 묶음 liver       τ* 2.65 ± 0.77 (P 2.9e-04, 순위 1) | 1위 liver 2.65 | 농축 묶음(P<0.05/12) 5개 | M2 2.65 ± 0.94 (P 2.5e-03)
+  Total cholesterol        범주 묶음 liver       τ* 1.97 ± 0.67 (P 1.7e-03, 순위 1) | 1위 liver 1.97 | 농축 묶음(P<0.05/12) 2개 | M2 2.29 ± 0.97 (P 9.3e-03)
+  Height                   범주 묶음 stromal     τ* 1.35 ± 0.25 (P 4.3e-08, 순위 3) | 1위 adipose 1.79 | 농축 묶음(P<0.05/12) 5개 | M2 2.02 ± 0.31 (P 4.4e-11)
+  Bone mineral density     범주 묶음 stromal     τ* 1.85 ± 0.29 (P 1.0e-10, 순위 3) | 1위 adipose 2.59 | 농축 묶음(P<0.05/12) 8개 | M2 2.31 ± 0.39 (P 1.7e-09)
+범주 묶음이 1위인 형질: 12개 / 14
+
+== 2. 72칸 지도 (FDR은 14 × 72 = 1,008칸): 유의 107칸
+  Educational attainment   K  1 T  1 L 1.00 focal                      (FDR 0.10: focal; 0.01: focal) | 가장 큰 τ*: L5_CNS_tissue_CAGE 1.21
+  Schizophrenia            K  5 T  2 L 2.50 focal                      (FDR 0.10: focal; 0.01: focal) | 가장 큰 τ*: L5_CNS_tissue_CAGE 1.50
+  Bipolar disorder         K  2 T  1 L 2.00 focal                      (FDR 0.10: focal; 0.01: focal) | 가장 큰 τ*: L5_CNS_tissue_CAGE 1.63
+  Neuroticism              K  1 T  1 L 1.00 focal                      (FDR 0.10: focal; 0.01: none) | 가장 큰 τ*: L5_CNS_tissue_CAGE 0.97
+  BMI                      K  1 T  1 L 1.00 focal                      (FDR 0.10: focal; 0.01: focal) | 가장 큰 τ*: L5_CNS_tissue_CAGE 0.98
+  Alzheimer's disease      K  5 T  2 L 2.50 focal                      (FDR 0.10: focal; 0.01: layer-spanning) | 가장 큰 τ*: L5_myeloid_CAGE 2.98
+  Monocyte count           K  9 T  2 L 4.50 layer-spanning             (FDR 0.10: tissue-spanning; 0.01: layer-spanning) | 가장 큰 τ*: L5_myeloid_CAGE 3.81
+  Neutrophil count         K  7 T  3 L 2.33 tissue-spanning            (FDR 0.10: tissue-spanning; 0.01: layer-spanning) | 가장 큰 τ*: L5_myeloid_CAGE 1.91
+  IBD                      K  8 T  2 L 4.00 layer-spanning             (FDR 0.10: tissue- and layer-spanning; 0.01: layer-spanning) | 가장 큰 τ*: L5_myeloid_CAGE 3.00
+  Rheumatoid arthritis     K  3 T  2 L 1.50 focal                      (FDR 0.10: focal; 0.01: focal) | 가장 큰 τ*: L5_lymphoid_CAGE 2.95
+  LDL cholesterol          K 15 T  8 L 1.88 tissue-spanning            (FDR 0.10: tissue-spanning; 0.01: tissue-spanning) | 가장 큰 τ*: L5_liver_CAGE 3.94
+  Total cholesterol        K  8 T  6 L 1.33 tissue-spanning            (FDR 0.10: tissue-spanning; 0.01: focal) | 가장 큰 τ*: L5_liver_CAGE 3.72
+  Height                   K 18 T  6 L 3.00 tissue- and layer-spanning (FDR 0.10: tissue-spanning; 0.01: tissue- and layer-spanning) | 가장 큰 τ*: L5_stromal_DNASE 1.68
+  Bone mineral density     K 24 T  8 L 3.00 tissue- and layer-spanning (FDR 0.10: tissue- and layer-spanning; 0.01: tissue- and layer-spanning) | 가장 큰 τ*: L5_skeletal_muscle_H3K27ac 2.33
+  유형별 수: {'focal': 7, 'tissue-spanning': 3, 'layer-spanning': 2, 'tissue- and layer-spanning': 2} | RNA-seq가 유의한 칸: 2
+
+== 3. 층위 함께, 재추출 20회 평균 (범주 묶음)
+  Educational attainment   CAGE 1.13 ± 0.21  DNase -0.06 ± 0.18  H3K27ac 0.26 ± 0.20 | C−D +1.19 ± 0.26 | φD -2.9° ± 9.1° | 1위 CAGE 20/20, 둘째 대비 P 0.005 * | 전체 트랙 C−D +0.92 ± 0.33, φD 13.9°
+  Schizophrenia            CAGE 1.40 ± 0.20  DNase 0.20 ± 0.15  H3K27ac 0.28 ± 0.19 | C−D +1.20 ± 0.24 | φD 8.3° ± 6.2° | 1위 CAGE 20/20, 둘째 대비 P 0.000 * | 전체 트랙 C−D +0.93 ± 0.33, φD 19.9°
+  Bipolar disorder         CAGE 1.38 ± 0.23  DNase 0.71 ± 0.21  H3K27ac 0.16 ± 0.27 | C−D +0.67 ± 0.33 | φD 27.2° ± 8.2° | 1위 CAGE 20/20, 둘째 대비 P 0.020 * | 전체 트랙 C−D +0.48 ± 0.44, φD 34.7°
+  Neuroticism              CAGE 0.84 ± 0.31  DNase -0.10 ± 0.25  H3K27ac 0.43 ± 0.27 | C−D +0.94 ± 0.42 | φD -6.6° ± 16.8° | 1위 CAGE 19/20, 둘째 대비 P 0.175 | 전체 트랙 C−D +0.72 ± 0.55, φD 11.3°
+  BMI                      CAGE 0.97 ± 0.16  DNase 0.05 ± 0.20  H3K27ac 0.11 ± 0.29 | C−D +0.92 ± 0.30 | φD 2.9° ± 12.2° | 1위 CAGE 20/20, 둘째 대비 P 0.002 * | 전체 트랙 C−D +0.78 ± 0.35, φD 11.7°
+  Alzheimer's disease      CAGE 3.28 ± 0.89  DNase -0.48 ± 0.64  H3K27ac 0.54 ± 0.53 | C−D +3.76 ± 1.37 | φD -8.3° ± 10.9° | 1위 CAGE 20/20, 둘째 대비 P 0.002 * | 전체 트랙 C−D +3.24 ± 1.55, φD -6.6°
+  Monocyte count           CAGE 3.82 ± 0.60  DNase -0.17 ± 0.42  H3K27ac 1.09 ± 0.45 | C−D +3.99 ± 0.89 | φD -2.5° ± 6.2° | 1위 CAGE 20/20, 둘째 대비 P 0.000 * | 전체 트랙 C−D +3.78 ± 0.97, φD -5.2°
+  Neutrophil count         CAGE 1.75 ± 0.38  DNase 0.18 ± 0.37  H3K27ac 0.99 ± 0.33 | C−D +1.57 ± 0.66 | φD 5.8° ± 13.0° | 1위 CAGE 18/20, 둘째 대비 P 0.087 | 전체 트랙 C−D +1.04 ± 0.78, φD 12.9°
+  IBD                      CAGE 2.20 ± 0.49  DNase 0.55 ± 0.53  H3K27ac 1.47 ± 0.47 | C−D +1.65 ± 0.71 | φD 14.0° ± 13.3° | 1위 CAGE 16/20, 둘째 대비 P 0.161 | 전체 트랙 C−D +1.03 ± 0.90, φD 29.1°
+  Rheumatoid arthritis     CAGE 2.44 ± 0.66  DNase 0.31 ± 0.66  H3K27ac 0.77 ± 0.56 | C−D +2.13 ± 0.96 | φD 7.2° ± 15.5° | 1위 CAGE 16/20, 둘째 대비 P 0.046 * | 전체 트랙 C−D +2.18 ± 1.23, φD 14.9°
+  LDL cholesterol          CAGE 3.54 ± 0.90  DNase 0.28 ± 0.47  H3K27ac 1.09 ± 0.68 | C−D +3.26 ± 0.87 | φD 4.5° ± 7.6° | 1위 CAGE 20/20, 둘째 대비 P 0.030 * | 전체 트랙 C−D +3.44 ± 0.95, φD 1.6°
+  Total cholesterol        CAGE 3.70 ± 0.87  DNase 0.24 ± 0.50  H3K27ac 0.02 ± 0.71 | C−D +3.46 ± 0.91 | φD 3.8° ± 7.8° | 1위 CAGE 20/20, 둘째 대비 P 0.000 * | 전체 트랙 C−D +3.59 ± 1.00, φD 1.7°
+  Height                   CAGE 0.88 ± 0.30  DNase 1.48 ± 0.26  H3K27ac 0.12 ± 0.24 | C−D −0.61 ± 0.38 | φD 59.4° ± 9.2° | 1위 DNASE 16/20, 둘째 대비 P 0.054 | 전체 트랙 C−D −1.47 ± 0.45, φD 89.5°
+  Bone mineral density     CAGE 0.72 ± 0.27  DNase 1.92 ± 0.33  H3K27ac 0.52 ± 0.26 | C−D −1.21 ± 0.45 | φD 69.6° ± 8.0° | 1위 DNASE 20/20, 둘째 대비 P 0.004 * | 전체 트랙 C−D −1.34 ± 0.45, φD 83.8°
+  이질성 [14형질; (C−D, C−H)]: Q = 104.3, 자유도 26, P = 2.4e-11 (F 근사 4.0e-07)
+  이질성 [14형질; φD]: Q = 107.3, 자유도 13, P = 6.3e-17 (F 근사 3.1e-12); 공통 φD 14.6°
+  이질성 [골격 둘을 뺀 12형질; (C−D, C−H)]: Q = 37.1, 자유도 22, P = 2.3e-02 (F 근사 7.6e-02)
+  이질성 [골격 둘을 뺀 12형질; φD]: Q = 13.7, 자유도 11, P = 2.5e-01 (F 근사 3.0e-01); 공통 φD 4.6°
+  대비 [골격(키, BMD) − 뇌·행동 다섯; C−D]: -0.85 ± 0.29 대 1.03 ± 0.15, 차이 −1.89 ± 0.32, 양측 P = 3.5e-09
+  대비 [골격(키, BMD) − 뇌·행동 다섯; φD]: 65.21 ± 6.25 대 9.15 ± 4.72, 차이 +56.06 ± 7.55, 양측 P = 1.1e-13
+  대비 [골격 − 나머지 12; C−D]: -0.85 ± 0.29 대 1.25 ± 0.14, 차이 −2.10 ± 0.31, 양측 P = 5.2e-12
+  대비 [골격 − 나머지 12; φD]: 65.21 ± 6.25 대 4.92 ± 3.25, 차이 +60.29 ± 6.51, 양측 P = 2.0e-20
+  대비 [키 − 뇌·행동 다섯; C−D]: -0.61 ± 0.38 대 1.03 ± 0.15, 차이 −1.64 ± 0.40, 양측 P = 4.2e-05
+  대비 [키 − 뇌·행동 다섯; φD]: 59.40 ± 9.25 대 9.15 ± 4.72, 차이 +50.25 ± 10.18, 양측 P = 7.9e-07
+  대비 [BMD − 뇌·행동 다섯; C−D]: -1.21 ± 0.45 대 1.03 ± 0.15, 차이 −2.24 ± 0.47, 양측 P = 1.5e-06
+  대비 [BMD − 뇌·행동 다섯; φD]: 69.56 ± 8.00 대 9.15 ± 4.72, 차이 +60.41 ± 9.04, 양측 P = 2.3e-11
+  대비 [키 − AD; C−D]: -0.61 ± 0.38 대 3.76 ± 1.37, 차이 −4.36 ± 1.42, 양측 P = 2.1e-03
+  대비 [키 − AD; φD]: 59.40 ± 9.25 대 -8.27 ± 10.90, 차이 +67.67 ± 14.11, 양측 P = 1.6e-06
+  규칙(20회 중 15회 이상 1위, 둘째 층위 대비 단측 P < 0.05)을 채운 형질: Educational attainment(CAGE), Schizophrenia(CAGE), Bipolar disorder(CAGE), BMI(CAGE), Alzheimer's disease(CAGE), Monocyte count(CAGE), Rheumatoid arthritis(CAGE), LDL cholesterol(CAGE), Total cholesterol(CAGE), Bone mineral density(DNASE) | 못 채운 형질: Neuroticism, Neutrophil count, IBD, Height
+
+== 4. 농축된 모든 묶음의 층위(전체 트랙): 형질마다 농축 묶음(P < 0.05/12)의 φD
+  Educational attainment   CNS_tissue* 14° ± 11°
+  Schizophrenia            CNS_tissue* 20° ± 9°
+  Bipolar disorder         CNS_tissue* 35° ± 10°
+  Neuroticism              CNS_tissue* 11° ± 25°
+  BMI                      CNS_tissue* 12° ± 14°
+  Alzheimer's disease      myeloid* -7° ± 15°
+  Monocyte count           myeloid* -5° ± 7°; lymphoid 14° ± 9°
+  Neutrophil count         myeloid* 13° ± 21°; lymphoid 23° ± 33°; liver 54° ± 39°
+  IBD                      lymphoid* 29° ± 15°; myeloid 3° ± 13°; liver 116° ± 57°
+  Rheumatoid arthritis     lymphoid* 15° ± 17°
+  LDL cholesterol          liver* 2° ± 8°; GI -20° ± 23°; adipose -45° ± 38°; cardiovascular -21° ± 87°; epithelial_barrier -34° ± 23°
+  Total cholesterol        liver* 2° ± 9°; GI -49° ± 19° (정의 안 됨)
+  Height                   adipose 35° ± 16°; skeletal_muscle 50° ± 13°; stromal* 90° ± 11°; cardiovascular 74° ± 19°; reproductive_endocrine 118° ± 15°
+  Bone mineral density     adipose 42° ± 15°; skeletal_muscle 59° ± 18°; stromal* 84° ± 12°; cardiovascular 64° ± 16°; reproductive_endocrine 111° ± 16°; epithelial_barrier 44° ± 72°; liver 5° ± 43°; neural_cells 70° ± 15°
+
+== 5. 세포형 일치 층위와 원위(> 1 kb)·근위 SNP의 층위: C−D
+  Educational attainment   재추출 +1.19 | 세포형 일치 +1.18 ± 0.34 | 원위 +0.65 ± 0.33 | 근위 +0.71 ± 0.48
+  Schizophrenia            재추출 +1.20 | 세포형 일치 +1.12 ± 0.33 | 원위 +0.72 ± 0.32 | 근위 +0.83 ± 0.46
+  Bipolar disorder         재추출 +0.67 | 세포형 일치 +0.95 ± 0.44 | 원위 +0.35 ± 0.45 | 근위 +0.70 ± 0.59
+  Neuroticism              재추출 +0.94 | 세포형 일치 +1.21 ± 0.54 | 원위 +0.64 ± 0.55 | 근위 +0.39 ± 0.53
+  BMI                      재추출 +0.92 | 세포형 일치 +1.02 ± 0.30 | 원위 +0.79 ± 0.38 | 근위 +0.24 ± 0.37
+  Alzheimer's disease      재추출 +3.76 | 세포형 일치 +3.17 ± 1.03 | 원위 +3.42 ± 1.33 | 근위 +0.18 ± 1.76
+  Monocyte count           재추출 +3.99 | 세포형 일치 +2.58 ± 0.85 | 원위 +2.69 ± 0.84 | 근위 +3.87 ± 1.37
+  Neutrophil count         재추출 +1.57 | 세포형 일치 +1.30 ± 0.58 | 원위 +1.02 ± 0.72 | 근위 −0.23 ± 1.23
+  IBD                      재추출 +1.65 | 세포형 일치 +1.84 ± 0.75 | 원위 +0.57 ± 0.87 | 근위 +0.58 ± 1.47
+  Rheumatoid arthritis     재추출 +2.13 | 세포형 일치 +2.63 ± 1.16 | 원위 +1.66 ± 1.19 | 근위 +2.58 ± 1.55
+  LDL cholesterol          재추출 +3.26 | 세포형 일치 +3.39 ± 0.91 | 원위 +3.60 ± 0.88 | 근위 +0.01 ± 1.36
+  Total cholesterol        재추출 +3.46 | 세포형 일치 +3.34 ± 0.85 | 원위 +3.67 ± 0.83 | 근위 −0.01 ± 1.35
+  Height                   재추출 −0.61 | 세포형 일치 −1.03 ± 0.46 | 원위 −1.47 ± 0.43 | 근위 −0.37 ± 0.66
+  Bone mineral density     재추출 −1.21 | 세포형 일치 −2.23 ± 0.55 | 원위 −1.35 ± 0.43 | 근위 −0.24 ± 0.64
+  [matched] Q = 105.3 (자유도 26, P = 1.6e-11); C−D의 부호가 재추출 지도와 같은 형질 14/14
+  [distal] Q = 118.5 (자유도 26, P = 9.0e-14); C−D의 부호가 재추출 지도와 같은 형질 14/14
+  [proximal] Q = 22.1 (자유도 26, P = 6.8e-01); C−D의 부호가 재추출 지도와 같은 형질 12/14
+
+== 6. 실측 CAGE·DNase·H3K27ac 주석과 함께 (형질의 층위: 키·BMD는 DNase, 나머지는 CAGE)
+  Educational attainment   CAGE  단독 1.21 → 조건부 0.84 ± 0.23 (69%), 단측 P 1.8e-04, q 0.000 *
+  Schizophrenia            CAGE  단독 1.50 → 조건부 1.03 ± 0.21 (69%), 단측 P 2.9e-07, q 0.000 *
+  Bipolar disorder         CAGE  단독 1.63 → 조건부 1.00 ± 0.25 (62%), 단측 P 3.3e-05, q 0.000 *
+  Neuroticism              CAGE  단독 0.97 → 조건부 0.52 ± 0.31 (54%), 단측 P 4.8e-02, q 0.048 *
+  BMI                      CAGE  단독 0.98 → 조건부 0.72 ± 0.20 (73%), 단측 P 1.2e-04, q 0.000 *
+  Alzheimer's disease      CAGE  단독 2.98 → 조건부 2.26 ± 0.72 (76%), 단측 P 9.0e-04, q 0.001 *
+  Monocyte count           CAGE  단독 3.81 → 조건부 2.49 ± 0.51 (65%), 단측 P 4.3e-07, q 0.000 *
+  Neutrophil count         CAGE  단독 1.91 → 조건부 0.96 ± 0.32 (50%), 단측 P 1.2e-03, q 0.001 *
+  IBD                      CAGE  단독 2.94 → 조건부 2.16 ± 0.52 (73%), 단측 P 1.6e-05, q 0.000 *
+  Rheumatoid arthritis     CAGE  단독 2.95 → 조건부 2.04 ± 0.67 (69%), 단측 P 1.2e-03, q 0.001 *
+  LDL cholesterol          CAGE  단독 3.94 → 조건부 3.76 ± 0.86 (95%), 단측 P 5.7e-06, q 0.000 *
+  Total cholesterol        CAGE  단독 3.72 → 조건부 3.68 ± 0.79 (99%), 단측 P 1.5e-06, q 0.000 *
+  Height                   DNASE 단독 1.68 → 조건부 1.20 ± 0.27 (72%), 단측 P 5.4e-06, q 0.000 *
+  Bone mineral density     DNASE 단독 2.17 → 조건부 1.55 ± 0.29 (72%), 단측 P 3.3e-08, q 0.000 *
+  FDR < 0.05: 14/14; 유지율 중앙값 70% (범위 50–99%) | 모든 형질을 예측 CAGE로: FDR < 0.05 11/14
+  실측 주석만의 층위 이질성(14형질): Q = 52.8 (자유도 26, P = 0.0014; F 근사 0.016)
+
+== 7. 활성도 상위 5%를 공변량으로 (효과 주석의 τ*), 활성도 상위 10% 안의 효과 큰 절반 − 작은 절반
+  Educational attainment   효과만 1.22 → 활성도와 함께 0.55 ± 0.26 (45%), q 0.030 *; 활성도 τ* 0.38 ± 0.10 | Δ +0.32 ± 0.32, q 0.232
+  Schizophrenia            효과만 1.46 → 활성도와 함께 0.83 ± 0.23 (57%), q 0.001 *; 활성도 τ* 0.54 ± 0.10 | Δ +0.74 ± 0.33, q 0.059
+  Bipolar disorder         효과만 1.56 → 활성도와 함께 0.79 ± 0.29 (51%), q 0.008 *; 활성도 τ* 0.48 ± 0.14 | Δ +0.90 ± 0.43, q 0.066
+  Neuroticism              효과만 0.91 → 활성도와 함께 0.34 ± 0.36 (37%), q 0.278; 활성도 τ* 0.29 ± 0.12 | Δ +0.19 ± 0.45, q 0.426
+  BMI                      효과만 0.98 → 활성도와 함께 0.54 ± 0.19 (55%), q 0.008 *; 활성도 τ* 0.25 ± 0.07 | Δ +0.25 ± 0.24, q 0.232
+  Alzheimer's disease      효과만 2.91 → 활성도와 함께 0.66 ± 0.90 (23%), q 0.325; 활성도 τ* 1.63 ± 0.60 | Δ +0.35 ± 1.44, q 0.470
+  Monocyte count           효과만 3.47 → 활성도와 함께 0.02 ± 0.73 (1%), q 0.526; 활성도 τ* 0.50 ± 0.37 | Δ +0.97 ± 1.00, q 0.232
+  Neutrophil count         효과만 1.35 → 활성도와 함께 -0.70 ± 0.46 (-52%), q 0.938; 활성도 τ* 0.43 ± 0.26 | Δ −0.13 ± 0.72, q 0.618
+  IBD                      효과만 2.32 → 활성도와 함께 0.08 ± 0.72 (3%), q 0.526; 활성도 τ* 0.53 ± 0.36 | Δ +1.43 ± 0.84, q 0.126
+  Rheumatoid arthritis     효과만 2.98 → 활성도와 함께 0.40 ± 0.90 (14%), q 0.416; 활성도 τ* 0.52 ± 0.42 | Δ −0.57 ± 1.21, q 0.683
+  LDL cholesterol          효과만 3.53 → 활성도와 함께 1.95 ± 0.88 (55%), q 0.027 *; 활성도 τ* 1.38 ± 0.62 | Δ +1.42 ± 1.14, q 0.213
+  Total cholesterol        효과만 3.70 → 활성도와 함께 2.72 ± 1.13 (73%), q 0.018 *; 활성도 τ* 0.81 ± 0.50 | Δ +2.49 ± 1.64, q 0.152
+  Height                   효과만 1.48 → 활성도와 함께 1.18 ± 0.34 (79%), q 0.001 *; 활성도 τ* 0.99 ± 0.22 | Δ +1.84 ± 0.44, q 0.000 *
+  Bone mineral density     효과만 1.51 → 활성도와 함께 1.23 ± 0.34 (81%), q 0.001 *; 활성도 τ* 0.67 ± 0.26 | Δ +2.37 ± 0.42, q 0.000 *
+  효과 주석이 남는 형질(FDR < 0.05): 8/14 — Educational attainment, Schizophrenia, Bipolar disorder, BMI, LDL cholesterol, Total cholesterol, Height, Bone mineral density | 활성 요소 안 Δ > 0 (FDR < 0.05): 2/14 — Height, Bone mineral density
+
+== 8. 효과 크기 구간별 C−D (12개 구간 주석을 함께)
+  Educational attainment   0–0.1% −0.09 ± 0.43 | 0.1–0.5% +0.34 ± 0.41 | 0.5–1% −0.77 ± 0.38 | 1–5% +1.11 ± 0.36
+  Schizophrenia            0–0.1% +0.09 ± 0.35 | 0.1–0.5% +0.40 ± 0.38 | 0.5–1% −0.33 ± 0.31 | 1–5% +1.00 ± 0.34
+  Bipolar disorder         0–0.1% −0.43 ± 0.49 | 0.1–0.5% +0.07 ± 0.52 | 0.5–1% −0.97 ± 0.50 | 1–5% +0.92 ± 0.40
+  Neuroticism              0–0.1% −1.17 ± 0.58 | 0.1–0.5% −0.21 ± 0.56 | 0.5–1% −0.01 ± 0.57 | 1–5% +0.96 ± 0.54
+  BMI                      0–0.1% +0.04 ± 0.25 | 0.1–0.5% −0.29 ± 0.26 | 0.5–1% +0.15 ± 0.29 | 1–5% +0.87 ± 0.36
+  Alzheimer's disease      0–0.1% +6.12 ± 1.91 | 0.1–0.5% +1.27 ± 1.35 | 0.5–1% +1.24 ± 1.27 | 1–5% +2.33 ± 1.24
+  Monocyte count           0–0.1% +2.99 ± 0.85 | 0.1–0.5% +2.81 ± 1.14 | 0.5–1% +2.22 ± 1.12 | 1–5% +2.79 ± 0.74
+  Neutrophil count         0–0.1% +2.56 ± 0.76 | 0.1–0.5% +1.60 ± 1.02 | 0.5–1% +0.13 ± 0.72 | 1–5% +0.54 ± 0.71
+  IBD                      0–0.1% +0.78 ± 1.48 | 0.1–0.5% +0.92 ± 1.15 | 0.5–1% −0.92 ± 1.09 | 1–5% +0.87 ± 0.98
+  Rheumatoid arthritis     0–0.1% −1.51 ± 1.84 | 0.1–0.5% +0.99 ± 1.76 | 0.5–1% +0.21 ± 1.28 | 1–5% +1.91 ± 1.17
+  LDL cholesterol          0–0.1% +0.32 ± 1.12 | 0.1–0.5% +0.98 ± 0.82 | 0.5–1% +1.31 ± 1.24 | 1–5% +2.88 ± 0.79
+  Total cholesterol        0–0.1% −0.71 ± 0.91 | 0.1–0.5% +2.22 ± 1.15 | 0.5–1% +1.02 ± 1.19 | 1–5% +2.95 ± 0.77
+  Height                   0–0.1% +0.10 ± 0.49 | 0.1–0.5% −0.93 ± 0.53 | 0.5–1% −0.85 ± 0.29 | 1–5% −1.16 ± 0.44
+  Bone mineral density     0–0.1% −0.61 ± 0.60 | 0.1–0.5% −1.15 ± 0.55 | 0.5–1% −1.12 ± 0.42 | 1–5% −0.84 ± 0.44
+  [0–0.1%] C−D의 부호가 재추출 지도와 같은 형질: 8/14
+  [0.1–0.5%] C−D의 부호가 재추출 지도와 같은 형질: 12/14
+  [0.5–1%] C−D의 부호가 재추출 지도와 같은 형질: 9/14
+  [1–5%] C−D의 부호가 재추출 지도와 같은 형질: 14/14
+
+== 9. C−D에 영향이 큰 블록(전체 트랙): 추정값과, 대비를 가장 크게 만드는 블록 5·10개의 기여를 뺀 값(일차 근사; 다시 적합한 값이 아니다)
+  Educational attainment   +0.92 ± 0.33 → 5개 빼면 +0.64, 10개 빼면 +0.41 (가장 큰 블록 하나의 몫 7%)
+  Schizophrenia            +0.93 ± 0.33 → 5개 빼면 +0.58, 10개 빼면 +0.35 (가장 큰 블록 하나의 몫 11%)
+  Bipolar disorder         +0.48 ± 0.44 → 5개 빼면 +0.11, 10개 빼면 −0.14 (가장 큰 블록 하나의 몫 25%)
+  Neuroticism              +0.72 ± 0.55 → 5개 빼면 +0.13, 10개 빼면 −0.22 (가장 큰 블록 하나의 몫 21%)
+  BMI                      +0.78 ± 0.35 → 5개 빼면 +0.35, 10개 빼면 +0.19 (가장 큰 블록 하나의 몫 31%)
+  Alzheimer's disease      +3.24 ± 1.55 → 5개 빼면 +1.08, 10개 빼면 +0.46 (가장 큰 블록 하나의 몫 36%)
+  Monocyte count           +3.78 ± 0.97 → 5개 빼면 +2.36, 10개 빼면 +1.70 (가장 큰 블록 하나의 몫 14%)
+  Neutrophil count         +1.04 ± 0.78 → 5개 빼면 −0.09, 10개 빼면 −0.48 (가장 큰 블록 하나의 몫 33%)
+  IBD                      +1.03 ± 0.90 → 5개 빼면 +0.25, 10개 빼면 −0.24 (가장 큰 블록 하나의 몫 21%)
+  Rheumatoid arthritis     +2.18 ± 1.23 → 5개 빼면 +1.13, 10개 빼면 +0.27 (가장 큰 블록 하나의 몫 10%)
+  LDL cholesterol          +3.44 ± 0.95 → 5개 빼면 +1.91, 10개 빼면 +1.17 (가장 큰 블록 하나의 몫 14%)
+  Total cholesterol        +3.59 ± 1.00 → 5개 빼면 +1.97, 10개 빼면 +1.41 (가장 큰 블록 하나의 몫 16%)
+  Height                   −1.47 ± 0.45 → 5개 빼면 −0.85, 10개 빼면 −0.50 (가장 큰 블록 하나의 몫 11%)
+  Bone mineral density     −1.34 ± 0.45 → 5개 빼면 −0.88, 10개 빼면 −0.55 (가장 큰 블록 하나의 몫 9%)

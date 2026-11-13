@@ -5,7 +5,7 @@ scipy==1.17.1
 pyarrow==23.0.1
 matplotlib==3.10.8
 requests==2.33.0       # e04 w01: FANTOM5 and ENCODE downloads
-openpyxl==3.1.5        # e04 w02: FANTOM5 sample sheet (xlsx)
+openpyxl==3.1.5        # e04 w02: FANTOM5 sample sheet (xlsx); e20 u00: trait table of the 106-GWAS panel (xlsx)
 # External tools (not pip packages; see data_layout.md):
 #   LDSC: abdenlab/ldsc-python3 commit b6176a4 + tools/ldsc-python3_local_patch.diff (LD scores, munging)
 #         brainvisa/ldscore fork commit a09a869, unmodified (regression)

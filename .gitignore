@@ -13,16 +13,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-# manuscript sources and builds are not part of the repository
-paper/manuscript_*.md
-paper/build_manuscript.py
-paper/fetch_refs.py
-paper/export_pdf.ps1
-paper/refs*.json
-paper/refs_keys.tsv
-paper/*.docx
-paper/*.pdf
-paper/*.pptx
-paper/~$*
+# the figure scripts also write PDF files; only the PNG files and the values drawn in them are kept
+figures/out/*.pdf
 # local copy used for the reproduction check (its report, verify/report.md, is kept)
 repro_run/

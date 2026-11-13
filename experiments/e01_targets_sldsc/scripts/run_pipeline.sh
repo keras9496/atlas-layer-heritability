@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 실험 3 순차 실행기: x02(조회) 완료 대기 → x03 → x04 → x05. 대화 compact 와 무관하게 계속 진행.
+# 실험 3 순차 실행기: x02(조회) 완료 대기 → x03 → x04 → x05.
 #  - 실행 중인 x02 가 있으면 끝날 때까지 기다린다. x02 가 완료 전에 죽으면 다시 시작한다(재시작 가능, 최대 20회).
 #  - 각 단계 상태를 ${AGA_DATA:-D:/AD_GWAS_Atlas_data}/exp3/PIPELINE_STATUS.txt 에 남긴다. 실패하면 그 단계에서 멈춘다.
 # 사용: bash scripts/run_pipeline.sh   (e01_targets_sldsc 폴더에서)

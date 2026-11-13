@@ -1,0 +1,3078 @@
+{
+ "definition": "CAGE–DNase balance = atan2(DNase tau*, CAGE tau*) in degrees from the joint model of the CAGE, DNase and H3K27ac annotations of a tissue group; 0 = CAGE only (transcription initiation), 90 = DNase only (accessibility), 45 = equal; defined when CAGE tau* + DNase tau* > 0",
+ "unit": "enriched GWAS–tissue-group pair: single-group annotation tau* > 0 with one-sided P < 0.05/12; 288 pairs from 77 of 106 GWAS; balance defined for 285 (all-track annotations)",
+ "colours": {
+  "points": "#555555",
+  "line_0deg_CAGE": "#2f66b0",
+  "line_90deg_DNase": "#c25e12"
+ },
+ "a_row_order_top_to_bottom": [
+  "myeloid",
+  "liver",
+  "CNS_tissue",
+  "adipose",
+  "lymphoid",
+  "cardiovascular",
+  "epithelial_barrier",
+  "skeletal_muscle",
+  "neural_cells",
+  "GI",
+  "stromal",
+  "reproductive_endocrine"
+ ],
+ "a_counts": {
+  "pairs": 285,
+  "gwas": 77,
+  "by_annotation": {
+   "myeloid": 19,
+   "liver": 30,
+   "CNS_tissue": 17,
+   "adipose": 34,
+   "lymphoid": 19,
+   "cardiovascular": 29,
+   "epithelial_barrier": 21,
+   "skeletal_muscle": 28,
+   "neural_cells": 8,
+   "GI": 23,
+   "stromal": 32,
+   "reproductive_endocrine": 25
+  },
+  "by_size_class": {
+   "<10": 23,
+   "10-20": 129,
+   ">20": 133
+  },
+  "below_45": 190,
+  "above_45": 95,
+  "below_0": 40,
+  "above_90": 19,
+  "min": -44.99856221679456,
+  "max": 119.25183714239115,
+  "cage_gt_dnase_p05": 81,
+  "dnase_gt_cage_p05": 24
+ },
+ "a_pairs": [
+  {
+   "id": "T001",
+   "trait": "Schizophrenia",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 19.93912876211984,
+   "se": 8.965540897469246,
+   "size_class": "<10"
+  },
+  {
+   "id": "T056",
+   "trait": "Intelligence",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 22.425573098290126,
+   "se": 8.660165314203516,
+   "size_class": "<10"
+  },
+  {
+   "id": "T003",
+   "trait": "Bipolar disorder (all cases)",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 24.847835455692007,
+   "se": 8.02625580586133,
+   "size_class": "<10"
+  },
+  {
+   "id": "T065",
+   "trait": "Reaction Time",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 26.74838714913084,
+   "se": 8.846953199513543,
+   "size_class": "<10"
+  },
+  {
+   "id": "T034",
+   "trait": "GGE",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": -1.2536114228797008,
+   "se": 11.0751799921048,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T007",
+   "trait": "ADHD",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 5.560320418826949,
+   "se": 17.946125004845513,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T081",
+   "trait": "Physical Activity",
+   "category": "other",
+   "annotation": "CNS_tissue",
+   "balance": 6.653921705858211,
+   "se": 17.646222068249863,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T054",
+   "trait": "BMI",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 11.85725115151999,
+   "se": 14.097652508946794,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T002",
+   "trait": "Depression",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 21.26713303536832,
+   "se": 11.408029528884857,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T061",
+   "trait": "Morning Person",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 30.763603598596237,
+   "se": 11.965194623505392,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T103",
+   "trait": "Cannabis use disorder",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 32.51874562535951,
+   "se": 17.217947469529065,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T071",
+   "trait": "Sleep Duration",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 33.11058955639264,
+   "se": 13.32431538103657,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T058",
+   "trait": "Daytime napping",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 34.60568244645845,
+   "se": 11.17373031184028,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T106",
+   "trait": "Structural Connectivity Global (imaging)",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 12.43625013262495,
+   "se": 21.03660850976744,
+   "size_class": ">20"
+  },
+  {
+   "id": "T010",
+   "trait": "Insomnia",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 29.530915813923997,
+   "se": 26.13577629327617,
+   "size_class": ">20"
+  },
+  {
+   "id": "T077",
+   "trait": "Aging Parental Lifespan",
+   "category": "other",
+   "annotation": "CNS_tissue",
+   "balance": 54.88223567096178,
+   "se": 27.18490911527203,
+   "size_class": ">20"
+  },
+  {
+   "id": "T105",
+   "trait": "Ever Smoked",
+   "category": "brain and behaviour",
+   "annotation": "CNS_tissue",
+   "balance": 57.44153804677176,
+   "se": 27.76526478642528,
+   "size_class": ">20"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "GI",
+   "balance": -26.45761823222807,
+   "se": 16.417938593316947,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "GI",
+   "balance": -6.684169177249902,
+   "se": 15.435286297678363,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T033",
+   "trait": "Acne vulgaris",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 5.346873853249181,
+   "se": 18.97425608969421,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T094",
+   "trait": "Total Bilirubin",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 7.265300217019531,
+   "se": 17.394785991109504,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T068",
+   "trait": "Rbc Count",
+   "category": "blood and immune",
+   "annotation": "GI",
+   "balance": 29.832030698171053,
+   "se": 19.784129546576654,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 34.08830920669268,
+   "se": 18.90737893101988,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T080",
+   "trait": "Testosterone Male",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 38.75932994167897,
+   "se": 19.10807136718484,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 119.25183714239115,
+   "se": 15.271740791016288,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "GI",
+   "balance": -20.300208182361025,
+   "se": 44.90199332916772,
+   "size_class": ">20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "GI",
+   "balance": -16.190236036695914,
+   "se": 207.3073516211335,
+   "size_class": ">20"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "GI",
+   "balance": -7.285156570034763,
+   "se": 31.61962950933757,
+   "size_class": ">20"
+  },
+  {
+   "id": "T100",
+   "trait": "LDL",
+   "category": "lipid",
+   "annotation": "GI",
+   "balance": -6.3140359120436536,
+   "se": 25.0395077816928,
+   "size_class": ">20"
+  },
+  {
+   "id": "T024",
+   "trait": "Prostate Cancer",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 14.084624432702912,
+   "se": 33.47463041767428,
+   "size_class": ">20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 16.702396318861798,
+   "se": 31.40933414532814,
+   "size_class": ">20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "GI",
+   "balance": 39.90071033312087,
+   "se": 61.23376848929774,
+   "size_class": ">20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 42.5588234940241,
+   "se": 20.36099709535552,
+   "size_class": ">20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 46.396110112251705,
+   "se": 37.39688785093114,
+   "size_class": ">20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 52.60051973950836,
+   "se": 37.3405162028357,
+   "size_class": ">20"
+  },
+  {
+   "id": "T069",
+   "trait": "Fetal Birth Weight",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 55.41912079210238,
+   "se": 24.725647027000527,
+   "size_class": ">20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "GI",
+   "balance": 59.05600127470548,
+   "se": 25.84194767855263,
+   "size_class": ">20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "GI",
+   "balance": 68.21320661390345,
+   "se": 53.40774231427287,
+   "size_class": ">20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "GI",
+   "balance": 82.58105019107897,
+   "se": 81.51211727224528,
+   "size_class": ">20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "GI",
+   "balance": 85.78593621733872,
+   "se": 26.802169675787155,
+   "size_class": ">20"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "adipose",
+   "balance": -32.353360903512254,
+   "se": 19.40741343888401,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T074",
+   "trait": "IGF1",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": -3.014572317843553,
+   "se": 16.351692542415094,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": -0.8925298720388147,
+   "se": 19.407171892754555,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 2.7334257922396143,
+   "se": 14.87588089080878,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 6.844358241565533,
+   "se": 12.569874133912062,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 8.119278847149374,
+   "se": 14.11763093747819,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "adipose",
+   "balance": 13.60058976937212,
+   "se": 18.11416874219908,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 17.773719462969492,
+   "se": 15.450420321316354,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "adipose",
+   "balance": 19.95229147807744,
+   "se": 10.860092758335831,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 26.855336071624304,
+   "se": 10.775859811621308,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T069",
+   "trait": "Fetal Birth Weight",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 29.609195000763123,
+   "se": 17.7051622899139,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T106",
+   "trait": "Structural Connectivity Global (imaging)",
+   "category": "brain and behaviour",
+   "annotation": "adipose",
+   "balance": 30.539922299426124,
+   "se": 19.13213868878316,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "adipose",
+   "balance": 31.07230816661345,
+   "se": 17.968631285758523,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T060",
+   "trait": "Height",
+   "category": "skeletal",
+   "annotation": "adipose",
+   "balance": 31.35362704163744,
+   "se": 14.450356575450249,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 32.92778823244913,
+   "se": 13.015018386865972,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "adipose",
+   "balance": 37.23667833783086,
+   "se": 14.21299558001162,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 43.37903303494271,
+   "se": 12.948346155109498,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "adipose",
+   "balance": 43.73551973377478,
+   "se": 14.887065221713671,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T100",
+   "trait": "LDL",
+   "category": "lipid",
+   "annotation": "adipose",
+   "balance": -32.65453335242329,
+   "se": 33.65186529907551,
+   "size_class": ">20"
+  },
+  {
+   "id": "T099",
+   "trait": "HDL",
+   "category": "lipid",
+   "annotation": "adipose",
+   "balance": -14.915849058298322,
+   "se": 23.931371997813063,
+   "size_class": ">20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": -11.710063687745356,
+   "se": 31.811848419266816,
+   "size_class": ">20"
+  },
+  {
+   "id": "T039",
+   "trait": "Venous Tromboembolism (VTE)",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": -11.62514576027066,
+   "se": 71.43884647505388,
+   "size_class": ">20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 1.4486661635949294,
+   "se": 27.692879248394537,
+   "size_class": ">20"
+  },
+  {
+   "id": "T036",
+   "trait": "Abdominal aortic aneurysm",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 8.970329808317171,
+   "se": 23.167244991121123,
+   "size_class": ">20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 12.49897015619001,
+   "se": 29.088922848560262,
+   "size_class": ">20"
+  },
+  {
+   "id": "T031",
+   "trait": "Inguinal Hernia",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 16.662836163273482,
+   "se": 30.068512269908396,
+   "size_class": ">20"
+  },
+  {
+   "id": "T026",
+   "trait": "Primary open-angle glaucoma",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 19.448667245579607,
+   "se": 22.68345014180685,
+   "size_class": ">20"
+  },
+  {
+   "id": "T032",
+   "trait": "Endometriosis",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 24.29041261731858,
+   "se": 29.788390973277973,
+   "size_class": ">20"
+  },
+  {
+   "id": "T086",
+   "trait": "Balding",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 33.62842809252475,
+   "se": 22.585577813743328,
+   "size_class": ">20"
+  },
+  {
+   "id": "T028",
+   "trait": "Varicose veins",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 45.527126279565785,
+   "se": 20.4957566585545,
+   "size_class": ">20"
+  },
+  {
+   "id": "T008",
+   "trait": "Atrial Fibrillation",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 51.62964736068172,
+   "se": 25.630956384340024,
+   "size_class": ">20"
+  },
+  {
+   "id": "T059",
+   "trait": "Wbc Count",
+   "category": "blood and immune",
+   "annotation": "adipose",
+   "balance": 52.747326073640735,
+   "se": 29.0297643050989,
+   "size_class": ">20"
+  },
+  {
+   "id": "T016",
+   "trait": "Diverticulosis And Diverticulitis",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 64.98685510565933,
+   "se": 24.14920333190426,
+   "size_class": ">20"
+  },
+  {
+   "id": "T027",
+   "trait": "Atrial Fibrillation And Flutter",
+   "category": "other",
+   "annotation": "adipose",
+   "balance": 67.2919280348866,
+   "se": 132.84656733282955,
+   "size_class": ">20"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "cardiovascular",
+   "balance": -31.849584389704106,
+   "se": 19.7889418982548,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "cardiovascular",
+   "balance": 4.977640785193135,
+   "se": 11.58770548073668,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 16.79078082957829,
+   "se": 14.101427849425928,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 21.981412495348515,
+   "se": 18.82477802063981,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "cardiovascular",
+   "balance": 29.54680972948393,
+   "se": 15.893832208279749,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T008",
+   "trait": "Atrial Fibrillation",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 35.77217507067826,
+   "se": 18.665602208313317,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T028",
+   "trait": "Varicose veins",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 46.101811749783245,
+   "se": 17.69984857214019,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 48.23206701987648,
+   "se": 16.220222702497235,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "cardiovascular",
+   "balance": 62.260047013454525,
+   "se": 14.65428022571019,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T060",
+   "trait": "Height",
+   "category": "skeletal",
+   "annotation": "cardiovascular",
+   "balance": 71.24464214414004,
+   "se": 18.987214340523263,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 103.41756327939882,
+   "se": 17.569167150264786,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T039",
+   "trait": "Venous Tromboembolism (VTE)",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": -41.1623616776761,
+   "se": 53.54216385587888,
+   "size_class": ">20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": -34.08334287857955,
+   "se": 25.60102972651947,
+   "size_class": ">20"
+  },
+  {
+   "id": "T074",
+   "trait": "IGF1",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": -13.41870753375884,
+   "se": 24.00041335294611,
+   "size_class": ">20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": -9.814588615020414,
+   "se": 56.77325574482878,
+   "size_class": ">20"
+  },
+  {
+   "id": "T011",
+   "trait": "Coronary Artery Disease (Aragam)",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 6.318328349321915,
+   "se": 33.16304790729533,
+   "size_class": ">20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 8.790006515754198,
+   "se": 50.61619581839632,
+   "size_class": ">20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 22.500110111395525,
+   "se": 22.275497481997963,
+   "size_class": ">20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 24.677082985639743,
+   "se": 20.15431531086557,
+   "size_class": ">20"
+  },
+  {
+   "id": "T059",
+   "trait": "Wbc Count",
+   "category": "blood and immune",
+   "annotation": "cardiovascular",
+   "balance": 27.29046474813198,
+   "se": 24.096889045119017,
+   "size_class": ">20"
+  },
+  {
+   "id": "T036",
+   "trait": "Abdominal aortic aneurysm",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 30.077290475306555,
+   "se": 53.11778047345135,
+   "size_class": ">20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 33.64884373235565,
+   "se": 23.935061584040668,
+   "size_class": ">20"
+  },
+  {
+   "id": "T026",
+   "trait": "Primary open-angle glaucoma",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 37.1014303836025,
+   "se": 31.912979048193115,
+   "size_class": ">20"
+  },
+  {
+   "id": "T069",
+   "trait": "Fetal Birth Weight",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 47.47703486168584,
+   "se": 29.42395669742739,
+   "size_class": ">20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 56.6833870240165,
+   "se": 21.655066082373903,
+   "size_class": ">20"
+  },
+  {
+   "id": "T031",
+   "trait": "Inguinal Hernia",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 66.76387658031705,
+   "se": 61.01346860499639,
+   "size_class": ">20"
+  },
+  {
+   "id": "T016",
+   "trait": "Diverticulosis And Diverticulitis",
+   "category": "other",
+   "annotation": "cardiovascular",
+   "balance": 82.40483480076212,
+   "se": 22.980248807013023,
+   "size_class": ">20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "cardiovascular",
+   "balance": 83.22915277058247,
+   "se": 57.246783538646994,
+   "size_class": ">20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "cardiovascular",
+   "balance": 97.62833666294908,
+   "se": 42.52593086512697,
+   "size_class": ">20"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "epithelial_barrier",
+   "balance": -34.99734510439865,
+   "se": 14.506457011073934,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": -27.225057094469207,
+   "se": 19.70643120840472,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T033",
+   "trait": "Acne vulgaris",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 2.012381141161971,
+   "se": 19.83298262961714,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 5.32133141648914,
+   "se": 19.260627081490394,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 84.3449252097891,
+   "se": 18.517474354161397,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "epithelial_barrier",
+   "balance": 0.6526081022007033,
+   "se": 20.4634498264529,
+   "size_class": ">20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 5.093663014533015,
+   "se": 30.28725694493613,
+   "size_class": ">20"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 11.44902683673558,
+   "se": 28.461125217914304,
+   "size_class": ">20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "epithelial_barrier",
+   "balance": 16.62928556178868,
+   "se": 52.44280944687439,
+   "size_class": ">20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "epithelial_barrier",
+   "balance": 31.430021131200736,
+   "se": 61.16274993819364,
+   "size_class": ">20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 32.27298689713247,
+   "se": 28.270284778574226,
+   "size_class": ">20"
+  },
+  {
+   "id": "T026",
+   "trait": "Primary open-angle glaucoma",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 39.18994838848659,
+   "se": 31.80210034857139,
+   "size_class": ">20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "epithelial_barrier",
+   "balance": 44.99259048539274,
+   "se": 38.76139800416198,
+   "size_class": ">20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 54.96882433124903,
+   "se": 32.751541552076,
+   "size_class": ">20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 58.326636333032525,
+   "se": 28.03867192443138,
+   "size_class": ">20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 62.35344655896925,
+   "se": 22.777448546183315,
+   "size_class": ">20"
+  },
+  {
+   "id": "T069",
+   "trait": "Fetal Birth Weight",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 70.53534666629356,
+   "se": 27.563871605924167,
+   "size_class": ">20"
+  },
+  {
+   "id": "T060",
+   "trait": "Height",
+   "category": "skeletal",
+   "annotation": "epithelial_barrier",
+   "balance": 85.75460168342481,
+   "se": 46.98981075508584,
+   "size_class": ">20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "epithelial_barrier",
+   "balance": 100.79172018353508,
+   "se": 24.44601182368056,
+   "size_class": ">20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 103.7717332827756,
+   "se": 70.42003494664128,
+   "size_class": ">20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "epithelial_barrier",
+   "balance": 117.55637274665747,
+   "se": 22.488091038104443,
+   "size_class": ">20"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "liver",
+   "balance": -3.420274116828103,
+   "se": 6.536384715706348,
+   "size_class": "<10"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 6.030350132025694,
+   "se": 7.088400465154291,
+   "size_class": "<10"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 7.533686811687875,
+   "se": 6.644451289221529,
+   "size_class": "<10"
+  },
+  {
+   "id": "T094",
+   "trait": "Total Bilirubin",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 12.478697627272448,
+   "se": 9.390527380926471,
+   "size_class": "<10"
+  },
+  {
+   "id": "T068",
+   "trait": "Rbc Count",
+   "category": "blood and immune",
+   "annotation": "liver",
+   "balance": 16.26914240786195,
+   "se": 8.906934071986914,
+   "size_class": "<10"
+  },
+  {
+   "id": "T080",
+   "trait": "Testosterone Male",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 17.19806817965576,
+   "se": 8.1700635565018,
+   "size_class": "<10"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "liver",
+   "balance": 18.27408566198184,
+   "se": 7.084984516284433,
+   "size_class": "<10"
+  },
+  {
+   "id": "T091",
+   "trait": "Vitamin D",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 22.95683354842421,
+   "se": 9.842699637960544,
+   "size_class": "<10"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "liver",
+   "balance": -3.870463599386444,
+   "se": 14.529962366049832,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "liver",
+   "balance": -3.81104212690001,
+   "se": 11.152001962879874,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "liver",
+   "balance": -3.521102679282808,
+   "se": 14.61213208752664,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T074",
+   "trait": "IGF1",
+   "category": "other",
+   "annotation": "liver",
+   "balance": -1.6812844696449358,
+   "se": 14.374030327479424,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T039",
+   "trait": "Venous Tromboembolism (VTE)",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 0.1669849372257582,
+   "se": 10.197364604283315,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T018",
+   "trait": "Type 2 Diabetes",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 3.007116887119315,
+   "se": 15.526314730218894,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "liver",
+   "balance": 3.2663840814870087,
+   "se": 10.111841799733636,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T099",
+   "trait": "HDL",
+   "category": "lipid",
+   "annotation": "liver",
+   "balance": 3.463865006543722,
+   "se": 10.690356678889096,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "liver",
+   "balance": 13.14792256272299,
+   "se": 17.20764918691526,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T100",
+   "trait": "LDL",
+   "category": "lipid",
+   "annotation": "liver",
+   "balance": 13.41627541253212,
+   "se": 12.93330924359376,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T069",
+   "trait": "Fetal Birth Weight",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 17.50483848151623,
+   "se": 17.93499063096975,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T078",
+   "trait": "Rbc Distribution Width",
+   "category": "blood and immune",
+   "annotation": "liver",
+   "balance": 24.27981489415141,
+   "se": 10.712098838421296,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 27.64742185201929,
+   "se": 14.230979252793048,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T106",
+   "trait": "Structural Connectivity Global (imaging)",
+   "category": "brain and behaviour",
+   "annotation": "liver",
+   "balance": 30.859519527646963,
+   "se": 14.096512419051482,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "liver",
+   "balance": -13.62749276449771,
+   "se": 25.034318823158053,
+   "size_class": ">20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 3.5578643978799795,
+   "se": 20.06699796242106,
+   "size_class": ">20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "liver",
+   "balance": 7.169476147112336,
+   "se": 38.56381961032413,
+   "size_class": ">20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 18.22705488137796,
+   "se": 37.43878867154698,
+   "size_class": ">20"
+  },
+  {
+   "id": "T059",
+   "trait": "Wbc Count",
+   "category": "blood and immune",
+   "annotation": "liver",
+   "balance": 26.644471070070736,
+   "se": 27.168854018253946,
+   "size_class": ">20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 29.794070571799413,
+   "se": 30.4343860475698,
+   "size_class": ">20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "liver",
+   "balance": 44.8508330628119,
+   "se": 37.04364140999588,
+   "size_class": ">20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "liver",
+   "balance": 56.40536570453254,
+   "se": 32.94636825323438,
+   "size_class": ">20"
+  },
+  {
+   "id": "T084",
+   "trait": "Monocyte Percentage",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 13.445078825460412,
+   "se": 8.834230580141545,
+   "size_class": "<10"
+  },
+  {
+   "id": "T017",
+   "trait": "Bronchitis, Emphysema, Asthma, Rhinitis, Eczema, Allergy Diagnosed By Doctor",
+   "category": "other",
+   "annotation": "lymphoid",
+   "balance": 26.669702687582237,
+   "se": 9.469930918025012,
+   "size_class": "<10"
+  },
+  {
+   "id": "T073",
+   "trait": "Eosinophil Percentage",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 28.48331022163436,
+   "se": 7.213363120410243,
+   "size_class": "<10"
+  },
+  {
+   "id": "T006",
+   "trait": "Asthma",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 40.63108031096515,
+   "se": 9.824053238091926,
+   "size_class": "<10"
+  },
+  {
+   "id": "T052",
+   "trait": "Lupus (SLE)",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 5.559301108238796,
+   "se": 16.311934771400495,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T020",
+   "trait": "Varicose Vein Surgery",
+   "category": "other",
+   "annotation": "lymphoid",
+   "balance": 9.435825104612311,
+   "se": 17.566269066730754,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T053",
+   "trait": "Celiac disease",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 11.717039895308645,
+   "se": 17.52527133778439,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 13.282894304936988,
+   "se": 13.248577670339174,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T021",
+   "trait": "Rheumatoid Arthritis (Ishigaki)",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 15.622217754744788,
+   "se": 10.972535783482677,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T019",
+   "trait": "IBD",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 23.13890464298007,
+   "se": 11.363887967829143,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T038",
+   "trait": "T1D - Type 1 Diabetes",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 24.016836188348293,
+   "se": 10.226073220976918,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T059",
+   "trait": "Wbc Count",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 24.732553464498405,
+   "se": 14.47084874672938,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "lymphoid",
+   "balance": 27.02681130897396,
+   "se": 10.15272456015603,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T012",
+   "trait": "Hypothyroidism (Self reported)",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 38.8349640659533,
+   "se": 10.561171317122376,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T022",
+   "trait": "Rheumatoid Arthritis (Saevarsdottir)",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 38.84373168983161,
+   "se": 11.024628209819609,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "lymphoid",
+   "balance": 4.040936324817307,
+   "se": 46.38975132424009,
+   "size_class": ">20"
+  },
+  {
+   "id": "T045",
+   "trait": "Malignant Neoplasms Of Skin",
+   "category": "other",
+   "annotation": "lymphoid",
+   "balance": 18.264146577563448,
+   "se": 36.89382626094802,
+   "size_class": ">20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "lymphoid",
+   "balance": 20.39184201370228,
+   "se": 28.111473902735835,
+   "size_class": ">20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "lymphoid",
+   "balance": 37.00895085380724,
+   "se": 107.29560314678676,
+   "size_class": ">20"
+  },
+  {
+   "id": "T097",
+   "trait": "Basophil Percentage",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": -20.199507681581405,
+   "se": 7.673174530612809,
+   "size_class": "<10"
+  },
+  {
+   "id": "T084",
+   "trait": "Monocyte Percentage",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": -14.27211835801561,
+   "se": 5.029238489268015,
+   "size_class": "<10"
+  },
+  {
+   "id": "T073",
+   "trait": "Eosinophil Percentage",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": -6.308017930594547,
+   "se": 8.430430017635162,
+   "size_class": "<10"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": -5.585179477074296,
+   "se": 9.769786675983983,
+   "size_class": "<10"
+  },
+  {
+   "id": "T017",
+   "trait": "Bronchitis, Emphysema, Asthma, Rhinitis, Eczema, Allergy Diagnosed By Doctor",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": -15.327942497191954,
+   "se": 10.953708156762875,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T029",
+   "trait": "Mouth Teeth Dental Problems",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": -9.389050642874912,
+   "se": 10.41390847210546,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T019",
+   "trait": "IBD",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": 4.535837354766347,
+   "se": 12.39422129289722,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": 8.865120434845213,
+   "se": 18.94138623274879,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T059",
+   "trait": "Wbc Count",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": 16.602185676984796,
+   "se": 14.195283097912048,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": 42.78074456220924,
+   "se": 18.460914596434115,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": 0.6682558553111024,
+   "se": 21.75835563397978,
+   "size_class": ">20"
+  },
+  {
+   "id": "T018",
+   "trait": "Type 2 Diabetes",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": 25.28935196989408,
+   "se": 30.279864514815483,
+   "size_class": ">20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": 29.695100288950744,
+   "se": 21.125497843195188,
+   "size_class": ">20"
+  },
+  {
+   "id": "T011",
+   "trait": "Coronary Artery Disease (Aragam)",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": 30.849646941211454,
+   "se": 37.80378276605131,
+   "size_class": ">20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": 32.91097080027923,
+   "se": 21.22803630616868,
+   "size_class": ">20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": 39.70194843754018,
+   "se": 73.87628448133071,
+   "size_class": ">20"
+  },
+  {
+   "id": "T078",
+   "trait": "Rbc Distribution Width",
+   "category": "blood and immune",
+   "annotation": "myeloid",
+   "balance": 51.02270869145211,
+   "se": 34.87360262970462,
+   "size_class": ">20"
+  },
+  {
+   "id": "T099",
+   "trait": "HDL",
+   "category": "lipid",
+   "annotation": "myeloid",
+   "balance": 53.96004476665623,
+   "se": 31.675919509334506,
+   "size_class": ">20"
+  },
+  {
+   "id": "T039",
+   "trait": "Venous Tromboembolism (VTE)",
+   "category": "other",
+   "annotation": "myeloid",
+   "balance": 72.39886446813559,
+   "se": 48.0785021314768,
+   "size_class": ">20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "neural_cells",
+   "balance": 21.815350011879232,
+   "se": 18.013240456727086,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "neural_cells",
+   "balance": 52.70946028655382,
+   "se": 13.836555387897755,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "neural_cells",
+   "balance": 57.064439403300064,
+   "se": 13.681967144618302,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "neural_cells",
+   "balance": 62.20487754572066,
+   "se": 13.471189576220771,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "neural_cells",
+   "balance": 70.57984458051602,
+   "se": 15.981177847735616,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "neural_cells",
+   "balance": 22.063572968555217,
+   "se": 29.21563782547035,
+   "size_class": ">20"
+  },
+  {
+   "id": "T106",
+   "trait": "Structural Connectivity Global (imaging)",
+   "category": "brain and behaviour",
+   "annotation": "neural_cells",
+   "balance": 38.14565952351557,
+   "se": 24.65939083507151,
+   "size_class": ">20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "neural_cells",
+   "balance": 61.96602108091032,
+   "se": 25.802090328119405,
+   "size_class": ">20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 106.25882102380794,
+   "se": 9.932760187789128,
+   "size_class": "<10"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 56.81808016995838,
+   "se": 19.63430739248281,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "reproductive_endocrine",
+   "balance": 65.32119953459961,
+   "se": 19.709451000360296,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 68.9878220772082,
+   "se": 17.921644691256333,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T008",
+   "trait": "Atrial Fibrillation",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 69.46574274913317,
+   "se": 15.009146797873768,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 91.80135598075418,
+   "se": 16.649177308355306,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 92.44096252214926,
+   "se": 15.204368655088611,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "reproductive_endocrine",
+   "balance": 102.21876502064434,
+   "se": 18.187925576805,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "reproductive_endocrine",
+   "balance": 102.72688614834128,
+   "se": 12.7689937768219,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T060",
+   "trait": "Height",
+   "category": "skeletal",
+   "annotation": "reproductive_endocrine",
+   "balance": 114.47274824314502,
+   "se": 14.22070988752625,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "reproductive_endocrine",
+   "balance": -13.803599754887768,
+   "se": 20.721163365499866,
+   "size_class": ">20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": -9.465133896076372,
+   "se": 42.36452777530182,
+   "size_class": ">20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 0.8873985879866991,
+   "se": 21.3431090107064,
+   "size_class": ">20"
+  },
+  {
+   "id": "T033",
+   "trait": "Acne vulgaris",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 17.558990473528443,
+   "se": 32.9065673669006,
+   "size_class": ">20"
+  },
+  {
+   "id": "T099",
+   "trait": "HDL",
+   "category": "lipid",
+   "annotation": "reproductive_endocrine",
+   "balance": 25.15415083972785,
+   "se": 29.576739502949287,
+   "size_class": ">20"
+  },
+  {
+   "id": "T039",
+   "trait": "Venous Tromboembolism (VTE)",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 37.825011009981466,
+   "se": 76.15378616470893,
+   "size_class": ">20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "reproductive_endocrine",
+   "balance": 42.18202160890887,
+   "se": 34.58190938702669,
+   "size_class": ">20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 46.24179245814447,
+   "se": 25.28742503434524,
+   "size_class": ">20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "reproductive_endocrine",
+   "balance": 59.77224042541131,
+   "se": 26.869786546729923,
+   "size_class": ">20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 79.89258905357194,
+   "se": 24.39877998736908,
+   "size_class": ">20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 82.48106866307381,
+   "se": 21.97027203581949,
+   "size_class": ">20"
+  },
+  {
+   "id": "T069",
+   "trait": "Fetal Birth Weight",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 85.28639041173618,
+   "se": 21.85798202399352,
+   "size_class": ">20"
+  },
+  {
+   "id": "T032",
+   "trait": "Endometriosis",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 94.93005028038286,
+   "se": 23.59219452175284,
+   "size_class": ">20"
+  },
+  {
+   "id": "T028",
+   "trait": "Varicose veins",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 96.3932242364123,
+   "se": 20.72648444780728,
+   "size_class": ">20"
+  },
+  {
+   "id": "T086",
+   "trait": "Balding",
+   "category": "other",
+   "annotation": "reproductive_endocrine",
+   "balance": 117.4841619169948,
+   "se": 26.508848516389392,
+   "size_class": ">20"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "skeletal_muscle",
+   "balance": -39.04762003100204,
+   "se": 15.855475403914433,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 1.7136272084239312,
+   "se": 17.985004995372897,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "skeletal_muscle",
+   "balance": 11.558840140303442,
+   "se": 13.890601310238033,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "skeletal_muscle",
+   "balance": 21.14884209090096,
+   "se": 16.557340304815153,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T011",
+   "trait": "Coronary Artery Disease (Aragam)",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 28.79426421332556,
+   "se": 17.94213438583428,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 35.24230244680636,
+   "se": 17.469813961253447,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T008",
+   "trait": "Atrial Fibrillation",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 37.60226449879024,
+   "se": 13.551880968345298,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 47.642891652646526,
+   "se": 15.976341140468604,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T060",
+   "trait": "Height",
+   "category": "skeletal",
+   "annotation": "skeletal_muscle",
+   "balance": 48.91489989744308,
+   "se": 13.107531215752564,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 59.68381807645977,
+   "se": 10.515917783247456,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "skeletal_muscle",
+   "balance": 60.53869539503624,
+   "se": 13.09700126411135,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 64.2850816795831,
+   "se": 11.277593454282382,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T026",
+   "trait": "Primary open-angle glaucoma",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 70.36975969148818,
+   "se": 15.423109232825396,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 72.04249276158313,
+   "se": 15.342277948007505,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T031",
+   "trait": "Inguinal Hernia",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 74.1993167961028,
+   "se": 14.780485913344451,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T016",
+   "trait": "Diverticulosis And Diverticulitis",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 74.93008166717718,
+   "se": 15.395719525175176,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "skeletal_muscle",
+   "balance": 78.486369883942,
+   "se": 18.800115785808003,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T086",
+   "trait": "Balding",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 95.85666243193783,
+   "se": 12.105237004476583,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T074",
+   "trait": "IGF1",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 10.950323226774572,
+   "se": 29.67319596198437,
+   "size_class": ">20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 19.858152069665053,
+   "se": 30.993645250924217,
+   "size_class": ">20"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 27.189892655786217,
+   "se": 20.033456928479424,
+   "size_class": ">20"
+  },
+  {
+   "id": "T033",
+   "trait": "Acne vulgaris",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 29.99113937368848,
+   "se": 71.22623735224306,
+   "size_class": ">20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 30.678531233222536,
+   "se": 45.59259529279279,
+   "size_class": ">20"
+  },
+  {
+   "id": "T036",
+   "trait": "Abdominal aortic aneurysm",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 39.82992841436861,
+   "se": 26.432548229293907,
+   "size_class": ">20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 42.07882933318488,
+   "se": 23.453913540533023,
+   "size_class": ">20"
+  },
+  {
+   "id": "T028",
+   "trait": "Varicose veins",
+   "category": "other",
+   "annotation": "skeletal_muscle",
+   "balance": 51.8234131780549,
+   "se": 27.65135880129694,
+   "size_class": ">20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "skeletal_muscle",
+   "balance": 56.4727858438853,
+   "se": 49.72547888592715,
+   "size_class": ">20"
+  },
+  {
+   "id": "T047",
+   "trait": "ThumbOA",
+   "category": "skeletal",
+   "annotation": "skeletal_muscle",
+   "balance": 85.13230597150117,
+   "se": 22.690786627926407,
+   "size_class": ">20"
+  },
+  {
+   "id": "T009",
+   "trait": "Glaucoma",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 81.10570901860581,
+   "se": 8.891763263692118,
+   "size_class": "<10"
+  },
+  {
+   "id": "T086",
+   "trait": "Balding",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 96.37677724735518,
+   "se": 8.5984364009196,
+   "size_class": "<10"
+  },
+  {
+   "id": "T092",
+   "trait": "Cholesterol",
+   "category": "lipid",
+   "annotation": "stromal",
+   "balance": -18.12889576824688,
+   "se": 12.118915636906427,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T083",
+   "trait": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "annotation": "stromal",
+   "balance": 35.00906366395441,
+   "se": 16.46528361688711,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T057",
+   "trait": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 40.39744002258372,
+   "se": 16.03077479720027,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T072",
+   "trait": "Maternal Birth Weight",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 46.17828238256087,
+   "se": 15.23578917955516,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T106",
+   "trait": "Structural Connectivity Global (imaging)",
+   "category": "brain and behaviour",
+   "annotation": "stromal",
+   "balance": 50.61766672744577,
+   "se": 13.055845281208178,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T005",
+   "trait": "COPD",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 62.3871800859376,
+   "se": 13.939182618073422,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T016",
+   "trait": "Diverticulosis And Diverticulitis",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 68.78087361503056,
+   "se": 17.016503237864,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T031",
+   "trait": "Inguinal Hernia",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 70.62192019715573,
+   "se": 17.895801524542893,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T026",
+   "trait": "Primary open-angle glaucoma",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 70.7962151233928,
+   "se": 16.601072667143786,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T028",
+   "trait": "Varicose veins",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 75.57516547539637,
+   "se": 12.53757228793484,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T055",
+   "trait": "COPD - FVC",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 77.88509764153494,
+   "se": 10.201140874459911,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T070",
+   "trait": "Heel T-score",
+   "category": "skeletal",
+   "annotation": "stromal",
+   "balance": 81.26716815578943,
+   "se": 12.193948828973657,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T015",
+   "trait": "Total Hip Replacement",
+   "category": "skeletal",
+   "annotation": "stromal",
+   "balance": 82.8914105383233,
+   "se": 13.11792664437657,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T060",
+   "trait": "Height",
+   "category": "skeletal",
+   "annotation": "stromal",
+   "balance": 87.40572696906693,
+   "se": 11.335741451277087,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T064",
+   "trait": "WHR BMI ratio",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 89.04364556269799,
+   "se": 10.205806893636533,
+   "size_class": "10-20"
+  },
+  {
+   "id": "T066",
+   "trait": "Creatinine",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": -44.99856221679456,
+   "se": 48.483014675794735,
+   "size_class": ">20"
+  },
+  {
+   "id": "T089",
+   "trait": "Phosphate",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": -21.80026676208897,
+   "se": 35.29695358527548,
+   "size_class": ">20"
+  },
+  {
+   "id": "T076",
+   "trait": "Aspartate Aminotransferase",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": -1.8399676127727635,
+   "se": 22.455546584094485,
+   "size_class": ">20"
+  },
+  {
+   "id": "T074",
+   "trait": "IGF1",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 0.2564706357084968,
+   "se": 21.876332511564023,
+   "size_class": ">20"
+  },
+  {
+   "id": "T087",
+   "trait": "Alkaline Phosphatase",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 7.718273925740914,
+   "se": 23.37736430815807,
+   "size_class": ">20"
+  },
+  {
+   "id": "T032",
+   "trait": "Endometriosis",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 18.31873163362636,
+   "se": 53.29577369678265,
+   "size_class": ">20"
+  },
+  {
+   "id": "T011",
+   "trait": "Coronary Artery Disease (Aragam)",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 21.150965598880525,
+   "se": 22.04016395863298,
+   "size_class": ">20"
+  },
+  {
+   "id": "T014",
+   "trait": "Gastrointestinal Disease",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 38.24775358989407,
+   "se": 22.75465244717052,
+   "size_class": ">20"
+  },
+  {
+   "id": "T069",
+   "trait": "Fetal Birth Weight",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 39.28058839283375,
+   "se": 46.82280039245367,
+   "size_class": ">20"
+  },
+  {
+   "id": "T036",
+   "trait": "Abdominal aortic aneurysm",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 40.09687332593481,
+   "se": 21.80095931961069,
+   "size_class": ">20"
+  },
+  {
+   "id": "T004",
+   "trait": "KneeOA",
+   "category": "skeletal",
+   "annotation": "stromal",
+   "balance": 47.41940790147691,
+   "se": 26.23014162118921,
+   "size_class": ">20"
+  },
+  {
+   "id": "T082",
+   "trait": "Reticulocyte Count",
+   "category": "blood and immune",
+   "annotation": "stromal",
+   "balance": 49.52100932470472,
+   "se": 20.94280548945659,
+   "size_class": ">20"
+  },
+  {
+   "id": "T063",
+   "trait": "Total Protein",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 69.13218552517927,
+   "se": 24.528525052365747,
+   "size_class": ">20"
+  },
+  {
+   "id": "T043",
+   "trait": "Acute appendicitis",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 93.61151868901791,
+   "se": 39.26441955517399,
+   "size_class": ">20"
+  },
+  {
+   "id": "T008",
+   "trait": "Atrial Fibrillation",
+   "category": "other",
+   "annotation": "stromal",
+   "balance": 111.34159875727082,
+   "se": 20.921965569007146,
+   "size_class": ">20"
+  }
+ ],
+ "b": {
+  "myeloid": {
+   "name": "Myeloid",
+   "n_pairs": 19,
+   "model_mean": 12.098114297237103,
+   "se_jackknife": 6.038975278934392,
+   "ci95": [
+    0.2617227505256956,
+    23.93450584394851
+   ],
+   "median": 16.602185676984796
+  },
+  "liver": {
+   "name": "Liver",
+   "n_pairs": 30,
+   "model_mean": 20.539133878295477,
+   "se_jackknife": 2.926802179610729,
+   "ci95": [
+    14.802601606258449,
+    26.275666150332505
+   ],
+   "median": 12.813310094997718
+  },
+  "CNS_tissue": {
+   "name": "Brain tissue",
+   "n_pairs": 17,
+   "model_mean": 21.35485583943496,
+   "se_jackknife": 4.298663101272869,
+   "ci95": [
+    12.929476160940139,
+    29.780235517929782
+   ],
+   "median": 24.847835455692007
+  },
+  "adipose": {
+   "name": "Adipose",
+   "n_pairs": 34,
+   "model_mean": 21.500129641499864,
+   "se_jackknife": 3.579260713983616,
+   "ci95": [
+    14.484778642091978,
+    28.51548064090775
+   ],
+   "median": 19.70047936182852
+  },
+  "lymphoid": {
+   "name": "Lymphoid",
+   "n_pairs": 19,
+   "model_mean": 27.956658570417197,
+   "se_jackknife": 4.449768310948601,
+   "ci95": [
+    19.23511268095794,
+    36.678204459876454
+   ],
+   "median": 23.13890464298007
+  },
+  "cardiovascular": {
+   "name": "Cardiovascular",
+   "n_pairs": 29,
+   "model_mean": 31.378301083570086,
+   "se_jackknife": 4.141457653241381,
+   "ci95": [
+    23.26104408321698,
+    39.49555808392319
+   ],
+   "median": 30.077290475306555
+  },
+  "epithelial_barrier": {
+   "name": "Epithelial/barrier",
+   "n_pairs": 21,
+   "model_mean": 36.85266340832162,
+   "se_jackknife": 5.026122066863436,
+   "ci95": [
+    27.001464157269282,
+    46.703862659373954
+   ],
+   "median": 39.18994838848659
+  },
+  "skeletal_muscle": {
+   "name": "Skeletal muscle",
+   "n_pairs": 28,
+   "model_mean": 38.20810426940404,
+   "se_jackknife": 3.679812995185546,
+   "ci95": [
+    30.99567079884037,
+    45.42053773996771
+   ],
+   "median": 44.860860492915705
+  },
+  "neural_cells": {
+   "name": "Neural cells",
+   "n_pairs": 8,
+   "model_mean": 38.74532365978529,
+   "se_jackknife": 4.635534340601284,
+   "ci95": [
+    29.659676352206773,
+    47.83097096736381
+   ],
+   "median": 54.88694984492695
+  },
+  "GI": {
+   "name": "Gastrointestinal",
+   "n_pairs": 23,
+   "model_mean": 39.15375392623701,
+   "se_jackknife": 4.828051922760563,
+   "ci95": [
+    29.690772157626306,
+    48.61673569484771
+   ],
+   "median": 34.08830920669268
+  },
+  "stromal": {
+   "name": "Stromal/mesenchymal",
+   "n_pairs": 32,
+   "model_mean": 46.18609267881193,
+   "se_jackknife": 3.3990992500000865,
+   "ci95": [
+    39.52385814881176,
+    52.8483272088121
+   ],
+   "median": 50.06933802607524
+  },
+  "reproductive_endocrine": {
+   "name": "Reproductive/endocrine",
+   "n_pairs": 25,
+   "model_mean": 62.34865412842575,
+   "se_jackknife": 4.83278928260092,
+   "ci95": [
+    52.876387134527945,
+    71.82092112232355
+   ],
+   "median": 69.46574274913317
+  }
+ },
+ "c": {
+  "myeloid": {
+   "all": {
+    "n_pairs": 19,
+    "model_mean": 6.543795102536823,
+    "se_jackknife": 5.5395849813713856,
+    "ci95": [
+     -4.313791460951093,
+     17.40138166602474
+    ],
+    "median": 16.602185676984796
+   },
+   "res": {
+    "n_pairs": 19,
+    "model_mean": 7.580945370460959,
+    "se_jackknife": 4.860745320533189,
+    "ci95": [
+     -1.9461154577840913,
+     17.108006198706008
+    ],
+    "median": 12.467834615298653
+   },
+   "mat": {
+    "n_pairs": 18,
+    "model_mean": 18.81630870371442,
+    "se_jackknife": 4.097034976205314,
+    "ci95": [
+     10.786120150352005,
+     26.846497257076834
+    ],
+    "median": 23.48019434754259
+   }
+  },
+  "liver": {
+   "all": {
+    "n_pairs": 30,
+    "model_mean": 13.526135634722168,
+    "se_jackknife": 3.973503845128266,
+    "ci95": [
+     5.738068098270767,
+     21.31420317117357
+    ],
+    "median": 12.813310094997718
+   },
+   "res": {
+    "n_pairs": 30,
+    "model_mean": 12.372875510051225,
+    "se_jackknife": 3.028125916711131,
+    "ci95": [
+     6.437748713297408,
+     18.308002306805044
+    ],
+    "median": 13.895729059777755
+   },
+   "mat": {
+    "n_pairs": 30,
+    "model_mean": 12.568516792858102,
+    "se_jackknife": 2.984283556768321,
+    "ci95": [
+     6.719321021592193,
+     18.41771256412401
+    ],
+    "median": 12.173431320275927
+   }
+  },
+  "CNS_tissue": {
+   "all": {
+    "n_pairs": 17,
+    "model_mean": 22.39910299587537,
+    "se_jackknife": 4.272371949951029,
+    "ci95": [
+     14.025253973971354,
+     30.77295201777939
+    ],
+    "median": 24.847835455692007
+   },
+   "res": {
+    "n_pairs": 17,
+    "model_mean": 11.59765054451765,
+    "se_jackknife": 3.1913054392449,
+    "ci95": [
+     5.342691883597647,
+     17.852609205437652
+    ],
+    "median": 15.852370647936963
+   },
+   "mat": {
+    "n_pairs": 17,
+    "model_mean": 13.191336868748463,
+    "se_jackknife": 3.726929851628885,
+    "ci95": [
+     5.8865543595558485,
+     20.496119377941078
+    ],
+    "median": 16.242977851784023
+   }
+  },
+  "lymphoid": {
+   "all": {
+    "n_pairs": 19,
+    "model_mean": 23.600256265717963,
+    "se_jackknife": 4.567381923215015,
+    "ci95": [
+     14.648187696216533,
+     32.552324835219395
+    ],
+    "median": 23.13890464298007
+   },
+   "res": {
+    "n_pairs": 19,
+    "model_mean": 17.566683407955253,
+    "se_jackknife": 3.742743384482533,
+    "ci95": [
+     10.23090637436949,
+     24.902460441541017
+    ],
+    "median": 13.314960416359405
+   },
+   "mat": {
+    "n_pairs": 19,
+    "model_mean": 11.693659891444003,
+    "se_jackknife": 3.857421804733534,
+    "ci95": [
+     4.133113154166277,
+     19.25420662872173
+    ],
+    "median": 12.029030269003414
+   }
+  },
+  "stromal": {
+   "all": {
+    "n_pairs": 32,
+    "model_mean": 56.53754170821156,
+    "se_jackknife": 4.08369551968322,
+    "ci95": [
+     48.53349848963245,
+     64.54158492679068
+    ],
+    "median": 50.06933802607524
+   },
+   "res": {
+    "n_pairs": 31,
+    "model_mean": 55.38441436772624,
+    "se_jackknife": 3.634991454542587,
+    "ci95": [
+     48.25983111682277,
+     62.50899761862971
+    ],
+    "median": 49.00764048432575
+   },
+   "mat": {
+    "n_pairs": 30,
+    "model_mean": 66.75508846700225,
+    "se_jackknife": 4.954224286139021,
+    "ci95": [
+     57.044808866169774,
+     76.46536806783473
+    ],
+    "median": 58.28466066056124
+   }
+  }
+ },
+ "c_row_order_top_to_bottom": [
+  "myeloid",
+  "liver",
+  "CNS_tissue",
+  "lymphoid",
+  "stromal"
+ ],
+ "d": {
+  "myeloid": {
+   "dist": {
+    "n_pairs": 19,
+    "model_mean": 5.830165630708817,
+    "se_jackknife": 5.829705855767771,
+    "ci95": [
+     -5.596057846596014,
+     17.256389108013646
+    ],
+    "median": 17.49518408706087
+   },
+   "prox": {
+    "n_pairs": 15,
+    "model_mean": 17.61776214515247,
+    "se_jackknife": 10.180503268817173,
+    "ci95": [
+     -2.3360242617291895,
+     37.57154855203413
+    ],
+    "median": 21.788059567166503
+   }
+  },
+  "liver": {
+   "dist": {
+    "n_pairs": 30,
+    "model_mean": 12.230075357895831,
+    "se_jackknife": 4.514996841814413,
+    "ci95": [
+     3.3806815479395826,
+     21.079469167852082
+    ],
+    "median": 11.329598844456786
+   },
+   "prox": {
+    "n_pairs": 29,
+    "model_mean": 19.0070512000344,
+    "se_jackknife": 5.934337791998935,
+    "ci95": [
+     7.375749127716487,
+     30.63835327235231
+    ],
+    "median": 23.20773485617099
+   }
+  },
+  "CNS_tissue": {
+   "dist": {
+    "n_pairs": 17,
+    "model_mean": 21.786725431914054,
+    "se_jackknife": 4.455007306714573,
+    "ci95": [
+     13.05491111075349,
+     30.518539753074617
+    ],
+    "median": 24.57135974280168
+   },
+   "prox": {
+    "n_pairs": 16,
+    "model_mean": 25.596602863693036,
+    "se_jackknife": 11.47457526724111,
+    "ci95": [
+     3.106435339900461,
+     48.086770387485615
+    ],
+    "median": 14.872592355028187
+   }
+  },
+  "lymphoid": {
+   "dist": {
+    "n_pairs": 18,
+    "model_mean": 26.65870479158206,
+    "se_jackknife": 4.724453731328228,
+    "ci95": [
+     17.398775478178734,
+     35.91863410498539
+    ],
+    "median": 25.652446259309155
+   },
+   "prox": {
+    "n_pairs": 19,
+    "model_mean": 2.8188486806062047,
+    "se_jackknife": 11.201645175357177,
+    "ci95": [
+     -19.13637586309386,
+     24.77407322430627
+    ],
+    "median": -6.668857648004621
+   }
+  },
+  "stromal": {
+   "dist": {
+    "n_pairs": 31,
+    "model_mean": 59.567180954865606,
+    "se_jackknife": 4.218036801405789,
+    "ci95": [
+     51.29982882411026,
+     67.83453308562095
+    ],
+    "median": 58.9449438723204
+   },
+   "prox": {
+    "n_pairs": 29,
+    "model_mean": 28.36669552121908,
+    "se_jackknife": 7.6303416086454465,
+    "ci95": [
+     13.411225968274003,
+     43.322165074164154
+    ],
+    "median": 29.402537434167364
+   }
+  }
+ },
+ "stromal_minus_mean_of_four": {
+  "all": {
+   "estimate": 40.02021920849848,
+   "se_jackknife": 4.856493677327436,
+   "p": 1.7140893898239083e-16
+  },
+  "res": {
+   "estimate": 43.10487565947997,
+   "se_jackknife": 3.9836754461380575,
+   "p": 2.7563705717920377e-27
+  },
+  "mat": {
+   "estimate": 52.687632902811,
+   "se_jackknife": 5.288615701844462,
+   "p": 2.2248369356345912e-23
+  },
+  "dist": {
+   "estimate": 42.940763151840414,
+   "se_jackknife": 5.019780929443924,
+   "p": 1.1857565959619537e-17
+  },
+  "prox": {
+   "estimate": 12.106629298847556,
+   "se_jackknife": 9.26113003954605,
+   "p": 0.1911271941066202
+  },
+  "dist − prox": {
+   "estimate": 30.83413385299286,
+   "se_jackknife": 10.964132414781458,
+   "p": 0.0049192727904508
+  }
+ },
+ "inputs": {
+  "w05_pairs.csv": "e22_benchmark14/results/w05_pairs.csv",
+  "w08_pairs.csv": "e22_benchmark14/results/w08_pairs.csv",
+  "w10_means.csv": "e22_benchmark14/results/w10_means.csv",
+  "w10_contrasts.csv": "e22_benchmark14/results/w10_contrasts.csv"
+ },
+ "figure_size_in": [
+  7.2,
+  5.8325000000000005
+ ]
+}

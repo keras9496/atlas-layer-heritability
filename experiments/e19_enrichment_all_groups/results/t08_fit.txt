@@ -1,0 +1,9 @@
+확인: HEIGHT adipose 다시 적합 — 계수 상대 차이 0.0e+00, delete 값 0.0e+00
+새 적합 121회 (기존 47개는 exp3j에서 읽음)
+  [20/121] HEIGHT neural_cells (6.4분)
+  [40/121] MONO liver (12.2분)
+  [60/121] MONO cardiovascular (17.7분)
+  [80/121] TC skeletal_muscle (22.7분)
+  [100/121] TC stromal (27.7분)
+  [120/121] NEUT epithelial_barrier (32.6분)
+  [121/121] TC epithelial_barrier (32.8분)

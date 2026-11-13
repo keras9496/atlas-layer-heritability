@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 실험 3d 순차 실행기: y03 → y04 A → y05 (중간 요약) → y04 B → y05 (최종). 세션 종료와 무관하게 진행 (실험 3c run_pipeline.sh 와 같은 구조).
+# 실험 3d 순차 실행기: y03 → y04 A → y05 (중간 요약) → y04 B → y05 (최종) (실험 3c run_pipeline.sh 와 같은 구조).
 #  - 상태: ${AGA_DATA:-D:/AD_GWAS_Atlas_data}/exp3d/PIPELINE_STATUS.txt, 단계별 로그 exp3d/<단계>.log
 #  - 실패하면 그 단계에서 멈춘다. 다시 실행하면 끝난 S-LDSC(.results)와 LD 점수는 건너뛴다.
 # 사용: bash scripts/run_pipeline.sh   (e03_single_layer_map 폴더에서)

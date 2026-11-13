@@ -1,0 +1,7 @@
+=== 같은 형질의 독립 GWAS 두 개: CAGE–DNase 균형(전체 트랙 세 층위 결합 모형)과 그 차이 ===
+GWAS마다 τ*가 가장 큰 조직 묶음에서 읽는다(단측 P < 0.05/12일 때만). 차이의 표준오차는 두 GWAS의 delete 값 차이의 jackknife.
+  AF: Atrial_Fibrillation.Nielsen2018 있음, Atrial_Fibrillation_And_Flutter 조건 미달
+  GLAUCOMA: Glaucoma.Craig2020 (adipose) +43.4° vs Primary_Apen_Angle_Glaucoma (adipose) +19.4° — 차이 +23.9° ± 22.6
+  PROSTATE: Cancer_Prostate.Schumacher2018 있음, cancer_PROSTATE 조건 미달
+  RA: Rheumatoid_Arthritis.Ishigaki2022 (lymphoid) +15.6° vs Rheumatoid_Arthritis.Saevarsdottir2022 (lymphoid) +38.8° — 차이 -23.2° ± 11.2
+  VARICOSE: Varicose_Vein_Surgery (lymphoid) +9.4° vs Varicose_Veins.Ahmed2022 (adipose) +45.5° — 차이 -36.1° ± 25.6 [두 GWAS의 조직 묶음이 다르다]

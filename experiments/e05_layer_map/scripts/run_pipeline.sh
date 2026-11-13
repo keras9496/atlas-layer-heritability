@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 실험 3f 1단계 순차 실행기: v01 → v02 시험(Z 섞은 가짜 형질, 결과 아님) → v03 시험 → v02 본 실행 → v03 본 검정. 세션 종료와 무관하게 진행 (3e run_pipeline.sh 와 같은 구조).
+# 실험 3f 1단계 순차 실행기: v01 → v02 시험(Z 섞은 가짜 형질, 결과 아님) → v03 시험 → v02 본 실행 → v03 본 검정 (3e run_pipeline.sh 와 같은 구조).
 #  - 상태: ${AGA_DATA:-D:/AD_GWAS_Atlas_data}/exp3f/PIPELINE_STATUS.txt, 단계별 로그 exp3f/<단계>.log
 #  - 실패하면 그 단계에서 멈춘다. 다시 실행하면 끝난 S-LDSC(.results)와 LD 점수는 건너뛴다.
 #  - 3단계(검증)는 1단계 분류로 예측을 프로토콜에 적은 뒤 따로 실행한다.

@@ -1,0 +1,746 @@
+{
+ "rows_top_to_bottom": [
+  {
+   "id": "T055",
+   "name": "Forced vital capacity",
+   "panel_label": "COPD - FVC",
+   "category": "other",
+   "three_units": {
+    "balance": 65.31532983975417,
+    "se": 7.156414440921981,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 77.88509764153494,
+    "se": 10.201140874459911,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 73.76627519234559,
+    "se": 9.98077002792301,
+    "defined": true
+   }
+  },
+  {
+   "id": "T070",
+   "name": "Heel bone mineral density",
+   "panel_label": "Heel T-score",
+   "category": "skeletal",
+   "three_units": {
+    "balance": 65.76224717026507,
+    "se": 7.705183528956948,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 81.26716815578943,
+    "se": 12.193948828973657,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 81.76784979451881,
+    "se": 8.315330024036298,
+    "defined": true
+   }
+  },
+  {
+   "id": "T086",
+   "name": "Balding",
+   "panel_label": "Balding",
+   "category": "other",
+   "three_units": {
+    "balance": 84.8088640666797,
+    "se": 8.026331971699996,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 96.37677724735518,
+    "se": 8.5984364009196,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 91.05370374454066,
+    "se": 9.15980823957548,
+    "defined": true
+   }
+  },
+  {
+   "id": "T009",
+   "name": "Glaucoma",
+   "panel_label": "Glaucoma",
+   "category": "other",
+   "three_units": {
+    "balance": 62.41148539476517,
+    "se": 8.553307907381491,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 81.10570901860581,
+    "se": 8.891763263692118,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 74.89717651038934,
+    "se": 12.144082889038136,
+    "defined": true
+   }
+  },
+  {
+   "id": "T060",
+   "name": "Height",
+   "panel_label": "Height",
+   "category": "skeletal",
+   "three_units": {
+    "balance": 59.032379812398176,
+    "se": 9.019052096364453,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 87.40572696906693,
+    "se": 11.335741451277087,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 72.48407289683965,
+    "se": 12.600102864574428,
+    "defined": true
+   }
+  },
+  {
+   "id": "T005",
+   "name": "Chronic obstructive pulmonary disease",
+   "panel_label": "COPD",
+   "category": "other",
+   "three_units": {
+    "balance": 58.70079310483451,
+    "se": 10.128551546661688,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 62.3871800859376,
+    "se": 13.939182618073422,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 49.247231072277046,
+    "se": 13.4966793948777,
+    "defined": true
+   }
+  },
+  {
+   "id": "T031",
+   "name": "Inguinal hernia",
+   "panel_label": "Inguinal Hernia",
+   "category": "other",
+   "three_units": {
+    "balance": 77.58070752863756,
+    "se": 10.504151418178107,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 70.62192019715573,
+    "se": 17.895801524542893,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 65.46483456235251,
+    "se": 21.737260996508024,
+    "defined": true
+   }
+  },
+  {
+   "id": "T064",
+   "name": "Waist–hip ratio adjusted for BMI",
+   "panel_label": "WHR BMI ratio",
+   "category": "other",
+   "three_units": {
+    "balance": 68.83845232617294,
+    "se": 11.073437387749582,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 89.04364556269799,
+    "se": 10.205806893636533,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 96.72340221124398,
+    "se": 9.440363210611054,
+    "defined": true
+   }
+  },
+  {
+   "id": "T015",
+   "name": "Total hip replacement",
+   "panel_label": "Total Hip Replacement",
+   "category": "skeletal",
+   "three_units": {
+    "balance": 64.5435765119608,
+    "se": 11.916154761733964,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 82.8914105383233,
+    "se": 13.11792664437657,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 74.63151407274397,
+    "se": 15.207367968387691,
+    "defined": true
+   }
+  },
+  {
+   "id": "T028",
+   "name": "Varicose veins",
+   "panel_label": "Varicose veins",
+   "category": "other",
+   "three_units": {
+    "balance": 58.64335389998697,
+    "se": 12.484162964492974,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 75.57516547539637,
+    "se": 12.53757228793484,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 87.69783790284806,
+    "se": 19.21087603388957,
+    "defined": true
+   }
+  },
+  {
+   "id": "T072",
+   "name": "Birth weight, maternal effect",
+   "panel_label": "Maternal Birth Weight",
+   "category": "other",
+   "three_units": {
+    "balance": 55.17397576316437,
+    "se": 12.551638270933031,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 46.17828238256087,
+    "se": 15.23578917955516,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 56.194675185299474,
+    "se": 16.06660199750732,
+    "defined": true
+   }
+  },
+  {
+   "id": "T057",
+   "name": "Diastolic blood pressure",
+   "panel_label": "Diastolic (Blood Pressure)",
+   "category": "other",
+   "three_units": {
+    "balance": 46.57620216434014,
+    "se": 13.78538830634298,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 40.39744002258372,
+    "se": 16.03077479720027,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 52.51025547066844,
+    "se": 19.07996542392417,
+    "defined": true
+   }
+  },
+  {
+   "id": "T106",
+   "name": "Structural connectivity, global (brain imaging)",
+   "panel_label": "Structural Connectivity Global (imaging)",
+   "category": "brain and behaviour",
+   "three_units": {
+    "balance": 45.300547714560665,
+    "se": 15.210742703493962,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 50.61766672744577,
+    "se": 13.055845281208178,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 30.756098053296427,
+    "se": 18.77350403469838,
+    "defined": true
+   }
+  },
+  {
+   "id": "T026",
+   "name": "Primary open-angle glaucoma",
+   "panel_label": "Primary open-angle glaucoma",
+   "category": "other",
+   "three_units": {
+    "balance": 49.00764048432575,
+    "se": 15.900876177385612,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 70.7962151233928,
+    "se": 16.601072667143786,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 48.32051216664011,
+    "se": 26.624810431032436,
+    "defined": true
+   }
+  },
+  {
+   "id": "T036",
+   "name": "Abdominal aortic aneurysm",
+   "panel_label": "Abdominal aortic aneurysm",
+   "category": "other",
+   "three_units": {
+    "balance": 33.62442866378021,
+    "se": 17.184179365235334,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 40.09687332593481,
+    "se": 21.80095931961069,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 34.41298354906885,
+    "se": 25.071856245719484,
+    "defined": true
+   }
+  },
+  {
+   "id": "T083",
+   "name": "Platelet distribution width",
+   "panel_label": "Platelet Distribution Width",
+   "category": "blood and immune",
+   "three_units": {
+    "balance": 29.59461714290588,
+    "se": 17.411992316483946,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 35.00906366395441,
+    "se": 16.46528361688711,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 13.524849113092792,
+    "se": 19.661455583420704,
+    "defined": true
+   }
+  },
+  {
+   "id": "T082",
+   "name": "Reticulocyte count",
+   "panel_label": "Reticulocyte Count",
+   "category": "blood and immune",
+   "three_units": {
+    "balance": 63.53220461790701,
+    "se": 17.41717499214215,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 49.52100932470472,
+    "se": 20.94280548945659,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 62.31676572138029,
+    "se": 21.17709193319179,
+    "defined": true
+   }
+  },
+  {
+   "id": "T004",
+   "name": "Knee osteoarthritis",
+   "panel_label": "KneeOA",
+   "category": "skeletal",
+   "three_units": {
+    "balance": 32.128591306624216,
+    "se": 17.965964821257522,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 47.41940790147691,
+    "se": 26.23014162118921,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 26.82906412216084,
+    "se": 26.128665496754675,
+    "defined": true
+   }
+  },
+  {
+   "id": "T069",
+   "name": "Birth weight, fetal effect",
+   "panel_label": "Fetal Birth Weight",
+   "category": "other",
+   "three_units": {
+    "balance": 48.81722736477207,
+    "se": 18.796661861179835,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 39.28058839283375,
+    "se": 46.82280039245367,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 54.03078577100143,
+    "se": 34.60769105395681,
+    "defined": true
+   }
+  },
+  {
+   "id": "T008",
+   "name": "Atrial fibrillation",
+   "panel_label": "Atrial Fibrillation",
+   "category": "other",
+   "three_units": {
+    "balance": 89.17145434196688,
+    "se": 19.534084830576106,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 111.34159875727082,
+    "se": 20.921965569007146,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 102.20730171813032,
+    "se": 20.40415442440616,
+    "defined": true
+   }
+  },
+  {
+   "id": "T076",
+   "name": "Aspartate aminotransferase",
+   "panel_label": "Aspartate Aminotransferase",
+   "category": "other",
+   "three_units": {
+    "balance": 28.579258740503505,
+    "se": 19.85079580539256,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": -1.8399676127727635,
+    "se": 22.455546584094485,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 50.13990833621154,
+    "se": 30.191341884228237,
+    "defined": true
+   }
+  },
+  {
+   "id": "T074",
+   "name": "IGF-1",
+   "panel_label": "IGF1",
+   "category": "other",
+   "three_units": {
+    "balance": 31.150693223760975,
+    "se": 20.380208749487867,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 0.2564706357084968,
+    "se": 21.876332511564023,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 42.10060462350323,
+    "se": 29.070353472113297,
+    "defined": true
+   }
+  },
+  {
+   "id": "T016",
+   "name": "Diverticulosis and diverticulitis",
+   "panel_label": "Diverticulosis And Diverticulitis",
+   "category": "other",
+   "three_units": {
+    "balance": 52.56746560968259,
+    "se": 21.04742283762649,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 68.78087361503056,
+    "se": 17.016503237864,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 69.45862916289629,
+    "se": 33.71156227280127,
+    "defined": true
+   }
+  },
+  {
+   "id": "T014",
+   "name": "Gastrointestinal disease",
+   "panel_label": "Gastrointestinal Disease",
+   "category": "other",
+   "three_units": {
+    "balance": 39.01943944750484,
+    "se": 24.116493716858297,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 38.24775358989407,
+    "se": 22.75465244717052,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 60.374646135823,
+    "se": 25.25376581607093,
+    "defined": true
+   }
+  },
+  {
+   "id": "T063",
+   "name": "Total protein",
+   "panel_label": "Total Protein",
+   "category": "other",
+   "three_units": {
+    "balance": 63.11773494024619,
+    "se": 24.747756089571297,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 69.13218552517927,
+    "se": 24.528525052365747,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 89.20427456710178,
+    "se": 25.595002213032878,
+    "defined": true
+   }
+  },
+  {
+   "id": "T032",
+   "name": "Endometriosis",
+   "panel_label": "Endometriosis",
+   "category": "other",
+   "three_units": {
+    "balance": 29.9247709746692,
+    "se": 25.02695792556525,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 18.31873163362636,
+    "se": 53.29577369678265,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 53.53445518771871,
+    "se": 33.02144731872571,
+    "defined": true
+   }
+  },
+  {
+   "id": "T011",
+   "name": "Coronary artery disease",
+   "panel_label": "Coronary Artery Disease (Aragam)",
+   "category": "other",
+   "three_units": {
+    "balance": 16.293431870839868,
+    "se": 25.350816749393505,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 21.150965598880525,
+    "se": 22.04016395863298,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 38.81202201791207,
+    "se": 27.35602661014364,
+    "defined": true
+   }
+  },
+  {
+   "id": "T092",
+   "name": "Total cholesterol",
+   "panel_label": "Cholesterol",
+   "category": "lipid",
+   "three_units": {
+    "balance": 0.9977310373701364,
+    "se": 26.68955397168158,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": -18.12889576824688,
+    "se": 12.118915636906427,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": -14.934184960459422,
+    "se": 26.99879384539441,
+    "defined": true
+   }
+  },
+  {
+   "id": "T089",
+   "name": "Phosphate",
+   "panel_label": "Phosphate",
+   "category": "other",
+   "three_units": {
+    "balance": 33.17916691519884,
+    "se": 38.98743796290114,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": -21.80026676208897,
+    "se": 35.29695358527548,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 87.49963568339942,
+    "se": 35.58771714518596,
+    "defined": true
+   }
+  },
+  {
+   "id": "T087",
+   "name": "Alkaline phosphatase",
+   "panel_label": "Alkaline Phosphatase",
+   "category": "other",
+   "three_units": {
+    "balance": 26.44850540243313,
+    "se": 68.21890987412547,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": 7.718273925740914,
+    "se": 23.37736430815807,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 24.01471653206879,
+    "se": 72.82170161619472,
+    "defined": true
+   }
+  },
+  {
+   "id": "T066",
+   "name": "Creatinine",
+   "panel_label": "Creatinine",
+   "category": "other",
+   "three_units": {
+    "balance": -5.824140346535014,
+    "se": 70.77152773342887,
+    "defined": true
+   },
+   "all_tracks": {
+    "balance": -44.99856221679456,
+    "se": 48.483014675794735,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": -81.29411369374948,
+    "se": 32.41627845922378,
+    "defined": false
+   }
+  },
+  {
+   "id": "T043",
+   "name": "Acute appendicitis",
+   "panel_label": "Acute appendicitis",
+   "category": "other",
+   "three_units": {
+    "balance": 179.74653075555244,
+    "se": 40.036273727222245,
+    "defined": false
+   },
+   "all_tracks": {
+    "balance": 93.61151868901791,
+    "se": 39.26441955517399,
+    "defined": true
+   },
+   "cell_type_matched": {
+    "balance": 176.13940914674052,
+    "se": 49.24891864309981,
+    "defined": false
+   }
+  }
+ ],
+ "x_range": [
+  -60.0,
+  150.0
+ ],
+ "truncated_intervals": [
+  "Alkaline phosphatase",
+  "Creatinine"
+ ],
+ "n_pairs": 32,
+ "n_three_units_defined": 31,
+ "n_cell_type_matched_defined": 30,
+ "by_category": {
+  "other": 24,
+  "skeletal": 4,
+  "blood and immune": 2,
+  "brain and behaviour": 1,
+  "lipid": 1
+ },
+ "ten_most_precise": [
+  [
+   "Forced vital capacity",
+   65.3,
+   7.2
+  ],
+  [
+   "Heel bone mineral density",
+   65.8,
+   7.7
+  ],
+  [
+   "Balding",
+   84.8,
+   8.0
+  ],
+  [
+   "Glaucoma",
+   62.4,
+   8.6
+  ],
+  [
+   "Height",
+   59.0,
+   9.0
+  ],
+  [
+   "Chronic obstructive pulmonary disease",
+   58.7,
+   10.1
+  ],
+  [
+   "Inguinal hernia",
+   77.6,
+   10.5
+  ],
+  [
+   "Waist–hip ratio adjusted for BMI",
+   68.8,
+   11.1
+  ],
+  [
+   "Total hip replacement",
+   64.5,
+   11.9
+  ],
+  [
+   "Varicose veins",
+   58.6,
+   12.5
+  ]
+ ]
+}

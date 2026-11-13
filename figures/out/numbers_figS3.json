@@ -1,0 +1,1081 @@
+{
+ "source": "e22_benchmark14/results/w04_map72.csv: tau, q (BH over the 1,008 cells of the 14 benchmark traits x 72 annotations; one-sided tau* > 0); types from w04_types.csv",
+ "traits": [
+  "EA",
+  "N_BIP",
+  "NEURO",
+  "N_BMI",
+  "NEUT",
+  "IBD",
+  "RA",
+  "TC",
+  "BMD"
+ ],
+ "trait_names": {
+  "EA": "Educational attainment",
+  "N_BIP": "Bipolar disorder",
+  "NEURO": "Neuroticism",
+  "N_BMI": "BMI",
+  "NEUT": "Neutrophil count",
+  "IBD": "IBD",
+  "RA": "Rheumatoid arthritis",
+  "TC": "Total cholesterol",
+  "BMD": "Bone mineral density"
+ },
+ "types": {
+  "EA": "focal",
+  "N_BIP": "focal",
+  "NEURO": "focal",
+  "N_BMI": "focal",
+  "NEUT": "tissue-spanning",
+  "IBD": "layer-spanning",
+  "RA": "focal",
+  "TC": "tissue-spanning",
+  "BMD": "tissue- and layer-spanning"
+ },
+ "K_T_L": {
+  "EA": {
+   "K": 1,
+   "T": 1,
+   "L": 1.0
+  },
+  "N_BIP": {
+   "K": 2,
+   "T": 1,
+   "L": 2.0
+  },
+  "NEURO": {
+   "K": 1,
+   "T": 1,
+   "L": 1.0
+  },
+  "N_BMI": {
+   "K": 1,
+   "T": 1,
+   "L": 1.0
+  },
+  "NEUT": {
+   "K": 7,
+   "T": 3,
+   "L": 2.333333333333333
+  },
+  "IBD": {
+   "K": 8,
+   "T": 2,
+   "L": 4.0
+  },
+  "RA": {
+   "K": 3,
+   "T": 2,
+   "L": 1.5
+  },
+  "TC": {
+   "K": 8,
+   "T": 6,
+   "L": 1.3333333333333333
+  },
+  "BMD": {
+   "K": 24,
+   "T": 8,
+   "L": 3.0
+  }
+ },
+ "rows": [
+  "CAGE",
+  "DNASE",
+  "H3K27ac",
+  "H3K4me1",
+  "H3K4me3",
+  "RNA"
+ ],
+ "columns": [
+  "CNS_tissue",
+  "neural_cells",
+  "myeloid",
+  "lymphoid",
+  "liver",
+  "GI",
+  "cardiovascular",
+  "skeletal_muscle",
+  "adipose",
+  "stromal",
+  "reproductive_endocrine",
+  "epithelial_barrier"
+ ],
+ "colour_scale": {
+  "vmin": -2.5,
+  "vcenter": 0,
+  "vmax": 4.5
+ },
+ "n_dots": 55,
+ "dots": {
+  "EA": [
+   "CNS_tissue|CAGE"
+  ],
+  "N_BIP": [
+   "CNS_tissue|CAGE",
+   "CNS_tissue|DNASE"
+  ],
+  "NEURO": [
+   "CNS_tissue|CAGE"
+  ],
+  "N_BMI": [
+   "CNS_tissue|CAGE"
+  ],
+  "NEUT": [
+   "myeloid|CAGE",
+   "myeloid|DNASE",
+   "reproductive_endocrine|DNASE",
+   "myeloid|H3K27ac",
+   "adipose|H3K27ac",
+   "myeloid|H3K4me3",
+   "reproductive_endocrine|H3K4me3"
+  ],
+  "IBD": [
+   "myeloid|CAGE",
+   "lymphoid|CAGE",
+   "myeloid|DNASE",
+   "lymphoid|DNASE",
+   "lymphoid|H3K27ac",
+   "lymphoid|H3K4me1",
+   "myeloid|H3K4me3",
+   "lymphoid|H3K4me3"
+  ],
+  "RA": [
+   "myeloid|CAGE",
+   "lymphoid|CAGE",
+   "lymphoid|H3K4me3"
+  ],
+  "TC": [
+   "neural_cells|CAGE",
+   "liver|CAGE",
+   "GI|CAGE",
+   "stromal|CAGE",
+   "epithelial_barrier|CAGE",
+   "lymphoid|H3K27ac",
+   "GI|H3K27ac",
+   "liver|RNA"
+  ],
+  "BMD": [
+   "cardiovascular|CAGE",
+   "skeletal_muscle|CAGE",
+   "adipose|CAGE",
+   "stromal|CAGE",
+   "neural_cells|DNASE",
+   "cardiovascular|DNASE",
+   "skeletal_muscle|DNASE",
+   "adipose|DNASE",
+   "stromal|DNASE",
+   "reproductive_endocrine|DNASE",
+   "liver|H3K27ac",
+   "cardiovascular|H3K27ac",
+   "skeletal_muscle|H3K27ac",
+   "adipose|H3K27ac",
+   "stromal|H3K27ac",
+   "reproductive_endocrine|H3K27ac",
+   "epithelial_barrier|H3K27ac",
+   "liver|H3K4me1",
+   "skeletal_muscle|H3K4me1",
+   "adipose|H3K4me1",
+   "cardiovascular|H3K4me3",
+   "skeletal_muscle|H3K4me3",
+   "adipose|H3K4me3",
+   "stromal|H3K4me3"
+  ]
+ },
+ "values_outside_colour_scale": [],
+ "tau_star": {
+  "EA": {
+   "CNS_tissue": {
+    "CAGE": 1.212,
+    "DNASE": 0.531,
+    "H3K27ac": 0.339,
+    "H3K4me1": -0.132,
+    "H3K4me3": 0.387,
+    "RNA": -0.098
+   },
+   "neural_cells": {
+    "CAGE": 0.235,
+    "DNASE": -0.33,
+    "H3K27ac": 0.446,
+    "H3K4me1": -0.183,
+    "H3K4me3": 0.288,
+    "RNA": -0.044
+   },
+   "myeloid": {
+    "CAGE": 0.388,
+    "DNASE": 0.062,
+    "H3K27ac": -0.132,
+    "H3K4me1": 0.018,
+    "H3K4me3": 0.001,
+    "RNA": -0.09
+   },
+   "lymphoid": {
+    "CAGE": -0.043,
+    "DNASE": -0.403,
+    "H3K27ac": -0.199,
+    "H3K4me1": -0.045,
+    "H3K4me3": -0.028,
+    "RNA": -0.197
+   },
+   "liver": {
+    "CAGE": -0.06,
+    "DNASE": -0.228,
+    "H3K27ac": -0.429,
+    "H3K4me1": -0.204,
+    "H3K4me3": -0.267,
+    "RNA": 0.022
+   },
+   "GI": {
+    "CAGE": -0.364,
+    "DNASE": -0.447,
+    "H3K27ac": -0.437,
+    "H3K4me1": -0.108,
+    "H3K4me3": -0.449,
+    "RNA": -0.123
+   },
+   "cardiovascular": {
+    "CAGE": -0.355,
+    "DNASE": -0.425,
+    "H3K27ac": -0.58,
+    "H3K4me1": -0.072,
+    "H3K4me3": -0.495,
+    "RNA": -0.198
+   },
+   "skeletal_muscle": {
+    "CAGE": -0.198,
+    "DNASE": -0.672,
+    "H3K27ac": -0.383,
+    "H3K4me1": -0.394,
+    "H3K4me3": -0.458,
+    "RNA": -0.221
+   },
+   "adipose": {
+    "CAGE": 0.02,
+    "DNASE": -0.427,
+    "H3K27ac": -0.437,
+    "H3K4me1": -0.406,
+    "H3K4me3": -0.579,
+    "RNA": -0.129
+   },
+   "stromal": {
+    "CAGE": 0.25,
+    "DNASE": -0.784,
+    "H3K27ac": -0.649,
+    "H3K4me1": -0.449,
+    "H3K4me3": -0.784,
+    "RNA": -0.151
+   },
+   "reproductive_endocrine": {
+    "CAGE": -0.112,
+    "DNASE": -0.613,
+    "H3K27ac": -0.625,
+    "H3K4me1": -0.317,
+    "H3K4me3": -0.461,
+    "RNA": -0.181
+   },
+   "epithelial_barrier": {
+    "CAGE": -0.132,
+    "DNASE": -0.233,
+    "H3K27ac": -0.207,
+    "H3K4me1": -0.127,
+    "H3K4me3": -0.231,
+    "RNA": -0.176
+   }
+  },
+  "N_BIP": {
+   "CNS_tissue": {
+    "CAGE": 1.627,
+    "DNASE": 1.305,
+    "H3K27ac": 0.49,
+    "H3K4me1": 0.419,
+    "H3K4me3": 0.351,
+    "RNA": -0.543
+   },
+   "neural_cells": {
+    "CAGE": -0.589,
+    "DNASE": 0.002,
+    "H3K27ac": 0.585,
+    "H3K4me1": 0.454,
+    "H3K4me3": 0.223,
+    "RNA": -0.395
+   },
+   "myeloid": {
+    "CAGE": -0.107,
+    "DNASE": 0.141,
+    "H3K27ac": -0.139,
+    "H3K4me1": -0.286,
+    "H3K4me3": 0.168,
+    "RNA": -0.207
+   },
+   "lymphoid": {
+    "CAGE": -0.246,
+    "DNASE": 0.281,
+    "H3K27ac": -0.504,
+    "H3K4me1": -0.13,
+    "H3K4me3": 0.049,
+    "RNA": -0.464
+   },
+   "liver": {
+    "CAGE": -0.344,
+    "DNASE": -0.016,
+    "H3K27ac": -0.07,
+    "H3K4me1": 0.388,
+    "H3K4me3": -0.043,
+    "RNA": -0.216
+   },
+   "GI": {
+    "CAGE": -0.88,
+    "DNASE": 0.06,
+    "H3K27ac": -0.175,
+    "H3K4me1": 0.213,
+    "H3K4me3": -0.065,
+    "RNA": -0.36
+   },
+   "cardiovascular": {
+    "CAGE": -0.404,
+    "DNASE": 0.455,
+    "H3K27ac": -0.13,
+    "H3K4me1": 0.209,
+    "H3K4me3": 0.218,
+    "RNA": -0.561
+   },
+   "skeletal_muscle": {
+    "CAGE": -0.552,
+    "DNASE": -0.179,
+    "H3K27ac": -0.167,
+    "H3K4me1": -0.075,
+    "H3K4me3": 0.106,
+    "RNA": -0.516
+   },
+   "adipose": {
+    "CAGE": -0.573,
+    "DNASE": -0.182,
+    "H3K27ac": -0.347,
+    "H3K4me1": -0.036,
+    "H3K4me3": -0.466,
+    "RNA": -0.381
+   },
+   "stromal": {
+    "CAGE": -0.54,
+    "DNASE": -0.487,
+    "H3K27ac": -0.431,
+    "H3K4me1": -0.16,
+    "H3K4me3": -0.245,
+    "RNA": -0.42
+   },
+   "reproductive_endocrine": {
+    "CAGE": -0.355,
+    "DNASE": 0.217,
+    "H3K27ac": -0.663,
+    "H3K4me1": -0.045,
+    "H3K4me3": -0.422,
+    "RNA": -0.588
+   },
+   "epithelial_barrier": {
+    "CAGE": -0.394,
+    "DNASE": 0.486,
+    "H3K27ac": 0.037,
+    "H3K4me1": 0.317,
+    "H3K4me3": 0.247,
+    "RNA": -0.512
+   }
+  },
+  "NEURO": {
+   "CNS_tissue": {
+    "CAGE": 0.966,
+    "DNASE": 0.449,
+    "H3K27ac": 0.452,
+    "H3K4me1": 0.345,
+    "H3K4me3": 0.28,
+    "RNA": -0.01
+   },
+   "neural_cells": {
+    "CAGE": -0.31,
+    "DNASE": -0.008,
+    "H3K27ac": 0.264,
+    "H3K4me1": 0.529,
+    "H3K4me3": 0.138,
+    "RNA": -0.045
+   },
+   "myeloid": {
+    "CAGE": -0.32,
+    "DNASE": -0.502,
+    "H3K27ac": -0.812,
+    "H3K4me1": 0.102,
+    "H3K4me3": -0.6,
+    "RNA": -0.07
+   },
+   "lymphoid": {
+    "CAGE": -0.313,
+    "DNASE": -0.736,
+    "H3K27ac": -0.498,
+    "H3K4me1": -0.277,
+    "H3K4me3": -0.321,
+    "RNA": 0.014
+   },
+   "liver": {
+    "CAGE": 0.14,
+    "DNASE": -0.671,
+    "H3K27ac": -0.17,
+    "H3K4me1": 0.257,
+    "H3K4me3": -0.098,
+    "RNA": 0.066
+   },
+   "GI": {
+    "CAGE": -0.335,
+    "DNASE": -0.361,
+    "H3K27ac": -0.359,
+    "H3K4me1": 0.015,
+    "H3K4me3": -0.3,
+    "RNA": 0.168
+   },
+   "cardiovascular": {
+    "CAGE": -0.405,
+    "DNASE": -0.507,
+    "H3K27ac": -0.223,
+    "H3K4me1": 0.467,
+    "H3K4me3": -0.174,
+    "RNA": -0.207
+   },
+   "skeletal_muscle": {
+    "CAGE": -0.901,
+    "DNASE": -0.62,
+    "H3K27ac": -0.311,
+    "H3K4me1": -0.116,
+    "H3K4me3": -0.455,
+    "RNA": -0.309
+   },
+   "adipose": {
+    "CAGE": -0.523,
+    "DNASE": -0.764,
+    "H3K27ac": -0.63,
+    "H3K4me1": -0.133,
+    "H3K4me3": -0.391,
+    "RNA": -0.073
+   },
+   "stromal": {
+    "CAGE": -0.185,
+    "DNASE": -0.724,
+    "H3K27ac": -0.553,
+    "H3K4me1": 0.011,
+    "H3K4me3": -0.534,
+    "RNA": -0.158
+   },
+   "reproductive_endocrine": {
+    "CAGE": -0.263,
+    "DNASE": -0.448,
+    "H3K27ac": -0.147,
+    "H3K4me1": 0.237,
+    "H3K4me3": -0.574,
+    "RNA": 0.264
+   },
+   "epithelial_barrier": {
+    "CAGE": -0.203,
+    "DNASE": -0.226,
+    "H3K27ac": -0.101,
+    "H3K4me1": 0.154,
+    "H3K4me3": -0.024,
+    "RNA": 0.183
+   }
+  },
+  "N_BMI": {
+   "CNS_tissue": {
+    "CAGE": 0.978,
+    "DNASE": 0.405,
+    "H3K27ac": 0.275,
+    "H3K4me1": 0.194,
+    "H3K4me3": -0.067,
+    "RNA": -0.05
+   },
+   "neural_cells": {
+    "CAGE": 0.276,
+    "DNASE": -0.204,
+    "H3K27ac": 0.484,
+    "H3K4me1": 0.234,
+    "H3K4me3": 0.55,
+    "RNA": -0.042
+   },
+   "myeloid": {
+    "CAGE": 0.018,
+    "DNASE": 0.319,
+    "H3K27ac": 0.031,
+    "H3K4me1": 0.124,
+    "H3K4me3": 0.051,
+    "RNA": -0.042
+   },
+   "lymphoid": {
+    "CAGE": 0.074,
+    "DNASE": -0.034,
+    "H3K27ac": 0.083,
+    "H3K4me1": 0.21,
+    "H3K4me3": 0.109,
+    "RNA": -0.236
+   },
+   "liver": {
+    "CAGE": 0.126,
+    "DNASE": -0.151,
+    "H3K27ac": -0.071,
+    "H3K4me1": 0.013,
+    "H3K4me3": -0.022,
+    "RNA": 0.027
+   },
+   "GI": {
+    "CAGE": -0.078,
+    "DNASE": 0.014,
+    "H3K27ac": 0.0,
+    "H3K4me1": 0.303,
+    "H3K4me3": -0.027,
+    "RNA": -0.131
+   },
+   "cardiovascular": {
+    "CAGE": -0.147,
+    "DNASE": -0.289,
+    "H3K27ac": -0.195,
+    "H3K4me1": 0.054,
+    "H3K4me3": -0.098,
+    "RNA": -0.175
+   },
+   "skeletal_muscle": {
+    "CAGE": 0.002,
+    "DNASE": -0.299,
+    "H3K27ac": -0.067,
+    "H3K4me1": -0.037,
+    "H3K4me3": -0.073,
+    "RNA": -0.122
+   },
+   "adipose": {
+    "CAGE": 0.122,
+    "DNASE": -0.136,
+    "H3K27ac": -0.131,
+    "H3K4me1": 0.0,
+    "H3K4me3": -0.141,
+    "RNA": -0.007
+   },
+   "stromal": {
+    "CAGE": 0.252,
+    "DNASE": -0.453,
+    "H3K27ac": -0.267,
+    "H3K4me1": -0.007,
+    "H3K4me3": -0.191,
+    "RNA": -0.032
+   },
+   "reproductive_endocrine": {
+    "CAGE": 0.217,
+    "DNASE": -0.219,
+    "H3K27ac": -0.327,
+    "H3K4me1": -0.17,
+    "H3K4me3": -0.179,
+    "RNA": -0.177
+   },
+   "epithelial_barrier": {
+    "CAGE": -0.065,
+    "DNASE": -0.083,
+    "H3K27ac": 0.164,
+    "H3K4me1": 0.274,
+    "H3K4me3": 0.193,
+    "RNA": -0.279
+   }
+  },
+  "NEUT": {
+   "CNS_tissue": {
+    "CAGE": -0.023,
+    "DNASE": 0.574,
+    "H3K27ac": 0.196,
+    "H3K4me1": 0.061,
+    "H3K4me3": -0.019,
+    "RNA": -0.132
+   },
+   "neural_cells": {
+    "CAGE": -0.007,
+    "DNASE": 0.278,
+    "H3K27ac": -0.287,
+    "H3K4me1": 0.071,
+    "H3K4me3": -0.177,
+    "RNA": -0.108
+   },
+   "myeloid": {
+    "CAGE": 1.911,
+    "DNASE": 1.69,
+    "H3K27ac": 1.888,
+    "H3K4me1": 0.392,
+    "H3K4me3": 1.708,
+    "RNA": 0.302
+   },
+   "lymphoid": {
+    "CAGE": 0.82,
+    "DNASE": 0.577,
+    "H3K27ac": 0.602,
+    "H3K4me1": 0.179,
+    "H3K4me3": 0.326,
+    "RNA": -0.021
+   },
+   "liver": {
+    "CAGE": 0.566,
+    "DNASE": 0.723,
+    "H3K27ac": 0.611,
+    "H3K4me1": 0.323,
+    "H3K4me3": 0.037,
+    "RNA": -0.082
+   },
+   "GI": {
+    "CAGE": 0.061,
+    "DNASE": 0.397,
+    "H3K27ac": 0.256,
+    "H3K4me1": 0.353,
+    "H3K4me3": 0.136,
+    "RNA": -0.143
+   },
+   "cardiovascular": {
+    "CAGE": 0.594,
+    "DNASE": 0.628,
+    "H3K27ac": 0.667,
+    "H3K4me1": 0.394,
+    "H3K4me3": 0.717,
+    "RNA": -0.1
+   },
+   "skeletal_muscle": {
+    "CAGE": 0.453,
+    "DNASE": 0.477,
+    "H3K27ac": 0.207,
+    "H3K4me1": 0.259,
+    "H3K4me3": 0.262,
+    "RNA": -0.377
+   },
+   "adipose": {
+    "CAGE": 0.622,
+    "DNASE": 1.013,
+    "H3K27ac": 0.828,
+    "H3K4me1": 0.422,
+    "H3K4me3": 0.907,
+    "RNA": -0.006
+   },
+   "stromal": {
+    "CAGE": 0.481,
+    "DNASE": 0.682,
+    "H3K27ac": 0.243,
+    "H3K4me1": 0.111,
+    "H3K4me3": 0.452,
+    "RNA": -0.142
+   },
+   "reproductive_endocrine": {
+    "CAGE": 0.188,
+    "DNASE": 0.898,
+    "H3K27ac": 0.446,
+    "H3K4me1": 0.208,
+    "H3K4me3": 0.618,
+    "RNA": -0.112
+   },
+   "epithelial_barrier": {
+    "CAGE": 0.102,
+    "DNASE": 0.787,
+    "H3K27ac": 0.567,
+    "H3K4me1": 0.353,
+    "H3K4me3": 0.566,
+    "RNA": -0.237
+   }
+  },
+  "IBD": {
+   "CNS_tissue": {
+    "CAGE": -1.167,
+    "DNASE": -0.796,
+    "H3K27ac": -0.5,
+    "H3K4me1": -0.699,
+    "H3K4me3": -0.031,
+    "RNA": -0.871
+   },
+   "neural_cells": {
+    "CAGE": -0.579,
+    "DNASE": 0.426,
+    "H3K27ac": -0.48,
+    "H3K4me1": 0.507,
+    "H3K4me3": -0.268,
+    "RNA": -0.69
+   },
+   "myeloid": {
+    "CAGE": 3.004,
+    "DNASE": 1.743,
+    "H3K27ac": 0.791,
+    "H3K4me1": 0.658,
+    "H3K4me3": 1.344,
+    "RNA": -0.332
+   },
+   "lymphoid": {
+    "CAGE": 2.943,
+    "DNASE": 2.389,
+    "H3K27ac": 2.596,
+    "H3K4me1": 1.917,
+    "H3K4me3": 2.914,
+    "RNA": -0.306
+   },
+   "liver": {
+    "CAGE": 0.157,
+    "DNASE": 0.884,
+    "H3K27ac": 1.09,
+    "H3K4me1": 0.565,
+    "H3K4me3": 0.797,
+    "RNA": -0.072
+   },
+   "GI": {
+    "CAGE": 0.415,
+    "DNASE": 0.872,
+    "H3K27ac": 1.005,
+    "H3K4me1": 0.552,
+    "H3K4me3": 0.958,
+    "RNA": -0.244
+   },
+   "cardiovascular": {
+    "CAGE": 0.256,
+    "DNASE": 0.623,
+    "H3K27ac": 0.113,
+    "H3K4me1": 0.867,
+    "H3K4me3": 0.403,
+    "RNA": -0.532
+   },
+   "skeletal_muscle": {
+    "CAGE": -0.749,
+    "DNASE": 0.068,
+    "H3K27ac": 0.041,
+    "H3K4me1": 1.046,
+    "H3K4me3": 0.514,
+    "RNA": -0.181
+   },
+   "adipose": {
+    "CAGE": 0.124,
+    "DNASE": 0.167,
+    "H3K27ac": 0.669,
+    "H3K4me1": 0.652,
+    "H3K4me3": 0.856,
+    "RNA": -0.473
+   },
+   "stromal": {
+    "CAGE": 0.449,
+    "DNASE": 0.525,
+    "H3K27ac": 0.422,
+    "H3K4me1": 1.024,
+    "H3K4me3": 0.776,
+    "RNA": -0.235
+   },
+   "reproductive_endocrine": {
+    "CAGE": -0.733,
+    "DNASE": 0.849,
+    "H3K27ac": 0.138,
+    "H3K4me1": 1.243,
+    "H3K4me3": 0.463,
+    "RNA": -0.602
+   },
+   "epithelial_barrier": {
+    "CAGE": -0.561,
+    "DNASE": 0.921,
+    "H3K27ac": 1.121,
+    "H3K4me1": 0.776,
+    "H3K4me3": 0.801,
+    "RNA": -0.246
+   }
+  },
+  "RA": {
+   "CNS_tissue": {
+    "CAGE": -1.395,
+    "DNASE": -1.787,
+    "H3K27ac": -1.676,
+    "H3K4me1": -1.793,
+    "H3K4me3": -0.419,
+    "RNA": 0.076
+   },
+   "neural_cells": {
+    "CAGE": -0.74,
+    "DNASE": -0.036,
+    "H3K27ac": -1.916,
+    "H3K4me1": -1.145,
+    "H3K4me3": -0.626,
+    "RNA": -0.246
+   },
+   "myeloid": {
+    "CAGE": 1.739,
+    "DNASE": 0.074,
+    "H3K27ac": -0.027,
+    "H3K4me1": -0.185,
+    "H3K4me3": 0.776,
+    "RNA": -0.377
+   },
+   "lymphoid": {
+    "CAGE": 2.952,
+    "DNASE": 1.534,
+    "H3K27ac": 1.406,
+    "H3K4me1": 1.156,
+    "H3K4me3": 2.48,
+    "RNA": 0.157
+   },
+   "liver": {
+    "CAGE": -0.073,
+    "DNASE": -0.202,
+    "H3K27ac": -0.158,
+    "H3K4me1": 0.066,
+    "H3K4me3": -0.011,
+    "RNA": -0.01
+   },
+   "GI": {
+    "CAGE": 0.116,
+    "DNASE": -0.598,
+    "H3K27ac": -0.559,
+    "H3K4me1": -0.918,
+    "H3K4me3": -0.142,
+    "RNA": -0.114
+   },
+   "cardiovascular": {
+    "CAGE": -0.294,
+    "DNASE": -0.775,
+    "H3K27ac": -1.356,
+    "H3K4me1": -0.554,
+    "H3K4me3": -0.192,
+    "RNA": -0.586
+   },
+   "skeletal_muscle": {
+    "CAGE": -1.146,
+    "DNASE": -0.937,
+    "H3K27ac": -0.52,
+    "H3K4me1": -0.249,
+    "H3K4me3": -0.445,
+    "RNA": -0.056
+   },
+   "adipose": {
+    "CAGE": -1.123,
+    "DNASE": -0.447,
+    "H3K27ac": 0.345,
+    "H3K4me1": -0.445,
+    "H3K4me3": 0.499,
+    "RNA": -0.213
+   },
+   "stromal": {
+    "CAGE": -1.26,
+    "DNASE": -0.467,
+    "H3K27ac": -0.807,
+    "H3K4me1": -0.902,
+    "H3K4me3": 0.196,
+    "RNA": -0.338
+   },
+   "reproductive_endocrine": {
+    "CAGE": -0.795,
+    "DNASE": -0.475,
+    "H3K27ac": -0.633,
+    "H3K4me1": 0.071,
+    "H3K4me3": -0.14,
+    "RNA": -0.015
+   },
+   "epithelial_barrier": {
+    "CAGE": -0.765,
+    "DNASE": -0.691,
+    "H3K27ac": -0.623,
+    "H3K4me1": -0.87,
+    "H3K4me3": -0.809,
+    "RNA": -0.06
+   }
+  },
+  "TC": {
+   "CNS_tissue": {
+    "CAGE": -0.245,
+    "DNASE": -0.239,
+    "H3K27ac": 0.982,
+    "H3K4me1": 0.574,
+    "H3K4me3": -0.886,
+    "RNA": 0.192
+   },
+   "neural_cells": {
+    "CAGE": 1.544,
+    "DNASE": 0.103,
+    "H3K27ac": 0.586,
+    "H3K4me1": -0.577,
+    "H3K4me3": 0.472,
+    "RNA": 0.136
+   },
+   "myeloid": {
+    "CAGE": 1.364,
+    "DNASE": 1.007,
+    "H3K27ac": 0.843,
+    "H3K4me1": 0.687,
+    "H3K4me3": 0.627,
+    "RNA": 0.709
+   },
+   "lymphoid": {
+    "CAGE": 0.376,
+    "DNASE": -0.405,
+    "H3K27ac": 1.41,
+    "H3K4me1": 0.856,
+    "H3K4me3": 0.483,
+    "RNA": 0.328
+   },
+   "liver": {
+    "CAGE": 3.724,
+    "DNASE": 0.595,
+    "H3K27ac": 1.499,
+    "H3K4me1": 0.911,
+    "H3K4me3": 0.907,
+    "RNA": 1.496
+   },
+   "GI": {
+    "CAGE": 1.48,
+    "DNASE": -0.045,
+    "H3K27ac": 1.715,
+    "H3K4me1": 1.274,
+    "H3K4me3": 0.85,
+    "RNA": 0.54
+   },
+   "cardiovascular": {
+    "CAGE": 1.056,
+    "DNASE": -0.064,
+    "H3K27ac": 1.002,
+    "H3K4me1": 0.495,
+    "H3K4me3": 0.678,
+    "RNA": 0.289
+   },
+   "skeletal_muscle": {
+    "CAGE": 0.762,
+    "DNASE": -0.376,
+    "H3K27ac": 0.287,
+    "H3K4me1": 0.226,
+    "H3K4me3": 0.339,
+    "RNA": -0.08
+   },
+   "adipose": {
+    "CAGE": 1.165,
+    "DNASE": -0.485,
+    "H3K27ac": 1.338,
+    "H3K4me1": 0.796,
+    "H3K4me3": 0.493,
+    "RNA": 1.128
+   },
+   "stromal": {
+    "CAGE": 1.72,
+    "DNASE": -0.398,
+    "H3K27ac": 0.421,
+    "H3K4me1": 0.473,
+    "H3K4me3": 0.507,
+    "RNA": 0.222
+   },
+   "reproductive_endocrine": {
+    "CAGE": 1.53,
+    "DNASE": 0.119,
+    "H3K27ac": 1.242,
+    "H3K4me1": 1.028,
+    "H3K4me3": 0.576,
+    "RNA": 0.449
+   },
+   "epithelial_barrier": {
+    "CAGE": 1.306,
+    "DNASE": -0.385,
+    "H3K27ac": 1.035,
+    "H3K4me1": 1.032,
+    "H3K4me3": 0.663,
+    "RNA": 0.463
+   }
+  },
+  "BMD": {
+   "CNS_tissue": {
+    "CAGE": -0.941,
+    "DNASE": -0.589,
+    "H3K27ac": 0.486,
+    "H3K4me1": -0.264,
+    "H3K4me3": -0.359,
+    "RNA": 0.103
+   },
+   "neural_cells": {
+    "CAGE": 0.568,
+    "DNASE": 1.094,
+    "H3K27ac": 0.432,
+    "H3K4me1": 0.34,
+    "H3K4me3": 0.248,
+    "RNA": -0.065
+   },
+   "myeloid": {
+    "CAGE": -0.135,
+    "DNASE": 0.272,
+    "H3K27ac": -0.055,
+    "H3K4me1": 0.371,
+    "H3K4me3": 0.147,
+    "RNA": 0.187
+   },
+   "lymphoid": {
+    "CAGE": -0.268,
+    "DNASE": -0.156,
+    "H3K27ac": 0.379,
+    "H3K4me1": 0.445,
+    "H3K4me3": -0.142,
+    "RNA": 0.069
+   },
+   "liver": {
+    "CAGE": 0.719,
+    "DNASE": 0.34,
+    "H3K27ac": 0.853,
+    "H3K4me1": 0.829,
+    "H3K4me3": 0.166,
+    "RNA": 0.154
+   },
+   "GI": {
+    "CAGE": 0.126,
+    "DNASE": 0.454,
+    "H3K27ac": 0.667,
+    "H3K4me1": 0.034,
+    "H3K4me3": 0.541,
+    "RNA": 0.224
+   },
+   "cardiovascular": {
+    "CAGE": 1.101,
+    "DNASE": 1.618,
+    "H3K27ac": 1.446,
+    "H3K4me1": 0.457,
+    "H3K4me3": 1.26,
+    "RNA": -0.043
+   },
+   "skeletal_muscle": {
+    "CAGE": 1.334,
+    "DNASE": 2.198,
+    "H3K27ac": 2.329,
+    "H3K4me1": 1.369,
+    "H3K4me3": 1.727,
+    "RNA": -0.16
+   },
+   "adipose": {
+    "CAGE": 1.768,
+    "DNASE": 1.619,
+    "H3K27ac": 2.164,
+    "H3K4me1": 0.996,
+    "H3K4me3": 1.968,
+    "RNA": 0.208
+   },
+   "stromal": {
+    "CAGE": 0.848,
+    "DNASE": 2.172,
+    "H3K27ac": 1.908,
+    "H3K4me1": 0.63,
+    "H3K4me3": 1.934,
+    "RNA": 0.131
+   },
+   "reproductive_endocrine": {
+    "CAGE": 0.11,
+    "DNASE": 1.427,
+    "H3K27ac": 1.154,
+    "H3K4me1": 0.678,
+    "H3K4me3": 0.538,
+    "RNA": -0.021
+   },
+   "epithelial_barrier": {
+    "CAGE": 0.477,
+    "DNASE": 0.586,
+    "H3K27ac": 0.911,
+    "H3K4me1": 0.628,
+    "H3K4me3": 0.575,
+    "RNA": -0.099
+   }
+  }
+ },
+ "type_colours": {
+  "focal": "#555555",
+  "layer-spanning": "#C4A000",
+  "tissue-spanning": "#D1478F",
+  "tissue- and layer-spanning": "#6A2C91"
+ },
+ "figure_size_in": [
+  7.2,
+  8.09
+ ]
+}
