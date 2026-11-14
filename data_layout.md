@@ -41,6 +41,9 @@ Three small input tables travel with the repository instead of the data root: `e
 and `rep25_loci.csv` (lead variants of the 75 AD loci and the 25 replicated loci, from the public Bellenguez et al. 2022
 summary statistics; used by x06 to define the excluded regions) and `experiments/e12_diagnostics/inputs/loci75_table_S3.csv`
 (the same loci with their nearest genes; used by m04a to name the blocks). None contains individual-level data.
+`experiments/e02_lineage_map/inputs/` holds two outputs of `z01_lineages.py`, which is not in this repository:
+`track_lineage.csv` (see the table above) and `z01_lineages.txt`, the numbers of tracks and biosamples per lineage and
+layer (read by `figures/fig1.py`).
 
 ## Written by the pipeline
 

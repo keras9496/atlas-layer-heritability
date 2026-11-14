@@ -1,4 +1,0 @@
-확인: 3n 키(더 큰 GWAS) M1_stromal — 계수 상대 차이 0.0e+00, delete 값 0.0e+00
-확인: 3j 골밀도 M3_stromal — 계수 상대 차이 0.0e+00, delete 값 0.0e+00
-확인: 3k 교육 연수 PD_CNS_tissue — 계수 상대 차이 0.0e+00, delete 값 0.0e+00
-통과

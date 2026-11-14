@@ -1,3 +1,0 @@
-[dry] FAKE1 HL10: H CAGE +60.50, DNASE +17.49, H3K27ac -85.05 | Lo CAGE -26.17, DNASE +21.11, H3K27ac +30.89
-[dry] FAKE1 HL20: H CAGE +22.11, DNASE +10.78, H3K27ac +27.59 | Lo CAGE -20.94, DNASE -1.90, H3K27ac -31.20
-형식 확인 통과 (가짜 형질 — 결과 아님)

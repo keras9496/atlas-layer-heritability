@@ -1,8 +1,9 @@
-"""Compare the result files of a reproduction run with the result files the manuscript used.
+"""Compare the result files of two runs of the pipeline: those in this copy of the repository (the reference) and those
+in another copy (the reproduction; for example one made with tools/make_run_copy.py and run with its own data root).
 
-    python verify/compare_results.py <reproduced repo or run folder> [--rtol 1e-6] [--out verify/report.md] [--data-root D:/data]
+    python verify/compare_results.py <other copy or run folder> [--rtol 1e-6] [--out verify/report.md] [--data-root D:/data]
 
-For every file under experiments/*/results/ in this repository (the manuscript's results), the trait table that e20
+For every file under experiments/*/results/ in this copy (the reference, called the manuscript's copy below), the trait table that e20
 writes next to its results folder, and the figure files under figures/out/ (PNG files, the values drawn and the table
 of Fig. 5b; when the other folder is a run copy), the same file is looked up in the other folder. CSV files are compared column by column: numeric columns within a relative tolerance
 (and an absolute tolerance of 1e-9 near zero), other columns exactly, after sorting rows by the common columns.
@@ -31,8 +32,8 @@ REF = REPO/"experiments"
 EXTRA = {"e20_gwas_panel/traits_exp3u.csv"}                      # written by a script outside results/ (e20 u00_inputs.py)
 OK = {"same bytes", "match", "match (timing/path lines only)", "match (manuscript copy has added notes)",
       "note written by hand (not a pipeline output)", "output of a script not included (AlphaGenome API)", "differ (expected, no value differs)"}
-# result files the pipeline cannot produce: written by the excluded AlphaGenome API scripts
-NOT_INCLUDED = {"e02_lineage_map/results/z01_lineages.txt"}
+# result files the pipeline cannot produce (none: the output of the excluded z01_lineages.py is kept in e02_lineage_map/inputs)
+NOT_INCLUDED = set()
 # text logs whose manuscript copy is known to differ from a clean run for a reason that does not touch any number
 EXPECTED = {"e01_targets_sldsc/results/x06_prepare_3b.txt": "the manuscript's copy is the 3-line log of a partial re-run of x06 (only its last block); a full run writes all blocks, with the same values",
             "e13_larger_gwas/results/n01_munge.txt": "the manuscript's copy repeats the LDSC munge summary on the same line (the summary was appended twice by the original run); the values are identical"}
@@ -107,7 +108,7 @@ def compare_text(f1, f2, dated=False):
 
 rows = []; used = set()
 for f in sorted(REF.rglob("*")):
-    if not f.is_file() or ("results" not in f.relative_to(REF).parts and f.relative_to(REF).as_posix() not in EXTRA): continue
+    if not f.is_file() or f.name == ".gitkeep" or ("results" not in f.relative_to(REF).parts and f.relative_to(REF).as_posix() not in EXTRA): continue
     rel = f.relative_to(REF); key = rel.as_posix(); g = OTHER/rel; m = DATED.match(f.name)
     if key in NOT_INCLUDED: rows.append((key, "output of a script not included (AlphaGenome API)", "")); continue
     if m:                                                        # dated note: pair by tag and order with the other side's notes of the same tag
@@ -128,10 +129,10 @@ for f in sorted(REF.rglob("*")):
     rows.append((key, s, d))
 for g in sorted(OTHER.rglob("*")):
     k = g.relative_to(OTHER).as_posix()
-    if g.is_file() and "results" in g.relative_to(OTHER).parts and k not in used and not (REF/k).exists(): rows.append((k, "only in reproduction", ""))
+    if g.is_file() and g.name != ".gitkeep" and "results" in g.relative_to(OTHER).parts and k not in used and not (REF/k).exists(): rows.append((k, "only in reproduction", ""))
 if OTHER_ROOT is not None and (REPO/"figures"/"out").exists():       # figures: PNG files byte by byte, the values drawn in them and the table of Fig. 5b as text or CSV
     for f in sorted((REPO/"figures"/"out").iterdir()):
-        if not f.is_file() or f.suffix == ".pdf": continue
+        if not f.is_file() or f.suffix == ".pdf" or f.name == ".gitkeep": continue
         key = "figures/out/" + f.name; g = OTHER_ROOT/"figures"/"out"/f.name
         if not g.exists(): rows.append((key, "missing in reproduction", "")); continue
         if f.suffix == ".csv": s, d = compare_csv(f, g)

@@ -1,3 +1,0 @@
-[단핵구] HapMap3 SNV 1,219,737
-  munge monocyte_count: Writing summary statistics for 1172630 SNPs (1172630 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3b\monocyte_count.sumstats.gz.
-  Mean chi^2 = 3.285 | Max chi^2 = 1443.068

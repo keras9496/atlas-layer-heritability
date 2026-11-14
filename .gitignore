@@ -13,7 +13,13 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-# the figure scripts also write PDF files; only the PNG files and the values drawn in them are kept
-figures/out/*.pdf
-# local copy used for the reproduction check (its report, verify/report.md, is kept)
+# result files, the trait table of e20 and the figures are written by the pipeline and are not tracked
+experiments/*/results/*
+!experiments/*/results/.gitkeep
+experiments/*/figures/
+experiments/e20_gwas_panel/traits_exp3u.csv
+figures/out/*
+!figures/out/.gitkeep
+# a second copy of the code to run in (tools/make_run_copy.py) and the report of verify/compare_results.py
 repro_run/
+verify/report*.md

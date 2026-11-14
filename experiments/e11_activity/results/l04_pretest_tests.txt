@@ -1,4 +1,0 @@
-[pretest] FAKEpre EA: A CAGE -4.36 ± 2.97, DNASE +1.93 ± 1.91, H3K27ac -0.74 ± 3.01 | E CAGE +4.63 ± 3.05, DNASE +0.93 ± 2.43, H3K27ac +1.66 ± 3.25
-[pretest] FAKEpre A: A CAGE -0.62 ± 1.72, DNASE +2.95 ± 1.76, H3K27ac +0.46 ± 2.04
-[pretest] FAKEpre EAM: A CAGE -4.69 ± 3.19, DNASE +1.65 ± 1.94, H3K27ac -0.92 ± 3.03 | E CAGE +4.65 ± 3.07, DNASE +0.64 ± 2.42, H3K27ac +1.61 ± 3.26 | M CAGE -0.59 ± 1.61, DNASE +2.81 ± 1.55, H3K27ac -0.32 ± 0.53
-형식 확인 통과 (가짜 형질 — 결과 아님)

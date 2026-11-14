@@ -59,7 +59,7 @@ N_ENR = {t: int(M1[(M1.trait == t)].enriched.sum()) for t in ORD}               
 # 그림 설명에 쓰는 수(모식도 안에는 적지 않는다)
 N_SNP, N_TRACK, N_BIOS, N_BASE = 5_828_323, 1312, 433, 97
 assert f"{N_SNP / 1e6:.2f}" == "5.83"
-tab = (c.R / "e02_lineage_map/results/z01_lineages.txt").read_text(encoding="utf-8").splitlines()
+tab = (c.R / "e02_lineage_map/inputs/z01_lineages.txt").read_text(encoding="utf-8").splitlines()
 rows = [l.split() for l in tab if l.split() and l.split()[0] in LIN12 and len(l.split()) == 8]
 cnt = np.array([[int(x) for x in r[1:]] for r in rows])
 assert len(rows) == 12 and (cnt[:, :6] > 0).all() and cnt[:, :6].sum() == N_TRACK and cnt[:, 6].sum() == N_BIOS   # 1,312 트랙, 433 biosample, 빈 칸 없음

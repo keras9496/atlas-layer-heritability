@@ -1,9 +1,0 @@
-[BMD] Morris 2019 eBMD, GCST006979: 전체 13,705,641행 → HapMap3 no-MHC SNV 1,166,199개 (HapMap3 목록 1,217,311개의 96 %), N 426,824
-  munge BMD: Writing summary statistics for 1136994 SNPs (1136994 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3f\sumstats\BMD.sumstats.gz.
-  Mean chi^2 = 3.803 | Max chi^2 = 1439.1
-[NEUT] Vuckovic 2020 호중구 수, GCST90002398: 전체 40,881,287행 → HapMap3 no-MHC SNV 1,214,972개 (HapMap3 목록 1,217,311개의 100 %), N 408,112
-  munge NEUT: Writing summary statistics for 1179677 SNPs (1179677 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3f\sumstats\NEUT.sumstats.gz.
-  Mean chi^2 = 2.711 | Max chi^2 = 1439.895
-[TC] UKB 총콜레스테롤, GCST90500025: 전체 10,447,199행 → HapMap3 no-MHC SNV 1,188,558개 (HapMap3 목록 1,217,311개의 98 %), N 434,646
-  munge TC: Writing summary statistics for 1175277 SNPs (1175277 with nonmissing beta) to D:\AD_GWAS_Atlas_data\exp3f\sumstats\TC.sumstats.gz.
-  Mean chi^2 = 1.769 | Max chi^2 = 1175.099
